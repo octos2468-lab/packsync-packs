@@ -1,0 +1,20 @@
+// Compost colors for sleep_tight. You may add your own colors, change existing ones, or remove colors that aren't needed.
+bedbug_eggs, #e0cfb9
+dreamer_essence, #784e76
+hammock_black, #221f23
+hammock_blue, #3346d4
+hammock_brown, #a45a30
+hammock_cyan, #119da0
+hammock_gray, #5f6c6f
+hammock_green, #4e7c07
+hammock_light_blue, #26a5f0
+hammock_light_gray, #a2a59b
+hammock_lime, #7ff515
+hammock_magenta, #e41bd9
+hammock_orange, #ff6507
+hammock_pink, #ff7fb4
+hammock_purple, #861cca
+hammock_red, #bc2622
+hammock_white, #ffffff
+hammock_yellow, #ffe41b
+night_bag, #113e84

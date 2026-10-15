@@ -1,0 +1,23 @@
+{
+ "replace": false,
+ "values": [
+  "natura:autumnal_grass_stairs",
+  "natura:bluegrass_grass_stairs",
+  "natura:topiary_grass_stairs",
+  "sf3extras:mp_acacia_stair",
+  "sf3extras:mp_acacia_wedge",
+  "sf3extras:mp_birch_stair",
+  "sf3extras:mp_birch_wedge",
+  "sf3extras:mp_dark_oak_stair",
+  "sf3extras:mp_dark_oak_wedge",
+  "sf3extras:mp_glass_wedge",
+  "sf3extras:mp_jungle_stair",
+  "sf3extras:mp_jungle_wedge",
+  "sf3extras:mp_oak_stair",
+  "sf3extras:mp_oak_wedge",
+  "sf3extras:mp_spruce_stair",
+  "sf3extras:mp_spruce_wedge",
+  "tconstruct:blazewood_stairs",
+  "tconstruct:nahuatl_stairs"
+ ]
+}

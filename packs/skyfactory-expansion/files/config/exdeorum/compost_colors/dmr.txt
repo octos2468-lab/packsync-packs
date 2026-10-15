@@ -1,0 +1,17 @@
+// Compost colors for dmr. You may add your own colors, change existing ones, or remove colors that aren't needed.
+dragon_whistle.black, #f4c375
+dragon_whistle.blue, #f7c57d
+dragon_whistle.brown, #fbc675
+dragon_whistle.cyan, #f4cc7c
+dragon_whistle.gray, #f7c678
+dragon_whistle.green, #f8c973
+dragon_whistle.light_blue, #f7cd80
+dragon_whistle.light_gray, #fcca7c
+dragon_whistle.lime, #fbcf73
+dragon_whistle.magenta, #ffc67f
+dragon_whistle.orange, #ffc973
+dragon_whistle.pink, #ffca7d
+dragon_whistle.purple, #fbc57f
+dragon_whistle.red, #fec575
+dragon_whistle.white, #ffd282
+dragon_whistle.yellow, #ffd076

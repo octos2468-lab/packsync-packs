@@ -1,0 +1,9 @@
+{
+ "replace": false,
+ "values": [
+  "tconstruct:seared_bricks_slab",
+  "tconstruct:seared_cobble_slab",
+  "tconstruct:seared_paver_slab",
+  "tconstruct:seared_stone_slab"
+ ]
+}

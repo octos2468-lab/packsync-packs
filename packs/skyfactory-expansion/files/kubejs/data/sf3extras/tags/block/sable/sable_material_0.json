@@ -1,0 +1,13 @@
+{
+ "replace": false,
+ "values": [
+  "sf3extras:mp_acacia_slab",
+  "sf3extras:mp_birch_slab",
+  "sf3extras:mp_dark_oak_slab",
+  "sf3extras:mp_jungle_slab",
+  "sf3extras:mp_oak_slab",
+  "sf3extras:mp_spruce_slab",
+  "tconstruct:blazewood_slab",
+  "tconstruct:nahuatl_slab"
+ ]
+}

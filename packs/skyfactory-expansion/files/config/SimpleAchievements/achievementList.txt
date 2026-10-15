@@ -1,0 +1,321 @@
+Welcome To Otto's ModdedMC Server!|===========================::1
+You begin in an ordinary Overworld with this book, a torch, a coffee and a slice of toast. The book follows the original SkyFactory 3 ages - tools, farming, machines, magic, power and dimensions - rebuilt for a normal world, together with Create, the Twilight Forest and the Aether.::1
+How To Use This Book|===================::1
+Use the page arrows to browse and tick a challenge after completing it. Each age explains when to begin and what it opens next. Every challenge in an age can be finished with what earlier ages taught you. Keep an Achievement Stand at home for your book.::1
+Your World|==========::1
+Ores, trees, villages and structures generate normally. The SkyFactory sifting tools - Crooks, Sieves, Hammers and Barrels - are still here as renewable resource routes for when caves run dry. Use them alongside mining, not instead of it.::1
+JEI shows every recipe in this pack. Use it to trace a missing ingredient back to a farm, machine, structure or boss.::1
+|Also, if you like training dragons, remember that the biome you hatch your dragon in decides what kind of dragon it becomes!::1
+Special Thanks Goes To:|========================| |The Feed the Beast team for all their hard work and help with the development process.| |Also, big thanks to the modding community for making this happen!::1
+Original Pack Credits:|========================| |SkyFactory 3 was maintained by Darkosto and the Feed the Beast team. This unofficial pack keeps its checklist style and adapts the route to a regular world and the mods available on 1.21.1.::1
+Your Recommended Route|Home and tools -> Tinkers or Create workshop -> food and renewable materials -> the Nether -> machines and storage -> power, magic and new dimensions -> mastery.|Farming, Create, magic and the Twilight Forest or Aether can branch from this route whenever you are ready.::1
+::1
+---=== Overworld Age ===---|Start here: build a shelter, make tools, find food and survive the first nights.|Next: This opens mining, villages and the first workshops. Pick Tinkers' Construct or Create next, or both.::1
+Gather wood and make a Crafting Table::0
+Make a stone pickaxe and a furnace::0
+Sleep through your first night in a bed::0
+Explore a cave and return with coal, iron and copper::0
+Smelt iron and make a full set of iron tools::0
+Find a village and trade with a villager::0
+Set up a crop plot and bring animals back to your base::0
+Mine diamonds and make a diamond pickaxe::0
+::1
+---=== Sifting and Renewable Resources ===---|Start after a safe home. Follow Crook -> Silkworm -> string -> mesh -> sieve. Barrels turn leaves into dirt and dust into clay; a fired Crucible melts cobblestone into lava.|Next: Next: keep a supply of Cobblestone, Gravel, Sand and Dust. Sifting them gives a renewable source of ores for every later age.::1
+Use a Crook on leaves to get saplings and a Silkworm::0
+Twerk a Sapling into a Tree::0
+Compost leaves or saplings in a Wooden Barrel to make Dirt::0
+Infest leaves with a Silkworm and use a Crook on them for string::0
+Craft a Sieve and a String Mesh::0
+Collect rain water in a Wooden Barrel::0
+Craft a Hammer to turn Cobblestone into Gravel, Sand and Dust::0
+Sift Gravel, Sand and Dust in a Sieve for ore pieces::0
+Make Clay by putting Dust into a water-filled Barrel::0
+Craft and fire a Crucible, then melt Cobblestone into Lava::0
+Craft the Tiny Progressions Cobblestone Generator::0
+Make Obsidian in a Stone Barrel::0
+Enchant a Sieve Mesh::0
+::1
+---=== Tinkers' Construct ===---|Start once you have stone tools. Tinkers' tools are built from parts and can be repaired and upgraded.|Next: Next: build a smeltery so you can melt ore, cast metal parts and alloy new metals.::1
+Craft a Part Builder and a Tinker Station::0
+Make a Tinkers' tool from a head, handle and binding::0
+Make Grout and fire it into Seared Bricks::0
+Build a Tinkers' Construct smeltery for processing ore::0
+Cast a metal tool part and upgrade an existing tool with it::0
+Make a Mattock::0
+::1
+---=== Stone Age ===---|Start after basic tools. Improve mob collection and automate your cobblestone.|Next: Next: choose farming, Create or powered processing. Protect mob farms and light your home.::1
+Make a dark room away from your base for spawning mobs and collecting loot::0
+Make a grass field away from your base for spawning animals::0
+Build an underground workshop connected to your home::0
+Automate your Cobblestone with a Cobblestone Generator block or Transfer Node::0
+Upgrade your mob farm to kill monsters automatically::0
+::1
+---=== Create: Your First Workshop ===---|Begin after basic mining tools, a food supply and a safe workshop. Start small: make rotation do one useful job.|Next: Use Create Ponder on a machine before placing it. Shafts and belts carry rotation; electrical power is a separate system.::1
+Obtain Andesite Alloy for your first Create components::0
+Make Shafts and Cogwheels to carry rotation::0
+Build a Create water-wheel workshop and connect a machine to it::0
+Use a Mechanical Press to make a metal sheet::0
+Connect two Shafts with a Mechanical Belt::0
+Combine ingredients with a Mechanical Mixer::0
+Automate a useful material with Create machinery::0
+::1
+---=== Farming Age ===---|Start once food and building supplies are secure. Make ordinary food renewable before spending everything on resource crops.|Next: Next: choose Chickens or Mystical Agriculture for the resource you repeatedly need, and plan storage for the output.::1
+Make a Watering Can::0
+Capture a Cow in a Jar::0
+Prepare a farming space for several crops::0
+Collect Inferium Essence from Inferium Ore or mobs::0
+Craft an Inferium Seed and start an Inferium Essence farm::0
+Prove that Sand grows Sugar Cane faster than dirt with a Block of Snad::0
+Use Roosts to automate resource collection from Chickens::0
+::1
+--== Mystical Farming ==--|Build a steady Inferium supply before attempting higher-tier crops. Plan the seeds, essence and crafting steps shown in JEI.|Next: Next: automate one useful crop completely, then scale up. High-tier armor and food are long-term rewards.::1
+Craft an Iron Seed::0
+Craft a Diamond Seed::0
+Craft a Soulium Dagger and collect souls from mobs::0
+Use Growth Crystals or Growth Accelerators to speed up crop growth::0
+Craft a Master Infusion Crystal::0
+Craft a Supremium Apple::0
+Craft Supremium armor::0
+::1
+---=== Into the Nether ===---|Bring armor, food, spare tools and a way to relight your portal. The Nether supplies ingredients for many technology paths.|Next: Next: Blaze Rods and Nether Quartz open brass, better machines and Mystical Agriculture upgrades.::1
+Travel to the Nether::0
+Find a Nether Fortress and collect Blaze Rods::0
+Find a Bastion and trade with Piglins::0
+Travel across the Nether's lava ocean in a boat::0
+Use Carry On to bring a Blaze Spawner home::0
+Make a Netherite Ingot::0
+Kill a Wither::0
+Travel to The Beneath Dimension::0
+::1
+---=== Create: Brass and Factory Assembly ===---|Begin after the first workshop and a safe Nether trip. Plan Copper, Zinc and a Blaze Burner under your Mixer.|Next: Brass and precision assembly open more capable factories. Improve a real bottleneck before building a larger machine.::1
+Make Brass using a Blaze-heated Mechanical Mixer::0
+Assemble a Precision Mechanism with Create machinery::0
+Keep a useful Create production line supplied and collect its output automatically::0
+Assemble a Create Train between your base and an outpost::0
+::1
+--== Age of Machines ==--|Start with an input you already renew, a generator, and a machine that removes a repetitive chore.|Next: Next: connect resource production -> processing -> storage. Create rotation and electrical power are separate systems.::1
+Craft and power a generator of some kind::0
+Automate a resource with an Auto Heavy Sieve::0
+Use an Auto Compressor to pack a renewable material into compressed blocks::0
+Automate turning Cobblestone into Gravel with a SAG Mill or Auto Hammer::0
+Use Ender IO Conduits to power several machines at once::0
+Process an ore piece into ingots with an Actually Additions Crusher::0
+Make a basic Ender IO capacitor and a Machine Chassis::0
+Form an Immersive Engineering Crusher with the Engineer's Hammer and reclaim materials from armor::0
+Automate crop harvesting::0
+Link an Ender Pouch to an Ender Chest::0
+Create a Refined Storage system to store your things::0
+::1
+--== Bulk Storage ==--|Use ordinary chests while you build. A Quantum DSU or Vast Storage Unit is useful when one item type dominates a farm. For the DSU, follow wooden chest -> Iron -> Gold -> Diamond -> Obsidian Chest four times and make an Ender IO capacitor and Machine Chassis.|Next: Empty a unit before converting it: a DSU alone in the center of a crafting table makes a VSU and back, and both conversions create a fresh, empty unit.::1
+Upgrade a chest to an Obsidian Chest::0
+Build a Quantum DSU::0
+Convert storage safely between a DSU and a Vast Storage Unit::0
+Automate storage of ore pieces from an Automatic Sieve::0
+Run a renewable material through processing into storage without manual item transfers::0
+Add an overflow plan so your resource factory can run safely::0
+::1
+--= Age of Enhancement =--|Start with a working Tinkers' tool and a way to repair it. Improve the tool you use most, then build toward specialized weapons.|Next: Next: use modifiers and upgrade slots. The highest-tier weapons need metals from the Nether and beyond.::1
+Level up a Tinkers' Tool or Weapon::0
+Build a Tinkers' Sledge Hammer for mining three-by-three::0
+Craft the highest tier Construction Stick and an Unbreakable template::0
+Create an unbreakable Tinkers' Tool::0
+Craft a melee Tinkers' Weapon that does 20 damage or more::0
+Build any melee weapon that does 90 or more damage::0
+::1
+--= Age of Exploration =--|Bring armor, food, spare tools and a reliable route home. The End is a later challenge.|Next: The Twilight Forest and Aether have their own branches in this book. Flight helps exploration but is not a prerequisite for them.::1
+Fly::0
+Use an Angel Block and your ability to fly to build an outpost above a useful landmark::0
+Locate a Stronghold and travel to the End::0
+Kill the Ender Dragon::0
+Collect Dragon's Breath::0
+Travel to an End City and obtain Elytra::0
+Hatch a Dragon Egg and train it::0
+::1
+---=== Modern Overworld Adventures ===---|Optional adventures alongside the original ages. Bring gear suited to the structure and leave a recovery supply at home.|Next: A new structure can be more dangerous than the caves that supplied your workshop.::1
+Explore a Trial Chamber and open an ominous vault::0
+Craft a Mace and learn its falling attack::0
+Visit an Ancient City and escape the Warden::0
+::1
+---=== Twilight Forest: Entry, Naga and Lich ===---|Throw a diamond into a pool ringed with flowers to open the portal. Bring dependable armor, food, spare tools and a way home.|Next: Follow the Twilight Forest advancement screen as well as this book. Regions stay hazardous until their bosses are defeated.::1
+Enter the Twilight Forest and secure a safe arrival point::0
+Defeat the Naga and obtain its progression reward::0
+Defeat the Twilight Lich after completing Naga progression::0
+Bring a trophy from a defeated Twilight Forest boss back to your base::0
+::1
+---=== Twilight Forest: Three Routes ===---|Begin after Lich progression. Swamp, Dark Forest and Snowy Forest are parallel branches; the Highlands need all three.|Next: Swamp: finish the Labyrinth and eat Meef Stroganoff before the Fire Swamp. Dark Forest: Knight Phantoms, then the Dark Tower. Snowy Forest: Alpha Yeti, then the Glacier.::1
+Eat Meef Stroganoff after exploring the Twilight Labyrinth::0
+Defeat the Hydra after completing the Fire Swamp prerequisite::0
+Complete Knight Phantom progression in the Dark Forest::0
+Complete Ur-Ghast progression in the Dark Tower::0
+Complete Alpha Yeti progression in the Snowy Forest::0
+Defeat the Snow Queen in the Aurora Palace::0
+Complete all three major branches and enter the Highlands::0
+Find the Lamp of Cinders through the Highlands and Troll Caves path::0
+::1
+---=== Aether: A New Home in the Sky ===---|Build a Glowstone portal frame and pour water inside. Secure your arrival point, mark the return portal and build safe walkways.|Next: Read the Book of Lore to learn the local items. Prepare with Aether materials before tackling its dungeons.::1
+Enter the Aether and secure your return route::0
+Read the Aether Book of Lore::0
+Collect Zanite and improve your Aether equipment::0
+Craft an Aether Altar::0
+Use the Altar to obtain Enchanted Gravitite::0
+::1
+---=== Aether: Dungeon Milestones ===---|Begin after learning local materials and preparing spare equipment. Explore, learn the encounter and bring rewards back to a safe base.|Next: Recommended route: Bronze -> Silver -> Gold. Prepare for the next dungeon using the rewards you have collected.::1
+Explore an Aether dungeon::0
+Defeat the Slider in the Bronze Dungeon::0
+Defeat the Valkyrie Queen in a Silver Dungeon::0
+Defeat the Sun Spirit in a Gold Dungeon::0
+::1
+--= Age of the Botanist =--|This magic branch can begin alongside early technology. Follow the Lexica Botania while establishing Livingwood, Livingrock and mana.|Next: Next: maintain a mana supply before Terrasteel, Alfheim and Gaia.::1
+Craft a Lexica Botania::0
+Craft a Petal Apothecary::0
+Create Livingwood and Livingrock with a Pure Daisy::0
+Craft a Mana Pool and a Mana Spreader::0
+Craft a Wand of the Forest::0
+Infuse Terrasteel on a Terrestrial Agglomeration Plate::0
+Open a portal to Alfheim with an Elven Gateway Core::0
+Complete the Ritual of Gaia::0
+Complete the Ritual of Gaia II::0
+::1
+--= Roots: Rituals and Spells =--|An optional nature-magic branch. Gather herbs from the wild, grind ingredients in a Mortar and light rituals on a Pyre.|Next: Next: learn spells for your Staff and use rituals to support your farms.::1
+Craft a Mortar and Pestle::0
+Build a Pyre and perform a ritual::0
+Craft a Grove Crafter::0
+Craft a Staff and imbue it with a spell::0
+::1
+--= Alchemic Wizardry =--|An optional magic branch. Craft a Sacrificial Dagger and a Blood Altar, then fill the altar with your own blood. A diamond in the altar becomes a Weak Blood Orb; stone becomes Blank Slates. The Alchemy Table drains LP from a bound orb to make runes, sigils and Living Armour. Craft a Petty Tartaric Gem in the Hellfire Forge: while you carry it, monsters you kill fill it with Demonic Will.|Next: Next: add runes to raise the altar tier (glowstone, bloodstone, hellforged and crystal capstones mark tiers 3-6), then stabilize LP before higher orbs.::1
+Craft and Place a Blood Altar::0
+Collect Demonic Will in a Petty Tartaric Gem::0
+Obtain a Master Blood Orb::0
+Automate LP Collection::0
+Craft a Sigil and bind it to your Blood Orb::0
+Obtain the full Living Armor set::0
+Upgrade your Living Armor at a Living Station::0
+Automate the creation of Demonic Slates::0
+Create a Tier 5 Blood Altar::0
+::1
+--== Age of Power ==--|Start after you know which machines need energy. Build generation and storage for present demand before scaling a reactor.|Next: Next: automate fuel and measure production while the machines run. The large output targets are optional mastery challenges.::1
+Build Solar Panels from Solar Flux::0
+Link machines wirelessly with Flux Networks::0
+Create a passively cooled reactor from Extreme Reactors::0
+Create an actively cooled reactor from Extreme Reactors::0
+Create the maximum size reactor::0
+Create a turbine from Extreme Reactors::0
+Produce 1,000 FE/t::0
+Produce 10,000 FE/t::0
+Produce 100k FE/t::0
+Produce 1 million FE/t::0
+::1
+--== Green Energy ==--|Environmental Tech multiblocks need reliable processing and storage for their materials. JEI shows the parts needed for each tier.|Next: Next: renew construction materials and give miners a destination for their output before upgrading.::1
+Build a Solar Array Tier 1 Multiblock Structure::0
+Harness the power of Lightning with a Lightning Rod::0
+Build a Solar Array Tier 4 Multiblock Structure::0
+Collect Ore from the Void with a Void Ore Miner Structure::0
+::1
+--== Age of Dragons ==--|This is late-game mastery. Secure large material and power supplies, then improve fusion crafting before dangerous fights.|Next: Next: choose one achievable equipment goal before Chaos Guardian and giant energy storage challenges.::1
+Craft a Draconic Chestpiece::0
+Craft the Draconic Pickaxe, Axe, Shovel and Hoe::0
+Craft a Draconic Staff of Power::0
+Automate Wither killing::0
+Defeat the Chaos Guardian::0
+Defeat the Chaos Guardian four times::0
+Build an Energy Core::0
+Make a Dislocator::0
+Resurrect the Ender Dragon with End Crystals::0
+Fill a Draconic Energy Core::0
+Create an Awakened Fusion Crafting Injector::0
+Jump between two tamed dragons while both are flying::0
+::1
+--= Age of the Traveler =--|Start after stable power, storage and dimension components. Prepare a return plan and maintain the power supply while exploring.|Next: Next: experiment with useful dimensions first, then attempt rare world-generation challenges.::1
+Craft an Empty Dimlet::0
+Build a dimension, travel to it, and stay for at least 10 minutes::0
+Infuse a machine to 100% with the Machine Infuser::0
+Use an Absorber to make a custom block dimension::0
+Create a dimension of rarity 4 or higher::0
+Use a Syringe to create a dimension with Ender Dragons::0
+::1
+--== Age of Insanity ==--|Optional stretch goals after your factories are dependable. Choose the system you enjoy expanding.|Next: Next: complete the technology and adventure branches, or design a new challenge for your world.::1
+Create near-infinite Grid Power with an Extra Utilities Dragon Egg Mill::0
+Create a 16x16x16 Colossal Chest::0
+Fill a Quantum Storage Unit with anything::0
+Build an Extra Utilities Nether Star Generator::0
+Use a Scannable Scanner to locate ores and structures::0
+Produce 1 billion FE/t::0
+Get 20 different Chickens and automate resource collection::0
+Use Diamond blocks to cool a maximum-size reactor::0
+Build Ender IO Farming Stations with Octadic Capacitors that automate 20 different crops::0
+Craft a single Octuple Compressed Cobblestone Block::0
+::1
+---=== Your World, Your Mastery ===---|Full completion includes every age and every module branch in this book. Optional stretch goals mark mastery beyond the practical route.::1
+Complete every challenge in this book::0
+::1
+---=== Charset Materials ===---|Smelt sand into glass and turn logs into charcoal. Graphite can recolor white wool black; break ordinary glass without Silk Touch to collect shards.|Next: Next: three shards craft one glass block. Use Silk Touch when you want to keep the glass block intact.::1
+Craft Graphite from Charcoal::0
+Use Graphite to dye White Wool Black::0
+Break glass without Silk Touch and collect Charset Glass Shards::0
+Craft a Glass Block from three Glass Shards::0
+::1
+---=== Charset Audio ===---|Craft a tape from three matching metal or gem ingots, two charged reels and three smooth-stone slabs. Place a Tape Drive and connect note blocks with Audio Cables. Right-click the drive with an empty hand for Play, Stop, cable recording and explicit local-file import.|Next: The file importer accepts WAV, OGG/Vorbis, MOD/S3M/XM tracker modules and raw DFPWM; tape audio is saved with the world. This port has no microphone capture.::1
+Craft a Charset Tape Drive and Audio Cable::0
+Record a short note-block melody onto a Charset Audio Tape::0
+Play your saved note-block recording::0
+::1
+---=== Charset Logic and Tools ===---|Gates face their output direction, read side inputs and react to neighbor changes. The multiplexer reads its selector from the rear; the RS latch keeps its last state. The Charset Poster hangs flat on a solid wall, and the wrench rotates blocks with a supported facing.|Next: Next: start with a NAND or NOR gate and connect redstone to its sides.::1
+Craft a Charset redstone gate::0
+Use a Charset NAND Gate in a powered redstone circuit::0
+Place a Charset Poster on a wall::0
+Rotate a Charset Gate with the Charset Wrench::0
+::1
+---=== Charset Storage ===---|A barrel keeps one item type up to 4096 items and works with automation. Pair a key with an unlocked barrel, lock it, and use the matching key or master key to regain access. The shelf is a compact six-slot store, and the backpack is a 27-slot portable inventory: right-click to wear it, press B to open it.|Next: Breaking a locked barrel requires a matching key or master key in your inventory. Backpacks, barrels and shelves cannot be nested inside a backpack.::1
+Craft a Charset Barrel and store items in it::0
+Pair a Charset Key with a Charset Barrel::0
+Lock a Charset Barrel and unlock it with the matching key::0
+Craft a Charset Master Key::0
+Craft and place a Charset Shelf::0
+Craft, wear and open a Charset Backpack::0
+::1
+---=== Charset Tweaks ===---|Right-click a minecart with any dye or Graphite to color it. Primed TNT can be struck to knock it back while its fuse keeps counting. While falling more than two blocks, interact with a saddled horse for a speed boost; from higher with a sword, bow or axe the boost is stronger.|Next: A punch does not defuse TNT, so move away before it explodes.::1
+Dye a minecart with a dye or Graphite::0
+Knock back primed TNT without resetting its fuse::0
+Trigger the Zorro boost while falling toward a saddled horse::0
+::1
+---=== Charset Pipes and Shifters ===---|Aim the shifter's output toward the pipe run and place an inventory or fluid handler behind its input. Redstone cycles Auto, Extract and Shift modes.|Next: Click a non-output side with an item or fluid container to set a filter sample; an empty hand clears it.::1
+Craft a Charset Pipe and Shifter::0
+Power a Shifter and move items through connected pipes::0
+Use a Shifter to transfer fluid through a Charset Pipe::0
+Set and clear an item or fluid filter::0
+::1
+---=== Natura Resource Route ===---|Natura's Overworld trees and crops are switched off as in SkyFactory 3, while its Nether trees grow normally. Buy Overworld saplings at the Market for emeralds, sift Topiary Grass for saplings and Soul Sand for Nether saplings and berries, and break grass for barley and cotton seeds.|Next: Next: secure emeralds for the Market, then make a seed supply for crops and a safe Nether resource route.::1
+Buy a Natura sapling from the Market::0
+Sift Topiary Grass to collect Natura saplings::0
+Find Natura Nether saplings and berries::0
+Break grass to find Natura barley and cotton seeds::0
+::1
+---=== Extended Workshop ===---|Craft the SF3 workshop table from its blank upgrade, planks and cobblestone. Install a supported machine in a module slot and provide fuel or power.|Next: Next: add the Auto Crafter upgrade before expecting automatic recipes, and use storage modules to expand the machine's inventory.::1
+Craft the SF3 Workshop Table::0
+Install a furnace or crafting table in a workshop module slot::0
+Install an Auto Crafter upgrade before automating a recipe::0
+Add a workshop storage upgrade and use its extra slots::0
+::1
+---=== Redstone Paste and Shear Madness ===---|Redstone Paste sticks to floors, walls and ceilings. Use a full block on a sheep to change the block it appears to wear, and shear it to restore its wool.|Next: Try a wall or ceiling route where ordinary redstone dust cannot sit.::1
+Place Redstone Paste on a wall or ceiling::0
+Power a redstone device through a Redstone Paste connection::0
+Apply a block to a sheep with Shear Madness::0
+Shear a block-covered sheep to restore its wool coat::0
+::1
+---=== Random Things Logistics and Models ===---|Item Collectors bring dropped items into nearby inventories, redirectors steer them toward storage, and a Voxel Projector can display an item or a prepared VOX model.|Next: Basic collectors reach five blocks. To project a model file, place it in the server's Random Things model folder and use /sf3voxel <model>.::1
+Collect nearby drops with a Random Things Item Collector::0
+Redirect a dropped item into connected storage::0
+Use the Voxel Projector to display an item::0
+Project a prepared VOX model with the Voxel Projector::0
+::1
+---=== SuperCircuitMaker Circuits ===---|Build on a seven-by-seven circuit board with four layers and sixteen signal channels. Use the screwdriver, palette, brush and multimeter to configure components.|Next: Higher layers need a component directly beneath them. Blueprints record a design and place it onto a paid, empty board.::1
+Place a SuperCircuitMaker component on a circuit board::0
+Build a powered circuit that controls a lamp::0
+Set a component's value or delay with the screwdriver::0
+Record and place a paid circuit blueprint::0
+::1
+---=== Advanced Generators ===---|Connect a controller to its modules and install the required machine module. The controller's right-click status lists formation and output.|Next: A redstone signal at a Control module disables its machine. Module counts are limited per machine.::1
+Form an Advanced Generator turbine and read its controller status::0
+Fuel a gas turbine and send its power to a machine::0
+Form a steam turbine and produce power from steam::0
+Use a heat exchanger or syngas machine to produce a useful fluid::0

@@ -1,0 +1,13 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"sophisticatedbackpacks:backpack"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"chancecubes:chance_icosahedron"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"chancecubes:chance_cube"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"chancecubes:compact_giant_chance_cube"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"aether:golden_parachute"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"rftoolsbase:dimensionalshard"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sf3extras:cobblegen_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ironchest:iron_chest"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ironchest:copper_chest"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ironchest:diamond_chest"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

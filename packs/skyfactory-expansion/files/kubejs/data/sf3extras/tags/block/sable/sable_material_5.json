@@ -1,0 +1,15 @@
+{
+ "replace": false,
+ "values": [
+  "randomthings:super_lubricent_stone",
+  "sf3extras:rt_filtered_super_lubricent_platform",
+  "sf3extras:rt_item_corrector",
+  "sf3extras:rt_item_filtered_redirector",
+  "sf3extras:rt_item_projector",
+  "sf3extras:rt_item_redirector",
+  "sf3extras:rt_item_rejuvenator",
+  "sf3extras:rt_item_sealer",
+  "sf3extras:rt_super_lubricent_ice",
+  "sf3extras:rt_super_lubricent_platform"
+ ]
+}

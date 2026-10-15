@@ -1,0 +1,9 @@
+{
+ "selector": "#sf3extras:sable/sable_material_15",
+ "priority": 100,
+ "properties": {
+  "sable:friction": 1.65,
+  "sable:mass": 1.0,
+  "sable:restitution": 0.0
+ }
+}

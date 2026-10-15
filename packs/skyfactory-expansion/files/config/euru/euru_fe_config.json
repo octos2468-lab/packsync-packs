@@ -1,0 +1,1274 @@
+{
+  "euru:furnace_generator": {
+    "listFuel": [
+      "minecraft:ladder",
+      "minecraft:glow_item_frame",
+      "minecraft:item_frame",
+      "minecraft:painting",
+      "minecraft:armor_stand",
+      "minecraft:wooden_fences",
+      "minecraft:fence_gates",
+      "minecraft:wooden_trapdoors",
+      "minecraft:wooden_pressure_plates",
+      "minecraft:hanging_signs",
+      "minecraft:signs",
+      "minecraft:wooden_doors",
+      "minecraft:crossbow",
+      "minecraft:bow",
+      "minecraft:wooden_hoe",
+      "minecraft:wooden_axe",
+      "minecraft:wooden_shovel",
+      "minecraft:wooden_pickaxe",
+      "minecraft:wooden_sword",
+      "minecraft:banners",
+      "minecraft:wooden_slabs",
+      "minecraft:leaves",
+      "minecraft:flowers",
+      "minecraft:beds",
+      "minecraft:scaffolding",
+      "minecraft:chiseled_bookshelf",
+      "minecraft:bookshelf",
+      "minecraft:cartography_table",
+      "minecraft:fletching_table",
+      "minecraft:smithing_table",
+      "minecraft:loom",
+      "minecraft:crafting_table",
+      "minecraft:logs",
+      "minecraft:wooden_stairs",
+      "minecraft:boats",
+      "c:storage_blocks/coal",
+      "minecraft:barrel",
+      "minecraft:lectern",
+      "minecraft:composter",
+      "minecraft:trapped_chest",
+      "minecraft:chest",
+      "minecraft:planks",
+      "minecraft:wooden_buttons",
+      "minecraft:bowl",
+      "minecraft:carrot_on_a_stick",
+      "minecraft:warped_fungus_on_a_stick",
+      "minecraft:fishing_rod",
+      "minecraft:bamboo",
+      "minecraft:stick",
+      "minecraft:saplings",
+      "minecraft:wool",
+      "minecraft:wool_carpets",
+      "minecraft:coals",
+      "minecraft:blaze_rod"
+    ],
+    "fuelProperties": {
+      "minecraft:ladder": {
+        "feGenerated": 180,
+        "feSpeed": 20
+      },
+      "minecraft:glow_item_frame": {
+        "feGenerated": 180,
+        "feSpeed": 20
+      },
+      "minecraft:item_frame": {
+        "feGenerated": 180,
+        "feSpeed": 20
+      },
+      "minecraft:painting": {
+        "feGenerated": 180,
+        "feSpeed": 20
+      },
+      "minecraft:armor_stand": {
+        "feGenerated": 180,
+        "feSpeed": 20
+      },
+      "minecraft:wooden_fences": {
+        "feGenerated": 250,
+        "feSpeed": 20
+      },
+      "minecraft:fence_gates": {
+        "feGenerated": 250,
+        "feSpeed": 20
+      },
+      "minecraft:wooden_trapdoors": {
+        "feGenerated": 250,
+        "feSpeed": 20
+      },
+      "minecraft:wooden_pressure_plates": {
+        "feGenerated": 180,
+        "feSpeed": 20
+      },
+      "minecraft:hanging_signs": {
+        "feGenerated": 300,
+        "feSpeed": 20
+      },
+      "minecraft:signs": {
+        "feGenerated": 300,
+        "feSpeed": 20
+      },
+      "minecraft:wooden_doors": {
+        "feGenerated": 800,
+        "feSpeed": 20
+      },
+      "minecraft:crossbow": {
+        "feGenerated": 200,
+        "feSpeed": 20
+      },
+      "minecraft:bow": {
+        "feGenerated": 200,
+        "feSpeed": 20
+      },
+      "minecraft:wooden_hoe": {
+        "feGenerated": 500,
+        "feSpeed": 20
+      },
+      "minecraft:wooden_axe": {
+        "feGenerated": 500,
+        "feSpeed": 20
+      },
+      "minecraft:wooden_shovel": {
+        "feGenerated": 500,
+        "feSpeed": 20
+      },
+      "minecraft:wooden_pickaxe": {
+        "feGenerated": 500,
+        "feSpeed": 20
+      },
+      "minecraft:wooden_sword": {
+        "feGenerated": 500,
+        "feSpeed": 20
+      },
+      "minecraft:banners": {
+        "feGenerated": 250,
+        "feSpeed": 20
+      },
+      "minecraft:wooden_slabs": {
+        "feGenerated": 250,
+        "feSpeed": 20
+      },
+      "minecraft:leaves": {
+        "feGenerated": 120,
+        "feSpeed": 20
+      },
+      "minecraft:flowers": {
+        "feGenerated": 80,
+        "feSpeed": 20
+      },
+      "minecraft:beds": {
+        "feGenerated": 400,
+        "feSpeed": 20
+      },
+      "minecraft:scaffolding": {
+        "feGenerated": 300,
+        "feSpeed": 20
+      },
+      "minecraft:chiseled_bookshelf": {
+        "feGenerated": 300,
+        "feSpeed": 20
+      },
+      "minecraft:bookshelf": {
+        "feGenerated": 300,
+        "feSpeed": 20
+      },
+      "minecraft:cartography_table": {
+        "feGenerated": 300,
+        "feSpeed": 20
+      },
+      "minecraft:fletching_table": {
+        "feGenerated": 300,
+        "feSpeed": 20
+      },
+      "minecraft:smithing_table": {
+        "feGenerated": 300,
+        "feSpeed": 20
+      },
+      "minecraft:loom": {
+        "feGenerated": 300,
+        "feSpeed": 20
+      },
+      "minecraft:crafting_table": {
+        "feGenerated": 300,
+        "feSpeed": 20
+      },
+      "minecraft:logs": {
+        "feGenerated": 300,
+        "feSpeed": 20
+      },
+      "minecraft:wooden_stairs": {
+        "feGenerated": 300,
+        "feSpeed": 20
+      },
+      "minecraft:boats": {
+        "feGenerated": 600,
+        "feSpeed": 20
+      },
+      "c:storage_blocks/coal": {
+        "feGenerated": 14000,
+        "feSpeed": 20
+      },
+      "minecraft:barrel": {
+        "feGenerated": 300,
+        "feSpeed": 20
+      },
+      "minecraft:lectern": {
+        "feGenerated": 300,
+        "feSpeed": 20
+      },
+      "minecraft:composter": {
+        "feGenerated": 300,
+        "feSpeed": 20
+      },
+      "minecraft:trapped_chest": {
+        "feGenerated": 300,
+        "feSpeed": 20
+      },
+      "minecraft:chest": {
+        "feGenerated": 300,
+        "feSpeed": 20
+      },
+      "minecraft:planks": {
+        "feGenerated": 300,
+        "feSpeed": 20
+      },
+      "minecraft:wooden_buttons": {
+        "feGenerated": 150,
+        "feSpeed": 20
+      },
+      "minecraft:bowl": {
+        "feGenerated": 150,
+        "feSpeed": 20
+      },
+      "minecraft:carrot_on_a_stick": {
+        "feGenerated": 300,
+        "feSpeed": 20
+      },
+      "minecraft:warped_fungus_on_a_stick": {
+        "feGenerated": 300,
+        "feSpeed": 20
+      },
+      "minecraft:fishing_rod": {
+        "feGenerated": 300,
+        "feSpeed": 20
+      },
+      "minecraft:bamboo": {
+        "feGenerated": 100,
+        "feSpeed": 20
+      },
+      "minecraft:stick": {
+        "feGenerated": 100,
+        "feSpeed": 20
+      },
+      "minecraft:saplings": {
+        "feGenerated": 200,
+        "feSpeed": 20
+      },
+      "minecraft:wool": {
+        "feGenerated": 260,
+        "feSpeed": 20
+      },
+      "minecraft:wool_carpets": {
+        "feGenerated": 150,
+        "feSpeed": 20
+      },
+      "minecraft:coals": {
+        "feGenerated": 1500,
+        "feSpeed": 20
+      },
+      "minecraft:blaze_rod": {
+        "feGenerated": 16000,
+        "feSpeed": 20
+      }
+    },
+    "sendEnergyCapability": 4000
+  },
+  "euru:survival_generator": {
+    "listFuel": [
+      "minecraft:barrel",
+      "minecraft:fence_gates",
+      "c:storage_blocks/coal",
+      "minecraft:banners",
+      "minecraft:fishing_rod",
+      "minecraft:bamboo",
+      "minecraft:blaze_rod",
+      "minecraft:coals",
+      "minecraft:saplings",
+      "minecraft:logs",
+      "minecraft:planks",
+      "minecraft:stick",
+      "minecraft:wool",
+      "minecraft:hanging_signs",
+      "minecraft:wool_carpets",
+      "minecraft:daylight_detector",
+      "minecraft:wooden_axe",
+      "minecraft:wooden_sword",
+      "minecraft:wooden_pickaxe",
+      "minecraft:wooden_shovel",
+      "minecraft:wooden_hoe",
+      "minecraft:shield",
+      "minecraft:carrot_on_a_stick",
+      "minecraft:warped_fungus_on_a_stick",
+      "minecraft:bookshelf",
+      "minecraft:chiseled_bookshelf",
+      "minecraft:wooden_buttons",
+      "minecraft:wooden_doors",
+      "minecraft:wooden_fences",
+      "minecraft:wooden_pressure_plates",
+      "minecraft:wooden_slabs",
+      "minecraft:wooden_stairs",
+      "minecraft:wooden_trapdoors",
+      "minecraft:coal_block",
+      "minecraft:crafting_table",
+      "minecraft:chest",
+      "minecraft:trapped_chest",
+      "minecraft:ladder",
+      "minecraft:jukebox",
+      "minecraft:beehive",
+      "minecraft:beds",
+      "minecraft:bowl",
+      "minecraft:signs",
+      "minecraft:boats",
+      "minecraft:bow",
+      "minecraft:crossbow",
+      "minecraft:torch",
+      "minecraft:redstone_torch",
+      "minecraft:soul_torch",
+      "minecraft:cartography_table",
+      "minecraft:fletching_table",
+      "minecraft:smithing_table",
+      "minecraft:loom",
+      "minecraft:campfire",
+      "minecraft:soul_campfire",
+      "minecraft:scaffolding",
+      "minecraft:composter",
+      "minecraft:armor_stand",
+      "minecraft:glow_item_frame",
+      "minecraft:item_frame",
+      "minecraft:painting",
+      "minecraft:lectern",
+      "minecraft:flowers",
+      "minecraft:leaves"
+    ],
+    "fuelProperties": {
+      "minecraft:barrel": {
+        "feGenerated": 600,
+        "feSpeed": 5
+      },
+      "minecraft:fence_gates": {
+        "feGenerated": 450,
+        "feSpeed": 5
+      },
+      "c:storage_blocks/coal": {
+        "feGenerated": 23000,
+        "feSpeed": 5
+      },
+      "minecraft:banners": {
+        "feGenerated": 300,
+        "feSpeed": 5
+      },
+      "minecraft:fishing_rod": {
+        "feGenerated": 200,
+        "feSpeed": 5
+      },
+      "minecraft:bamboo": {
+        "feGenerated": 100,
+        "feSpeed": 5
+      },
+      "minecraft:blaze_rod": {
+        "feGenerated": 20000,
+        "feSpeed": 5
+      },
+      "minecraft:leaves": {
+        "feGenerated": 80,
+        "feSpeed": 5
+      },
+      "minecraft:hanging_signs": {
+        "feGenerated": 350,
+        "feSpeed": 5
+      },
+      "minecraft:flowers": {
+        "feGenerated": 80,
+        "feSpeed": 5
+      },
+      "minecraft:lectern": {
+        "feGenerated": 350,
+        "feSpeed": 5
+      },
+      "minecraft:painting": {
+        "feGenerated": 200,
+        "feSpeed": 5
+      },
+      "minecraft:item_frame": {
+        "feGenerated": 200,
+        "feSpeed": 5
+      },
+      "minecraft:glow_item_frame": {
+        "feGenerated": 200,
+        "feSpeed": 5
+      },
+      "minecraft:armor_stand": {
+        "feGenerated": 200,
+        "feSpeed": 5
+      },
+      "minecraft:composter": {
+        "feGenerated": 350,
+        "feSpeed": 5
+      },
+      "minecraft:scaffolding": {
+        "feGenerated": 350,
+        "feSpeed": 5
+      },
+      "minecraft:soul_campfire": {
+        "feGenerated": 350,
+        "feSpeed": 5
+      },
+      "minecraft:campfire": {
+        "feGenerated": 350,
+        "feSpeed": 5
+      },
+      "minecraft:loom": {
+        "feGenerated": 350,
+        "feSpeed": 5
+      },
+      "minecraft:smithing_table": {
+        "feGenerated": 350,
+        "feSpeed": 5
+      },
+      "minecraft:fletching_table": {
+        "feGenerated": 350,
+        "feSpeed": 5
+      },
+      "minecraft:cartography_table": {
+        "feGenerated": 350,
+        "feSpeed": 5
+      },
+      "minecraft:torch": {
+        "feGenerated": 100,
+        "feSpeed": 5
+      },
+      "minecraft:redstone_torch": {
+        "feGenerated": 100,
+        "feSpeed": 5
+      },
+      "minecraft:soul_torch": {
+        "feGenerated": 100,
+        "feSpeed": 5
+      },
+      "minecraft:beehive": {
+        "feGenerated": 400,
+        "feSpeed": 5
+      },
+      "minecraft:beds": {
+        "feGenerated": 600,
+        "feSpeed": 5
+      },
+      "minecraft:crossbow": {
+        "feGenerated": 200,
+        "feSpeed": 5
+      },
+      "minecraft:bow": {
+        "feGenerated": 200,
+        "feSpeed": 5
+      },
+      "minecraft:boats": {
+        "feGenerated": 600,
+        "feSpeed": 5
+      },
+      "minecraft:signs": {
+        "feGenerated": 350,
+        "feSpeed": 5
+      },
+      "minecraft:bowl": {
+        "feGenerated": 200,
+        "feSpeed": 5
+      },
+      "minecraft:jukebox": {
+        "feGenerated": 350,
+        "feSpeed": 5
+      },
+      "minecraft:ladder": {
+        "feGenerated": 350,
+        "feSpeed": 5
+      },
+      "minecraft:trapped_chest": {
+        "feGenerated": 700,
+        "feSpeed": 5
+      },
+      "minecraft:chest": {
+        "feGenerated": 700,
+        "feSpeed": 5
+      },
+      "minecraft:crafting_table": {
+        "feGenerated": 350,
+        "feSpeed": 5
+      },
+      "minecraft:wooden_trapdoors": {
+        "feGenerated": 350,
+        "feSpeed": 5
+      },
+      "minecraft:wooden_stairs": {
+        "feGenerated": 350,
+        "feSpeed": 5
+      },
+      "minecraft:wooden_slabs": {
+        "feGenerated": 175,
+        "feSpeed": 5
+      },
+      "minecraft:wooden_pressure_plates": {
+        "feGenerated": 200,
+        "feSpeed": 5
+      },
+      "minecraft:wooden_fences": {
+        "feGenerated": 450,
+        "feSpeed": 5
+      },
+      "minecraft:wooden_doors": {
+        "feGenerated": 800,
+        "feSpeed": 5
+      },
+      "minecraft:wooden_buttons": {
+        "feGenerated": 80,
+        "feSpeed": 5
+      },
+      "minecraft:chiseled_bookshelf": {
+        "feGenerated": 200,
+        "feSpeed": 5
+      },
+      "minecraft:bookshelf": {
+        "feGenerated": 200,
+        "feSpeed": 5
+      },
+      "minecraft:warped_fungus_on_a_stick": {
+        "feGenerated": 200,
+        "feSpeed": 5
+      },
+      "minecraft:carrot_on_a_stick": {
+        "feGenerated": 200,
+        "feSpeed": 5
+      },
+      "minecraft:shield": {
+        "feGenerated": 1200,
+        "feSpeed": 5
+      },
+      "minecraft:wooden_hoe": {
+        "feGenerated": 400,
+        "feSpeed": 5
+      },
+      "minecraft:wooden_shovel": {
+        "feGenerated": 400,
+        "feSpeed": 5
+      },
+      "minecraft:wooden_pickaxe": {
+        "feGenerated": 400,
+        "feSpeed": 5
+      },
+      "minecraft:wooden_axe": {
+        "feGenerated": 400,
+        "feSpeed": 5
+      },
+      "minecraft:wooden_sword": {
+        "feGenerated": 400,
+        "feSpeed": 5
+      },
+      "minecraft:daylight_detector": {
+        "feGenerated": 400,
+        "feSpeed": 5
+      },
+      "minecraft:wool_carpets": {
+        "feGenerated": 100,
+        "feSpeed": 5
+      },
+      "minecraft:wool": {
+        "feGenerated": 200,
+        "feSpeed": 5
+      },
+      "minecraft:stick": {
+        "feGenerated": 100,
+        "feSpeed": 5
+      },
+      "minecraft:planks": {
+        "feGenerated": 350,
+        "feSpeed": 5
+      },
+      "minecraft:logs": {
+        "feGenerated": 350,
+        "feSpeed": 5
+      },
+      "minecraft:coals": {
+        "feGenerated": 2500,
+        "feSpeed": 5
+      },
+      "minecraft:saplings": {
+        "feGenerated": 175,
+        "feSpeed": 5
+      }
+    },
+    "sendEnergyCapability": 2000
+  },
+  "euru:slimey_generator": {
+    "listFuel": [
+      "c:storage_blocks/slime",
+      "c:slime_balls"
+    ],
+    "fuelProperties": {
+      "c:storage_blocks/slime": {
+        "feGenerated": 28800,
+        "feSpeed": 35
+      },
+      "c:slime_balls": {
+        "feGenerated": 3200,
+        "feSpeed": 30
+      }
+    },
+    "sendEnergyCapability": 80000
+  },
+  "euru:halitosis_generator": {
+    "listFuel": [
+      "minecraft:dragon_breath"
+    ],
+    "fuelProperties": {
+      "minecraft:dragon_breath": {
+        "feGenerated": 200000,
+        "feSpeed": 60
+      }
+    },
+    "sendEnergyCapability": 80000
+  },
+  "euru:death_generator": {
+    "listFuel": [
+      "minecraft:bone",
+      "minecraft:bone_block",
+      "minecraft:wither_skeleton_skull",
+      "minecraft:fermented_spider_eye",
+      "minecraft:spider_eye",
+      "minecraft:rotten_flesh"
+    ],
+    "fuelProperties": {
+      "minecraft:bone": {
+        "feGenerated": 400,
+        "feSpeed": 20
+      },
+      "minecraft:bone_block": {
+        "feGenerated": 1200,
+        "feSpeed": 20
+      },
+      "minecraft:wither_skeleton_skull": {
+        "feGenerated": 1200,
+        "feSpeed": 20
+      },
+      "minecraft:fermented_spider_eye": {
+        "feGenerated": 300,
+        "feSpeed": 20
+      },
+      "minecraft:spider_eye": {
+        "feGenerated": 200,
+        "feSpeed": 20
+      },
+      "minecraft:rotten_flesh": {
+        "feGenerated": 400,
+        "feSpeed": 20
+      }
+    },
+    "sendEnergyCapability": 8000
+  },
+  "euru:frosty_generator": {
+    "listFuel": [
+      "minecraft:blue_ice",
+      "minecraft:packed_ice",
+      "minecraft:snow",
+      "minecraft:snow_block",
+      "minecraft:snowball",
+      "minecraft:ice"
+    ],
+    "fuelProperties": {
+      "minecraft:blue_ice": {
+        "feGenerated": 1600,
+        "feSpeed": 40
+      },
+      "minecraft:packed_ice": {
+        "feGenerated": 1000,
+        "feSpeed": 40
+      },
+      "minecraft:snow": {
+        "feGenerated": 200,
+        "feSpeed": 20
+      },
+      "minecraft:snow_block": {
+        "feGenerated": 400,
+        "feSpeed": 20
+      },
+      "minecraft:snowball": {
+        "feGenerated": 200,
+        "feSpeed": 10
+      },
+      "minecraft:ice": {
+        "feGenerated": 800,
+        "feSpeed": 40
+      }
+    },
+    "sendEnergyCapability": 8000
+  },
+  "euru:pink_generator": {
+    "listFuel": [
+      "euru:pink_stuff"
+    ],
+    "fuelProperties": {
+      "euru:pink_stuff": {
+        "feGenerated": 300,
+        "feSpeed": 30
+      }
+    },
+    "sendEnergyCapability": 8000
+  },
+  "euru:culinary_generator": {
+    "listFuel": [
+      "minecraft:enchanted_golden_apple",
+      "minecraft:golden_apple",
+      "minecraft:golden_carrot",
+      "minecraft:chorus_fruit",
+      "minecraft:glow_berries",
+      "minecraft:poisonous_potato",
+      "minecraft:baked_potato",
+      "minecraft:cooked_beef",
+      "minecraft:cooked_porkchop",
+      "minecraft:cooked_mutton",
+      "minecraft:cooked_chicken",
+      "minecraft:cooked_rabbit",
+      "minecraft:suspicious_stew",
+      "minecraft:rabbit_stew",
+      "minecraft:beetroot_soup",
+      "minecraft:mushroom_stew",
+      "minecraft:pumpkin_pie",
+      "minecraft:cake",
+      "minecraft:cookie",
+      "minecraft:bread",
+      "minecraft:cooked_salmon",
+      "minecraft:cooked_cod",
+      "minecraft:pufferfish",
+      "minecraft:tropical_fish",
+      "minecraft:salmon",
+      "minecraft:cod",
+      "minecraft:rabbit",
+      "minecraft:chicken",
+      "minecraft:mutton",
+      "minecraft:porkchop",
+      "minecraft:beef",
+      "minecraft:dried_kelp",
+      "minecraft:beetroot",
+      "minecraft:potato",
+      "minecraft:sweet_berries",
+      "minecraft:carrot",
+      "minecraft:melon_slice",
+      "minecraft:apple"
+    ],
+    "fuelProperties": {
+      "minecraft:enchanted_golden_apple": {
+        "feGenerated": 6400,
+        "feSpeed": 96
+      },
+      "minecraft:golden_apple": {
+        "feGenerated": 1800,
+        "feSpeed": 48
+      },
+      "minecraft:golden_carrot": {
+        "feGenerated": 480,
+        "feSpeed": 24
+      },
+      "minecraft:chorus_fruit": {
+        "feGenerated": 960,
+        "feSpeed": 32
+      },
+      "minecraft:glow_berries": {
+        "feGenerated": 320,
+        "feSpeed": 24
+      },
+      "minecraft:poisonous_potato": {
+        "feGenerated": 320,
+        "feSpeed": 24
+      },
+      "minecraft:baked_potato": {
+        "feGenerated": 320,
+        "feSpeed": 24
+      },
+      "minecraft:cooked_beef": {
+        "feGenerated": 720,
+        "feSpeed": 32
+      },
+      "minecraft:cooked_porkchop": {
+        "feGenerated": 720,
+        "feSpeed": 32
+      },
+      "minecraft:cooked_mutton": {
+        "feGenerated": 720,
+        "feSpeed": 32
+      },
+      "minecraft:cooked_chicken": {
+        "feGenerated": 720,
+        "feSpeed": 32
+      },
+      "minecraft:cooked_rabbit": {
+        "feGenerated": 720,
+        "feSpeed": 32
+      },
+      "minecraft:suspicious_stew": {
+        "feGenerated": 480,
+        "feSpeed": 32
+      },
+      "minecraft:rabbit_stew": {
+        "feGenerated": 480,
+        "feSpeed": 32
+      },
+      "minecraft:beetroot_soup": {
+        "feGenerated": 480,
+        "feSpeed": 32
+      },
+      "minecraft:mushroom_stew": {
+        "feGenerated": 480,
+        "feSpeed": 32
+      },
+      "minecraft:pumpkin_pie": {
+        "feGenerated": 480,
+        "feSpeed": 32
+      },
+      "minecraft:cake": {
+        "feGenerated": 1280,
+        "feSpeed": 48
+      },
+      "minecraft:cookie": {
+        "feGenerated": 480,
+        "feSpeed": 32
+      },
+      "minecraft:bread": {
+        "feGenerated": 480,
+        "feSpeed": 32
+      },
+      "minecraft:cooked_salmon": {
+        "feGenerated": 240,
+        "feSpeed": 16
+      },
+      "minecraft:cooked_cod": {
+        "feGenerated": 240,
+        "feSpeed": 16
+      },
+      "minecraft:pufferfish": {
+        "feGenerated": 160,
+        "feSpeed": 16
+      },
+      "minecraft:tropical_fish": {
+        "feGenerated": 160,
+        "feSpeed": 16
+      },
+      "minecraft:salmon": {
+        "feGenerated": 160,
+        "feSpeed": 16
+      },
+      "minecraft:cod": {
+        "feGenerated": 160,
+        "feSpeed": 16
+      },
+      "minecraft:rabbit": {
+        "feGenerated": 320,
+        "feSpeed": 24
+      },
+      "minecraft:chicken": {
+        "feGenerated": 320,
+        "feSpeed": 24
+      },
+      "minecraft:mutton": {
+        "feGenerated": 320,
+        "feSpeed": 24
+      },
+      "minecraft:porkchop": {
+        "feGenerated": 320,
+        "feSpeed": 24
+      },
+      "minecraft:beef": {
+        "feGenerated": 320,
+        "feSpeed": 24
+      },
+      "minecraft:dried_kelp": {
+        "feGenerated": 240,
+        "feSpeed": 24
+      },
+      "minecraft:beetroot": {
+        "feGenerated": 240,
+        "feSpeed": 24
+      },
+      "minecraft:potato": {
+        "feGenerated": 240,
+        "feSpeed": 24
+      },
+      "minecraft:sweet_berries": {
+        "feGenerated": 240,
+        "feSpeed": 24
+      },
+      "minecraft:carrot": {
+        "feGenerated": 240,
+        "feSpeed": 24
+      },
+      "minecraft:melon_slice": {
+        "feGenerated": 240,
+        "feSpeed": 24
+      },
+      "minecraft:apple": {
+        "feGenerated": 480,
+        "feSpeed": 24
+      }
+    },
+    "sendEnergyCapability": 8000
+  },
+  "euru:netherstar_generator": {
+    "listFuel": [
+      "minecraft:nether_star"
+    ],
+    "fuelProperties": {
+      "minecraft:nether_star": {
+        "feGenerated": 480000,
+        "feSpeed": 1600,
+        "type": "item"
+      }
+    },
+    "sendEnergyCapability": 80000
+  },
+  "euru:explosive_generator": {
+    "listFuel": [
+      "c:gunpowders",
+      "minecraft:tnt",
+      "minecraft:tnt_minecart"
+    ],
+    "fuelProperties": {
+      "c:gunpowders": {
+        "feGenerated": 1200,
+        "feSpeed": 60
+      },
+      "minecraft:tnt": {
+        "feGenerated": 12000,
+        "feSpeed": 160
+      },
+      "minecraft:tnt_minecart": {
+        "feGenerated": 13000,
+        "feSpeed": 160
+      }
+    },
+    "explosion_chance": 2.5,
+    "sendEnergyCapability": 8000
+  },
+  "euru:disenchantment_generator": {
+    "listFuel": [
+      "math_-Dont_touch_this_if_you_dont_know_what_youre_doing"
+    ],
+    "fuelProperties": {
+      "math_-Dont_touch_this_if_you_dont_know_what_youre_doing": {
+        "currentWeight": 1.68,
+        "totalFEGenerated": 24000
+      },
+      "feSpeed": 140,
+      "feIncrement": 20
+    },
+    "sendEnergyCapability": 8000
+  },
+  "euru:ender_generator": {
+    "listFuel": [
+      "euru:ender_shard",
+      "minecraft:ender_eye",
+      "minecraft:ender_pearl"
+    ],
+    "fuelProperties": {
+      "euru:ender_shard": {
+        "feGenerated": 1000,
+        "feSpeed": 80
+      },
+      "minecraft:ender_eye": {
+        "feGenerated": 12000,
+        "feSpeed": 120
+      },
+      "minecraft:ender_pearl": {
+        "feGenerated": 8000,
+        "feSpeed": 80
+      }
+    },
+    "sendEnergyCapability": 8000
+  },
+  "euru:overclocked_generator": {
+    "listFuel": [
+      "minecraft:wooden_trapdoors",
+      "minecraft:wooden_pressure_plates",
+      "minecraft:wooden_doors",
+      "minecraft:wooden_stairs",
+      "minecraft:wooden_sword",
+      "minecraft:wooden_shovel",
+      "minecraft:wooden_pickaxe",
+      "minecraft:wooden_hoe",
+      "minecraft:wooden_axe",
+      "minecraft:warped_fungus_on_a_stick",
+      "minecraft:smithing_table",
+      "minecraft:scaffolding",
+      "minecraft:painting",
+      "minecraft:note_block",
+      "minecraft:loom",
+      "minecraft:lectern",
+      "minecraft:ladder",
+      "minecraft:jukebox",
+      "minecraft:hanging_signs",
+      "minecraft:signs",
+      "minecraft:item_frame",
+      "minecraft:glow_item_frame",
+      "minecraft:flowers",
+      "minecraft:fletching_table",
+      "minecraft:fishing_rod",
+      "minecraft:crossbow",
+      "minecraft:crafting_table",
+      "minecraft:composter",
+      "minecraft:chiseled_bookshelf",
+      "minecraft:chest",
+      "minecraft:coals",
+      "minecraft:cartography_table",
+      "minecraft:carrot_on_a_stick",
+      "minecraft:wooden_buttons",
+      "minecraft:bowl",
+      "minecraft:bow",
+      "minecraft:bookshelf",
+      "minecraft:boats",
+      "minecraft:blaze_rod",
+      "minecraft:beds",
+      "minecraft:barrel",
+      "minecraft:banners",
+      "minecraft:stick",
+      "minecraft:bamboo",
+      "minecraft:armor_stand",
+      "minecraft:wool",
+      "minecraft:wooden_slabs",
+      "minecraft:planks",
+      "minecraft:saplings",
+      "minecraft:logs",
+      "minecraft:trapped_chest",
+      "minecraft:daylight_detector",
+      "minecraft:wool_carpets",
+      "minecraft:fence_gates",
+      "minecraft:wooden_fences",
+      "c:storage_blocks/coal"
+    ],
+    "fuelProperties": {
+      "minecraft:wooden_trapdoors": {
+        "feGenerated": 200,
+        "feSpeed": 200
+      },
+      "minecraft:wooden_pressure_plates": {
+        "feGenerated": 200,
+        "feSpeed": 200
+      },
+      "minecraft:wooden_doors": {
+        "feGenerated": 200,
+        "feSpeed": 200
+      },
+      "minecraft:wooden_stairs": {
+        "feGenerated": 300,
+        "feSpeed": 300
+      },
+      "minecraft:wooden_sword": {
+        "feGenerated": 200,
+        "feSpeed": 200
+      },
+      "minecraft:wooden_shovel": {
+        "feGenerated": 200,
+        "feSpeed": 200
+      },
+      "minecraft:wooden_pickaxe": {
+        "feGenerated": 200,
+        "feSpeed": 200
+      },
+      "minecraft:wooden_hoe": {
+        "feGenerated": 200,
+        "feSpeed": 200
+      },
+      "minecraft:wooden_axe": {
+        "feGenerated": 200,
+        "feSpeed": 200
+      },
+      "minecraft:warped_fungus_on_a_stick": {
+        "feGenerated": 300,
+        "feSpeed": 300
+      },
+      "minecraft:smithing_table": {
+        "feGenerated": 300,
+        "feSpeed": 300
+      },
+      "minecraft:scaffolding": {
+        "feGenerated": 100,
+        "feSpeed": 100
+      },
+      "minecraft:painting": {
+        "feGenerated": 100,
+        "feSpeed": 100
+      },
+      "minecraft:note_block": {
+        "feGenerated": 300,
+        "feSpeed": 300
+      },
+      "minecraft:loom": {
+        "feGenerated": 300,
+        "feSpeed": 300
+      },
+      "minecraft:lectern": {
+        "feGenerated": 300,
+        "feSpeed": 300
+      },
+      "minecraft:ladder": {
+        "feGenerated": 300,
+        "feSpeed": 300
+      },
+      "minecraft:jukebox": {
+        "feGenerated": 300,
+        "feSpeed": 300
+      },
+      "minecraft:hanging_signs": {
+        "feGenerated": 200,
+        "feSpeed": 200
+      },
+      "minecraft:signs": {
+        "feGenerated": 200,
+        "feSpeed": 200
+      },
+      "minecraft:item_frame": {
+        "feGenerated": 100,
+        "feSpeed": 100
+      },
+      "minecraft:glow_item_frame": {
+        "feGenerated": 100,
+        "feSpeed": 100
+      },
+      "minecraft:flowers": {
+        "feGenerated": 60,
+        "feSpeed": 60
+      },
+      "minecraft:fletching_table": {
+        "feGenerated": 300,
+        "feSpeed": 300
+      },
+      "minecraft:fishing_rod": {
+        "feGenerated": 300,
+        "feSpeed": 300
+      },
+      "minecraft:crossbow": {
+        "feGenerated": 300,
+        "feSpeed": 300
+      },
+      "minecraft:crafting_table": {
+        "feGenerated": 300,
+        "feSpeed": 300
+      },
+      "minecraft:composter": {
+        "feGenerated": 300,
+        "feSpeed": 300
+      },
+      "minecraft:chiseled_bookshelf": {
+        "feGenerated": 300,
+        "feSpeed": 300
+      },
+      "minecraft:chest": {
+        "feGenerated": 300,
+        "feSpeed": 300
+      },
+      "minecraft:coals": {
+        "feGenerated": 1200,
+        "feSpeed": 1200
+      },
+      "minecraft:cartography_table": {
+        "feGenerated": 300,
+        "feSpeed": 300
+      },
+      "minecraft:carrot_on_a_stick": {
+        "feGenerated": 300,
+        "feSpeed": 300
+      },
+      "minecraft:wooden_buttons": {
+        "feGenerated": 100,
+        "feSpeed": 100
+      },
+      "minecraft:bowl": {
+        "feGenerated": 100,
+        "feSpeed": 100
+      },
+      "minecraft:bow": {
+        "feGenerated": 300,
+        "feSpeed": 300
+      },
+      "minecraft:bookshelf": {
+        "feGenerated": 300,
+        "feSpeed": 300
+      },
+      "minecraft:boats": {
+        "feGenerated": 400,
+        "feSpeed": 400
+      },
+      "minecraft:blaze_rod": {
+        "feGenerated": 2000,
+        "feSpeed": 2000
+      },
+      "minecraft:beds": {
+        "feGenerated": 400,
+        "feSpeed": 400
+      },
+      "minecraft:barrel": {
+        "feGenerated": 300,
+        "feSpeed": 300
+      },
+      "minecraft:banners": {
+        "feGenerated": 300,
+        "feSpeed": 300
+      },
+      "minecraft:stick": {
+        "feGenerated": 60,
+        "feSpeed": 60
+      },
+      "minecraft:bamboo": {
+        "feGenerated": 60,
+        "feSpeed": 60
+      },
+      "minecraft:armor_stand": {
+        "feGenerated": 300,
+        "feSpeed": 300
+      },
+      "minecraft:wool": {
+        "feGenerated": 100,
+        "feSpeed": 100
+      },
+      "minecraft:wooden_slabs": {
+        "feGenerated": 300,
+        "feSpeed": 300
+      },
+      "minecraft:planks": {
+        "feGenerated": 300,
+        "feSpeed": 300
+      },
+      "minecraft:saplings": {
+        "feGenerated": 100,
+        "feSpeed": 100
+      },
+      "minecraft:logs": {
+        "feGenerated": 300,
+        "feSpeed": 300
+      },
+      "minecraft:trapped_chest": {
+        "feGenerated": 300,
+        "feSpeed": 300
+      },
+      "minecraft:daylight_detector": {
+        "feGenerated": 300,
+        "feSpeed": 300
+      },
+      "minecraft:wool_carpets": {
+        "feGenerated": 60,
+        "feSpeed": 60
+      },
+      "minecraft:fence_gates": {
+        "feGenerated": 300,
+        "feSpeed": 300
+      },
+      "minecraft:wooden_fences": {
+        "feGenerated": 300,
+        "feSpeed": 300
+      },
+      "c:storage_blocks/coal": {
+        "feGenerated": 8000,
+        "feSpeed": 2000
+      }
+    },
+    "sendEnergyCapability": 20000
+  },
+  "config_version": 973.2
+}

@@ -1,0 +1,8 @@
+key_accessories.key.open_accessories_screen:key.keyboard.unknown
+key_key.journeymap.toggle_entity_names:key.keyboard.unknown
+key_key.enderio.travel_staff:key.keyboard.y
+key_key.enderio.toggle_magnet:key.keyboard.semicolon
+key_key.sf3extras.charset_backpack:key.keyboard.apostrophe
+key_key.kubejs.kubedex:key.keyboard.unknown
+key_keybind.ironjetpacks.hover:key.keyboard.grave.accent
+key_key.curios.open.desc:key.keyboard.unknown

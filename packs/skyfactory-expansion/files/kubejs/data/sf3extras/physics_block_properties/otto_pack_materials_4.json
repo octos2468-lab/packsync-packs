@@ -1,0 +1,8 @@
+{
+ "selector": "#sf3extras:sable/sable_material_4",
+ "priority": 100,
+ "properties": {
+  "sable:friction": 0.0,
+  "sable:mass": 1.0
+ }
+}

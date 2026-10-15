@@ -1,0 +1,39 @@
+[debug]
+	#if true, will suppress all reputation changes from being display on the client
+	suppress_reputation_changes = true
+
+[particles]
+	#if true, translucent particles will be rendered with quads sorted to improve rendering and prevent overlapping translucent particles from disappearing
+	delayed_particles = true
+
+[overlays]
+	#if true, the aqua bubble overlay will be displayed in first person while the player has an active Aqua Bubble effect
+	aqua_bubble_overlay = true
+	#if true, the warning overlay will be displayed whenever a mob targets you while holding the Alertness charm (or equipped in a suitable Curios slot)
+	warning_overlay = true
+
+[light_drifter_overlays]
+	#a list of resourcelocations of gui layer elements that should be skipped while light drifter is active
+	gui_layer_skip = ["appleskin:health_restored", "appleskin:hunger_restored", "appleskin:saturation_level", "appleskin:exhaustion_level", "minecraft:experience_bar", "minecraft:experience_level"]
+
+#options relating to particles
+[particle]
+	#if true, the custom particle shader used for some Roots particles will be disabled; please note that with Iris running, this option may have no effect as Iris disables custom shaders by default
+	disable_custom_particle_shader = false
+	#the opposite of `disable_custom_particle_shader` and will override that value: forces the custom particle shader to be loaded even if iris is loaded and would normally prevent it from being used
+	force_custom_particle_shader = false
+	#if true, all Roots particles will be disabled
+	disable_particles = false
+
+#options for insert/delete messages and block highlights
+[messages_and_highlights]
+	#if false, disables the 'press keybind to view eligible recipes' HUD message
+	show_insert_overlay_message = false
+	#if false, disables the 'press keybind to clear block' HUD message
+	show_delete_message = false
+	#if false, disables the 'press keybind to view eligible recipes' message that appears over eligible block entities when targeted
+	show_insert_in_game_message = true
+	#if false, disables the 'press keybind to clear block' message that appears over eligible block entities when targeted
+	show_delete_in_game_message = true
+	#if true, the most recent 'eligible block' for interaction (view recipes or clear container) will be visually highlighted
+	highlight_last_block = true

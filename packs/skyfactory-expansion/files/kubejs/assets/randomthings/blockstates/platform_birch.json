@@ -1,0 +1,9 @@
+{
+ "multipart": [
+  {
+   "apply": {
+    "model": "randomthings:block/platform_birch"
+   }
+  }
+ ]
+}

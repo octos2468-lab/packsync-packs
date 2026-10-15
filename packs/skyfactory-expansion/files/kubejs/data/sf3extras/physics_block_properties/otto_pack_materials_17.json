@@ -1,0 +1,7 @@
+{
+ "selector": "#sf3extras:sable/sable_material_17",
+ "priority": 100,
+ "properties": {
+  "sable:mass": 1.0
+ }
+}

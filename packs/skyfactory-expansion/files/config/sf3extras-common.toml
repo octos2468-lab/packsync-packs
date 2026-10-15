@@ -1,0 +1,115 @@
+[itsrainingfood]
+	#Number of ticks to restore food
+	# Default: 160
+	# Range: 1 ~ 72000
+	ticksForFood = 160
+	soundEnabled = true
+
+[xprings]
+	# Default: 2
+	# Range: 1 ~ 64
+	lesserRingRadius = 2
+	# Default: 5
+	# Range: 1 ~ 64
+	genericRingRadius = 5
+	# Default: 12
+	# Range: 1 ~ 64
+	greaterRingRadius = 12
+	#Bottles o' Enchanting crafted from a Lesser Ring
+	# Default: 2
+	# Range: 0 ~ 64
+	bottlesCrafted = 2
+
+[dimensionalcake]
+	eatWhenFull = true
+
+[ts2k16]
+	# Default: 45
+	# Range: 0 ~ 100
+	chance = 45
+	# Default: 10
+	# Range: 0 ~ 1200
+	cooldown = 10
+	# Default: 5
+	# Range: 1 ~ 16
+	radius = 5
+	allowSprinting = true
+	allPlants = false
+
+[moreshearables]
+	chicken = true
+	cow = true
+	pig = true
+	zombifiedPiglin = true
+	polarBear = true
+	rabbit = true
+	creeper = true
+
+[blockdispenser]
+	blacklist = ["minecraft:water", "minecraft:lava", "minecraft:fire", "minecraft:cobweb"]
+
+[baconators]
+	# Default: 64
+	# Range: 1 ~ 4096
+	maximumCapacity = 64
+
+[drawersbits]
+	#Base storage of a bit drawer (stacks).
+	# Default: 16
+	# Range: 1 ~ 1024
+	bitdrawerBaseStorage = 16
+	#If set the contents of all bags in a players inventory will try to be inserted on a double right-click on the bit drawer controller.
+	allowBagMultiInsertion = true
+	#If set all Chisels & Bits blocks in a players inventory will try to be inserted on a double right-click on the bit drawer controller.
+	allowChiseledBlockMultiInsertion = false
+	#If set the player will be informed in chat if something didn't work (if possible).
+	chatty = true
+
+[extrabitmanipulation]
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	bitSpawnBoxContraction = 0.25
+	dropBitsAsFullChiseledBlocks = false
+	dropBitsInBlockSpace = true
+	dropBitsPerBlock = true
+	placeBitsInInventory = true
+	# Default: 32
+	# Range: 1 ~ 256
+	maxSemiDiameter = 32
+	# Default: 32
+	# Range: 1 ~ 256
+	maxWallThickness = 32
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	semiDiameterPadding = 0.2
+	oneBitTypeInversionRequirement = false
+	# Default: 5000
+	# Range: > 1
+	bitWrenchMaxDamage = 5000
+	# Default: 2000000
+	# Range: > 1
+	sculptingToolMaxUses = 2000000
+	# Default: 1000
+	# Range: > 1
+	modelingToolMaxDamage = 1000
+	# Default: 1.4E-45
+	# Range: 0.0 ~ 1000.0
+	thrownBitDamage = 1.4E-45
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	thrownWaterBitBlazeDamage = 1.0
+	# Default: 1
+	# Range: 0 ~ 1000
+	thrownLavaBitBurnTime = 1
+	# Default: 1.5
+	# Range: 0.0 ~ 10.0
+	thrownBitVelocity = 1.5
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	thrownBitInaccuracy = 1.0
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	thrownBitVelocityBitBag = 0.5
+	# Default: 10.0
+	# Range: 0.0 ~ 100.0
+	thrownBitInaccuracyBitBag = 10.0
