@@ -245,6 +245,1284 @@ Use Diamond blocks to cool a maximum-size reactor::0
 Build Ender IO Farming Stations with Octadic Capacitors that automate 20 different crops::0
 Craft a single Octuple Compressed Cobblestone Block::0
 ::1
+---=== Ex Deorum: Sifting Ladder ===---|Every tool, mesh and sieve result from the first Crook to Netherite. Sift dirt, sand, gravel, dust and the crushed Nether and End blocks for everything the world no longer gives you.|Next: Compressed tools, mechanical sieves and Ex Compressum machines take over the manual work.::1
+Craft a Bone Crook::0
+Cook a Silkworm for a snack::0
+Drop saplings and leaves into a Barrel to fill it with compost::0
+Sift Dirt for Grass Seeds::0
+Sift Dirt for Stone Pebbles::0
+Craft a Flint Mesh::0
+Sift Sand for a Pottery Sherd::0
+Craft a Stone Hammer::0
+Hammer Cobblestone into Gravel::0
+Hammer Gravel into Sand::0
+Hammer Sand into Dust::0
+Sift Gravel for a Copper Ore Chunk::0
+Sift Gravel for a Gold Ore Chunk::0
+Sift for an Aluminum Ore Chunk::0
+Sift for a Lead Ore Chunk::0
+Sift for a Silver Ore Chunk::0
+Sift for a Nickel Ore Chunk::0
+Sift for a Zinc Ore Chunk::0
+Craft a Golden Mesh::0
+Craft a Diamond Mesh::0
+Craft an Iron Hammer::0
+Craft a Diamond Hammer::0
+Make a Porcelain Clay Ball::0
+Craft an Unfired Porcelain Crucible::0
+Craft a Wooden Crucible::0
+Fire a Porcelain Bucket::0
+Fill a Porcelain Bucket with Lava::0
+Fill a Porcelain Bucket with Water::0
+Craft a Wooden Watering Can::0
+Craft an Iron Watering Can::0
+Grow Mycelium with Mycelium Spores::0
+Make Witch Water in a Barrel::0
+Craft a Compressed Wooden Hammer::0
+Craft a Compressed Iron Hammer::0
+Craft a Compressed Sieve::0
+Hammer Netherrack into Crushed Netherrack::0
+Hammer Blackstone into Crushed Blackstone::0
+Hammer Deepslate into Crushed Deepslate::0
+Hammer End Stone into Crushed End Stone::0
+Craft a Mechanical Hammer::0
+Craft a Netherite Mesh::0
+Craft a Netherite Hammer::0
+Grow Warped Nylium with Warped Nylium Spores::0
+Grow Crimson Nylium with Crimson Nylium Spores::0
+Craft an End Cake::0
+::1
+---=== Ex Compressum: Heavy Sieves and Auto Machines ===---|Compressed blocks, the Heavy Sieve and the Auto Hammer, Sieve and Compressor.|Next: Combine them with Ender IO, Immersive Engineering and Refined Storage to automate a whole sifting plant.::1
+Hammer logs into Wood Chippings::0
+Craft a Compressed Flint::0
+Craft an Oak Heavy Sieve::0
+Craft a Compressed Crook::0
+Craft a Cow Bait::0
+Craft a Chicken Stick::0
+Craft a Bat Zapper::0
+Craft an Ore Smasher::0
+Craft an Auto Hammer::0
+Craft an Auto Sieve::0
+Craft an Auto Compressed Hammer::0
+Craft a Sculk Core::0
+Craft a Rationing Auto Compressor::0
+::1
+---=== Tinkers' Construct: Workshop and Tools ===---|From the first Pattern to Excavators and Scythes. Build tables, make parts, assemble every kind of tool and repair it.|Next: a Smeltery lets you cast parts and alloy better metals.::1
+Craft a Pattern::0
+Read Materials and You::0
+Craft a Crafting Station::0
+Craft a Tinkers' Chest::0
+Craft a Part Chest::0
+Make a Hand Axe::0
+Make a Dagger::0
+Make a Sword::0
+Make a Kama::0
+Make a Repair Kit::0
+Make a Pickadze::0
+Craft a Seared Heater::0
+Craft a Seared Melter::0
+Craft a Seared Fuel Tank::0
+Craft a Seared Faucet::0
+Craft a Seared Channel::0
+Craft a Seared Casting Table::0
+Craft a Seared Casting Basin::0
+Craft an Ingot Cast::0
+Make a Sand Cast::0
+Cast a Pickaxe Head::0
+Craft a Silky Cloth::0
+Cast an Iron Reinforcement::0
+Cast an Emerald Reinforcement::0
+Craft a Modifier Worktable::0
+Alloy Rose Gold::0
+Alloy Amethyst Bronze::0
+Make Pig Iron::0
+Alloy Brass::0
+Alloy Constantan::0
+Find a Sky Slime Island::0
+Cast a Slimesteel Ingot::0
+Craft a Tinkers' Anvil::0
+Craft a Sky Slime Staff::0
+Build an Excavator::0
+Build a Vein Hammer::0
+Build a Scythe::0
+Build a Broad Axe::0
+Build a Cleaver::0
+Smelt Cobalt ore and cast a Cobalt Ingot::0
+Craft a Slime Staff of the Earth::0
+Alloy Manyullyn::0
+Alloy Hepatizon::0
+Alloy Queen's Slime::0
+Alloy Knightslime::0
+Alloy Cinderslime::0
+Build a Foundry::0
+Craft a Scorched Alloyer::0
+Craft a Scorched Anvil::0
+Cast a Knightmetal Ingot::0
+Make a Slimeskull helmet::0
+Make Slime Boots::0
+Make Slime Wings::0
+Make Travelers' Armor::0
+Make Plate Armor::0
+Craft a Longbow::0
+Craft a Crossbow::0
+Throw a Javelin::0
+Throw a Throwing Axe::0
+Throw a Shuriken::0
+Craft the Encyclopedia of Tinkers::0
+::1
+---=== Botania: Flowers and Mana ===---|Petals, the Apothecary, generating flowers, mana pools, lenses, runes and the Runic Altar.|Next: Terrasteel and the Elven Gateway open Alfheim and the Elementium line.::1
+Find a Mystical Flower::0
+Gather Mystical Petals::0
+Craft a Pure Daisy::0
+Craft Redstone Root::0
+Craft a Livingwood Twig::0
+Craft a Mana Spark::0
+Craft a Hydroangeas::0
+Craft an Endoflame::0
+Craft a Mana Lens::0
+Infuse a Mana Pearl::0
+Infuse a Mana Diamond::0
+Infuse Mana Powder::0
+Craft Manasteel Tools::0
+Craft Manasteel Armor::0
+Craft a Runic Altar::0
+Craft a Rune of Earth::0
+Craft a Rune of Fire::0
+Craft a Rune of Water::0
+Craft a Rune of Air::0
+Craft a Rune of Mana::0
+Craft the four seasonal Runes::0
+Craft a Thermalily::0
+Craft a Rosa Arcana::0
+Craft a Munchdew::0
+Craft an Entropinnyum::0
+Craft a Mana Splitter::0
+Craft a Mana Void::0
+Craft a Mana Detector::0
+Craft a Mana Tablet::0
+Craft a Flower Pouch::0
+Craft an Alchemy Catalyst::0
+Craft a Botanical Brewery::0
+Craft a Mana Pylon::0
+Craft an Agricarnation::0
+Craft a Hopperhock::0
+Craft a Jaded Amaranthus::0
+Craft a Daffomill::0
+Craft a Terrestrial Agglomeration Plate::0
+Craft a Terra Blade::0
+Craft a Terra Shatterer::0
+Craft a Terra Truncator::0
+Craft Terrasteel Armor::0
+Craft a Mana Mirror::0
+Craft a Mana Blaster::0
+Craft a Thorn Chakram::0
+Craft a Rod of the Lands::0
+Craft a Rod of the Skies::0
+Craft a Rod of the Hells::0
+Craft a Band of Mana::0
+Craft a Ring of Magnetization::0
+Trade for Elementium::0
+Trade for Pixie Dust::0
+Craft an Orechid::0
+Trade for a Dragonstone::0
+Trade for Dreamwood::0
+Trade for Alfglass::0
+Craft a Dreamwood Twig::0
+Craft an Elven Mana Spreader::0
+Craft Elementium Tools::0
+Craft Elementium Armor::0
+Craft a Conjuration Catalyst::0
+Craft a Gaia Pylon::0
+Craft a Corporea Spark::0
+Craft a Corporea Index::0
+Craft a Spark Tinkerer::0
+Craft a Hand of Ender::0
+Craft a Ring of Far Reach::0
+Craft a Flugel Tiara::0
+Craft a Cloak of Virtue::0
+Craft a Black Hole Talisman::0
+::1
+---=== Blood Magic: Altar Tiers and Orbs ===---|Altar, orbs, slates, the Alchemy Table, the Hellfire Forge, tartaric gems and Living Armor, one tier at a time.|Next: collect demonic will and raise your altar to the next tier.::1
+Craft a Sacrificial Dagger::0
+Fill a Bucket with Life Essence::0
+Craft an Alchemy Table::0
+Make a Blank Rune::0
+Craft a Blood Tank::0
+Make a Reinforced Slate::0
+Make an Apprentice Blood Orb::0
+Craft a Sigil of Divination::0
+Craft a Sigil of Water::0
+Craft a Sigil of Lava::0
+Craft a Sigil of the Void::0
+Craft a Sigil of the Fast Miner::0
+Craft a Sigil of Seer::0
+Craft a Hellfire Forge::0
+Forge Bloodstone::0
+Make Bloodstone Bricks::0
+Make an Imbued Slate::0
+Make a Magician Blood Orb::0
+Forge a Lesser Tartaric Gem::0
+Forge a Common Tartaric Gem::0
+Craft a Living Station::0
+Craft a Training Bracelet::0
+Craft an Alchemical Reaction Chamber::0
+Make a Demonic Slate::0
+Forge Hellforged Blocks::0
+Forge a Greater Tartaric Gem::0
+Make an Ethereal Slate::0
+Make an Archmage Blood Orb::0
+Forge a Grand Tartaric Gem::0
+Forge a Crystal Cluster::0
+Make Crystal Cluster Bricks::0
+Make a Transcendent Blood Orb::0
+::1
+---=== Mystical Agriculture: Essence Tiers and Seeds ===---|Prosperity, the Infusion Altar, every tier of essence, resource seeds, farmland and the machines.|Next: Soulium opens the awakening altar and the machine line; Agradditions adds Insanium.::1
+Mine a Prosperity Shard::0
+Craft a Prosperity Ingot::0
+Craft a Prosperity Seed Base::0
+Craft an Infusion Crystal::0
+Craft Inferium Farmland::0
+Craft a Mystical Watering Can::0
+Craft a Mystical Wand::0
+Craft Mystical Fertilizer::0
+Craft an Infusion Altar::0
+Craft Infusion Pedestals::0
+Craft a Dirt Seed::0
+Craft a Stone Seed::0
+Craft a Wood Seed::0
+Craft an Air Agglomeratio::0
+Craft a Water Seed::0
+Craft a Fire Seed::0
+Craft Prudentium Essence::0
+Craft Prudentium Farmland::0
+Craft a Coal Seed::0
+Craft a Nature Seed::0
+Craft an Inferium Growth Accelerator::0
+Craft an Inferium Sword::0
+Craft Tertium Essence::0
+Craft a Copper Seed::0
+Craft a Redstone Seed::0
+Craft an Obsidian Seed::0
+Craft a Lead Seed::0
+Craft a Silver Seed::0
+Craft Imperium Essence::0
+Craft a Gold Seed::0
+Craft a Lapis Seed::0
+Smelt Soulstone::0
+Make Soul Dust::0
+Craft a Soulium Ingot::0
+Craft a Machine Frame::0
+Craft a Soul Extractor::0
+Craft a Seed Reprocessor::0
+Craft a Mystical Harvester::0
+Craft an Awakening Altar::0
+Craft Awakening Pedestals::0
+Craft an Essence Vessel::0
+Craft a Tinkering Table::0
+Craft an Upgrade Base::0
+Craft a Soulium Spawner::0
+Craft a Mystical Enchanter::0
+Craft a Soul Jar::0
+Craft an Experience Capsule::0
+Craft Supremium Essence::0
+Craft Supremium Farmland::0
+Craft an Emerald Seed::0
+Craft Imperium Armor::0
+Craft a Nether Star Seed::0
+Craft a Dragon Egg Seed::0
+::1
+---=== Mystical Agradditions: Insanium ===---|The sixth tier, apples, coal and paxels.|Mastery: Insanium farmland and the crux blocks.::1
+Craft Insanium Essence::0
+Craft Insanium Farmland::0
+Craft an Inferium Apple::0
+Craft an Insanium Apple::0
+Craft Inferium Coal::0
+Craft Supremium Coal::0
+Craft an Inferium Paxel::0
+Craft a Nether Star Crux::0
+::1
+---=== Ender IO: Alloys, Machines and Conduits ===---|Grains of Infinity, every alloy, capacitors, machines, conduits, soul binding and the Farming Station.|Next: capacitor banks, soul machines and obelisks for late-game automation.::1
+Sift Dust for Grains of Infinity::0
+Craft a Yeta Wrench::0
+Craft an Industrial Foregoing iron gear::0
+Craft a Stirling Generator::0
+Make a Conductive Alloy::0
+Make a Redstone Alloy::0
+Make an Energetic Alloy::0
+Make a Pulsating Alloy::0
+Make a Vibrant Alloy::0
+Make Dark Steel::0
+Make Soularium::0
+Make End Steel::0
+Grind coal into Powdered Coal::0
+Craft a Conduit Binder::0
+Craft a Double-Layer Capacitor::0
+Craft a Crafter::0
+Craft an Impulse Hopper::0
+Craft a Basic Capacitor Bank::0
+Craft an Energized Gear::0
+Craft a Pulsating Crystal::0
+Craft a Vibrant Crystal::0
+Craft Fused Quartz::0
+Craft a Photovoltaic Composite::0
+Craft a Photovoltaic Plate::0
+Craft an Energetic Photovoltaic Module::0
+Craft an Octadic Capacitor::0
+Craft a Travel Anchor::0
+Craft a Dark Steel Sword::0
+Craft a Cold Fire Igniter::0
+Craft an Electromagnet::0
+Craft a Dark Steel Glider::0
+Craft an Enchanter::0
+Craft a Soul Chain::0
+Craft a Soul Vial::0
+Craft an Ensouled Chassis::0
+Craft a Slice'N'Splice::0
+Craft a Z-Logic Controller::0
+Craft a Soul Binder::0
+Craft an Ender Crystal::0
+Craft a Prescient Crystal::0
+Craft a Weather Crystal::0
+Craft a Staff of Travelling::0
+Craft a Vacuum Chest::0
+Craft an XP Vacuum::0
+Craft an Experience Rod::0
+Craft an XP Obelisk::0
+Craft a Powered Spawner::0
+Craft a Vibrant Capacitor Bank::0
+Craft a Pressurized Fluid Tank::0
+Craft an Attractor Obelisk::0
+Craft an Aversion Obelisk::0
+Craft a Weather Obelisk::0
+::1
+---=== Immersive Engineering: Steel and Power ===---|The Engineer's Hammer, treated wood, bricks, the Coke Oven and Blast Furnace, steel, engineering blocks and wires.|Next: generators, the Crusher and the multiblock machines.::1
+Craft the Engineer's Hammer::0
+Craft the Engineer's Manual::0
+Craft a Wirecutter::0
+Hammer an Iron Plate::0
+Craft an Iron Rod::0
+Craft a Screwdriver::0
+Craft Treated Wood::0
+Craft Coke Bricks::0
+Build a Coke Oven::0
+Make Coal Coke::0
+Craft Blast Bricks::0
+Make a Steel Ingot::0
+Hammer a Steel Plate::0
+Craft a Steel Rod::0
+Craft an Iron Component::0
+Craft a Steel Component::0
+Craft Light Engineering Blocks::0
+Craft Redstone Engineering Blocks::0
+Craft Alloy Bricks::0
+Build an Alloy Smelter::0
+Make an Electrum Ingot::0
+Craft Heavy Engineering Blocks::0
+Craft Copper Wire::0
+Craft an LV Coil::0
+Craft an LV Connector::0
+Craft Treated Wood Sticks::0
+Craft a Windmill Blade::0
+Craft a Dynamo::0
+Craft a Windmill::0
+Craft a Watermill::0
+Craft an LV Capacitor::0
+Craft a Furnace Heater::0
+Craft a Thermoelectric Generator::0
+Build a Metal Press::0
+Craft a Plate Mold::0
+Build a Squeezer::0
+Build a Fermenter::0
+Build a Refinery::0
+Build a Diesel Generator::0
+Build a Bottling Machine::0
+Build a Mixer::0
+Build an Arc Furnace::0
+Build a Sawmill::0
+Build an Assembler::0
+Craft a Circuit Table::0
+Craft an MV Coil::0
+Craft an MV Connector::0
+Craft an MV Capacitor::0
+Craft a Transformer::0
+Craft a Generator::0
+Craft a Radiator::0
+Craft a Steel Pickaxe::0
+Craft Steel Armor::0
+Craft a Conveyor Belt::0
+Craft a Sorter::0
+Craft a Crate::0
+Craft a Survey Tool::0
+Craft a Jerrycan::0
+Craft a Drill::0
+Craft a Revolver::0
+Craft a Skyhook::0
+Craft a Powerpack::0
+Craft Faraday Armor::0
+Craft a Chemthrower::0
+Craft an HV Coil::0
+Craft an HV Capacitor::0
+Craft a Railgun::0
+Craft a Tesla Coil::0
+Craft a Floodlight::0
+::1
+---=== Actually Additions: Crystals and Machines ===---|Black Quartz, the Atomic Reconstructor, crystals, coils, generators and basic machines.|Next: the Empowerer, drills, phantom blocks and rings.::1
+Find Black Quartz::0
+Craft an Iron Casing::0
+Craft an Atomic Reconstructor::0
+Make a Restonia Crystal::0
+Craft a Basic Coil::0
+Make a Palis Crystal::0
+Make an Enori Crystal::0
+Make a Void Crystal::0
+Make a Diamatine Crystal::0
+Make an Emeradic Crystal::0
+Craft an Advanced Coil::0
+Craft a Coal Generator::0
+Craft a Powered Furnace::0
+Craft a Breaker::0
+Craft a Placer::0
+Grow Canola::0
+Craft a Canola Press::0
+Craft an Energizer::0
+Craft an Enervator::0
+Craft a Single Battery::0
+Craft a Battery Box::0
+Craft a Laser Relay::0
+Craft an Item Interface::0
+Craft a Phantom Connector::0
+Craft Engineer's Goggles::0
+Craft a Filter::0
+Grow Rice::0
+Craft Rice Dough::0
+Craft a Display Stand::0
+Craft an Empowerer::0
+Craft an Empowered Restonia Crystal::0
+Craft an Empowered Palis Crystal::0
+Craft an Empowered Diamatine Crystal::0
+Craft an Empowered Void Crystal::0
+Craft an Empowered Emeradic Crystal::0
+Craft an Empowered Enori Crystal::0
+Craft a Leaf Generator::0
+Craft a Farmer::0
+Craft a Bio Reactor::0
+Craft a Lava Factory Controller::0
+Craft an XP Solidifier::0
+Craft a Dropper::0
+Craft a Fluid Collector::0
+Craft a Fluid Placer::0
+Craft a Long Range Breaker::0
+Craft a Ranged Collector::0
+Craft an Ender Casing::0
+Craft a Phantom Item Face::0
+Craft a Phantom Energy Face::0
+Craft a Phantom Booster::0
+Craft a Player Interface::0
+Craft a Drill Core::0
+Craft an Actually Additions Drill::0
+Craft a Speed Upgrade::0
+Craft a 3x3 Upgrade::0
+Craft a Fortune Upgrade::0
+Craft a Silk Touch Upgrade::0
+Craft a Ring::0
+Craft a Ring of Magnetizing::0
+Craft a Ring of Growth::0
+Craft a Traveler's Sack::0
+Craft a Void Sack::0
+Craft a Teleport Staff::0
+Craft a Handheld Filler::0
+Craft a Leaf Blower::0
+Craft a Diamond AIOT::0
+Craft Greenhouse Glass::0
+Craft a Shock Suppressor::0
+Craft a Lens of the Miner::0
+Craft an Ender Star::0
+Craft Wings of the Bats::0
+::1
+---=== Draconic Evolution: Wyvern Tier ===---|Draconium, cores, the Fusion Crafting setup, energy core pieces, crystals and Wyvern gear.|Next: Awakened Draconium, Draconic tools and the Energy Core.::1
+Mine Draconium Dust::0
+Craft a Draconium Core::0
+Craft a Crafting Core::0
+Craft a Basic Crafting Injector::0
+Craft a Wyvern Core::0
+Craft a Wyvern Energy Core::0
+Craft a Draconium Block::0
+Fuse a Wyvern Crafting Injector::0
+Craft Infused Obsidian::0
+Craft a Particle Generator::0
+Craft a Draconic Generator::0
+Craft an Energy Pylon::0
+Craft an Energy Core Stabilizer::0
+Craft an Energy Core::0
+Craft a Crystal Binder::0
+Craft a Basic Relay Crystal::0
+Craft a Basic IO Crystal::0
+Craft a Basic Wireless Crystal::0
+Craft a Disenchanter::0
+Craft a Module Core::0
+Craft a Draconium Speed Module::0
+Craft a Draconium Energy Module::0
+Craft a Wyvern Speed Module::0
+Craft a Wyvern Flight Module::0
+Fuse a Wyvern Capacitor::0
+Fuse a Wyvern Pickaxe::0
+Fuse a Wyvern Sword::0
+Fuse a Wyvern Chestpiece::0
+Craft a Magnet::0
+Craft a Dislocation Inhibitor::0
+Craft an Advanced Dislocator::0
+Craft a Dislocator Pedestal::0
+Get a Dragon Heart::0
+Fuse an Awakened Draconium Block::0
+Unpack Awakened Draconium Ingots::0
+Craft an Awakened Core::0
+Craft a Draconic Energy Core::0
+Craft a Draconic Sword::0
+Craft a Draconic Bow::0
+Craft a Draconic Capacitor::0
+Craft an Advanced Magnet::0
+Craft a Draconic Staff::0
+Collect Chaos Fragments::0
+Craft a Chaotic Core::0
+Craft a Chaotic Energy Core::0
+Craft a Chaotic Crafting Injector::0
+Craft a Chaotic Pickaxe::0
+Craft a Chaotic Sword::0
+Craft a Chaotic Chestpiece::0
+Craft a Chaotic Capacitor::0
+Craft a Chaotic Staff::0
+Craft a Reactor Core::0
+Craft a Reactor Stabilizer::0
+Craft a Reactor Injector::0
+::1
+---=== RFTools: Frames and Power ===---|Machine Frame, Machine Base, wrench, dimensional shards, generators and power cells.|Next: crafters, screens, storage, builders and teleportation.::1
+Craft an RFTools Machine Frame::0
+Craft an RFTools Machine Base::0
+Craft the Smart Wrench::0
+Craft a Dimensional Shard::0
+Craft an Infused Diamond::0
+Craft an Infused Ender Pearl::0
+Craft an RFTools Coal Generator::0
+Craft a Power Core::0
+Craft a Power Core Mk II::0
+Craft a Second-Tier Power Cell::0
+Craft a Power Monitor::0
+Craft a Blazing Agitator::0
+Craft a Blazing Generator::0
+Craft a Simple Dimensional Cell::0
+Craft a Dimensional Cell::0
+Craft an Advanced Dimensional Cell::0
+Craft an Endergenic Generator::0
+Craft a Pearl Injector::0
+::1
+---=== RFTools Utility: Crafter, Screens and Teleport ===---|Crafter tiers, screens and modules, redstone logic, matter teleporters and player modules.|Next: builders, storage and dimensions.::1
+Craft an RFTools Crafter Mk II::0
+Craft an RFTools Crafter Mk III::0
+Craft a Screen Controller::0
+Craft an Energy Module::0
+Craft a Text Module::0
+Craft an Inventory Module::0
+Craft a Clock Module::0
+Craft an RFTools Tank::0
+Craft an RFTools Information Screen::0
+Craft a Sensor::0
+Craft a Timer::0
+Craft a Sequencer::0
+Craft a Logic Block::0
+Craft a Counter::0
+Craft a Redstone Transmitter::0
+Craft a Redstone Receiver::0
+Craft a Matter Transmitter::0
+Craft a Matter Receiver::0
+Craft a Dialing Device::0
+Craft a Matter Booster::0
+Craft a Charged Porter::0
+Craft a Module Template::0
+Craft a Syringe::0
+Craft a Speed Module::0
+Craft a Regeneration Module::0
+Craft an Environmental Controller::0
+::1
+---=== RFTools Builder: Shapes and Quarries ===---|Shape Cards, Scanner, Composer, Projector, shields, quarries and movers.|Next: dimensions.::1
+Craft a Shape Card::0
+Craft a Quarry Card::0
+Craft a Silk Touch Quarry Card::0
+Craft a Pump Card::0
+Craft an RFTools Scanner::0
+Craft an RFTools Composer::0
+Craft an RFTools Projector::0
+Craft an RFTools Shield Block::0
+Craft an RFTools Mover::0
+Craft a Space Chamber::0
+::1
+---=== RFTools Storage ===---|Modular storage, scanner and the Crafting Manager.|Next: control and dimensions.::1
+Craft a Storage Module::0
+Craft a Storage Control Module::0
+Craft a Storage Scanner::0
+Craft a Dump Module::0
+::1
+---=== RFTools Control: Processors ===---|Programmers, cards and a Processor you can program.|Next: dimensions.::1
+Craft a Programmer::0
+Craft a CPU Core::0
+Craft a RAM Chip::0
+Craft a Network Card::0
+Craft a Graphics Card::0
+Craft a Console Module::0
+Craft a Network Node::0
+Craft an RFTools Control Workbench::0
+Craft an RFTools Crafting Station::0
+::1
+---=== RFTools Dimensions: Dimlets and Machines ===---|Machines for crafting a dimension: shards, dimlets, workbenches and monitors.|Mastery: build and visit a dimension.::1
+Craft a Dimlet Workbench::0
+Craft an Enscriber::0
+Craft a Knowledge Holder::0
+Craft a Researcher::0
+Craft a Dimension Editor::0
+Craft an Empty Dimension Tab::0
+Craft a Biome Absorber::0
+Craft a Block Absorber::0
+Craft a Dimension Monitor::0
+Craft a Phased Field Generator::0
+Craft a Dimensional Block::0
+::1
+---=== Create: Kinetics and Workshop ===---|Andesite casing, gearing, mills, drills, saws and the first contraption parts.|Next: brass, electron tubes, contraptions, fluids and logistics.::1
+Apply Andesite Alloy to a stripped log for Andesite Casing::0
+Craft a Wrench::0
+Craft a Large Cogwheel::0
+Craft a Hand Crank::0
+Craft a Gearbox::0
+Craft a Clutch::0
+Craft a Gearshift::0
+Craft a Millstone::0
+Craft a Large Water Wheel::0
+Craft a Mechanical Drill::0
+Craft Crushing Wheels::0
+Press an Iron Sheet::0
+Press a Copper Sheet::0
+Craft Goggles::0
+Craft Super Glue::0
+Craft a Depot::0
+Craft a Chute::0
+Craft an Andesite Funnel::0
+Craft a Mechanical Saw::0
+Craft a Mechanical Harvester::0
+Craft a Mechanical Plough::0
+Craft a Basin::0
+Crush Raw Iron into Crushed Raw Iron::0
+Mill Wheat into Flour::0
+Make Dough::0
+Apply Copper to a stripped log for Copper Casing::0
+Craft a Fluid Pipe::0
+Place a Spout::0
+Place an Item Drain::0
+Craft a Mechanical Pump::0
+Craft a Create Fluid Tank::0
+Smelt a Zinc Ingot::0
+Apply Brass to a stripped log for Brass Casing::0
+Press a Brass Sheet::0
+Craft a Rose Quartz::0
+Polish a Rose Quartz::0
+Craft an Electron Tube::0
+Craft a Brass Hand::0
+Craft a Deployer::0
+Craft a Brass Funnel::0
+Craft a Brass Tunnel::0
+Craft a Mechanical Crafter::0
+Craft a Sequenced Gearshift::0
+Craft a Transmitter::0
+Craft a Redstone Link::0
+Craft a Linked Controller::0
+Craft a Display Link::0
+Craft a Mechanical Bearing::0
+Craft a Mechanical Piston::0
+Craft a Rope Pulley::0
+Craft a Linear Chassis::0
+Craft a Radial Chassis::0
+Craft a Sticker::0
+Craft a Cart Assembler::0
+Craft a Clockwork Bearing::0
+Craft a Mechanical Arm::0
+Craft a Rotation Speed Controller::0
+Craft an Item Vault::0
+Craft a Packager::0
+Craft a Stock Link::0
+Craft a Stock Ticker::0
+Craft a Package Frogport::0
+Craft a Redstone Requester::0
+Craft a Factory Gauge::0
+Craft a Schematic Table::0
+Craft a Schematicannon::0
+Craft a Copper Backtank::0
+Craft a Copper Diving Helmet::0
+Craft an Extendo Grip::0
+Craft a Potato Cannon::0
+Craft a Wand of Symmetry::0
+Craft a Railway Casing::0
+Craft a Track Station::0
+Craft Train Controls::0
+Craft a Steam Engine::0
+::1
+---=== Refined Storage: Parts and Network ===---|Silicon, Quartz Enriched Iron, processors, cores, casings, cables and storage parts.|Next: Controller, Grid and disks, then autocrafting.::1
+Smelt Silicon::0
+Craft Quartz Enriched Iron::0
+Craft Quartz Enriched Copper::0
+Craft a Processor Binding::0
+Make a Basic Processor::0
+Make an Improved Processor::0
+Make an Advanced Processor::0
+Craft a Machine Casing::0
+Craft a Construction Core::0
+Craft a Destruction Core::0
+Craft a Network Cable::0
+Craft a Storage Housing::0
+Craft a 1k Storage Part::0
+Craft a Refined Storage Wrench::0
+Craft a Grid::0
+Craft a 1k Storage Disk::0
+Craft a 4k Storage Disk::0
+Craft a 16k Storage Disk::0
+Craft a 64k Storage Disk::0
+Craft a 64B Fluid Storage Disk::0
+Craft a 256B Fluid Storage Disk::0
+Craft an Importer::0
+Craft an Exporter::0
+Craft an Interface::0
+Craft an External Storage::0
+Craft a Constructor::0
+Craft a Destructor::0
+Craft a Speed Upgrade (Refined Storage)::0
+Craft a Stack Upgrade::0
+Craft a Silk Touch Upgrade (Refined Storage)::0
+Craft a Storage Monitor::0
+Craft a Detector::0
+Craft a Disk Interface::0
+Craft a Crafting Grid::0
+Craft a Pattern (Refined Storage)::0
+Craft an Autocrafting Upgrade::0
+Craft an Autocrafter Manager::0
+Craft an Autocrafting Monitor::0
+Craft a Relay::0
+Craft a Wireless Transmitter::0
+Craft a Wireless Grid::0
+Craft a Portable Grid::0
+Craft a Network Card (Refined Storage)::0
+Craft a Security Manager::0
+Craft a Network Transmitter::0
+Craft a Network Receiver::0
+::1
+---=== Extra Utilities: Crystals and Generators ===---|The Glass Cutter, Ender Shard, Resonating Redstone Crystal, Machine Block and every generator.|Next: mills, upgrades, rings and the Dragon Egg Mill.::1
+Craft a Glass Cutter::0
+Craft an Ender Shard::0
+Craft a Resonating Redstone Crystal::0
+Craft a Machine Block::0
+Craft a Redstone Gear::0
+Craft a Resonator::0
+Make Burnt Stone in the Resonator::0
+Craft a Furnace Generator::0
+Craft a Manual Mill::0
+Craft a Water Mill::0
+Craft a Culinary Generator::0
+Craft an Explosive Generator::0
+Craft an Overclocked Generator::0
+Craft a Slimey Generator::0
+Craft a Disenchantment Generator::0
+Craft Gilded Obsidian::0
+Craft an Ender Generator::0
+Craft an Iron Sickle::0
+Craft a Crusher::0
+Craft an Upgrade Base (Extra Utilities)::0
+Craft a Speed Upgrade (Extra Utilities)::0
+Craft a Stone Drum::0
+Craft an Iron Drum::0
+Craft a Wireless Battery::0
+Craft an Enchanter (Extra Utilities)::0
+Craft a Magical Nugget::0
+Craft an Enchanted Ingot::0
+Craft an Electric Furnace::0
+Craft a Magical Speed Upgrade::0
+Craft a Drop of Evil::0
+Craft an Evil Infused Ingot::0
+Craft an Ultimate Speed Upgrade::0
+Craft a Golden Lasso::0
+Craft a Cursed Lasso::0
+Craft a Bag of Holding::0
+Craft a Chicken Ring::0
+Craft a Squid Ring::0
+Craft an Angel Ring::0
+Craft a Diamond Spike::0
+Craft a Chunk Loading Ward::0
+Craft Compressed Cobblestone::0
+Craft Triple Compressed Cobblestone::0
+Craft Sextuple Compressed Cobblestone::0
+::1
+---=== The Aether: Materials and Gear ===---|Skyroot, Holystone, Ambrosium, Zanite and Gravitite tools, armor, accessories, moas and dungeon loot.|Next: the three dungeons and their bosses.::1
+Craft Skyroot Sticks::0
+Craft a Skyroot Sword::0
+Craft a Skyroot Bucket::0
+Craft Holystone Tools::0
+Mine Ambrosium::0
+Craft an Ambrosium Torch::0
+Craft a Cloud Parachute::0
+Craft an Aether Incubator::0
+Craft an Aether Freezer::0
+Collect a Blue Moa Egg::0
+Craft a Zanite Pickaxe::0
+Craft a Zanite Sword::0
+Craft Zanite Armor::0
+Craft a Zanite Ring::0
+Craft a Zanite Pendant::0
+Craft an Ice Ring::0
+Craft Aether Gloves::0
+Craft a Nature Staff::0
+Craft a Gravitite Pickaxe::0
+Craft a Gravitite Sword::0
+Craft Gravitite Armor::0
+Craft Gravitite Gloves::0
+Collect a Bronze Dungeon Key::0
+Collect a Silver Dungeon Key::0
+Collect a Gold Dungeon Key::0
+Earn a Victory Medal::0
+Find a Flaming Sword::0
+Find a Holy Sword::0
+Find a Lightning Sword::0
+Find a Vampire Blade::0
+Find a Phoenix Bow::0
+Find a Valkyrie Lance::0
+Find Valkyrie Armor::0
+Find Phoenix Armor::0
+Find Neptune Armor::0
+Find Sentry Boots::0
+Find a Shield of Repulsion::0
+Find a Regeneration Stone::0
+Find a Life Shard::0
+Find a Cloud Staff::0
+Find a Golden Feather::0
+Find an Invisibility Cloak::0
+::1
+---=== Twilight Forest: Exploring and Gear ===---|Structures, food, ironwood and steeleaf, scepters, armor and every boss branch.|Next: finish the Final Castle.::1
+Find a Hollow Hill::0
+Cook Venison::0
+Visit a Hedge Maze::0
+Visit the Quest Grove::0
+Visit a Mushroom Tower::0
+Craft an Uncrafting Table::0
+Craft a Magic Map::0
+Craft Ironwood Tools::0
+Craft Ironwood Armor::0
+Craft Steeleaf Tools::0
+Craft Steeleaf Armor::0
+Craft a Naga Chestplate::0
+Craft Naga Leggings::0
+Craft a Twilight Scepter::0
+Craft a Lifedrain Scepter::0
+Craft a Zombie Scepter::0
+Craft a Fortification Scepter::0
+Eat Raw Meef::0
+Eat Cooked Meef::0
+Craft a Gold Minotaur Axe::0
+Craft a Diamond Minotaur Axe::0
+Craft a Maze Map::0
+Craft an Ore Map::0
+Craft an Ore Meter::0
+Craft an Ore Magnet::0
+Craft a Crumble Horn::0
+Craft a Peacock Feather Fan::0
+Craft a Moonworm Queen::0
+Get Hydra Chops::0
+Collect Fiery Blood::0
+Collect Fiery Tears::0
+Craft Fiery Tools::0
+Craft Fiery Armor::0
+Visit the Knight Stronghold::0
+Collect Armor Shards::0
+Collect a Knightmetal Ingot::0
+Craft Knightmetal Tools::0
+Craft Knightmetal Armor::0
+Craft a Knightmetal Ring::0
+Craft a Block and Chain::0
+Craft a Giant Pickaxe::0
+Craft a Giant Sword::0
+Visit the Dark Tower::0
+Collect a Tower Key::0
+Craft a Cube of Annihilation::0
+Craft a Seeker Bow::0
+Craft a Triple Bow::0
+Visit the Yeti Cave::0
+Craft Arctic Armor::0
+Craft Yeti Armor::0
+Visit the Aurora Palace::0
+Craft a Glass Sword::0
+Visit the Troll Caves::0
+Craft an Ender Bow::0
+Craft Traveller's Gear::0
+Visit the Final Castle::0
+::1
+---=== Industrial Foregoing: Plastic and Machines ===---|Gears, the Pity frame, latex, plastic, farms, the Dissolution Chamber, lasers and Infinity tools.|Mastery: Infinity tools.::1
+Craft a Gold Gear::0
+Craft a Diamond Gear::0
+Craft a Pity Machine Frame::0
+Craft a Fluid Extractor::0
+Craft a Latex Processing Unit::0
+Make Dry Rubber::0
+Craft a Pitiful Generator::0
+Craft a Biofuel Generator::0
+Craft a Bioreactor::0
+Craft a Sludge Refiner::0
+Craft a Plant Sower::0
+Craft a Mob Slaughter Factory::0
+Craft a Mob Imprisonment Tool::0
+Craft a Dissolution Chamber::0
+Make a Simple Machine Frame::0
+Craft a Plant Fertilizer::0
+Craft a Fermentation Station::0
+Craft a Laser Drill::0
+Make Pink Slime::0
+Make a Pink Slime Ingot::0
+Make an Advanced Machine Frame::0
+Craft a Mob Crusher::0
+Craft an Enchantment Extractor::0
+Make a Supreme Machine Frame::0
+Craft a Speed Addon::0
+Craft an Infinity Backpack::0
+Craft an Infinity Drill::0
+::1
+---=== Psi: Psimetal and the CAD ===---|Psi Dust, Psimetal and Psigem by trick crafting, the CAD parts, spell bullets and Exosuit.|Mastery: Ebony and Ivory Psimetal.::1
+Collect Psi Dust::0
+Craft a CAD Assembler::0
+Craft a Spell Programmer::0
+Craft a CAD Assembly::0
+Craft a CAD Core::0
+Craft a CAD Socket::0
+Craft a CAD Battery::0
+Assemble a CAD::0
+Craft a Spell Bullet::0
+Make Psimetal::0
+Make Psigem::0
+Craft a Gold CAD Assembly::0
+Craft a Psimetal CAD Assembly::0
+Craft an Overclocked CAD Core::0
+Craft a Conductive CAD Core::0
+Craft a Hyperclocked CAD Core::0
+Craft a Radiative CAD Core::0
+Craft a Large CAD Socket::0
+Craft an Extended CAD Battery::0
+Craft a CAD Colorizer::0
+Craft a Projectile Spell Bullet::0
+Craft a Loopcast Spell Bullet::0
+Craft a Circle Spell Bullet::0
+Craft a Grenade Spell Bullet::0
+Craft a Charge Spell Bullet::0
+Craft a Mine Spell Bullet::0
+Craft a Spell Drive::0
+Craft a Vector Ruler::0
+Craft a Detonator::0
+Craft Psimetal Tools::0
+Craft Psimetal Exosuit::0
+Craft an Exosuit Controller::0
+Craft an Exosuit Light Sensor::0
+Craft Psimetal Plates::0
+Make Ebony Substance::0
+Make Ivory Substance::0
+Make Ebony Psimetal::0
+Make Ivory Psimetal::0
+Craft a Flash Ring::0
+::1
+---=== Roots: Runestone, Rituals and Herbs ===---|Wild roots, runestone, mortar, pyre, grove crafter, staff, spells, pouches, fey and Silver.|Next: rituals and the Grove.::1
+Collect Wildroot::0
+Craft Runestone::0
+Craft a Fire Starter::0
+Craft a Gramary::0
+Craft a Runestone Brick::0
+Craft a Ritual Pedestal::0
+Craft a Grove Pedestal::0
+Craft a Herb Pouch::0
+Grind Runic Dust::0
+Grind Flour::0
+Brew Apple Cordial::0
+Craft a Wildroot Stew::0
+Craft Thatch::0
+Gather Cloud Berries::0
+Brew Moonglow::0
+Craft Elemental Soil::0
+Craft Living Tools::0
+Craft a Primal Grove Stone::0
+Craft a Silver Knife::0
+Craft a Component Pouch::0
+Craft an Apothecary Pouch::0
+Craft Beetle Armor::0
+Transmute Gold into Silver::0
+::1
+---=== Extreme Reactors: Reactors and Turbines ===---|Graphite, casings, fuel and control rods, power taps, then reinforced reactors and turbines.|Mastery: a maximum-size reactor.::1
+Make a Graphite Ingot::0
+Craft a Reactor Casing::0
+Craft Reactor Glass::0
+Craft a Reactor Fuel Rod::0
+Craft a Reactor Control Rod::0
+Craft a Reactor Controller::0
+Craft a Passive Power Tap::0
+Craft a Reinforced Reactor Casing::0
+Craft a Reinforced Reactor Controller::0
+Craft an Active Fluid Port::0
+Make a Cyanite Ingot::0
+Craft a Turbine Casing::0
+Craft a Turbine Rotor Shaft::0
+Craft a Turbine Rotor Blade::0
+Craft a Turbine Rotor Bearing::0
+Craft a Turbine Controller::0
+Make a Blutonium Ingot::0
+::1
+---=== Mob Grinding Utils ===---|Fans, tanks, spikes, saws, the absorption hopper, XP and spawners.|Next: bigger mob farms.::1
+Craft a Mob Grinding Fan::0
+Craft a Mob Grinding Tank::0
+Craft Spikes::0
+Craft an Absorption Hopper::0
+Craft an XP Tap::0
+Craft a Jumbo Tank::0
+Craft an Entity Conveyor::0
+Craft an XP Solidifier (Mob Grinding Utils)::0
+Craft an Ender Inhibitor::0
+Craft a Wither Muffler::0
+Craft an Entity Spawner::0
+Craft a Mob Swab::0
+::1
+---=== Dark Utilities ===---|Plates that push, hurt and slow things, filters, charms and the Redstone Randomizer.|Next: bigger farms.::1
+Craft an Anchor Plate::0
+Craft a Levitation Plate::0
+Craft a Hostile Filter::0
+Craft a Charm of Pride::0
+::1
+---=== Solar Flux ===---|Mirrors, cells, panels of every tier and upgrades.|Mastery: Dragon Egg panels.::1
+Craft a Mirror::0
+Craft a Photovoltaic Cell::0
+Craft a Solar Panel Tier 2::0
+Craft a Solar Panel Tier 3::0
+Craft an Efficiency Upgrade::0
+Craft a Furnace Upgrade::0
+::1
+---=== Flux Networks ===---|Flux Dust, cores, plugs and points.|Next: big storages.::1
+Smelt Flux Dust::0
+Craft a Flux Core::0
+Craft a Flux Plug::0
+Craft a Flux Point::0
+Craft a Basic Flux Storage::0
+Craft a Flux Configurator::0
+::1
+---=== Chickens ===---|Analyzer, catcher, henhouses, incubator, upgrades and converters.|Mastery: 20 different chickens.::1
+Craft a Chicken Analyzer::0
+Craft a Chicken Catcher::0
+Craft a Henhouse::0
+Craft a Chicken Incubator::0
+::1
+---=== Integrated Dynamics ===---|Menril, cables, variables, readers and writers.|Next: Integrated Tunnels.::1
+Find a Menril Log::0
+Craft a Drying Basin::0
+Craft a Crystalized Menril Chunk::0
+Craft an Integrated Dynamics Wrench::0
+Craft a Variable Store::0
+Craft a Variable::0
+Craft a Block Reader::0
+Craft an Inventory Reader::0
+Craft a Redstone Writer::0
+::1
+---=== Integrated Tunnels ===---|Items, fluids, energy and world interaction by cable.|Next: automate more.::1
+Craft a Fluid Importer::0
+Craft an Energy Exporter::0
+Craft a World Block Importer::0
+Craft a Player Simulator::0
+::1
+---=== Iron Chests ===---|Upgrade chests from copper all the way to crystal.|Next: Colossal Chests.::1
+Craft a Copper Chest::0
+Craft an Iron Chest::0
+Craft a Gold Chest::0
+Craft a Diamond Chest::0
+Craft a Crystal Chest::0
+::1
+---=== Colossal Chests ===---|Copper to Netherite walls, interfaces and the upgrade tool.|Mastery: a 16x16x16 chest.::1
+Craft a Colossal Chest Upgrade Tool::0
+Craft a Copper Colossal Chest::0
+Craft a Copper Chest Interface::0
+Craft a Colossal Chest Netherite wall::0
+::1
+---=== Storage Drawers ===---|Controller, keys, upgrades and compacting drawers.|Next: bigger storage.::1
+Craft a Drawer Controller::0
+Craft a Drawer Key::0
+Craft a Compacting Drawer::0
+Craft a Void Upgrade::0
+Craft a Hopper Upgrade::0
+Craft a Drawer Magnet Upgrade::0
+::1
+---=== Sophisticated Backpacks ===---|Upgrades and stack tiers.|Mastery: Netherite backpack.::1
+Craft a Pickup Upgrade::0
+Craft a Filter Upgrade::0
+Craft a Feeding Upgrade::0
+Craft a Smelting Upgrade::0
+Craft a Crafting Upgrade::0
+Craft a Stack Upgrade (Sophisticated Backpacks)::0
+Craft a Tank Upgrade::0
+::1
+---=== Sophisticated Storage ===---|Chests, barrels, controllers and upgrades.|Next: networked storage.::1
+Craft a Storage Controller::0
+Craft a Storage Link::0
+Craft a Storage Pickup Upgrade::0
+Craft a Compression Upgrade::0
+Craft a Storage Stack Upgrade::0
+::1
+---=== Cooking for Blockheads ===---|The kitchen: counter, sink, fridge, oven and toaster.|Next: Pam's harvest food.::1
+Craft a Cooking Counter::0
+Craft a Sink::0
+Craft a Cabinet::0
+Craft a Toaster::0
+Craft a Milk Jar::0
+::1
+---=== Farming for Blockheads ===---|Market, troughs and fertilizers.|Next: bigger crops.::1
+Craft a Feeding Trough::0
+Craft a Chicken Nest::0
+Craft Green Fertilizer::0
+::1
+---=== Steve's Carts ===---|Assembling carts and their components.|Mastery: full cart.::1
+Craft Reinforced Metal::0
+Craft a Cargo Manager::0
+Craft a Liquid Manager::0
+Craft a Cart Distributor::0
+Craft a Cart Activator::0
+::1
+---=== Random Things ===---|Collectors, detectors, spectre items, ender gear.|Next: more gadgets.::1
+Craft an Advanced Item Collector::0
+Craft a Block Breaker::0
+Craft a Peace Candle::0
+Craft a Biome Radar::0
+Craft a Floo Powder::0
+Craft an Ender Bucket::0
+::1
+---=== Natura ===---|Berries, barley, cotton, nether trees and tools.|Next: nether farms.::1
+Grow Barley::0
+Grow Cotton::0
+Eat a Raspberry::0
+Eat a Blueberry::0
+Craft Ghostwood Tools::0
+Craft Bloodwood Tools::0
+Craft Darkwood Tools::0
+Craft Fusewood Tools::0
+Craft Imp Armor::0
+::1
+---=== Ender Storage ===---|Ender Chests and Ender Tanks.|Next: translocators.::1
+Craft an Ender Tank::0
+::1
+---=== Translocators ===---|Item and fluid translocators.|Next: pipes.::1
+Craft a Fluid Translocator::0
+::1
+---=== Minecraft: Milestones ===---|Chest, boat, bow, books, maps, bees, Nether and End ingredients, and rare finds.|Next: continue with your mods.::1
+Craft a Chest::0
+Craft a Wooden Pickaxe::0
+Cook some food in a Furnace::0
+Craft a Bow and Arrows::0
+Craft a Piston::0
+Craft a Hopper::0
+Craft a Compass::0
+Craft a Map::0
+Craft a Diamond Sword::0
+Craft Diamond Armor::0
+Craft a Book::0
+Craft a Bookshelf::0
+Craft a Grindstone::0
+Craft a Composter::0
+Collect Honeycomb::0
+Craft a Beehive::0
+Find Nether Wart::0
+Mine Ancient Debris::0
+Collect Soul Sand::0
+Collect Glowstone::0
+Collect Quartz::0
+Find a Ghast Tear::0
+Collect a Wither Skeleton Skull::0
+Craft an Eye of Ender::0
+Craft an Ender Chest::0
+Brew a Potion of Healing::0
+Brew a Potion of Strength::0
+Brew a Potion of Night Vision::0
+Wear Golden Armor::0
+Craft a Respawn Anchor::0
+Craft a Recovery Compass::0
+Collect a Shulker Shell::0
+Eat Chorus Fruit::0
+Craft an End Crystal::0
+Pick up a Totem of Undying::0
+Find a Trident::0
+Craft a Conduit::0
+Upgrade to a Netherite Pickaxe::0
+Craft a Lodestone::0
+Wear Netherite Armor::0
+Craft a Speed Upgrade for chickens::0
+Craft an Avian Flux Converter::0
+Craft a Redstone Randomizer::0
+::1
+---=== Iron Jetpacks ===---|Straps, coils, cells, thrusters and capacitors build a jetpack of any tier.|Next: fly.::1
+Craft a Jetpack Strap::0
+Craft a Basic Coil (Iron Jetpacks)::0
+Craft a Jetpack Cell::0
+Craft a Jetpack Thruster::0
+Craft a Jetpack Capacitor::0
+Craft an Elite Coil::0
+::1
+---=== ComputerCraft ===---|Computers, monitors, disk drives, modems and turtles.|Next: build bigger networks.::1
+Craft an Advanced Computer::0
+Craft a Monitor::0
+Craft a Disk Drive::0
+Craft a Printer::0
+Craft a Wireless Modem::0
+Craft a Speaker::0
+Craft a Pocket Computer::0
+Craft an Advanced Turtle::0
+::1
+---=== OpenComputers II ===---|Transistors, circuit boards, CPUs, memory and a computer you can type into.|Next: robots.::1
+Craft a Transistor::0
+Craft a Circuit Board::0
+Craft a CPU::0
+Craft Memory::0
+Craft a Hard Drive::0
+Craft a Keyboard::0
+Craft a Network Hub::0
+Craft a Redstone Interface::0
+Craft a Robot::0
+::1
+---=== Chisels & Bits ===---|Chisels, bags, tables and printers.|Next: bigger builds.::1
+Craft a Stone Chisel::0
+Craft a Bit Bag::0
+Craft a Modification Table::0
+Craft a Measuring Tape::0
+Craft a Chiseled Printer::0
+::1
+---=== Torchmaster ===---|Mega Torch, Dreadlamp and the Feral Flare Lantern.|Next: bigger safe zones.::1
+Craft a Dreadlamp::0
+Craft a Feral Flare Lantern::0
+Craft a Frozen Pearl::0
+::1
+---=== Construction Sticks ===---|Wooden to Netherite sticks and their templates.|Mastery: unbreakable Netherite stick.::1
+Craft a Wooden Construction Stick::0
+Craft an Iron Construction Stick::0
+Craft a Diamond Construction Stick::0
+Craft an Angel Template::0
+::1
+---=== Scannable ===---|Scanner, blank modules and the ore, entity and fluid modules.|Next: more modules.::1
+Craft a Blank Module::0
+Craft a Range Module::0
+Craft an Entity Module::0
+Craft a Fluid Module::0
+Craft a Chest Module::0
+::1
+---=== Fairy Lights ===---|Garlands, tinsel, bunting and lights.|Next: decorate.::1
+Craft a Garland::0
+Craft Tinsel::0
+Craft Pennant Bunting::0
+Craft Letter Bunting::0
+::1
+---=== Platforms ===---|Platformer and wrench.|Next: build.::1
+Craft a Platform Wrench::0
+::1
+---=== Apple Shields ===---|Red, golden and pie shields.|Next: defend.::1
+Craft a Golden Apple Shield::0
+Craft an Apple Pie Shield::0
+::1
 ---=== Your World, Your Mastery ===---|Full completion includes every age and every module branch in this book. Optional stretch goals mark mastery beyond the practical route.::1
 Complete every challenge in this book::0
 ::1
