@@ -26,7 +26,7 @@
 	#Inverts the tool blacklist to function as a whitelist [default: false]
 	"Invert Tool Blacklist" = false
 	#Inverts the block blacklist to function as a whitelist [default: false]
-	"Invert Block Blacklist" = false
+	"Invert Block Blacklist" = true
 	#Ignores whether or not the held tool is valid [default: false, SF3: true]
 	"Ignore Tool" = true
 	#Use alternate check for tool validity (e.g. swords on webs) [default: false]
@@ -50,4 +50,4 @@
 	#Tools blacklisted from excavating (ids like mod:item, #mod:tag, or * for everything) [default: ]
 	"Tool Blacklist" = ["excompressum:chicken_stick", "excompressum:compressed_hammer_wood", "excompressum:compressed_hammer_stone", "excompressum:compressed_hammer_iron", "excompressum:compressed_hammer_gold", "excompressum:compressed_hammer_diamond", "excompressum:double_compressed_diamond_hammer", "draconicevolution:draconic_pick", "draconicevolution:wyvern_shovel", "draconicevolution:draconic_shovel", "draconicevolution:draconic_staff_of_power", "draconicevolution:draconic_axe", "draconicevolution:wyvern_axe", "draconicevolution:draconic_hoe"]
 	#Blocks blacklisted from being excavated [default: ]
-	"Block Blacklist" = []
+	"Block Blacklist" = ["#c:ores"]
