@@ -5,7 +5,7 @@
   "customOffsetX": 0,
   "customOffsetY": 0,
   "viewAngle": 90.0,
-  "showCoordinates": true,
+  "showCoordinates": false,
   "elementsOnXpBar": true,
   "coordinatesFormat": "XYZ",
   "showDays": false,

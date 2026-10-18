@@ -64,3 +64,5 @@ key_simplyjetpacks.keybind.emergencyhover:key.keyboard.n
 key_simplyjetpacks.keybind.engine:key.keyboard.y
 key_simplyjetpacks.keybind.hover:key.keyboard.u
 key_simulated.keyinfo.rotate_mode:key.keyboard.keypad.0
+key_justzoom.keybinds.keybind.zoom:key.keyboard.c
+key_justzoom.keybinds.keybind.open_options:key.keyboard.unknown

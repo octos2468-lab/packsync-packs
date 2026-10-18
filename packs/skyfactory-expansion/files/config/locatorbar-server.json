@@ -1,6 +1,6 @@
 {
   "style": "REWORKED",
-  "showCoordinates": true,
+  "showCoordinates": false,
   "showDays": false,
   "showWorldDirections": true,
   "playerMarkerType": "HEADS",

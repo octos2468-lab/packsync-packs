@@ -1,0 +1,53 @@
+[general]
+	#The maximum number of blocks that can be excavated at once [default: 128, SF3: 9999]
+	# Default: 9999
+	# Range: > 1
+	Limit = 9999
+	#How many blocks per tick can be excavated [default: 64, SF3: 75]
+	# Default: 75
+	# Range: > 1
+	Speed = 75
+	#How far from the origin an excavation can travel [default: 16, SF3: 750]
+	# Default: 750
+	# Range: > 1
+	Range = 750
+	#Amount of exhaustion per block excavated [default: 0.1]
+	# Default: 0.1
+	# Range: 0.0 ~ 3.4028234663852886E38
+	Exaustion = 0.1
+	#Experience cost per block excavated [default: 0]
+	# Default: 0
+	# Range: > 0
+	Experience = 0
+	#Allow excavation with an open hand [default: true, SF3: false]
+	"Open Hand" = false
+	#Allows players to cancel excavation by releasing the keys [default: true]
+	"Must Hold" = true
+	#Inverts the tool blacklist to function as a whitelist [default: false]
+	"Invert Tool Blacklist" = false
+	#Inverts the block blacklist to function as a whitelist [default: false]
+	"Invert Block Blacklist" = false
+	#Ignores whether or not the held tool is valid [default: false, SF3: true]
+	"Ignore Tool" = true
+	#Use alternate check for tool validity (e.g. swords on webs) [default: false]
+	"Alt Tools" = false
+	#Limit excavation to standard tool types (Picks, Shovels, Axes & Shears) [default: false]
+	"Only Standard Types" = false
+	#Excavation mode (-1 Disabled, 0 = Keybind, 1 = Sneak, 2 = Always) [default: 0]
+	# Default: 0
+	# Range: -1 ~ 3
+	Mode = 3
+	#Temporarily reduces excavation speed if TPS begins to slow down [default: true]
+	"TPS Guard" = true
+	#Skips spawning drops in world adding them directly to your inventory [default: false]
+	"Auto Pickup" = false
+	#Allow players to use shape mining [default: true]
+	"Allow Shapes" = true
+	#How many excavations should be kept in undo history (may lead to exploits or instability) [default: 0, SF3: 3]
+	# Default: 3
+	# Range: > 0
+	"Max Undos" = 3
+	#Tools blacklisted from excavating (ids like mod:item, #mod:tag, or * for everything) [default: ]
+	"Tool Blacklist" = ["excompressum:chicken_stick", "excompressum:compressed_hammer_wood", "excompressum:compressed_hammer_stone", "excompressum:compressed_hammer_iron", "excompressum:compressed_hammer_gold", "excompressum:compressed_hammer_diamond", "excompressum:double_compressed_diamond_hammer", "draconicevolution:draconic_pick", "draconicevolution:wyvern_shovel", "draconicevolution:draconic_shovel", "draconicevolution:draconic_staff_of_power", "draconicevolution:draconic_axe", "draconicevolution:wyvern_axe", "draconicevolution:draconic_hoe"]
+	#Blocks blacklisted from being excavated [default: ]
+	"Block Blacklist" = []
