@@ -1,0 +1,24 @@
+#Block tutorial toasts
+blockTutorial = true
+#Block recipe toasts
+blockRecipe = true
+#Block advancement toasts
+blockAdvancement = true
+#This will block all system toasts regardless of the individual options below
+blockAllSystemToasts = true
+#List of toast classes added by mods to block (pack: every mod toast found in the client jars, 2026-10-18)
+blockedClasses = ["blusunrize.immersiveengineering.client.gui.elements.ManualUnlockToast", "vazkii.patchouli.client.base.ClientAdvancements$LexiconToast", "dan200.computercraft.client.gui.ItemToast", "de.keksuccino.fancymenu.util.rendering.ui.toast.SimpleToast", "dev.ftb.mods.ftblibrary.ui.misc.SimpleToast", "dev.latvian.mods.kubejs.client.NotificationToast", "io.wispforest.owo.ui.base.BaseOwoToast", "io.wispforest.owo.ui.util.UIErrorToast", "net.creeperhost.polylib.client.toast.PolyToast", "sf3.extras.guide.client.GuideNotifier$GoalToast", "com.tacz.guns.client.gui.toast.GunLevelUpToast", "twilightforest.client.MissingAdvancementToast", "twilightforest.client.LockedBiomeToast"]
+
+#System toast options
+[systemToasts]
+	blockNarratorToggle = true
+	blockPeriodicNotification = true
+	blockFileDropFailure = true
+	blockLowDiskSpace = true
+	blockPackLoadFailure = true
+	blockPackCopyFailure = true
+	blockChunkLoadFailure = true
+	blockChunkSaveFailure = true
+	blockWorldAccessFailure = true
+	blockWorldBackup = true
+	blockUnsecureServerWarning = true
