@@ -1,9 +1,0 @@
-{
- "multipart": [
-  {
-   "apply": {
-    "model": "rftoolsbuilder:block/invisible_mover"
-   }
-  }
- ]
-}

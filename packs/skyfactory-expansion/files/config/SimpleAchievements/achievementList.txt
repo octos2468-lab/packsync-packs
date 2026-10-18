@@ -1523,6 +1523,245 @@ Craft a Platform Wrench::0
 Craft a Golden Apple Shield::0
 Craft an Apple Pie Shield::0
 ::1
+---=== Extra Utilities 2: Transfer Pipes and Nodes ===---|Transfer pipes, item and fluid nodes, flat nodes, retrieval nodes, filters and upgrades.|Next: the Extra Utilities 2 machines and gear.::1
+Craft Transfer Pipes::0
+Craft an Item Transfer Node::0
+Craft a Fluid Transfer Node::0
+Craft an Item Filter::0
+Craft a Fluid Filter::0
+Craft a Pipe Filter::0
+Craft a Transfer Filter::0
+Anvil an Item Transfer Node into a Flat Node::0
+Anvil a Fluid Transfer Node into a Flat Node::0
+Craft an Item Retrieval Node::0
+Craft a Fluid Retrieval Node::0
+Craft a Stack Upgrade (Extra Utilities 2)::0
+Craft a Mining Upgrade::0
+Craft the Extra Utilities 2 Wrench::0
+Craft a Scanner::0
+Craft a Block User::0
+Craft a Block Miner::0
+Craft a Block Crafter::0
+Craft an Interaction Proxy::0
+::1
+---=== Extra Utilities 2: Blocks ===---|Drums, spikes, trash cans, the sound muffler, biome markers and the Quantum Quarry.|Next: Extra Utilities 2 gear.::1
+Craft an XU2 Stone Drum::0
+Craft an XU2 Iron Drum::0
+Craft a Reinforced Large Drum::0
+Craft a Wooden Spike::0
+Craft an XU2 Stone Spike::0
+Craft an XU2 Iron Spike::0
+Craft a Golden Spike::0
+Craft an XU2 Diamond Spike::0
+Craft an XU2 Trash Can::0
+Craft a Fluid Trash Can::0
+Craft an Energy Trash Can::0
+Craft a Sound Muffler::0
+Craft a Biome Marker::0
+Craft a Magical Snow Globe::0
+Craft a Quantum Quarry::0
+Craft a Quantum Quarry Actuator::0
+::1
+---=== Extra Utilities 2: Gear and Generators ===---|Magmatic, redstone and potion generators, magical wood and wands, the Klein Bottle, Unstable Ingots, Opinium cores and Kikoku.|Mastery: Perfected Opinium Core and Kikoku.::1
+Craft a Red Coal::0
+Craft a Magmatic Generator::0
+Craft a Heated Redstone Generator::0
+Craft a Potion Generator::0
+Craft a Klein Bottle::0
+Craft an Unstable Nugget::0
+Craft an Unstable Ingot::0
+Stabilise an Unstable Ingot::0
+Collect Magical Wood::0
+Craft Magical Planks::0
+Craft a Magical Apple::0
+Craft a Builder's Wand::0
+Craft a Destruction Wand::0
+Craft a Boomerang::0
+Craft a Pathetic Opinium Core::0
+Craft a Mediocre Opinium Core::0
+Craft a Passable Opinium Core::0
+Craft a Decent Opinium Core::0
+Craft a Good Opinium Core::0
+Craft a Damn Good Opinium Core::0
+Craft an Amazing Opinium Core::0
+Craft an Inspiring Opinium Core::0
+Craft a Perfected Opinium Core::0
+Craft a Kikoku::0
+Craft a Fire Axe::0
+Craft a Compound Bow::0
+::1
+---=== Hatchery: Chicken Machines ===---|Nets, nests, pens, feather processing, plastic and circuit boards, chicken machines, fertilizer and upgrades.|Mastery: all upgrades.::1
+Craft an Animal Net::0
+Craft a Hatchery Nest::0
+Craft a Chicken Pen::0
+Craft a Shredder::0
+Make Feather Fiber::0
+Make Feather Meal::0
+Make Chicken Feed::0
+Smelt Plastic::0
+Craft a Hatchery Circuit Board::0
+Craft a Chicken Machine::0
+Craft a Chicken Feeder::0
+Craft a Nursery::0
+Craft a Digester Generator::0
+Collect Chicken Manure::0
+Craft Fertilized Dirt (Hatchery)::0
+Craft a Fertilizer Mixer::0
+Craft a Fertilizer Sprayer::0
+Craft a Speed Upgrade I::0
+Craft an RF Upgrade I::0
+Craft an RF Capacity Upgrade I::0
+Craft a Tank Upgrade I::0
+Craft a Tank Upgrade III::0
+Craft a Speed Upgrade II::0
+Craft a Speed Upgrade III::0
+::1
+---=== SF3 Dark Utilities: Wither Dust and Traps ===---|Wither Dust, sneaky blocks, Ender tethers, inverted filters, charms, pearls and decorative chests.|Next: bigger mob farms.::1
+Make Wither Dust::0
+Craft Dark Sugar::0
+Craft Dwindle Cream::0
+Craft Anti-Slime::0
+Craft a Sneaky Block::0
+Craft a Sneaky Lever::0
+Craft a Sneaky Pressure Plate::0
+Craft a Sneaky Torch::0
+Craft a Wither Dust Block::0
+Craft Wither Dust Bricks::0
+Craft an Unstable Pearl::0
+Craft an Ender Tether::0
+Craft an Ender Hopper::0
+Craft a Charm of Null::0
+Craft a Charm of Aggression::0
+Craft a Boss Filter::0
+Craft an Inverted Monster Filter::0
+Craft an Inverted Animal Filter::0
+Craft an Inverted Player Filter::0
+Craft a Timer (SF3 Dark Utilities)::0
+Craft an Update Detector::0
+Craft an Item Grate::0
+Craft a Fake TNT::0
+Craft a Glass Chest::0
+Craft a Sandstone Chest::0
+Craft a Jungle Chest::0
+Craft a Glacial Chest::0
+Craft a Royal Chest::0
+Craft a Charm of the Portal::0
+Craft a Focus Sash::0
+::1
+---=== Chipped and Rechiseled: Workbenches and Chisels ===---|The Chipped workbenches and tools, the Rechiseled chisel and the Create chisel.|Next: decorate with the new blocks.::1
+Craft a Mason's Table::0
+Craft a Carpenter's Table::0
+Craft a Botanist's Workbench::0
+Craft a Loom Table::0
+Craft a Glassblower::0
+Craft a Tinkering Table (Chipped)::0
+Craft a Chipped Chisel::0
+Craft a Chipped Saw::0
+Craft Chipped Needles::0
+Craft a Chipped Watering Can::0
+Craft a Multimeter::0
+Shape a Chipped brick variant::0
+Craft a Rechiseled Chisel::0
+Craft a Mechanical Chisel::0
+Craft an Alchemy Bench::0
+Craft an Alchemy Book::0
+::1
+---=== Tinkers' Tool Leveling ===---|Tools and weapons gain XP as you use them and level up, earning an extra upgrade slot per level.|Mastery: Legendary tools.::1
+Use a Tinkers' tool until it reaches level 2 (Comfortable)::0
+Reach level 3 (Accustomed) with a Tinkers' tool::0
+Reach level 5 (Expert) with a Tinkers' tool::0
+Reach level 7 (Grandmaster) with a Tinkers' tool::0
+Reach level 10 (Godlike) with a Tinkers' tool::0
+Level a mining tool, a weapon and a farming tool::0
+::1
+---=== Extra Disks ===---|Bigger Refined Storage disks, from 256k up to infinite.|Mastery: infinite storage.::1
+Craft an Advanced Storage Housing::0
+Craft an Advanced Machine Casing::0
+Craft a 256k Storage Part::0
+Craft a 256k Storage Disk::0
+Craft a 1,024k Storage Part::0
+Craft a 1,024k Storage Disk::0
+Craft a 256k Storage Block::0
+Craft a 4,096k Storage Disk::0
+Craft a 16,384b Fluid Storage Disk::0
+Craft a Withering Processor::0
+Craft an Infinite Item Storage Part::0
+Craft an Infinite Item Storage Disk::0
+::1
+---=== Mob Heads ===---|A head drops from almost every mob that a player kills.|Mastery: collect them all.::1
+Get a mob head drop::0
+Place a mob head on a note block::0
+Collect 10 different mob heads::0
+Collect heads from the Nether::0
+Collect 50 different mob heads::0
+Collect a boss head::0
+::1
+---=== Tiny Progressions: Bone, Flint and Clay Gear ===---|Flint and bone tools, stone dust, flint and bone armor, apples and medkits.|Next: Iron tools.::1
+Craft a Flint Knife::0
+Grind Stone Dust::0
+Craft a Bone Pickaxe::0
+Craft a Bone Sword::0
+Craft a Bone Axe::0
+Craft a Flint Pickaxe::0
+Craft a Flint Sword::0
+Craft a Flint Axe::0
+Craft a Flint Shovel::0
+Craft a Flint Hoe::0
+Craft Compressed Bone Blocks::0
+Craft Bone Armor::0
+Craft a Compressed Flint Block::0
+Smelt a Flint Ingot::0
+Craft Flint Armor::0
+Craft Mycelium Seeds::0
+Craft a Gold Apple::0
+Craft a Diamond Apple::0
+Craft a Medkit::0
+Craft a Compressed Nether Star Block::0
+::1
+---=== Literal Ascension ===---|Stepladders in every wood, ladders of diamond and emerald, and carving tools.|Next: build high.::1
+Craft an Oak Stepladder::0
+Craft a Cherry Stepladder::0
+Craft a Diamond Stepladder::0
+Craft an Emerald Stepladder::0
+Craft a Fireworks Stepladder::0
+Craft a Wooden Carving Tool::0
+Craft a Stone Carving Tool::0
+Craft an Iron Carving Tool::0
+Craft a Diamond Carving Tool::0
+Craft a Botania Livingwood Stepladder::0
+Craft an Aether Skyroot Stepladder::0
+Craft a Climbing Rope::0
+::1
+---=== Simple Barrels ===---|Wooden barrels with comparator, item frame, vacuum, ender and compressor upgrades.|Next: Quantum storage.::1
+Craft an Oak Simple Barrel::0
+Craft a Vacuum Upgrade::0
+Craft a Comparator Upgrade::0
+Craft an Item Frame Upgrade::0
+Craft a Compressor Upgrade Mark 1::0
+Craft a Compressor Upgrade Mark 2::0
+Craft a Compressor Upgrade Mark 3::0
+Craft a Compressor Upgrade Mark 4::0
+Craft an Ender Upgrade::0
+Craft a Compressor Upgrade Mark 5::0
+::1
+---=== Ceramics: Clay and Porcelain Barrels and Armor ===---|Clay and porcelain barrels in 16 colours, and fired clay armor.|Next: decorate.::1
+Craft a Porcelain Ball::0
+Craft an Unfired Clay Barrel::0
+Fire a Clay Barrel::0
+Fire a Clay Barrel Extension::0
+Dye a Red Clay Barrel::0
+Craft an Unfired Porcelain Barrel::0
+Fire a Porcelain Barrel::0
+Dye a Blue Porcelain Barrel::0
+Craft Unfired Clay Boots::0
+Fire Clay Armor::0
+::1
+---=== Advanced Generators: Turbine Parts ===---|Frames, tubing and wiring, upgrade kits and turbine rotors.|Next: gas and steam turbines.::1
+Craft an Iron Frame::0
+Craft Iron Tubing::0
+Craft Iron Wiring::0
+Craft an Upgrade Kit::0
+::1
 ---=== Your World, Your Mastery ===---|Full completion includes every age and every module branch in this book. Optional stretch goals mark mastery beyond the practical route.::1
 Complete every challenge in this book::0
 ::1

@@ -1,0 +1,40 @@
+#Overworld ring 1 starts this many blocks from the world spawn (Ages 3-4)
+# Default: 1500
+# Range: 0 ~ 100000
+ring1Start = 1500
+#Overworld ring 2 starts here (Ages 5-6)
+# Default: 4000
+# Range: 0 ~ 100000
+ring2Start = 4000
+#Shift thp_loot tiers by ring: ring 0 turns rare into uncommon, far rings and other dimensions upgrade
+lootScaling = true
+#Chance an uncommon chest becomes rare in ring 2
+# Default: 0.5
+# Range: 0.0 ~ 1.0
+uncommonToRareRing2 = 0.5
+#Chance an uncommon chest becomes rare in ring 3 / Twilight / Aether / Nether
+# Default: 0.5
+# Range: 0.0 ~ 1.0
+uncommonToRareRing3 = 0.5
+#Scale Infernal Mobs / Special Mobs chances by ring (needs the hooks in those ports)
+mobScaling = true
+#Mob modifier chance multiplier, ring 0 (near spawn)
+# Default: 0.35
+# Range: 0.0 ~ 10.0
+mobScaleRing0 = 0.35
+# Default: 1.0
+# Range: 0.0 ~ 10.0
+mobScaleRing1 = 1.0
+# Default: 1.6
+# Range: 0.0 ~ 10.0
+mobScaleRing2 = 1.6
+#Twilight Forest, Aether, Nether, End and other dimensions
+# Default: 2.0
+# Range: 0.0 ~ 10.0
+mobScaleDimensions = 2.0
+#Blood Moons only start after a player has entered the Nether
+nyxBloodMoonNeedsNether = true
+#Ring-gated loot tables, "table|minRing|replacementTable": from that ring outwards (other dimensions count as ring 3) the replacement table is rolled instead. Highest satisfied ring wins. Restart to change.
+ringTables = ["cqrepoured:chests/equipment|1|hexxitint:ring/cqrepoured/chests/equipment_1", "cqrepoured:chests/equipment|2|hexxitint:ring/cqrepoured/chests/equipment_2", "cqrepoured:chests/treasure|1|hexxitint:ring/cqrepoured/chests/treasure_1", "cqrepoured:chests/treasure|2|hexxitint:ring/cqrepoured/chests/treasure_2", "cqrepoured:chests/material|1|hexxitint:ring/cqrepoured/chests/material_1", "cqrepoured:chests/material|2|hexxitint:ring/cqrepoured/chests/material_2", "cqrepoured:chests/clutter|1|hexxitint:ring/cqrepoured/chests/clutter_1", "cqrepoured:chests/clutter|2|hexxitint:ring/cqrepoured/chests/clutter_2", "minecraft:thp_loot_common|1|hexxitint:ring/thp/thp_loot_common_1", "minecraft:thp_loot_common|2|hexxitint:ring/thp/thp_loot_common_2", "minecraft:thp_loot_uncommon|1|hexxitint:ring/thp/thp_loot_uncommon_1", "minecraft:thp_loot_uncommon|2|hexxitint:ring/thp/thp_loot_uncommon_2", "minecraft:thp_loot_rare|1|hexxitint:ring/thp/thp_loot_rare_1", "minecraft:thp_loot_rare|2|hexxitint:ring/thp/thp_loot_rare_2", "minecraft:thp_loot_common|3|hexxitint:ring/thp/thp_loot_common_3", "minecraft:thp_loot_uncommon|3|hexxitint:ring/thp/thp_loot_uncommon_3", "minecraft:thp_loot_rare|3|hexxitint:ring/thp/thp_loot_rare_3"]
+#Mob spawners (dungeon spawners of any mod) only spawn these mobs from this Overworld ring outwards, "entity|minRing". Keeps Nether mobs (blaze rods, wither skulls) out of near-spawn dungeons such as deep Roguelike levels. Other dimensions count as ring 3.
+spawnerMinRing = ["minecraft:blaze|2", "minecraft:wither_skeleton|2"]

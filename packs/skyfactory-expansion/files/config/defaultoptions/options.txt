@@ -1,0 +1,13 @@
+version:3955
+resourcePacks:["vanilla","file/FreshAnimations_v1.10.4.zip","file/FA+Player-v1.1.zip"]
+incompatibleResourcePacks:[]
+renderDistance:12
+simulationDistance:8
+entityDistanceScaling:1.0
+biomeBlendRadius:2
+skipMultiplayerWarning:true
+tutorialStep:none
+onboardAccessibility:false
+realmsNotifications:false
+telemetryOptInExtra:false
+soundCategory_music:0.5

@@ -1,0 +1,25 @@
+# SkyFactory 3's config/flux_networks.cfg (every value is the Flux Networks 1.2.8 default), in NeoForge's format.
+# The 1.10 "energy types" switches for RF, Tesla, EU, AE and MJ no longer exist: only Forge Energy is left.
+[energy]
+	basicStorageCapacity = 256000
+	basicStorageTransfer = 6400
+	#the default transfer limit of a flux connection
+	defaultTransferLimit = 256000
+	gargantuanStorageCapacity = 128000000
+	gargantuanStorageTransfer = 256000
+	#the multiplier god mod - for how much energy is transfer compared to normal rate
+	godModeMultiplier = 10
+	herculeanStorageCapacity = 12800000
+	herculeanStorageTransfer = 12800
+	#the multiplier for hyper mode - for how much energy is transfer compared to normal rate
+	hyperModeMultiplier = 4
+
+[energyTypes]
+	forgeEnergyTransferBlocks = true
+	forgeEnergyTransferItems = true
+
+[settings]
+	#prevents the use of God Mode
+	banGodMode = false
+	#prevents the use of Hyper Mode
+	banHyperMode = false

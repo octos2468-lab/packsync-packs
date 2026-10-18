@@ -1,0 +1,7 @@
+[gameplay]
+	#Unstable Ingot: ticks until explosion (SF3: 200).
+	# Default: 200
+	# Range: 0 ~ 2400
+	unstableIngotExplosionTime = 200
+	#Unstable Ingot: menu classes it may be crafted in (SF3: the vanilla crafting table only).
+	unstableIngotAllowedMenus = ["net.minecraft.world.inventory.CraftingMenu"]

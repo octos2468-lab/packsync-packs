@@ -1,0 +1,18 @@
+{
+ "_comment": "The extra textures here are used so minecraft loads the textures into the default texturemap",
+ "parent": "block/cube",
+ "textures": {
+  "down": "minecraft:block/glass",
+  "up": "minecraft:block/glass",
+  "north": "minecraft:block/glass",
+  "east": "secretroomsmod:item/ghost_block",
+  "south": "minecraft:block/glass",
+  "west": "minecraft:block/glass",
+  "normalglass": "secretroomsmod:item/one_way_glass",
+  "doorwood": "secretroomsmod:item/secret_wooden_door_render",
+  "dooriron": "secretroomsmod:item/secret_iron_door_render",
+  "secretGateBlock": "secretroomsmod:item/secret_gate_block",
+  "secretLightDetector": "secretroomsmod:item/secret_light_detector",
+  "secretLightDetectorInverted": "secretroomsmod:item/secret_inverted_light_detector"
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "block.ancientbeasts.moving_light_source": "Moving Light Source",
+ "entity.ancientbeasts.giant": "Giant",
+ "entity.ancientbeasts.sandmonster": "Sandmonster",
+ "item.ancientbeasts.logo": "Logo",
+ "item.ancientbeasts.sandy_love": "Sandy Love",
+ "item.ancientbeasts.bonepile_spawn_egg": "Bonepile Spawn Egg",
+ "item.ancientbeasts.boulderer_spawn_egg": "Boulderer Spawn Egg",
+ "item.ancientbeasts.damcell_spawn_egg": "Damcell Spawn Egg",
+ "item.ancientbeasts.frost_walker_spawn_egg": "Frost Walker Spawn Egg",
+ "item.ancientbeasts.frostash_fox_spawn_egg": "Frostash Fox Spawn Egg",
+ "item.ancientbeasts.ghost_spawn_egg": "Ghost Spawn Egg",
+ "item.ancientbeasts.giant_zombie_spawn_egg": "Giant Zombie Spawn Egg",
+ "item.ancientbeasts.nekros_spawn_egg": "Nekros Spawn Egg",
+ "item.ancientbeasts.netherhound_spawn_egg": "Netherhound Spawn Egg",
+ "item.ancientbeasts.owlstack_spawn_egg": "Owlstack Spawn Egg",
+ "item.ancientbeasts.rifted_enderman_spawn_egg": "Rifted Enderman Spawn Egg",
+ "item.ancientbeasts.sandy_spawn_egg": "Sandy Spawn Egg",
+ "item.ancientbeasts.vessel_spawn_egg": "Vessel Spawn Egg",
+ "item.ancientbeasts.zealot_spawn_egg": "Zealot Spawn Egg"
+}

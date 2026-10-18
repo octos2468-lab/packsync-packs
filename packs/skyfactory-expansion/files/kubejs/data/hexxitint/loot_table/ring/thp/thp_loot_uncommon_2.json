@@ -1,0 +1,4390 @@
+{
+ "type": "minecraft:chest",
+ "pools": [
+  {
+   "rolls": {
+    "type": "minecraft:uniform",
+    "min": 1,
+    "max": 3
+   },
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:apple",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tconstruct:manyullyn_nugget",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 5
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "tconstruct:pig_iron_nugget",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 5
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:arrow",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 8
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:copper_ingot",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:string",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 9
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:pumpkin_pie",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:golden_carrot",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 6
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:cookie",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 12
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:cake",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:experience_bottle",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 7
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:bullet_iron",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 7
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:bullet_gold",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 4,
+        "max": 9
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:dagger_iron",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:sharksword",
+     "weight": 30
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:sharkteeth",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "immersiveengineering:ingot_aluminum",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_pigman",
+     "weight": 2
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_mummy",
+     "weight": 2
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_goblin",
+     "weight": 2
+    },
+    {
+     "type": "minecraft:item",
+     "name": "comforts:rope",
+     "weight": 30
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_zombie",
+     "weight": 2
+    },
+    {
+     "type": "minecraft:item",
+     "name": "skewers:skewer_cookie",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "skewers:skewer_caramel_apple",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "skewers:skewer_cod_raw",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "skewers:skewer_salmon_raw",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "skewers:skewer_veggie_raw",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "skewers:skewer_chicken_raw",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "skewers:skewer_rabbit_raw",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "skewers:skewer_mutton_raw",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "skewers:skewer_beef_raw",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "skewers:skewer_porkchop_raw",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "natura:maple_stick",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 17
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "natura:silverbell_stick",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 17
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "natura:amaranth_stick",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 17
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "natura:amaranth_stick",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 17
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "natura:tiger_stick",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 17
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "natura:willow_stick",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 17
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "natura:eucalyptus_stick",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 17
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "natura:hopseed_stick",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 17
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "natura:sakura_stick",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 17
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "natura:redwood_stick",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 17
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:torch",
+     "weight": 50,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 12,
+        "max": 24
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:cobblestone",
+     "weight": 50,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 64
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:dirt",
+     "weight": 50,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 64
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:sand",
+     "weight": 50,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 64
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:ink_sac",
+     "weight": 50,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 6
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "morebows:stone_bow",
+     "weight": 20
+    },
+    {
+     "type": "minecraft:item",
+     "name": "morebows:iron_bow",
+     "weight": 20
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mod_lavacow:cactus_thorn",
+     "weight": 50,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 9
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "hexxitworld:fortune_cookie",
+     "weight": 70,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "harkenscythe:spectral_potion_flame",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "harkenscythe:spectral_potion_water",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "harkenscythe:blood_essence",
+     "weight": 20
+    },
+    {
+     "type": "minecraft:item",
+     "name": "harkenscythe:soul_essence",
+     "weight": 20
+    },
+    {
+     "type": "minecraft:item",
+     "name": "harkenscythe:soul_cookie",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 5
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "hexxitworld:milk_chocolate",
+     "weight": 70,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mod_lavacow:basicbomb",
+     "weight": 60,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 4
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mod_lavacow:hyphae",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 20,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:infinity": 1
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 20,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:power": 3
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 20,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:fortune": 2
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 20,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:efficiency": 3
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 20,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:looting": 2
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 20,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:sharpness": 3
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 20,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:depth_strider": 2
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 20,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:feather_falling": 2
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:clay_ball",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 8
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:redstone",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 12
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:iron_ingot",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 7
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:coal",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 9
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:stick",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 12
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:spruce_log",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 4,
+        "max": 12
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:oak_log",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 4,
+        "max": 12
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:iron_pickaxe",
+     "weight": 20
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:iron_sword",
+     "weight": 20
+    },
+    {
+     "type": "minecraft:item",
+     "name": "asr:stone_giant_sword",
+     "weight": 20
+    },
+    {
+     "type": "minecraft:item",
+     "name": "asr:skull_giant_sword",
+     "weight": 20
+    },
+    {
+     "type": "minecraft:item",
+     "name": "asr:wooden_shield",
+     "weight": 20
+    },
+    {
+     "type": "minecraft:item",
+     "name": "asr:skull_shield",
+     "weight": 20
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:wheat_seeds",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:pumpkin_seeds",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:beetroot_seeds",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 4
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:fermented_spider_eye",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:glistering_melon_slice",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:jungle_sapling",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:poisonous_potato",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:potato",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 11
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:cod",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 4
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:carrot",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 8
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:beetroot",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 6
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:mushroom_stew",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:feather",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 4
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:gunpowder",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 5
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:iron_nugget",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 12
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:gold_nugget",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 12
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:wheat",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 5
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:paper",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 5
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:book",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 4
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "fairylights:pennant_bunting",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "fairylights:hanging_lights",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "chococraftplus:gysahl_seeds",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 5
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "natura:barley_seeds",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 7
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "natura:cotton_seeds",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 7
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:spear_iron",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:woolball",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:egg",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 7
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:bone",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 11
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:slime_ball",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 5
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:name_tag",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:lead",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:bucket",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:baked_potato",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 5
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:porkchop",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 4
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:rotten_flesh",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 6
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:brown_mushroom",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 5
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:red_mushroom",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 5
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:glass_bottle",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 4
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:bow",
+     "weight": 30
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:cobweb",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 4
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:bucket",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:mossy_cobblestone",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 12
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:carrot_on_a_stick",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:melon",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:pumpkin",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:obsidian",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 6
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:oak_leaves",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 7,
+        "max": 19
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:vine",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 4
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:cactus",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:lily_pad",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:lilac",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:oxeye_daisy",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:sunflower",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 2
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:allium",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:poppy",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:dandelion",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:dark_oak_sapling",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:acacia_sapling",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:spruce_sapling",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:oak_sapling",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:jungle_sapling",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:birch_sapling",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:tropical_fish",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 4
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:salmon",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 4
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:cod",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:melon_slice",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 7
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:bookshelf",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:item_frame",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "combustfish:bone_fish",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 20,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:unbreaking": 2
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 20,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:fire_aspect": 2
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 20,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:knockback": 2
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 10,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:bane_of_arthropods": 4
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 10,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:smite": 4
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 20,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:frost_walker": 2
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 20,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:aqua_affinity": 1
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 20,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:respiration": 2
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 20,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:protection": 2
+       },
+       "add": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rolls": {
+    "type": "minecraft:uniform",
+    "min": 2,
+    "max": 4
+   },
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "xreliquary:attraction_potion",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "xreliquary:fertile_potion",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:ender_pearl",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 4
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:whip",
+     "weight": 30
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:fishnet",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_monking",
+     "weight": 2
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_pirate",
+     "weight": 2
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_pirate2",
+     "weight": 2
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_rusted",
+     "weight": 2
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_skeleton_friends",
+     "weight": 4
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_specter",
+     "weight": 2
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_spider",
+     "weight": 2
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_sun",
+     "weight": 2
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_tomb",
+     "weight": 2
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_triton",
+     "weight": 2
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_turtle",
+     "weight": 2
+    },
+    {
+     "type": "minecraft:item",
+     "name": "lostbooks:random_book",
+     "weight": 160
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:revolver",
+     "weight": 20
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:musket",
+     "weight": 20
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:musket_dagger_iron",
+     "weight": 20
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:reptileplate",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:reptilelegs",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:reptileboots",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:tuskswood",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:tusksiron",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:elephantchest",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:mammothplatform",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:elephantharness",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:great_sword_iron",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:tnt",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 6
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:golden_apple",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 4
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "chococraftplus:chocobo_saddle",
+     "weight": 30
+    },
+    {
+     "type": "minecraft:item",
+     "name": "asr:iron_giant_sword",
+     "weight": 30
+    },
+    {
+     "type": "minecraft:item",
+     "name": "asr:netherquartz_giant_sword",
+     "weight": 30
+    },
+    {
+     "type": "minecraft:item",
+     "name": "asr:gilded_stone_shield",
+     "weight": 30
+    },
+    {
+     "type": "minecraft:item",
+     "name": "asr:gilded_iron_shield",
+     "weight": 30
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:dagger_diamond",
+     "weight": 30
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:dagger_ninja",
+     "weight": 30
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:dagger_monking",
+     "weight": 30
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:sword_turtle",
+     "weight": 30
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:helmet_slime",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:boots_slime",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:helmet_turtle",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:boots_turtle",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:helmet_bull",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:boots_bull",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:helmet_spider",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:boots_spider",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:kittylitter",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "exchangers:exchanger_core_tier1",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "exchangers:wooden_exchanger",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:ratburger",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:furhelmet",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:furchest",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:furlegs",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:furboots",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:reptilehelmet",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:chestplate_iron_dyable",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:helmet_heavy_iron",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:chestplate_heavy_iron",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:leggings_heavy_iron",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:boots_heavy_iron",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:helmet_iron_dyable",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:hookshot",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:bullet_fire",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 9
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:bullet_diamond",
+     "weight": 30,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 10
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:boots_iron_dyable",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:leggings_iron_dyable",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:feather_golden",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:potion_healing",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:spiked_glove",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:scale_turtle",
+     "weight": 25,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:leather_bull",
+     "weight": 25,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:ball_slime",
+     "weight": 25,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:leather_spider",
+     "weight": 25,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:splash_potion",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_potion",
+       "id": "minecraft:long_regeneration"
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:splash_potion",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_potion",
+       "id": "minecraft:strong_regeneration"
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:splash_potion",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_potion",
+       "id": "minecraft:long_swiftness"
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:splash_potion",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_potion",
+       "id": "minecraft:strong_swiftness"
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:splash_potion",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_potion",
+       "id": "minecraft:long_fire_resistance"
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:splash_potion",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_potion",
+       "id": "minecraft:long_strength"
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:silversword",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:firework_rocket",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 8
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:armor_stand",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:bone_block",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:hay_block",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:glass",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 8,
+        "max": 28
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:splash_potion",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_potion",
+       "id": "minecraft:regeneration"
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:splash_potion",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_potion",
+       "id": "minecraft:night_vision"
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:splash_potion",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_potion",
+       "id": "minecraft:fire_resistance"
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:sponge",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "natura:maple_sapling",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "natura:silverbell_sapling",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "natura:amaranth_sapling",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "natura:redwood_sapling",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "natura:willow_sapling",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "natura:eucalyptus_sapling",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "natura:hopseed_sapling",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "natura:sakura_sapling",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "natura:redwood_sapling",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:sugarlump",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 4
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:splash_potion",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_potion",
+       "id": "minecraft:swiftness"
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:splash_potion",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_potion",
+       "id": "minecraft:strong_healing"
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:splash_potion",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_potion",
+       "id": "minecraft:strong_harming"
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:splash_potion",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_potion",
+       "id": "minecraft:luck"
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:splash_potion",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_potion",
+       "id": "minecraft:healing"
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:splash_potion",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_potion",
+       "id": "minecraft:long_water_breathing"
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "morebows:frost_bow",
+     "weight": 20
+    },
+    {
+     "type": "minecraft:item",
+     "name": "morebows:flame_bow",
+     "weight": 20
+    },
+    {
+     "type": "minecraft:item",
+     "name": "morebows:gold_bow",
+     "weight": 20
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mod_lavacow:baobing",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "harkenscythe:soul_cake",
+     "weight": 20
+    },
+    {
+     "type": "minecraft:item",
+     "name": "harkenscythe:iron_scythe",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "harkenscythe:diamond_scythe",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "harkenscythe:diamond_glaive",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "harkenscythe:iron_glaive",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "harkenscythe:spectral_potion_affliction",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "harkenscythe:spectral_potion_purifying",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "hexxitworld:redstone_rock_candy",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "hexxitworld:quartz_rock_candy",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "hexxitworld:lapis_rock_candy",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "hexxitworld:glowstone_rock_candy",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mod_lavacow:ghostbomb",
+     "weight": 70,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 4
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mod_lavacow:sonicbomb",
+     "weight": 70,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 4
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "chococraftplus:nut_carob",
+     "weight": 60,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 8
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "chococraftplus:nut_zeio",
+     "weight": 30,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 4
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "xreliquary:magicbane",
+     "weight": 30
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:helmet_diamond_dyable",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:chestplate_diamond_dyable",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:leggings_diamond_dyable",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:boots_diamond_dyable",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:helmet_inquisition",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:chestplate_inquisition",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:leggings_inquisition",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:boots_inquisition",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:helmet_heavy_diamond",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:chestplate_heavy_diamond",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:leggings_heavy_diamond",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:boots_heavy_diamond",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:scorphelmetundead",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:scorpplateundead",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:scorplegsundead",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:scorpbootsundead",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:scorphelmetfrost",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:scorpplatefrost",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:scorplegsfrost",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:scorpbootsfrost",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:scorphelmetdirt",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:scorpplatedirt",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:scorplegsdirt",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:scorpbootsdirt",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:scorpstingcave",
+     "weight": 30,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:scorpstingdirt",
+     "weight": 30,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:scorpstingnether",
+     "weight": 30,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:scorpstingfrost",
+     "weight": 30,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:scorpstingundead",
+     "weight": 30,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 20,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:infinity": 1
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 14,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:power": 4
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 20,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:fortune": 3
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 20,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:unbreaking": 3
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 20,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:silk_touch": 1
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 20,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:efficiency": 4
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 14,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:looting": 3
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 16,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:sharpness": 4
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 20,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:feather_falling": 4
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "xreliquary:potion",
+     "weight": 30,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:gold_ingot",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 15
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:clock",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:compass",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:medallion",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:diamond_sword",
+     "weight": 20
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:diamond_pickaxe",
+     "weight": 20
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 20,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:lure": 3
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 20,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:luck_of_the_sea": 3
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 20,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:flame": 1
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 20,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:sweeping_edge": 3
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 20,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:thorns": 3
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 20,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:blast_protection": 4
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 20,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:protection": 3
+       },
+       "add": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rolls": {
+    "type": "minecraft:uniform",
+    "min": 0,
+    "max": 1
+   },
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "xreliquary:fertile_lilypad",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "xreliquary:glowing_bread",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "xreliquary:emperor_chalice",
+     "weight": 30
+    },
+    {
+     "type": "minecraft:item",
+     "name": "xreliquary:harvest_rod",
+     "weight": 30
+    },
+    {
+     "type": "minecraft:item",
+     "name": "xreliquary:sojourner_staff",
+     "weight": 30
+    },
+    {
+     "type": "minecraft:item",
+     "name": "xreliquary:hero_medallion",
+     "weight": 30
+    },
+    {
+     "type": "minecraft:item",
+     "name": "xreliquary:infernal_claws",
+     "weight": 30
+    },
+    {
+     "type": "minecraft:item",
+     "name": "xreliquary:kraken_shell",
+     "weight": 30
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:diamond",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 18
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:emerald",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 12
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "xreliquary:handgun",
+     "weight": 20
+    },
+    {
+     "type": "minecraft:item",
+     "name": "xreliquary:twilight_cloak",
+     "weight": 20
+    },
+    {
+     "type": "minecraft:item",
+     "name": "twilightforest:magic_map",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_rainbow",
+     "weight": 1
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_walker",
+     "weight": 2
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_reflective",
+     "weight": 2
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_moon",
+     "weight": 2
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_bull",
+     "weight": 4
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_warped",
+     "weight": 2
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_fire",
+     "weight": 4
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_dragonslayer",
+     "weight": 1
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_carl",
+     "weight": 4
+    },
+    {
+     "type": "minecraft:item",
+     "name": "naturescompass:natures_compass",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "asr:diamond_giant_sword",
+     "weight": 15
+    },
+    {
+     "type": "minecraft:item",
+     "name": "asr:ender_giant_sword",
+     "weight": 15
+    },
+    {
+     "type": "minecraft:item",
+     "name": "asr:gilded_netherquartz_shield",
+     "weight": 15
+    },
+    {
+     "type": "minecraft:item",
+     "name": "asr:diamond_shield",
+     "weight": 15
+    },
+    {
+     "type": "minecraft:item",
+     "name": "asr:ender_shield",
+     "weight": 15
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:sword_moonlight",
+     "weight": 15
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:sword_sunshine",
+     "weight": 15
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:flamethrower",
+     "weight": 25
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:bubble_pistol",
+     "weight": 25
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:bubble_rifle",
+     "weight": 25
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:longshot",
+     "weight": 25
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:musket_dagger_diamond",
+     "weight": 25
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:musket_dagger_monking",
+     "weight": 25
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:captain_revolver",
+     "weight": 25
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:iron_block",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 4
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:gold_block",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 4
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:diamond_block",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:emerald_block",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:golden_apple",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:boots_cloud",
+     "weight": 25
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:chestplate_slime",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:leggings_slime",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:chestplate_turtle",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:leggings_turtle",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:chestplate_bull",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:leggings_bull",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:chestplate_spider",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:leggings_spider",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:battle_axe_bull",
+     "weight": 25
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:great_sword_diamond",
+     "weight": 30
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:great_sword_bull",
+     "weight": 30
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:great_sword_monking",
+     "weight": 30
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:spear_diamond",
+     "weight": 30
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:staff_vampiric",
+     "weight": 20
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:staff_thunder",
+     "weight": 20
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:teleport_stone",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:horsearmorcrystal",
+     "weight": 30
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:tusksdiamond",
+     "weight": 30
+    },
+    {
+     "type": "minecraft:item",
+     "name": "exchangers:golden_exchanger",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "hexxitgear:hexical_essence",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "xreliquary:holy_hand_grenade",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:heartundead",
+     "weight": 8
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:heartfire",
+     "weight": 8
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mocreatures:heartdarkness",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "xreliquary:harvest_rod",
+     "weight": 25
+    },
+    {
+     "type": "minecraft:item",
+     "name": "morebows:multi_bow",
+     "weight": 20
+    },
+    {
+     "type": "minecraft:item",
+     "name": "morebows:diamond_bow",
+     "weight": 20
+    },
+    {
+     "type": "minecraft:item",
+     "name": "morebows:ender_bow",
+     "weight": 20
+    },
+    {
+     "type": "minecraft:item",
+     "name": "hexxitworld:boomerang",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "hexxitworld:mirror",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "hexxitworld:mystic_seed",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "hexxitworld:phoenix_feather",
+     "weight": 25
+    },
+    {
+     "type": "minecraft:item",
+     "name": "hexxitworld:earth_medallion",
+     "weight": 12
+    },
+    {
+     "type": "minecraft:item",
+     "name": "hexxitworld:fire_medallion",
+     "weight": 12
+    },
+    {
+     "type": "minecraft:item",
+     "name": "hexxitworld:ender_medallion",
+     "weight": 12
+    },
+    {
+     "type": "minecraft:item",
+     "name": "hexxitworld:wind_medallion",
+     "weight": 12
+    },
+    {
+     "type": "minecraft:item",
+     "name": "hexxitworld:aero_amulet",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "hexxitworld:geo_amulet",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "hexxitworld:pyro_amulet",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mod_lavacow:fissionpotion",
+     "weight": 20
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mod_lavacow:illager_nose",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mod_lavacow:bonestew",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mod_lavacow:kung_pao_chicken",
+     "weight": 40,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "hexxitworld:whirlwind_boots",
+     "weight": 30
+    },
+    {
+     "type": "minecraft:item",
+     "name": "hexxitworld:valor_headband",
+     "weight": 15
+    },
+    {
+     "type": "minecraft:item",
+     "name": "hexxitworld:titan_band",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mod_lavacow:thorn_shooter",
+     "weight": 15
+    },
+    {
+     "type": "minecraft:item",
+     "name": "hexxitworld:blast_charm",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "hexxitworld:coldfeet_ring",
+     "weight": 8
+    },
+    {
+     "type": "minecraft:item",
+     "name": "hexxitworld:convection_ring",
+     "weight": 8
+    },
+    {
+     "type": "minecraft:item",
+     "name": "hexxitworld:thiefs_ring",
+     "weight": 8
+    },
+    {
+     "type": "minecraft:item",
+     "name": "hexxitworld:warriors_ring",
+     "weight": 8
+    },
+    {
+     "type": "minecraft:item",
+     "name": "hexxitworld:feather_charm",
+     "weight": 25
+    },
+    {
+     "type": "minecraft:item",
+     "name": "hexxitworld:spotting_scope",
+     "weight": 15
+    },
+    {
+     "type": "minecraft:item",
+     "name": "hexxitworld:reed_pipes",
+     "weight": 20
+    },
+    {
+     "type": "minecraft:item",
+     "name": "hexxitworld:slime_sword",
+     "weight": 60
+    },
+    {
+     "type": "minecraft:item",
+     "name": "harkenscythe:biomass",
+     "weight": 15,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 6
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "hexxitworld:diamond_rock_candy",
+     "weight": 60
+    },
+    {
+     "type": "minecraft:item",
+     "name": "hexxitworld:emerald_rock_candy",
+     "weight": 60
+    },
+    {
+     "type": "minecraft:item",
+     "name": "hexxitworld:starglass_sword",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "harkenscythe:biomass_sword",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "harkenscythe:livingmetal_sword",
+     "weight": 40
+    },
+    {
+     "type": "minecraft:item",
+     "name": "harkenscythe:livingmetal_ingot",
+     "weight": 15,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "harkenscythe:essence_keeper",
+     "weight": 20
+    },
+    {
+     "type": "minecraft:item",
+     "name": "harkenscythe:essence_vessel",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mod_lavacow:dreamcatcher",
+     "weight": 15
+    },
+    {
+     "type": "minecraft:item",
+     "name": "mod_lavacow:halo_necklace",
+     "weight": 20
+    },
+    {
+     "type": "minecraft:item",
+     "name": "xreliquary:midas_touchstone",
+     "weight": 30
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 16,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:looting": 3
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 12,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:sharpness": 5
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 16,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:feather_falling": 4
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 16,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:protection": 4
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 24,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:mending": 1
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 24,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:infinity": 1
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 16,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:power": 5
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 16,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:fortune": 3
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 16,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:unbreaking": 3
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 16,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:silk_touch": 1
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_book",
+     "weight": 16,
+     "functions": [
+      {
+       "function": "minecraft:set_enchantments",
+       "enchantments": {
+        "minecraft:efficiency": 5
+       },
+       "add": false
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -6,6 +6,6 @@ PlayerEvents.loggedIn(event => {
   var player = event.player
   if (player.stages.has('sf3_starter_kit')) return
   player.stages.add('sf3_starter_kit')
-  ;['minecraft:torch', 'actuallyadditions:coffee_cup', 'pamhc2foodcore:toastitem']
+  ;['minecraft:torch', 'actuallyadditions:coffee_cup', 'harvestcraft:toastitem']
     .forEach(id => player.give(Item.of(id)))
 })

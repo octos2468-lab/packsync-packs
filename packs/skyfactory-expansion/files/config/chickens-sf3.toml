@@ -1,0 +1,851 @@
+	[chickens.CyanChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:cyan_dye"
+		#First parent, empty if it's a base chicken.
+		parent1 = "BlueChicken"
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.0
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:cyan_dye"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = "GreenChicken"
+
+	[chickens.WhiteChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:bone"
+		#First parent, empty if it's a base chicken.
+		parent1 = ""
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NORMAL"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.0
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:bone_meal"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = ""
+
+	[chickens.BrownChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:cocoa_beans"
+		#First parent, empty if it's a base chicken.
+		parent1 = "RedChicken"
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.0
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:cocoa_beans"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = "GreenChicken"
+
+	[chickens.EmeraldChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:emerald"
+		#First parent, empty if it's a base chicken.
+		parent1 = "DiamondChicken"
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.600000023841858
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:emerald"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = "GreenChicken"
+
+	[chickens.GunpowderChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:gunpowder"
+		#First parent, empty if it's a base chicken.
+		parent1 = "SandChicken"
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.0
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:gunpowder"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = "FlintChicken"
+
+	[chickens.BlazeChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:blaze_rod"
+		#First parent, empty if it's a base chicken.
+		parent1 = "GoldChicken"
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.2000000476837158
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:blaze_rod"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = "LavaChicken"
+
+	[chickens.MagentaChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:magenta_dye"
+		#First parent, empty if it's a base chicken.
+		parent1 = "PurpleChicken"
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.0
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:magenta_dye"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = "PinkChicken"
+
+	[chickens.LavaChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "chickens:liquid_egg"
+		#First parent, empty if it's a base chicken.
+		parent1 = "CoalChicken"
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.100000023841858
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "chickens:liquid_egg"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = "QuartzChicken"
+
+	[chickens.GlassChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:glass"
+		#First parent, empty if it's a base chicken.
+		parent1 = "QuartzChicken"
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.0
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:glass"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = "RedstoneChicken"
+
+	[chickens.GreenChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:green_dye"
+		#First parent, empty if it's a base chicken.
+		parent1 = ""
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.0
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:green_dye"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = ""
+
+	[chickens.ClayChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:clay_ball"
+		#First parent, empty if it's a base chicken.
+		parent1 = "SnowballChicken"
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.100000023841858
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:clay_ball"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = "SandChicken"
+
+	[chickens.OrangeChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:orange_dye"
+		#First parent, empty if it's a base chicken.
+		parent1 = "RedChicken"
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.0
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:orange_dye"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = "YellowChicken"
+
+	[chickens.GoldChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:gold_ingot"
+		#First parent, empty if it's a base chicken.
+		parent1 = "IronChicken"
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.5
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:gold_ingot"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = "YellowChicken"
+
+	[chickens.DiamondChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:diamond"
+		#First parent, empty if it's a base chicken.
+		parent1 = "GlassChicken"
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.5
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:diamond"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = "GoldChicken"
+
+	[chickens.GrayChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:gray_dye"
+		#First parent, empty if it's a base chicken.
+		parent1 = "BlackChicken"
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.0
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:gray_dye"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = "WhiteChicken"
+
+	[chickens.FlintChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:flint"
+		#First parent, empty if it's a base chicken.
+		parent1 = ""
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NORMAL"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.0
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:flint"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = ""
+
+	[chickens.EnderChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:ender_pearl"
+		#First parent, empty if it's a base chicken.
+		parent1 = "DiamondChicken"
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.2999999523162842
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:ender_pearl"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = "NetherwartChicken"
+
+	[chickens.YellowChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:yellow_dye"
+		#First parent, empty if it's a base chicken.
+		parent1 = ""
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.0
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:yellow_dye"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = ""
+
+	[chickens.GhastChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:ghast_tear"
+		#First parent, empty if it's a base chicken.
+		parent1 = "WhiteChicken"
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.2000000476837158
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:ghast_tear"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = "BlazeChicken"
+
+	[chickens.LightBlueChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:light_blue_dye"
+		#First parent, empty if it's a base chicken.
+		parent1 = "WhiteChicken"
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.0
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:light_blue_dye"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = "BlueChicken"
+
+	[chickens.BlueChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:lapis_lazuli"
+		#First parent, empty if it's a base chicken.
+		parent1 = ""
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.0
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:lapis_lazuli"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = ""
+
+	[chickens.NetherwartChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:nether_wart"
+		#First parent, empty if it's a base chicken.
+		parent1 = "BrownChicken"
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.100000023841858
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:nether_wart"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = "GlowstoneChicken"
+
+	[chickens.IronChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:iron_ingot"
+		#First parent, empty if it's a base chicken.
+		parent1 = "FlintChicken"
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.100000023841858
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:iron_ingot"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = "WhiteChicken"
+
+	[chickens.StringChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:spider_eye"
+		#First parent, empty if it's a base chicken.
+		parent1 = "BlackChicken"
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.0
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:string"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = "LogChicken"
+
+	[chickens.MagmaChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:magma_cream"
+		#First parent, empty if it's a base chicken.
+		parent1 = "SlimeChicken"
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.0
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:magma_cream"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = "BlazeChicken"
+
+	[chickens.LeatherChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:leather"
+		#First parent, empty if it's a base chicken.
+		parent1 = "StringChicken"
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.100000023841858
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:leather"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = "BrownChicken"
+
+	[chickens.RedstoneChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:redstone"
+		#First parent, empty if it's a base chicken.
+		parent1 = "RedChicken"
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.2000000476837158
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:redstone"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = "SandChicken"
+
+	[chickens.LimeChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:lime_dye"
+		#First parent, empty if it's a base chicken.
+		parent1 = "GreenChicken"
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.0
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:lime_dye"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = "WhiteChicken"
+
+	[chickens.RedChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:red_dye"
+		#First parent, empty if it's a base chicken.
+		parent1 = ""
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.0
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:red_dye"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = ""
+
+	[chickens.SlimeChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:slime_ball"
+		#First parent, empty if it's a base chicken.
+		parent1 = "ClayChicken"
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.100000023841858
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:slime_ball"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = "GreenChicken"
+
+	[chickens.GlowstoneChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:glowstone_dust"
+		#First parent, empty if it's a base chicken.
+		parent1 = "QuartzChicken"
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.2000000476837158
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:glowstone_dust"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = "YellowChicken"
+
+	[chickens.CoalChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:coal"
+		#First parent, empty if it's a base chicken.
+		parent1 = "FlintChicken"
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.2000000476837158
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:coal"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = "LogChicken"
+
+	[chickens.SmartChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:egg"
+		#First parent, empty if it's a base chicken.
+		parent1 = ""
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.0
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:egg"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = ""
+
+	[chickens.SnowballChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:snowball"
+		#First parent, empty if it's a base chicken.
+		parent1 = "BlueChicken"
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.0
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:snowball"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = "LogChicken"
+
+	[chickens.PinkChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:pink_dye"
+		#First parent, empty if it's a base chicken.
+		parent1 = "RedChicken"
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.0
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:pink_dye"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = "WhiteChicken"
+
+	[chickens.LogChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:oak_log"
+		#First parent, empty if it's a base chicken.
+		parent1 = ""
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NORMAL"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.0
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:oak_log"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = ""
+
+	[chickens.BlackChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:ink_sac"
+		#First parent, empty if it's a base chicken.
+		parent1 = ""
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.0
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:ink_sac"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = ""
+
+	[chickens.SandChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:sand"
+		#First parent, empty if it's a base chicken.
+		parent1 = ""
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NORMAL"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.0
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:sand"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = ""
+
+	[chickens.PurpleChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:purple_dye"
+		#First parent, empty if it's a base chicken.
+		parent1 = "BlueChicken"
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.0
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:purple_dye"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = "RedChicken"
+
+	[chickens.QuartzChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:quartz"
+		#First parent, empty if it's a base chicken.
+		parent1 = ""
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "HELL"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.100000023841858
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:quartz"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = ""
+
+	[chickens.SilverDyeChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "minecraft:light_gray_dye"
+		#First parent, empty if it's a base chicken.
+		parent1 = "GrayChicken"
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.0
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "minecraft:light_gray_dye"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = "WhiteChicken"
+
+	[chickens.WaterChicken]
+		#Item (or #tag, alternatives separated by |) to be dropped when the chicken dies.
+		dropItem = "chickens:liquid_egg"
+		#First parent, empty if it's a base chicken.
+		parent1 = "GunpowderChicken"
+		#Chicken spawn type, can be: NORMAL, SNOW, NONE, HELL
+		spawnType = "NONE"
+		#Item amount to be dropped [1 ~ 64]
+		dropAmount = 1
+		#Scale time to lay an egg [0.01 ~ 100.0]
+		layCoefficient = 1.0
+		#Item (or #tag, alternatives separated by |) to be laid.
+		layItem = "chickens:liquid_egg"
+		#Is chicken enabled?
+		enabled = true
+		#Item amount to be laid [1 ~ 64]
+		layAmount = 1
+		#Second parent, empty if it's a base chicken.
+		parent2 = "SnowballChicken"
+
+[general]
+	#Spawn probability (the spawn weight of the chicken group)
+	spawnProbability = 10
+	#Minimal brood size
+	minBroodSize = 3
+	#Maximal brood size, must be greater than the minimal size
+	maxBroodSize = 5
+	#Stats will be always shown (Jade) without the need to analyze chickens first when enabled. SkyFactory 3 had this on.
+	alwaysShowStats = true
+	#Nether chicken spawn chance multiplier, e.g. 0=no initial spawn, 2=two times more spawn rate
+	netherSpawnChanceMultiplier = 1.0

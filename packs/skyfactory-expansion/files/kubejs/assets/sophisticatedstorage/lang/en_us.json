@@ -1,0 +1,14 @@
+{
+ "block.sophisticatedstorage.acacia_storage_connector": "Acacia Storage Connector",
+ "block.sophisticatedstorage.bamboo_storage_connector": "Bamboo Storage Connector",
+ "block.sophisticatedstorage.birch_storage_connector": "Birch Storage Connector",
+ "block.sophisticatedstorage.cherry_storage_connector": "Cherry Storage Connector",
+ "block.sophisticatedstorage.crimson_storage_connector": "Crimson Storage Connector",
+ "block.sophisticatedstorage.dark_oak_storage_connector": "Dark Oak Storage Connector",
+ "block.sophisticatedstorage.jungle_storage_connector": "Jungle Storage Connector",
+ "block.sophisticatedstorage.mangrove_storage_connector": "Mangrove Storage Connector",
+ "block.sophisticatedstorage.oak_storage_connector": "Oak Storage Connector",
+ "block.sophisticatedstorage.spruce_storage_connector": "Spruce Storage Connector",
+ "block.sophisticatedstorage.warped_storage_connector": "Warped Storage Connector",
+ "item.sophisticatedstorage.inaccessible_slot": "Inaccessible Slot"
+}

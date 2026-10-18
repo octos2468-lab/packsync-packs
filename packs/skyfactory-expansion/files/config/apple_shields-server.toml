@@ -1,0 +1,61 @@
+["apple shield settings"]
+	#Mapped from the corresponding AppleShields 0.1.7 setting.
+	# Default: 336
+	# Range: > 1
+	red_apple_shield_durability = 336
+	#Mapped from the corresponding AppleShields 0.1.7 setting.
+	# Default: 504
+	# Range: > 1
+	non_rf_ishield_durability = 504
+	#Mapped from the corresponding AppleShields 0.1.7 setting.
+	# Default: 504
+	# Range: > 1
+	apple_pie_shield_durability = 504
+	#Mapped from the corresponding AppleShields 0.1.7 setting.
+	# Default: 504
+	# Range: > 1
+	golden_apple_shield_durability = 504
+	#Mapped from the corresponding AppleShields 0.1.7 setting.
+	# Default: 672
+	# Range: > 1
+	enchanted_golden_apple_shield_durability = 672
+	#Mapped from the corresponding AppleShields 0.1.7 setting.
+	# Default: 10000
+	# Range: > 1
+	rf_ishield_max_rf_charge = 10000
+	#Mapped from the corresponding AppleShields 0.1.7 setting.
+	# Default: 1
+	# Range: > 0
+	apple_pie_shield_hunger_restored = 1
+	#Original key: Apple Pie Shield Saturation
+	# Default: 0.6
+	# Range: 0.0 ~ 3.4028234663852886E38
+	apple_pie_shield_saturation = 0.6
+	#Mapped from the corresponding AppleShields 0.1.7 setting.
+	# Default: 10
+	# Range: > 1
+	apple_pie_shield_feeding_cycle_seconds = 10
+	#Mapped from the corresponding AppleShields 0.1.7 setting.
+	# Default: 4
+	# Range: > 0
+	apple_pie_shield_damage_per_hunger_restored = 4
+	#Mapped from the corresponding AppleShields 0.1.7 setting.
+	# Default: 20
+	# Range: > 0
+	rf_ishield_rf_consumed_per_damage_point = 20
+	#Mapped from the corresponding AppleShields 0.1.7 setting.
+	# Default: 8
+	# Range: > 1
+	golden_apple_auto_repair_cycle_seconds = 8
+	#Mapped from the corresponding AppleShields 0.1.7 setting.
+	# Default: 1
+	# Range: > 0
+	golden_apple_durability_auto_repaired = 1
+	#Mapped from the corresponding AppleShields 0.1.7 setting.
+	# Default: 4
+	# Range: > 1
+	enchanted_golden_apple_auto_repair_cycle_seconds = 4
+	#Mapped from the corresponding AppleShields 0.1.7 setting.
+	# Default: 1
+	# Range: > 0
+	enchanted_golden_apple_durability_auto_repaired = 1

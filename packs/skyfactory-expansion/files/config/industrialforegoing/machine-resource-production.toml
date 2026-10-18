@@ -106,9 +106,9 @@
 
 	[MachineResourceProductionConfig.OreLaserBaseConfig]
 		#Max progress of the machine
-		maxProgress = 100
+		maxProgress = 200
 		#How much weight of an item the catalyst will increase
-		catalystModifier = 8
+		catalystModifier = 1000
 
 	[MachineResourceProductionConfig.SimulatedHydroponicBedConfig]
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [200 (5s)]

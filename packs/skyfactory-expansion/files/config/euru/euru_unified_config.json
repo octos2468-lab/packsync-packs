@@ -40,8 +40,17 @@
         "minecraft:iron_block",
         "euru:ingot_o_experience",
         "minecraft:apple",
-        "euru:nuggeto_experience"
-      ]
+        "euru:nuggeto_experience",
+        "minecraft:bookshelf"
+      ],
+      "minecraft:bookshelf": {
+        "gp_required": 16,
+        "fe_required": 64000,
+        "lapis_required": 1,
+        "wait_time": 1600,
+        "lapis_input": "minecraft:lapis_lazuli",
+        "output": "xu2gear:magical_wood"
+      }
     },
     "euru:resonator": {
       "minecraft:iron_bars": {
@@ -68,8 +77,32 @@
         "minecraft:iron_bars",
         "minecraft:lapis_lazuli",
         "minecraft:smooth_stone",
-        "minecraft:light_weighted_pressure_plate"
-      ]
+        "minecraft:light_weighted_pressure_plate",
+        "minecraft:quartz_block",
+        "extrautils2:polished_stone",
+        "minecraft:coal",
+        "minecraft:charcoal"
+      ],
+      "minecraft:quartz_block": {
+        "gp_required": 8,
+        "wait_time": 800,
+        "output": "extrautils2:quartzburnt"
+      },
+      "extrautils2:polished_stone": {
+        "gp_required": 8,
+        "wait_time": 800,
+        "output": "euru:stone_burnt"
+      },
+      "minecraft:coal": {
+        "gp_required": 8,
+        "wait_time": 400,
+        "output": "xu2gear:red_coal"
+      },
+      "minecraft:charcoal": {
+        "gp_required": 8,
+        "wait_time": 400,
+        "output": "xu2gear:red_coal"
+      }
     },
     "euru:crusher": {
       "minecraft:gravel": {

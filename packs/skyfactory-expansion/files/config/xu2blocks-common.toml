@@ -1,0 +1,9 @@
+[gameplay]
+	#Add an entity id (mod:name) to this list to prevent cursed earth from spawning it.
+	cursedEarthEntityBlacklist = []
+
+[energy]
+	#Quantum Quarry: Base Energy Per Operation
+	# Default: 20000
+	# Range: 1 ~ 214748364
+	quarryEnergyPerOperation = 20000

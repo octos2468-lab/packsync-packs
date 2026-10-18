@@ -1,9 +1,0 @@
-{
- "multipart": [
-  {
-   "apply": {
-    "model": "bloodmagic:block/living_station"
-   }
-  }
- ]
-}

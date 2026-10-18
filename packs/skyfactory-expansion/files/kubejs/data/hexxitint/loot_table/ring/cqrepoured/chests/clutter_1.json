@@ -1,0 +1,689 @@
+{
+ "type": "minecraft:chest",
+ "pools": [
+  {
+   "rolls": {
+    "type": "minecraft:uniform",
+    "min": 3,
+    "max": 9
+   },
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:emerald",
+     "weight": 20,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.2
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:iron_ingot",
+     "weight": 10,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.1
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 4
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:gold_ingot",
+     "weight": 5,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.05
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 4
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:coal",
+     "weight": 30,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.3
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 6,
+        "max": 10
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:wheat",
+     "weight": 30,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.3
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 6,
+        "max": 12
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:cocoa_beans",
+     "weight": 20,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.2
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 4
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:cookie",
+     "weight": 30,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.3
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 4,
+        "max": 6
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:saddle",
+     "weight": 15,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.15
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:clock",
+     "weight": 10,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.1
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:torch",
+     "weight": 80,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.8
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 8,
+        "max": 16
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:arrow",
+     "weight": 50,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.5
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 8,
+        "max": 16
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:lead",
+     "weight": 15,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.15
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:name_tag",
+     "weight": 5,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.05
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:map",
+     "weight": 10,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.1
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:leather",
+     "weight": 40,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.4
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 6
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:gunpowder",
+     "weight": 40,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.4
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 4
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:iron_horse_armor",
+     "weight": 10,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.1
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:golden_horse_armor",
+     "weight": 5,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.05
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:diamond_horse_armor",
+     "weight": 1,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.01
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:dirt",
+     "weight": 20,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.2
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 8,
+        "max": 32
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:sand",
+     "weight": 20,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.2
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 8,
+        "max": 32
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:clay_ball",
+     "weight": 20,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.2
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 8
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:oak_log",
+     "weight": 30,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.3
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 8
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:wheat_seeds",
+     "weight": 20,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.2
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 6
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:pumpkin_seeds",
+     "weight": 20,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.2
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 6
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:beetroot_seeds",
+     "weight": 20,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.2
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 6
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:fermented_spider_eye",
+     "weight": 20,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.2
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:poisonous_potato",
+     "weight": 20,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.2
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:feather",
+     "weight": 20,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.2
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 4
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:book",
+     "weight": 20,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.2
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 4
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:iron_nugget",
+     "weight": 20,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.2
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 12
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:gold_nugget",
+     "weight": 20,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.2
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 12
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:potion_healing",
+     "weight": 20,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.2
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:bullet_iron",
+     "weight": 10,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.1
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 6
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

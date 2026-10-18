@@ -1,0 +1,286 @@
+{
+  "minecraft:apple": {
+    "item": "minecraft:apple",
+    "minQty": 1,
+    "maxQty": 2,
+    "weight": 10
+  },
+  "minecraft:bone": {
+    "item": "minecraft:bone",
+    "minQty": 1,
+    "maxQty": 3,
+    "weight": 13
+  },
+  "minecraft:book": {
+    "item": "minecraft:book",
+    "minQty": 1,
+    "maxQty": 3,
+    "weight": 14
+  },
+  "minecraft:bread": {
+    "item": "minecraft:bread",
+    "qty": 1,
+    "weight": 10
+  },
+  "minecraft:cake": {
+    "item": "minecraft:cake",
+    "qty": 1,
+    "weight": 8
+  },
+  "minecraft:carrot": {
+    "item": "minecraft:carrot",
+    "qty": 1,
+    "weight": 12
+  },
+  "minecraft:coal": {
+    "item": "minecraft:coal",
+    "minQty": 1,
+    "maxQty": 3,
+    "weight": 15
+  },
+  "minecraft:fishing_rod": {
+    "item": "minecraft:fishing_rod",
+    "qty": 1,
+    "weight": 10
+  },
+  "minecraft:flint": {
+    "item": "minecraft:flint",
+    "minQty": 1,
+    "maxQty": 3,
+    "weight": 12
+  },
+  "minecraft:flower_pot": {
+    "item": "minecraft:flower_pot",
+    "qty": 1,
+    "weight": 10
+  },
+  "minecraft:gunpowder": {
+    "item": "minecraft:gunpowder",
+    "qty": 1,
+    "weight": 8
+  },
+  "minecraft:string": {
+    "item": "minecraft:string",
+    "minQty": 1,
+    "maxQty": 2,
+    "weight": 12
+  },
+  "minecraft:stick": {
+    "item": "minecraft:stick",
+    "minQty": 1,
+    "maxQty": 3,
+    "weight": 12
+  },
+  "minecraft:lead": {
+    "item": "minecraft:lead",
+    "qty": 1,
+    "weight": 6
+  },
+  "minecraft:bowl": {
+    "item": "minecraft:bowl",
+    "qty": 1,
+    "weight": 10
+  },
+  "minecraft:ink_sac": {
+    "item": "minecraft:ink_sac",
+    "minQty": 1,
+    "maxQty": 2,
+    "weight": 10
+  },
+  "minecraft:red_dye": {
+    "item": "minecraft:red_dye",
+    "minQty": 1,
+    "maxQty": 2,
+    "weight": 10
+  },
+  "minecraft:green_dye": {
+    "item": "minecraft:green_dye",
+    "minQty": 1,
+    "maxQty": 2,
+    "weight": 10
+  },
+  "minecraft:cocoa_beans": {
+    "item": "minecraft:cocoa_beans",
+    "minQty": 1,
+    "maxQty": 2,
+    "weight": 10
+  },
+  "minecraft:lapis_lazuli": {
+    "item": "minecraft:lapis_lazuli",
+    "minQty": 1,
+    "maxQty": 2,
+    "weight": 10
+  },
+  "minecraft:purple_dye": {
+    "item": "minecraft:purple_dye",
+    "minQty": 1,
+    "maxQty": 2,
+    "weight": 10
+  },
+  "minecraft:cyan_dye": {
+    "item": "minecraft:cyan_dye",
+    "minQty": 1,
+    "maxQty": 2,
+    "weight": 10
+  },
+  "minecraft:light_gray_dye": {
+    "item": "minecraft:light_gray_dye",
+    "minQty": 1,
+    "maxQty": 2,
+    "weight": 10
+  },
+  "minecraft:gray_dye": {
+    "item": "minecraft:gray_dye",
+    "minQty": 1,
+    "maxQty": 2,
+    "weight": 10
+  },
+  "minecraft:pink_dye": {
+    "item": "minecraft:pink_dye",
+    "minQty": 1,
+    "maxQty": 2,
+    "weight": 10
+  },
+  "minecraft:lime_dye": {
+    "item": "minecraft:lime_dye",
+    "minQty": 1,
+    "maxQty": 2,
+    "weight": 10
+  },
+  "minecraft:yellow_dye": {
+    "item": "minecraft:yellow_dye",
+    "minQty": 1,
+    "maxQty": 2,
+    "weight": 10
+  },
+  "minecraft:light_blue_dye": {
+    "item": "minecraft:light_blue_dye",
+    "minQty": 1,
+    "maxQty": 2,
+    "weight": 10
+  },
+  "minecraft:magenta_dye": {
+    "item": "minecraft:magenta_dye",
+    "minQty": 1,
+    "maxQty": 2,
+    "weight": 10
+  },
+  "minecraft:orange_dye": {
+    "item": "minecraft:orange_dye",
+    "minQty": 1,
+    "maxQty": 2,
+    "weight": 10
+  },
+  "minecraft:bone_meal": {
+    "item": "minecraft:bone_meal",
+    "minQty": 1,
+    "maxQty": 2,
+    "weight": 10
+  },
+  "minecraft:fire_charge": {
+    "item": "minecraft:fire_charge",
+    "qty": 1,
+    "weight": 10
+  },
+  "minecraft:sugar": {
+    "item": "minecraft:sugar",
+    "minQty": 1,
+    "maxQty": 2,
+    "weight": 10
+  },
+  "minecraft:arrow": {
+    "item": "minecraft:arrow",
+    "minQty": 1,
+    "maxQty": 3,
+    "weight": 10
+  },
+  "minecraft:clay_ball": {
+    "item": "minecraft:clay_ball",
+    "minQty": 1,
+    "maxQty": 3,
+    "weight": 10
+  },
+  "minecraft:glass_bottle": {
+    "item": "minecraft:glass_bottle",
+    "minQty": 1,
+    "maxQty": 3,
+    "weight": 10
+  },
+  "minecraft:firework_rocket": {
+    "item": "minecraft:firework_rocket",
+    "minQty": 1,
+    "maxQty": 2,
+    "weight": 10
+  },
+  "minecraft:rabbit_foot": {
+    "item": "minecraft:rabbit_foot",
+    "qty": 1,
+    "weight": 4
+  },
+  "minecraft:paper": {
+    "item": "minecraft:paper",
+    "minQty": 1,
+    "maxQty": 2,
+    "weight": 15
+  },
+  "minecraft:skeleton_skull": {
+    "item": "minecraft:skeleton_skull",
+    "qty": 1,
+    "weight": 15
+  },
+  "minecraft:music_disc_11": {
+    "item": "minecraft:music_disc_11",
+    "qty": 1,
+    "weight": 8
+  },
+  "minecraft:music_disc_13": {
+    "item": "minecraft:music_disc_13",
+    "qty": 1,
+    "weight": 8
+  },
+  "minecraft:music_disc_cat": {
+    "item": "minecraft:music_disc_cat",
+    "qty": 1,
+    "weight": 8
+  },
+  "minecraft:music_disc_strad": {
+    "item": "minecraft:music_disc_strad",
+    "qty": 1,
+    "weight": 8
+  },
+  "minecraft:music_disc_ward": {
+    "item": "minecraft:music_disc_ward",
+    "qty": 1,
+    "weight": 8
+  },
+  "minecraft:music_disc_far": {
+    "item": "minecraft:music_disc_far",
+    "qty": 1,
+    "weight": 8
+  },
+  "minecraft:name_tag": {
+    "item": "minecraft:name_tag",
+    "qty": 1,
+    "weight": 5
+  },
+  "minecraft:diamond": {
+    "item": "minecraft:diamond",
+    "qty": 1,
+    "weight": 1
+  },
+  "minecraft:emerald": {
+    "item": "minecraft:emerald",
+    "qty": 1,
+    "weight": 1
+  },
+  "minecraft:ender_pearl": {
+    "item": "minecraft:ender_pearl",
+    "qty": 1,
+    "weight": 2
+  },
+  "minecraft:golden_apple": {
+    "item": "minecraft:golden_apple",
+    "qty": 1,
+    "weight": 2
+  }
+}

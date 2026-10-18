@@ -1,0 +1,10 @@
+{
+ "item.capsule.capsule_activated": "Capsule Activated",
+ "item.capsule.capsule_blueprint": "Capsule Blueprint",
+ "item.capsule.capsule_deployed": "Capsule Deployed",
+ "item.capsule.capsule_empty": "Capsule Empty",
+ "item.capsule.capsule_empty_activated": "Capsule Empty Activated",
+ "item.capsule.capsule_linked": "Capsule Linked",
+ "item.capsule.capsule_one_use": "Capsule One Use",
+ "item.capsule.capsule_one_use_activated": "Capsule One Use Activated"
+}

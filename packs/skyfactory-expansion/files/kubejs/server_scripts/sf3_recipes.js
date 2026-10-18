@@ -30,17 +30,6 @@ ServerEvents.recipes(event => {
   }
 
   // ---- shapedrecipes.zs: Ex Nihilo meshes (Ex Deorum equivalents)
-  event.remove({ id: 'exdeorum:string_mesh' })
-  shaped('exdeorum:string_mesh', ['SSS', 'SSS', 'SSS'], { S: 'minecraft:string' }, 'string_mesh')
-  event.remove({ id: 'exdeorum:flint_mesh' })
-  event.remove({ id: 'exdeorum:flint_mesh_from_string_mesh' })
-  shaped('exdeorum:flint_mesh', ['SFS', 'FSF', 'SFS'], { S: 'minecraft:string', F: 'minecraft:flint' }, 'flint_mesh')
-  event.remove({ id: 'exdeorum:iron_mesh' })
-  event.remove({ id: 'exdeorum:iron_mesh_from_flint_mesh' })
-  shaped('exdeorum:iron_mesh', ['SIS', 'ISI', 'SIS'], { S: 'minecraft:string', I: 'minecraft:iron_ingot' }, 'iron_mesh')
-  event.remove({ id: 'exdeorum:diamond_mesh' })
-  event.remove({ id: 'exdeorum:diamond_mesh_from_golden_mesh' })
-  shaped('exdeorum:diamond_mesh', ['SDS', 'DSD', 'SDS'], { S: 'minecraft:string', D: 'minecraft:diamond' }, 'diamond_mesh')
 
   // Decorative crafting tables: Random Things and Natura reused the vanilla 2x2-planks shape, so a
   // normal crafting table could never be made from those planks. They now take a crafting table + plank.
@@ -59,13 +48,9 @@ ServerEvents.recipes(event => {
 
   // Sponge recipes
   shaped('minecraft:sponge', ['YCY', 'CSC', 'YCY'], { Y: 'minecraft:yellow_wool', C: 'excompressum:wood_chippings', S: 'minecraft:slime_block' }, 'sponge_chippings')
-  shaped('minecraft:sponge', ['SNS', 'NLN', 'SNS'], { S: 'mysticalagriculture:spider_essence', N: 'mysticalagriculture:nature_essence', L: 'mysticalagriculture:slime_essence' }, 'sponge_essence')
-  shaped('3x refinedstorage:quartz_enriched_iron', ['II', 'IQ', 'IQ'], { I: 'mysticalagriculture:iron_essence', Q: 'mysticalagriculture:nether_quartz_essence' }, 'quartz_iron_essence')
   shaped('excompressum:chicken_stick', [' C ', ' SC', 'S  '], { C: 'minecraft:chicken', S: 'minecraft:stick' }, 'chicken_stick')
 
   // Harder recipes
-  event.remove({ id: 'rftoolsdim:dimension_builder' })
-  shaped('rftoolsdim:dimension_builder', ['EDE', 'DMD', 'AAA'], { E: 'minecraft:ender_pearl', D: 'minecraft:diamond', M: 'rftoolsbase:machine_frame', A: 'draconicevolution:awakened_draconium_ingot' }, 'dimension_builder')
   event.remove({ id: 'draconicevolution:machines/grinder' })
   shaped('draconicevolution:grinder', ['ASA', 'SWS', 'AGA'], { A: 'draconicevolution:awakened_draconium_ingot', S: 'minecraft:diamond_sword', W: 'draconicevolution:wyvern_core', G: 'draconicevolution:generator' }, 'grinder')
 
@@ -74,7 +59,7 @@ ServerEvents.recipes(event => {
 
   // Master Infusion Crystal with Epic Bacon
   event.remove({ id: 'mysticalagriculture:master_infusion_crystal' })
-  shaped('mysticalagriculture:master_infusion_crystal', ['SBS', 'BIB', 'SNS'], { S: 'mysticalagriculture:supremium_essence', B: 'pamhc2foodcore:epicbaconitem',
+  shaped('mysticalagriculture:master_infusion_crystal', ['SBS', 'BIB', 'SNS'], { S: 'mysticalagriculture:supremium_essence', B: 'harvestcraft:epicbaconitem',
     I: 'mysticalagriculture:infusion_crystal', N: 'minecraft:nether_star' }, 'master_infusion_crystal')
 
   // Simple Generators without Dragon's Breath (IE plates; RFTools machine frame)
@@ -82,10 +67,10 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'sf3extras:' + g })
   shaped('sf3extras:furnace_generator', ['PIP', 'IFI', 'PRP'], { P: 'immersiveengineering:plate_iron', I: 'minecraft:iron_ingot', F: 'minecraft:furnace', R: 'minecraft:redstone_block' }, 'furnace_generator_iron')
   shaped('sf3extras:furnace_generator', ['PAP', 'AFA', 'PRP'], { P: 'immersiveengineering:plate_aluminum', A: 'immersiveengineering:ingot_aluminum', F: 'minecraft:furnace', R: 'minecraft:redstone_block' }, 'furnace_generator_aluminum')
-  shaped('sf3extras:culinary_generator', ['PFP', 'OMH', 'PRP'], { P: 'immersiveengineering:plate_iron', F: 'minecraft:flint_and_steel', O: 'minecraft:fishing_rod', M: 'rftoolsbase:machine_frame', H: 'minecraft:iron_hoe', R: 'minecraft:redstone_block' }, 'culinary_generator_iron')
-  shaped('sf3extras:culinary_generator', ['PFP', 'OMH', 'PRP'], { P: 'immersiveengineering:plate_aluminum', F: 'minecraft:flint_and_steel', O: 'minecraft:fishing_rod', M: 'rftoolsbase:machine_frame', H: 'minecraft:iron_hoe', R: 'minecraft:redstone_block' }, 'culinary_generator_aluminum')
-  shaped('sf3extras:ender_generator', ['PEP', 'EME', 'PRP'], { P: 'immersiveengineering:plate_electrum', E: 'minecraft:ender_eye', M: 'rftoolsbase:machine_frame', R: 'minecraft:redstone_block' }, 'ender_generator')
-  shaped('sf3extras:lava_generator', ['PCP', 'CMC', 'PRP'], { P: 'immersiveengineering:plate_electrum', C: '#c:ingots/copper', M: 'rftoolsbase:machine_frame', R: 'minecraft:redstone_block' }, 'lava_generator')
+  shaped('sf3extras:culinary_generator', ['PFP', 'OMH', 'PRP'], { P: 'immersiveengineering:plate_iron', F: 'minecraft:flint_and_steel', O: 'minecraft:fishing_rod', M: 'rftools:machine_frame', H: 'minecraft:iron_hoe', R: 'minecraft:redstone_block' }, 'culinary_generator_iron')
+  shaped('sf3extras:culinary_generator', ['PFP', 'OMH', 'PRP'], { P: 'immersiveengineering:plate_aluminum', F: 'minecraft:flint_and_steel', O: 'minecraft:fishing_rod', M: 'rftools:machine_frame', H: 'minecraft:iron_hoe', R: 'minecraft:redstone_block' }, 'culinary_generator_aluminum')
+  shaped('sf3extras:ender_generator', ['PEP', 'EME', 'PRP'], { P: 'immersiveengineering:plate_electrum', E: 'minecraft:ender_eye', M: 'rftools:machine_frame', R: 'minecraft:redstone_block' }, 'ender_generator')
+  shaped('sf3extras:lava_generator', ['PCP', 'CMC', 'PRP'], { P: 'immersiveengineering:plate_electrum', C: '#c:ingots/copper', M: 'rftools:machine_frame', R: 'minecraft:redstone_block' }, 'lava_generator')
   for (const g of ['furnace_generator', 'ender_generator', 'culinary_generator', 'lava_generator'])
     shaped('sf3extras:' + g + '_2', ['GGG', 'GVG', 'GGG'], { G: 'sf3extras:' + g, V: 'enderio:vibrant_crystal' }, g + '_2')
 
@@ -108,8 +93,6 @@ ServerEvents.recipes(event => {
   shaped('mob_grinding_utils:fan', ['SIS', 'IRI', 'SIS'], { S: 'minecraft:stone_slab', I: 'minecraft:iron_ingot', R: 'minecraft:redstone' }, 'fan')
   event.remove({ id: 'mob_grinding_utils:recipe_mob_swab' })
   shaped('mob_grinding_utils:mob_swab', ['  W', ' S ', 'W  '], { W: '#minecraft:wool', S: 'minecraft:stick' }, 'mob_swab')
-  event.remove({ id: 'mob_grinding_utils:recipe_wither_muffler' })
-  shaped('mob_grinding_utils:wither_muffler', ['WWW', 'WSW', 'WWW'], { W: '#minecraft:wool', S: 'minecraft:wither_skeleton_skull' }, 'wither_muffler')
   event.remove({ id: 'mob_grinding_utils:recipe_absorbtion_upgrade' })
   shaped('mob_grinding_utils:absorption_upgrade', ['OEO', 'ERE', 'OEO'], { O: 'minecraft:obsidian', E: 'minecraft:ender_pearl', R: 'minecraft:redstone_block' }, 'absorption_upgrade')
   const saw = { saw_upgrade_sharpness: 'minecraft:iron_sword', saw_upgrade_looting: 'minecraft:lapis_lazuli', saw_upgrade_fire: 'minecraft:flint_and_steel',
@@ -121,15 +104,12 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'mob_grinding_utils:recipe_saw_upgrade_beheading' })
   shaped('mob_grinding_utils:saw_upgrade_beheading', ['NGN', 'IRI', 'NGN'], { N: 'minecraft:gold_nugget', G: 'minecraft:golden_helmet', I: 'minecraft:iron_helmet', R: 'minecraft:redstone_block' }, 'saw_upgrade_beheading')
   event.remove({ id: 'mob_grinding_utils:recipe_saw' })
-  shaped('mob_grinding_utils:saw', ['DMD', 'MRG', 'III'], { D: 'euru:diamond_spike', M: 'mob_grinding_utils:spikes', R: 'enderio:vibrant_crystal', G: 'euru:redstone_gear', I: 'minecraft:iron_block' }, 'saw')
+  shaped('mob_grinding_utils:saw', ['DMD', 'MRG', 'III'], { D: 'xu2blocks:diamond_spike', M: 'mob_grinding_utils:spikes', R: 'enderio:vibrant_crystal', G: 'euru:redstone_gear', I: 'minecraft:iron_block' }, 'saw')
 
   // The Beneath teleporter (compressed cobblestone; wither roses stand in for Dark Utilities' removed wither dust)
   event.remove({ id: 'sf3extras:beneath_teleporter' })
   shaped('sf3extras:beneath_teleporter', ['QWQ', 'W5W', 'QWQ'], { Q: 'euru:quadruple_compressed_cobblestone', W: 'minecraft:wither_rose', 5: 'euru:quintuple_compressed_cobblestone' }, 'beneath_teleporter')
 
-  // Dye elevators
-  for (const c of ['black', 'blue', 'brown', 'cyan', 'gray', 'green', 'light_blue', 'lime', 'magenta', 'red', 'yellow', 'purple', 'orange', 'pink', 'light_gray'])
-    shaped('elevatorid:elevator_' + c, ['DDD', 'DED', 'DDD'], { D: '#c:dyes/' + c, E: 'elevatorid:elevator_white' }, 'elevator_' + c)
 
   // Dragon Egg (Dark Utilities' shulker pearl is gone: shulker shells instead)
   event.remove({ id: 'mysticalagradditions:dragon_egg' })
@@ -137,10 +117,9 @@ ServerEvents.recipes(event => {
     B: 'minecraft:dragon_breath', H: 'draconicevolution:dragon_heart' }, 'dragon_egg')
 
   // Menril sapling from Mystical Agriculture
-  shaped('integrateddynamics:menril_sapling', ['N', 'N', 'W'], { N: 'mysticalagriculture:nature_essence', W: 'mysticalagriculture:wood_essence' }, 'menril_sapling')
 
   // Cobblestone generator with any water/lava container (Tiny Progressions)
-  shaped('sf3extras:cobblegen_block', ['CCC', 'WGL', 'CCC'], { C: 'minecraft:cobblestone', W: 'exdeorum:porcelain_water_bucket', G: '#c:glass_blocks', L: 'exdeorum:porcelain_lava_bucket' }, 'cobblegen_porcelain')
+  shaped('sf3extras:cobblegen_block', ['CCC', 'WGL', 'CCC'], { C: 'minecraft:cobblestone', W: 'minecraft:water_bucket', G: '#c:glass_blocks', L: 'minecraft:lava_bucket' }, 'cobblegen_porcelain')
 
   // Tiny Progressions wither-proof blocks to match other mods
   event.remove({ id: 'sf3extras:reinforced_glass' })
@@ -152,7 +131,6 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'quantumstorage:quantumdsu' })
   event.remove({ id: 'simplelabels:dsu_from_vsu' })
   event.remove({ id: 'simplelabels:vsu_from_dsu' })
-  shaped('quantumstorage:quantumdsu', ['EOE', 'OCO', 'IOI'], { E: 'minecraft:ender_pearl', O: 'ironchest:obsidian_chest', C: 'enderio:void_chassis', I: 'minecraft:iron_ingot' }, 'quantumdsu')
   shapeless('simplelabels:blockvsu', ['quantumstorage:quantumdsu'], 'vsu_from_dsu')
   shapeless('quantumstorage:quantumdsu', ['simplelabels:blockvsu'], 'dsu_from_vsu')
 
@@ -160,17 +138,9 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'torchmaster:megatorch' })
   shaped('torchmaster:megatorch', ['TTT', 'DLD', 'ELE'], { T: 'integrateddynamics:menril_torch', D: 'minecraft:diamond', L: '#minecraft:logs', E: 'minecraft:emerald_block' }, 'megatorch')
 
-  // Pam's: skillet with other metals, epic bacon with any dyes, baits
-  for (const m of ['aluminum', 'copper', 'steel', 'lead']) {
-    shaped('pamhc2foodcore:skilletitem', ['M  ', ' M ', '  S'], { M: '#c:ingots/' + m, S: 'minecraft:stick' }, 'skillet_' + m)
-  }
-  event.remove({ id: 'pamhc2foodcore:epicbaconitem' })
-  shaped('pamhc2foodcore:epicbaconitem', ['PRO', 'YGC', 'UM '], { P: 'minecraft:cooked_porkchop', R: '#c:dyes/red', O: '#c:dyes/orange', Y: '#c:dyes/yellow',
-    G: '#c:dyes/green', C: '#c:dyes/cyan', U: '#c:dyes/purple', M: '#c:dyes/magenta' }, 'epic_bacon')
+  // Pam's HarvestCraft (original port): skillet metals, epic bacon and baits are recipes of the harvestcraft jar itself (SF3 scripts applied)
 
   // Actually Additions: tiny torch from mini coal; modern black quartz route uses renewable Nether Quartz Essence because MA 8 has no black-quartz essence item.
-  shaped('actuallyadditions:tiny_torch', ['C', 'S'], { C: 'minicoal:minicoal', S: 'minecraft:stick' }, 'tiny_torch_minicoal')
-  shaped('actuallyadditions:tiny_torch', ['C', 'S'], { C: 'minicoal:minicharcoal', S: 'minecraft:stick' }, 'tiny_torch_minicharcoal')
   shaped('6x actuallyadditions:black_quartz', ['EEE', ' E ', 'EEE'], { E: 'mysticalagriculture:nether_quartz_essence' }, 'black_quartz_essence')
 
   // Wooden shears with a sapling; coarse dirt from dirt + gravel
@@ -229,11 +199,7 @@ ServerEvents.recipes(event => {
   shapeless('minecraft:prismarine_shard', ['minecraft:prismarine_crystals', 'minecraft:prismarine_crystals'], 'prismarine_shard')
   shapeless('4x minecraft:stick', ['#minecraft:planks', '#minecraft:planks'], 'sticks')
   shapeless('mob_grinding_utils:dark_oak_stone', ['minecraft:cobblestone', 'minecraft:cocoa_beans'], 'dark_oak_stone')
-  shapeless('mob_grinding_utils:dark_oak_stone', ['minecraft:cobblestone', 'minecraft:cocoa_beans'], 'dark_oak_stone')
-  shapeless('2x minecraft:sand', ['snad:snad'], 'sand_from_snad')
-  shapeless('2x minecraft:red_sand', ['snad:red_snad'], 'red_sand_from_snad')
   shapeless('4x minecraft:clay_ball', ['minecraft:clay'], 'clay_balls')
-  shapeless('4x exdeorum:porcelain_clay_ball', ['minecraft:clay', 'minecraft:bone_meal'], 'porcelain_clay')
 
   // ---- Furnace.zs
   smelt('fluxnetworks:flux_dust', 'minecraft:redstone', 'flux_dust')
@@ -257,11 +223,7 @@ ServerEvents.recipes(event => {
     event.custom({ type: 'actuallyadditions:crushing', ingredient: { item: input },
       result: [{ result: { id: output, count: count } }] }).id('sf3:aa_crush_' + name)
   }
-  for (const [m, dust] of Object.entries({ gold: 'immersiveengineering:dust_gold', iron: 'immersiveengineering:dust_iron',
-    copper: 'immersiveengineering:dust_copper', aluminum: 'immersiveengineering:dust_aluminum',
-    lead: 'immersiveengineering:dust_lead', silver: 'immersiveengineering:dust_silver', nickel: 'immersiveengineering:dust_nickel' }))
-    aaCrush(m, 'exdeorum:' + m + '_ore_chunk', dust, 2)
-  aaCrush('sand_to_dust', 'minecraft:sand', 'exdeorum:dust', 1)
+  aaCrush('sand_to_dust', 'minecraft:sand', 'exnihiloadscensio:dust', 1)
   aaCrush('prismarine', 'minecraft:prismarine', 'minecraft:prismarine_shard', 2)
 
   // ---- IE.zs: the old SF3 balance gives prismarine blocks 2 shards (modern IE defaults to 4).
@@ -294,11 +256,7 @@ ServerEvents.recipes(event => {
     ['nether_brick', 'minecraft:nether_bricks', 'minecraft:nether_brick', 4, 2000],
     ['brick_block', 'minecraft:bricks', 'minecraft:brick', 4, 2000]
   ]) ieCrush(name, input, output, count, energy)
-  for (const [m, dust] of Object.entries({ gold: 'immersiveengineering:dust_gold', iron: 'immersiveengineering:dust_iron',
-    copper: 'immersiveengineering:dust_copper', aluminum: 'immersiveengineering:dust_aluminum',
-    lead: 'immersiveengineering:dust_lead', silver: 'immersiveengineering:dust_silver', nickel: 'immersiveengineering:dust_nickel' }))
-    ieCrush('ore_chunk_' + m, 'exdeorum:' + m + '_ore_chunk', dust, 2, 2000)
-  ieCrush('sand_to_dust', 'minecraft:sand', 'exdeorum:dust', 1, 2000)
+  ieCrush('sand_to_dust', 'minecraft:sand', 'exnihiloadscensio:dust', 1, 2000)
 })
 
 // ---- oredict.zs: Snad counts as sand

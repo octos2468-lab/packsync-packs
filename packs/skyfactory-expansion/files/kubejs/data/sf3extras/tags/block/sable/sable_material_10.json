@@ -2,7 +2,7 @@
  "replace": false,
  "values": [
   "randomthings:compressed_slime_block",
-  "randomthings:slime_cube",
+  "minecraft:slime_block",
   "sf3extras:compressed_flesh_block",
   "sf3extras:hydrogel",
   "sf3extras:redstone_paste",

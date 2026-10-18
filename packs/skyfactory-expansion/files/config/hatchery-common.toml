@@ -1,0 +1,14 @@
+[drop_rates]
+	#Configure the drop rate % of Eggs in the Nesting Pen. Only affects single pens.
+	#If two pens are placed next to each other there is a 100% chance to drop. (Original default 40; SkyFactory 3 used 45.)
+	# Default: 45
+	# Range: 0 ~ 100
+	hatcheryEggDropRate = 45
+
+[mechanics]
+	#Sets if players can throw eggs to hatch chickens.
+	canThrowEggs = true
+
+[client]
+	#Animate the wings of chickens stored in Nesting Pens.
+	renderChickenFlaps = true

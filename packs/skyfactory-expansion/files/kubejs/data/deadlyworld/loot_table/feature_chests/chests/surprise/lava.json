@@ -1,0 +1,149 @@
+{
+ "type": "minecraft:chest",
+ "pools": [
+  {
+   "rolls": 1.0,
+   "entries": [
+    {
+     "type": "minecraft:loot_table",
+     "value": "deadlyworld:events/lava",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "rolls": {
+    "type": "minecraft:uniform",
+    "min": 1.0,
+    "max": 3.0
+   },
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:bow",
+     "weight": 5,
+     "functions": [
+      {
+       "function": "minecraft:enchant_randomly"
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:arrow",
+     "weight": 15,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 8.0
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:iron_sword",
+     "weight": 5,
+     "functions": [
+      {
+       "function": "minecraft:enchant_randomly"
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:torch",
+     "weight": 15,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 8.0
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:fire_charge",
+     "weight": 15,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 8.0
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:flint_and_steel",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:lava_bucket",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:magma_block",
+     "weight": 10,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 4.0
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:glowstone_dust",
+     "weight": 10,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 4.0
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:book",
+     "weight": 5,
+     "functions": [
+      {
+       "function": "minecraft:enchant_randomly"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rolls": 1.0,
+   "entries": [
+    {
+     "type": "minecraft:loot_table",
+     "value": "minecraft:chests/simple_dungeon",
+     "weight": 1
+    }
+   ]
+  }
+ ]
+}

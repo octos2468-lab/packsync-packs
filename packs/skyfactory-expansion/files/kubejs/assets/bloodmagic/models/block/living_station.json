@@ -1,8 +1,0 @@
-{
- "parent": "minecraft:block/cube_bottom_top",
- "textures": {
-  "top": "bloodmagic:block/arc_top_default",
-  "bottom": "bloodmagic:block/bloodstone_brick",
-  "side": "bloodmagic:block/arc_side_default"
- }
-}

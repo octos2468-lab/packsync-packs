@@ -1,0 +1,5 @@
+[tweaks]
+	#Pinned SF3 QuantumStorage.cfg: DSU Max Storage
+	# Default: 2147483644
+	# Range: > 1
+	dsu_max_storage = 2147483644

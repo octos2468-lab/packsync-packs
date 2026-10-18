@@ -1,7 +1,7 @@
 {
  "replace": false,
  "values": [
-  "exdeorum:compressed_soul_sand",
-  "snad:suol_snad"
+  "snad:suol_snad",
+  "excompressum:compressed_soul_sand"
  ]
 }

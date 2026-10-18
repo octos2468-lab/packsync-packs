@@ -1,0 +1,120 @@
+[general]
+	#Frost arrows deal triple damage to Blazes and extinguish burning targets; they are never on fire.
+	frostArrowsShouldBeCold = true
+	#Old slowdown (a cobweb for one tick) instead of the Slowness effect.
+	oldFrostArrowMobSlowdown = false
+	#AlwaysCustomArrows: use 1, shoot the used arrow type; AlwaysStandardArrows: use 1, shoot standard arrows; UseAmountShot: use as many as shot.
+	#Allowed Values: AlwaysCustomArrows, AlwaysStandardArrows, UseAmountShot
+	customArrowMultiShot = "AlwaysCustomArrows"
+
+	[bows.diamondbow]
+		#How much durability the bow has.
+		# Default: 1016
+		# Range: > 1
+		confBowDurability = 1016
+		#The multiplier to the base damage of the bow. Higher is more damage.
+		# Default: 1.25
+		# Range: 0.0 ~ 1000.0
+		confBowDamageMult = 1.0
+		#How fast the bow's drawback is. Lower is faster.
+		# Default: 6.0
+		# Range: 0.1 ~ 1000.0
+		confBowDrawbackDiv = 16.0
+
+	[bows.enderbow]
+		#How much durability the bow has.
+		# Default: 215
+		# Range: > 1
+		confBowDurability = 215
+		#The multiplier to the base damage of the bow. Higher is more damage.
+		# Default: 1.15
+		# Range: 0.0 ~ 1000.0
+		confBowDamageMult = 1.15
+		#How fast the bow's drawback is. Lower is faster.
+		# Default: 22.0
+		# Range: 0.1 ~ 1000.0
+		confBowDrawbackDiv = 37.0
+
+	[bows.flamebow]
+		#How much durability the bow has.
+		# Default: 576
+		# Range: > 1
+		confBowDurability = 576
+		#The multiplier to the base damage of the bow. Higher is more damage.
+		# Default: 1.25
+		# Range: 0.0 ~ 1000.0
+		confBowDamageMult = 1.25
+		#How fast the bow's drawback is. Lower is faster.
+		# Default: 15.0
+		# Range: 0.1 ~ 1000.0
+		confBowDrawbackDiv = 21.0
+
+	[bows.frostbow]
+		#How much durability the bow has.
+		# Default: 550
+		# Range: > 1
+		confBowDurability = 550
+		#The multiplier to the base damage of the bow. Higher is more damage.
+		# Default: 1.75
+		# Range: 0.0 ~ 1000.0
+		confBowDamageMult = 1.75
+		#How fast the bow's drawback is. Lower is faster.
+		# Default: 26.0
+		# Range: 0.1 ~ 1000.0
+		confBowDrawbackDiv = 26.0
+
+	[bows.goldbow]
+		#How much durability the bow has.
+		# Default: 68
+		# Range: > 1
+		confBowDurability = 68
+		#The multiplier to the base damage of the bow. Higher is more damage.
+		# Default: 1.2
+		# Range: 0.0 ~ 1000.0
+		confBowDamageMult = 1.0
+		#How fast the bow's drawback is. Lower is faster.
+		# Default: 12.0
+		# Range: 0.1 ~ 1000.0
+		confBowDrawbackDiv = 16.0
+
+	[bows.ironbow]
+		#How much durability the bow has.
+		# Default: 550
+		# Range: > 1
+		confBowDurability = 550
+		#The multiplier to the base damage of the bow. Higher is more damage.
+		# Default: 1.25
+		# Range: 0.0 ~ 1000.0
+		confBowDamageMult = 1.1
+		#How fast the bow's drawback is. Lower is faster.
+		# Default: 17.0
+		# Range: 0.1 ~ 1000.0
+		confBowDrawbackDiv = 18.0
+
+	[bows.multibow]
+		#How much durability the bow has.
+		# Default: 550
+		# Range: > 1
+		confBowDurability = 550
+		#The multiplier to the base damage of the bow. Higher is more damage.
+		# Default: 1.1
+		# Range: 0.0 ~ 1000.0
+		confBowDamageMult = 1.1
+		#How fast the bow's drawback is. Lower is faster.
+		# Default: 13.0
+		# Range: 0.1 ~ 1000.0
+		confBowDrawbackDiv = 16.0
+
+	[bows.stonebow]
+		#How much durability the bow has.
+		# Default: 484
+		# Range: > 1
+		confBowDurability = 484
+		#The multiplier to the base damage of the bow. Higher is more damage.
+		# Default: 1.2
+		# Range: 0.0 ~ 1000.0
+		confBowDamageMult = 1.2
+		#How fast the bow's drawback is. Lower is faster.
+		# Default: 20.0
+		# Range: 0.1 ~ 1000.0
+		confBowDrawbackDiv = 22.0

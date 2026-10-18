@@ -1,0 +1,1284 @@
+{
+ "type": "minecraft:chest",
+ "pools": [
+  {
+   "rolls": {
+    "type": "minecraft:uniform",
+    "min": 3,
+    "max": 9
+   },
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:iron_helmet",
+     "weight": 80,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.8
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      },
+      {
+       "function": "minecraft:enchant_with_levels",
+       "levels": {
+        "type": "minecraft:uniform",
+        "min": 5,
+        "max": 20
+       },
+       "options": "#minecraft:non_treasure",
+       "conditions": [
+        {
+         "condition": "minecraft:random_chance",
+         "chance": 0.3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:iron_chestplate",
+     "weight": 80,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.8
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      },
+      {
+       "function": "minecraft:enchant_with_levels",
+       "levels": {
+        "type": "minecraft:uniform",
+        "min": 5,
+        "max": 20
+       },
+       "options": "#minecraft:non_treasure",
+       "conditions": [
+        {
+         "condition": "minecraft:random_chance",
+         "chance": 0.3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:iron_leggings",
+     "weight": 80,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.8
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      },
+      {
+       "function": "minecraft:enchant_with_levels",
+       "levels": {
+        "type": "minecraft:uniform",
+        "min": 5,
+        "max": 20
+       },
+       "options": "#minecraft:non_treasure",
+       "conditions": [
+        {
+         "condition": "minecraft:random_chance",
+         "chance": 0.3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:iron_boots",
+     "weight": 80,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.8
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      },
+      {
+       "function": "minecraft:enchant_with_levels",
+       "levels": {
+        "type": "minecraft:uniform",
+        "min": 5,
+        "max": 20
+       },
+       "options": "#minecraft:non_treasure",
+       "conditions": [
+        {
+         "condition": "minecraft:random_chance",
+         "chance": 0.3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:chainmail_helmet",
+     "weight": 50,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.5
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      },
+      {
+       "function": "minecraft:enchant_with_levels",
+       "levels": {
+        "type": "minecraft:uniform",
+        "min": 5,
+        "max": 20
+       },
+       "options": "#minecraft:non_treasure",
+       "conditions": [
+        {
+         "condition": "minecraft:random_chance",
+         "chance": 0.25
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:chainmail_chestplate",
+     "weight": 50,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.5
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      },
+      {
+       "function": "minecraft:enchant_with_levels",
+       "levels": {
+        "type": "minecraft:uniform",
+        "min": 5,
+        "max": 20
+       },
+       "options": "#minecraft:non_treasure",
+       "conditions": [
+        {
+         "condition": "minecraft:random_chance",
+         "chance": 0.25
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:chainmail_leggings",
+     "weight": 50,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.5
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      },
+      {
+       "function": "minecraft:enchant_with_levels",
+       "levels": {
+        "type": "minecraft:uniform",
+        "min": 5,
+        "max": 20
+       },
+       "options": "#minecraft:non_treasure",
+       "conditions": [
+        {
+         "condition": "minecraft:random_chance",
+         "chance": 0.25
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:chainmail_boots",
+     "weight": 50,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.5
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      },
+      {
+       "function": "minecraft:enchant_with_levels",
+       "levels": {
+        "type": "minecraft:uniform",
+        "min": 5,
+        "max": 20
+       },
+       "options": "#minecraft:non_treasure",
+       "conditions": [
+        {
+         "condition": "minecraft:random_chance",
+         "chance": 0.25
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:boots_heavy_iron",
+     "weight": 20,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.2
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:leggings_heavy_iron",
+     "weight": 20,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.2
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:chestplate_heavy_iron",
+     "weight": 20,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.2
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:helmet_heavy_iron",
+     "weight": 20,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.2
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:boots_iron_dyable",
+     "weight": 20,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.2
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:leggings_iron_dyable",
+     "weight": 20,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.2
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:chestplate_iron_dyable",
+     "weight": 20,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.2
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:helmet_iron_dyable",
+     "weight": 20,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.2
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:leggings_heavy_diamond",
+     "weight": 15,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.15
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:leggings_bull",
+     "weight": 10,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.1
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:leggings_slime",
+     "weight": 10,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.1
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:chestplate_slime",
+     "weight": 10,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.1
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:chestplate_bull",
+     "weight": 10,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.1
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:chestplate_heavy_diamond",
+     "weight": 15,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.15
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:helmet_heavy_diamond",
+     "weight": 15,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.15
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:helmet_bull",
+     "weight": 10,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.1
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:helmet_slime",
+     "weight": 10,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.1
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:boots_slime",
+     "weight": 10,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.1
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:boots_bull",
+     "weight": 10,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.1
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:boots_heavy_diamond",
+     "weight": 15,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.15
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:diamond_sword",
+     "weight": 20,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.2
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:golden_sword",
+     "weight": 50,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.5
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      },
+      {
+       "function": "minecraft:enchant_with_levels",
+       "levels": {
+        "type": "minecraft:uniform",
+        "min": 5,
+        "max": 20
+       },
+       "options": "#minecraft:non_treasure",
+       "conditions": [
+        {
+         "condition": "minecraft:random_chance",
+         "chance": 0.3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:iron_sword",
+     "weight": 70,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.7
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      },
+      {
+       "function": "minecraft:enchant_with_levels",
+       "levels": {
+        "type": "minecraft:uniform",
+        "min": 5,
+        "max": 20
+       },
+       "options": "#minecraft:non_treasure",
+       "conditions": [
+        {
+         "condition": "minecraft:random_chance",
+         "chance": 0.35
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:dagger_iron",
+     "weight": 70,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.7
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      },
+      {
+       "function": "minecraft:enchant_with_levels",
+       "levels": {
+        "type": "minecraft:uniform",
+        "min": 5,
+        "max": 20
+       },
+       "options": "#minecraft:non_treasure",
+       "conditions": [
+        {
+         "condition": "minecraft:random_chance",
+         "chance": 0.35
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:dagger_diamond",
+     "weight": 6,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.06
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:great_sword_iron",
+     "weight": 35,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.35
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      },
+      {
+       "function": "minecraft:enchant_with_levels",
+       "levels": {
+        "type": "minecraft:uniform",
+        "min": 5,
+        "max": 20
+       },
+       "options": "#minecraft:non_treasure",
+       "conditions": [
+        {
+         "condition": "minecraft:random_chance",
+         "chance": 0.2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:spear_iron",
+     "weight": 40,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.4
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      },
+      {
+       "function": "minecraft:enchant_with_levels",
+       "levels": {
+        "type": "minecraft:uniform",
+        "min": 5,
+        "max": 20
+       },
+       "options": "#minecraft:non_treasure",
+       "conditions": [
+        {
+         "condition": "minecraft:random_chance",
+         "chance": 0.2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:spear_diamond",
+     "weight": 10,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.1
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:revolver",
+     "weight": 15,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.15
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:musket",
+     "weight": 10,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.1
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:sword_turtle",
+     "weight": 10,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.1
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:flamethrower",
+     "weight": 8,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.08
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:bow",
+     "weight": 30,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.3
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:arrow",
+     "weight": 20,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.2
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 8,
+        "max": 16
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:bullet_iron",
+     "weight": 10,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.1
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 5,
+        "max": 15
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:bullet_fire",
+     "weight": 5,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.05
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 5
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:bullet_gold",
+     "weight": 5,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.05
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 5
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:bullet_diamond",
+     "weight": 5,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.05
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 5
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_tomb",
+     "weight": 3,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.03
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_spider",
+     "weight": 3,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.03
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_skeleton_friends",
+     "weight": 3,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.03
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_rusted",
+     "weight": 3,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.03
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_pirate2",
+     "weight": 3,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.03
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_pigman",
+     "weight": 3,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.03
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_mummy",
+     "weight": 3,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.03
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_zombie",
+     "weight": 3,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.03
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_pirate",
+     "weight": 3,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.03
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_goblin",
+     "weight": 3,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.03
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_monking",
+     "weight": 3,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.03
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_turtle",
+     "weight": 3,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.03
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cqrepoured:shield_triton",
+     "weight": 3,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.03
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:armor_stand",
+     "weight": 6,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.06
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:iron_horse_armor",
+     "weight": 6,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.06
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:golden_horse_armor",
+     "weight": 6,
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.06
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

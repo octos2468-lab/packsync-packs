@@ -1,0 +1,48 @@
+["balance settings"]
+	#Bit Bag - bits per stack inside a bag (SF3: 4096)
+	# Default: 4096
+	# Range: 64 ~ 999999
+	bagStackSize = 4096
+	#Percentage of a block that must be glowing for max light level
+	# Default: 6.25
+	# Range: 0.0 ~ 100.0
+	bitLightPercentage = 6.25
+	blacklistTickingBlocks = true
+	compatabilityMode = true
+	damageTools = true
+	# Default: 796480
+	# Range: > 0
+	diamondChiselUses = 796480
+	# Default: 7980
+	# Range: > 0
+	diamondSawUses = 7980
+	enableBitLightSource = true
+	enableChiselToolHarvestCheck = true
+	enableChiselToolHarvestCheckTools = "pickaxe,axe,shovel"
+	enableSetBitCommand = false
+	enableToolHarvestLevels = true
+	fullBlockCrafting = true
+	# Default: 1024
+	# Range: > 0
+	goldChiselUses = 1024
+	# Default: 293440
+	# Range: > 0
+	ironChiselUses = 293440
+	# Default: 4.0
+	# Range: 0.0625 ~ 64.0
+	maxDrawnRegionSize = 4.0
+	# Default: 8384
+	# Range: > 0
+	stoneChiselUses = 8384
+	# Default: 1888
+	# Range: > 0
+	wrenchUses = 1888
+
+[crafting]
+	enableNegativePrintInversionCrafting = true
+	enablePositivePrintCrafting = true
+	enableStackableCrafting = true
+
+[troubleshooting]
+	enableAPITestingItem = false
+	logTileErrors = false

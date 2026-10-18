@@ -35,7 +35,8 @@
     "botania:marimorphosis",
     "chickens:avian_dousing",
     "cucumber:shaped_tag",
-    "tconstruct:material_fluid"
+    "tconstruct:material_fluid",
+    "enderio:sag_milling"
   ],
   "ignored_recipe_ids": [],
   "recipe_viewer_hiding": true,

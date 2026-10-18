@@ -1,0 +1,7 @@
+{
+ "parent": "block/cube_all",
+ "textures": {
+  "particle": "scanner:block/dimensionalcore_overworld",
+  "all": "scanner:block/dimensionalcore_overworld"
+ }
+}

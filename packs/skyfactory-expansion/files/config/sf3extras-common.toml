@@ -113,3 +113,12 @@
 	# Default: 10.0
 	# Range: 0.0 ~ 100.0
 	thrownBitInaccuracyBitBag = 10.0
+
+[sablephysicstree]
+	#Let Sable Physics Tree turn chopped natural trees into falling physics objects. Off: every log breaks normally.
+	treeFelling = false
+
+[server]
+	#Allow switching to Creative mode, operators included. Off: /gamemode creative, the F3+F4 switcher and the
+	#sidebar toggle are refused, and anyone found in Creative at login is returned to Survival.
+	allowCreativeMode = false

@@ -1,2 +1,0 @@
-// Compost colors for modopedia. You may add your own colors, change existing ones, or remove colors that aren't needed.
-book, #7c6b5c

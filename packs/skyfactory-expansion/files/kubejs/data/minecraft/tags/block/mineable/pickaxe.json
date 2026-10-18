@@ -1,0 +1,357 @@
+{
+ "replace": false,
+ "values": [
+  {
+   "id": "actuallyadditions:atomic_reconstructor",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:battery_box",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:bio_reactor",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:black_quartz_block",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:black_quartz_brick_block",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:black_quartz_brick_slab",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:black_quartz_brick_stair",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:black_quartz_ore",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:black_quartz_pillar_block",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:black_quartz_pillar_slab",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:black_quartz_pillar_stair",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:black_quartz_slab",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:black_quartz_stair",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:breaker",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:canola_press",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:chiseled_black_quartz_block",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:chiseled_black_quartz_slab",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:chiseled_black_quartz_stair",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:coal_generator",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:coffee_machine",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:crusher",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:crusher_double",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:diamatine_crystal_block",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:display_stand",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:dropper",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:emeradic_crystal_block",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:empowered_diamatine_crystal_block",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:empowered_emeradic_crystal_block",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:empowered_enori_crystal_block",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:empowered_palis_crystal_block",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:empowered_restonia_crystal_block",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:empowered_void_crystal_block",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:empowerer",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:ender_casing",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:energizer",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:enervator",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:enori_crystal_block",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:ethetic_green_block",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:ethetic_green_slab",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:ethetic_green_stairs",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:ethetic_white_block",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:ethetic_white_slab",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:ethetic_white_stairs",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:farmer",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:feeder",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:firework_box",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:fluid_collector",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:fluid_placer",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:greenhouse_glass",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:heat_collector",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:hopping_item_interface",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:iron_casing",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:item_interface",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:lamp_controller",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:laser_relay",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:laser_relay_advanced",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:laser_relay_extreme",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:laser_relay_fluids",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:laser_relay_item",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:laser_relay_item_advanced",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:lava_factory_casing",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:lava_factory_controller",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:long_range_breaker",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:oil_generator",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:palis_crystal_block",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:phantom_booster",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:phantom_breaker",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:phantom_energyface",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:phantom_itemface",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:phantom_liquiface",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:phantom_placer",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:phantom_redstoneface",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:placer",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:player_interface",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:powered_furnace",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:ranged_collector",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:restonia_crystal_block",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:shock_suppressor",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:smooth_black_quartz_block",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:smooth_black_quartz_slab",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:smooth_black_quartz_stair",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:vertical_digger",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:void_crystal_block",
+   "required": false
+  },
+  {
+   "id": "actuallyadditions:xp_solidifier",
+   "required": false
+  },
+  {
+   "id": "enderio:dark_steel_anvil",
+   "required": false
+  },
+  {
+   "id": "enderio:dark_steel_bars",
+   "required": false
+  },
+  {
+   "id": "enderio:dark_steel_trapdoor",
+   "required": false
+  },
+  {
+   "id": "nyx:lunar_water_cauldron",
+   "required": false
+  }
+ ]
+}

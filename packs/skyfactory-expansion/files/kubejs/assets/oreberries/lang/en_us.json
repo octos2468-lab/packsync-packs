@@ -1,0 +1,17 @@
+{
+ "block.oreberries.aluminum_oreberry_bush": "Aluminum Oreberry Bush",
+ "block.oreberries.copper_oreberry_bush": "Copper Oreberry Bush",
+ "block.oreberries.essence_oreberry_bush": "Essence Oreberry Bush",
+ "block.oreberries.gold_oreberry_bush": "Gold Oreberry Bush",
+ "block.oreberries.iron_oreberry_bush": "Iron Oreberry Bush",
+ "block.oreberries.tin_oreberry_bush": "Tin Oreberry Bush",
+ "item.oreberries.aluminum_nugget": "Aluminum Nugget",
+ "item.oreberries.aluminum_oreberry": "Aluminum Oreberry",
+ "item.oreberries.copper_nugget": "Copper Nugget",
+ "item.oreberries.copper_oreberry": "Copper Oreberry",
+ "item.oreberries.essence_oreberry": "Essence Oreberry",
+ "item.oreberries.gold_oreberry": "Gold Oreberry",
+ "item.oreberries.iron_oreberry": "Iron Oreberry",
+ "item.oreberries.tin_nugget": "Tin Nugget",
+ "item.oreberries.tin_oreberry": "Tin Oreberry"
+}

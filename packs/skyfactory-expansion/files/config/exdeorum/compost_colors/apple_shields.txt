@@ -1,5 +1,0 @@
-// Compost colors for apple_shields. You may add your own colors, change existing ones, or remove colors that aren't needed.
-apple_pie, #ffffff
-apple_pie_shield, #ffffeb
-rf_white_apple, #ffffff
-white_apple, #ffffff

@@ -1,0 +1,132 @@
+{
+ "pools": [
+  {
+   "rolls": {
+    "type": "minecraft:uniform",
+    "min": 1,
+    "max": 4
+   },
+   "entries": [
+    {
+     "weight": 20,
+     "type": "minecraft:item",
+     "name": "minecraft:cod"
+    },
+    {
+     "weight": 20,
+     "type": "minecraft:item",
+     "name": "minecraft:name_tag"
+    },
+    {
+     "weight": 4,
+     "type": "minecraft:item",
+     "name": "minecraft:diamond"
+    },
+    {
+     "weight": 10,
+     "type": "minecraft:item",
+     "name": "minecraft:book",
+     "functions": [
+      {
+       "function": "minecraft:enchant_randomly"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rolls": {
+    "type": "minecraft:uniform",
+    "min": 2,
+    "max": 5
+   },
+   "entries": [
+    {
+     "weight": 10,
+     "type": "minecraft:item",
+     "name": "minecraft:iron_ingot",
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 4
+       }
+      }
+     ]
+    },
+    {
+     "weight": 5,
+     "type": "minecraft:item",
+     "name": "minecraft:gold_ingot",
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 4
+       }
+      }
+     ]
+    },
+    {
+     "weight": 10,
+     "type": "minecraft:item",
+     "name": "minecraft:bucket"
+    }
+   ]
+  },
+  {
+   "rolls": 2,
+   "entries": [
+    {
+     "weight": 10,
+     "type": "minecraft:item",
+     "name": "minecraft:bone",
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 8
+       }
+      }
+     ]
+    },
+    {
+     "weight": 10,
+     "type": "minecraft:item",
+     "name": "minecraft:rotten_flesh",
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 8
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "conditions": [
+    {
+     "condition": "minecraft:random_chance",
+     "chance": 0.3333
+    }
+   ],
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "mimicfish:anglerfish_egg"
+    }
+   ]
+  }
+ ]
+}

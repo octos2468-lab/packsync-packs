@@ -1,0 +1,9 @@
+{
+ "multipart": [
+  {
+   "apply": {
+    "model": "mod_lavacow:block/vespa_carapace_block"
+   }
+  }
+ ]
+}
