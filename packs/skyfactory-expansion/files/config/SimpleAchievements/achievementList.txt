@@ -1,4 +1,4 @@
-Welcome To Otto's ModdedMC Server!|===========================::1
+Welcome To Ottocraft!|===========================::1
 You begin in an ordinary Overworld with this book, a torch, a coffee and a slice of toast. The book follows the original SkyFactory 3 ages - tools, farming, machines, magic, power and dimensions - rebuilt for a normal world, together with Create, the Twilight Forest and the Aether.::1
 How To Use This Book|===================::1
 Use the page arrows to browse and tick a challenge after completing it. Each age explains when to begin and what it opens next. Every challenge in an age can be finished with what earlier ages taught you. Keep an Achievement Stand at home for your book.::1

@@ -1,0 +1,16 @@
+#Allows a player to teleport to a located biome when in creative mode or opped.
+allowTeleport = false
+#biomeSize * distanceModifier = maxSearchDistance (biomeSize is 4 here).
+# Default: 2500
+# Range: > 0
+distanceModifier = 2500
+#biomeSize * sampleSpaceModifier = sampleSpace. Lower = more accurate but slower.
+# Default: 16
+# Range: > 1
+sampleSpaceModifier = 16
+#Biomes the compass cannot search for (resource locations). Hexxit II's list is kept as shipped.
+biomeBlacklist = ["minecraft:hell", "minecraft:sky", "minecraft:void", "mocreatures:wyvernbiome", "dimdoors:limbo", "dimdoors:white_void", "dimdoors:black_void", "dimdoors:dangerous_black_void", "twilightforest:spooky_forest", "twilightforest:thornlands", "twilightforest:highlands_center", "twilightforest:dark_forest_center", "twilightforest:fire_swamp", "twilightforest:enchanted_forest", "twilightforest:dark_forest", "twilightforest:deep_mushroom_forest", "twilightforest:firefly_forest", "twilightforest:oak_savannah", "twilightforest:twilight_clearing", "twilightforest:twilight_glacier", "twilightforest:snowy_forest", "twilightforest:twilight_stream", "twilightforest:twilight_swamp", "twilightforest:mushroom_forest", "twilightforest:twilight_highlands", "twilightforest:dense_twilight_forest", "twilightforest:twilight_forest", "twilightforest:twilight_lake"]
+#The maximum samples to be taken when searching for a biome.
+# Default: 50000
+# Range: > 1
+maxSamples = 50000

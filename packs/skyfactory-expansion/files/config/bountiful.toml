@@ -1,0 +1,69 @@
+[board]
+	boardBreakable = true
+	boardDropsOnBreak = true
+	boardRecipeEnabled = true
+	# Default: 3
+	# Range: 0 ~ 27
+	bountiesCreatedOnPlace = 3
+	#Bounty on Board Lifespan (ticks)
+	# Default: 72000
+	# Range: > 20
+	bountyOnBoardLifespan = 72000
+	#Not implemented in this port (boards are always local)
+	globalBountyInventory = false
+	# Default: 9
+	# Range: 1 ~ 27
+	maxBountiesPerBoardAtATime = 9
+	#New Bounty Frequency (ticks)
+	# Default: 3600
+	# Range: > 20
+	newBountyFrequency = 3600
+	villageGeneration = true
+	# Default: 0.9
+	# Range: 0.0 ~ 1.0
+	villageGenerationChance = 0.9
+	# Default: 60
+	# Range: 1 ~ 1000
+	villagerDistance = 60
+	# Default: 5
+	# Range: 1 ~ 100
+	villagerSupplyMax = 5
+	#Boards only add bounties when villagers are nearby
+	villagersSupplyBounties = false
+
+[bounty]
+	# Default: 48.0
+	# Range: 0.0 ~ 10000.0
+	bountyExpiryTimeMultiplier = 48.0
+	# Default: 2
+	# Range: 1 ~ 10
+	bountyItemsMax = 2
+	# Default: 1
+	# Range: 1 ~ 10
+	bountyItemsMin = 1
+	cashInAtBountyBoard = true
+	# Default: 4.5
+	# Range: 0.0 ~ 1000.0
+	entityBountyTimeMultiplier = 4.5
+	# Default: 10000
+	# Range: > 0
+	minimumBountyTime = 10000
+	# Default: 0.33
+	# Range: 0.0 ~ 1.0
+	rarityIncreaseChance = 0.33
+	requireExactNbt = true
+	shouldBountiesCountDownOnBoard = false
+	#Pack option: true = taken bounties expire after their time limit (original). false = no time limit
+	bountiesExpire = false
+	tryRewardingMaxQuantity = true
+
+[misc]
+	#Experience each rarity of bounty gives
+	experiencePerRarity = [6, 10, 14, 24]
+
+[rarity]
+	#Worth multipliers: common, uncommon, rare, epic
+	worthMultipliers = [1.1, 1.2, 1.3, 1.6]
+
+[rewards]
+	greedyRewards = false

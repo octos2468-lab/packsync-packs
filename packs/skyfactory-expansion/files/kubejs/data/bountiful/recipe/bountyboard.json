@@ -1,0 +1,7 @@
+{
+ "neoforge:conditions": [{"type": "neoforge:false"}],
+ "type": "minecraft:crafting_shaped",
+ "pattern": ["P"],
+ "key": {"P": {"tag": "minecraft:planks"}},
+ "result": {"id": "bountiful:bountyboarditem"}
+}
