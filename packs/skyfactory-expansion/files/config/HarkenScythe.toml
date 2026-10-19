@@ -1,0 +1,219 @@
+[general]
+	"Disable Enchantments" = false
+	"Disable Potions" = false
+	#Hostile mobs spawn with Strength during the new moon
+	"New Moon Strength Effect" = true
+
+[blocks]
+	# Default: 4
+	# Range: 1 ~ 16
+	"Crucible Detection Range" = 4
+	# Default: 100
+	# Range: 1 ~ 10000
+	"Crucible Max Amount" = 100
+	# Default: 1
+	# Range: 1 ~ 5
+	"Livingmetal Core Regeneration Level" = 1
+
+[entities]
+	# Default: 1
+	# Range: 1 ~ 1000
+	"Blood Essence Common Value" = 1
+	# Default: 2
+	# Range: 1 ~ 1000
+	"Blood Essence Sickly Value" = 2
+	# Default: 5
+	# Range: 1 ~ 1000
+	"Blood Essence Intoxicated Value" = 5
+	# Default: 40
+	# Range: 1 ~ 1000
+	"Blood Essence Warped Value" = 40
+	# Default: 40.0
+	# Range: 0.0 ~ 1000000.0
+	"Blood Essence Sickly Max Health" = 40.0
+	# Default: 100.0
+	# Range: 0.0 ~ 1000000.0
+	"Blood Essence Intoxicated Max Health" = 100.0
+	# Default: 300.0
+	# Range: 0.0 ~ 1000000.0
+	"Blood Essence Warped Max Health" = 300.0
+	# Default: 1
+	# Range: 1 ~ 1000
+	"Soul Essence Common Value" = 1
+	# Default: 2
+	# Range: 1 ~ 1000
+	"Soul Essence Grieving Value" = 2
+	# Default: 5
+	# Range: 1 ~ 1000
+	"Soul Essence Culled Value" = 5
+	# Default: 20
+	# Range: 1 ~ 1000
+	"Soul Essence Spectral Value" = 20
+	# Default: 40
+	# Range: 1 ~ 1000
+	"Soul Essence Wrathful Value" = 40
+	# Default: 40.0
+	# Range: 0.0 ~ 1000000.0
+	"Soul Essence Grieving Max Health" = 40.0
+	# Default: 100.0
+	# Range: 0.0 ~ 1000000.0
+	"Soul Essence Culled Max Health" = 100.0
+	# Default: 300.0
+	# Range: 0.0 ~ 1000000.0
+	"Soul Essence Wrathful Max Health" = 300.0
+	#Mobs with at most this much max health drop no essence (0 = off)
+	# Default: 7.0
+	# Range: 0.0 ~ 1000000.0
+	"Essence Max Health Limit" = 7.0
+	# Default: 6000
+	# Range: 20 ~ 1000000
+	"Essence Despawn Time" = 6000
+	"Essence Mob Spawning" = true
+	"Globin Crucible Spawning" = true
+	# Default: 10
+	# Range: 0 ~ 1000
+	"Exospider Spawn Probability" = 10
+	# Default: 5
+	# Range: 0 ~ 1000
+	"Harbinger Spawn Probability" = 5
+	# Default: 5
+	# Range: 0 ~ 1000
+	"Spectral Human Spawn Probability" = 5
+	# Default: 2
+	# Range: 0 ~ 1000
+	"Spectral Miner Spawn Probability" = 2
+	# Default: 10.0
+	# Range: 0.0 ~ 1000.0
+	"Harbinger Armor Value" = 10.0
+	# Default: 4.0
+	# Range: 0.0 ~ 1000.0
+	"Harbinger Attack Damage" = 4.0
+	# Default: 40.0
+	# Range: 0.0 ~ 1000.0
+	"Harbinger Follow Range" = 40.0
+	# Default: 200.0
+	# Range: 1.0 ~ 100000.0
+	"Harbinger Max Health" = 200.0
+	# Default: 0.3
+	# Range: 0.0 ~ 10.0
+	"Harbinger Movement Speed" = 0.3
+	# Default: 20.0
+	# Range: 0.0 ~ 1000.0
+	"Harbinger Search Distance" = 20.0
+	# Default: 6.0
+	# Range: 0.0 ~ 1000.0
+	"Spectral Entity Attack Damage" = 6.0
+	# Default: 4.0
+	# Range: 0.0 ~ 1000.0
+	"Spectral Human Attack Damage" = 4.0
+	# Default: 40.0
+	# Range: 1.0 ~ 100000.0
+	"Spectral Human Max Health" = 40.0
+	# Default: 0.23
+	# Range: 0.0 ~ 10.0
+	"Spectral Human Movement Speed" = 0.23
+	# Default: 5.0
+	# Range: 0.0 ~ 1000.0
+	"Spectral Miner Attack Damage" = 5.0
+	# Default: 150.0
+	# Range: 1.0 ~ 100000.0
+	"Spectral Miner Max Health" = 150.0
+	# Default: 0.15
+	# Range: 0.0 ~ 10.0
+	"Spectral Miner Movement Speed" = 0.15
+	"Blood Reaping Blacklist" = []
+	"Soul Reaping Blacklist" = []
+	"Harbinger Reaping Blacklist" = []
+	"Spectral Entity Blacklist" = []
+
+[items]
+	# Default: 1
+	# Range: 0 ~ 100000
+	"Blood Butcherer Blood Cost" = 1
+	# Default: 2000
+	# Range: 1 ~ 100000
+	"Blood Butcherer Max Charges" = 2000
+	# Default: 40
+	# Range: 1 ~ 100000
+	"Basic Blood Keeper Essence Capacity" = 40
+	# Default: 40
+	# Range: 1 ~ 100000
+	"Blood Keeper Essence Capacity" = 40
+	# Default: 80
+	# Range: 1 ~ 100000
+	"Blood Vessel Essence Capacity" = 80
+	# Default: 400
+	# Range: 1 ~ 100000
+	"Blood Trinket Essence Capacity" = 400
+	# Default: 1600
+	# Range: 1 ~ 100000
+	"Ethereal Blood Trinket Essence Capacity" = 1600
+	# Default: 40
+	# Range: 1 ~ 100000
+	"Basic Soul Keeper Essence Capacity" = 40
+	# Default: 20
+	# Range: 1 ~ 100000
+	"Soul Keeper Essence Capacity" = 20
+	# Default: 40
+	# Range: 1 ~ 100000
+	"Soul Vessel Essence Capacity" = 40
+	# Default: 200
+	# Range: 1 ~ 100000
+	"Soul Trinket Essence Capacity" = 200
+	# Default: 800
+	# Range: 1 ~ 100000
+	"Ethereal Soul Trinket Essence Capacity" = 800
+	# Default: 40
+	# Range: 1 ~ 100000
+	"Deadtime Watch Durability" = 40
+	# Default: 300
+	# Range: 1 ~ 100000
+	"Deadtime Watch Duration" = 300
+	# Default: 16.0
+	# Range: 1.0 ~ 256.0
+	"Deadtime Watch Radius" = 16.0
+	# Default: 20
+	# Range: 1 ~ 1000
+	"Deadtime Watch Uses" = 20
+	"Dimensional Mirror Dimension Blacklist" = [426, 427, 801, 812]
+	# Default: 20
+	# Range: 1 ~ 100000
+	"Dimensional Mirror Durability" = 20
+	# Default: 0
+	# Range: -1000 ~ 1000
+	"Dimensional Mirror Home Dimension" = 0
+	# Default: 4
+	# Range: 1 ~ 1000
+	"Dimensional Mirror Uses" = 4
+	# Default: 10
+	# Range: 0 ~ 100000
+	"Necronomicon Summon Blood Cost" = 10
+	# Default: 1
+	# Range: 0 ~ 100000
+	"Vampire Knife Blood Cost" = 1
+	# Default: 5
+	# Range: 0 ~ 10000
+	"Vampire Knife Cooldown" = 5
+	# Default: 40
+	# Range: 1 ~ 10000
+	"Vampire Knife Despawn Time" = 40
+	# Default: 5.0E-4
+	# Range: 0.0 ~ 1.0
+	"Vampire Knife Drop Chance" = 5.0E-4
+	# Default: 2000
+	# Range: 1 ~ 100000
+	"Vampire Knife Max Charges" = 2000
+	# Default: 10.0
+	# Range: 0.0 ~ 1000.0
+	"Vampire Knife Projectile Damage" = 10.0
+	# Default: 0.075
+	# Range: 0.0 ~ 1.0
+	"Vampire Knife Projectile Healing" = 0.075
+	"Vampire Knife Projectile Ignore I-Frames" = true
+	"Hoes Till Creep Blocks" = false
+	#Provides the player with the Reaper's Guidebook on first spawn (needs Patchouli)
+	"Reaper's Guidebook Provision" = false
+
+[recipes]
+	"Custom Blood Altar Recipes" = []
+	"Custom Soul Altar Recipes" = []

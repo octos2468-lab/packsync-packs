@@ -50,7 +50,7 @@ multiplayerFightAdjuster = "NONE"
 	#If false, the return portal will require the activation item.
 	shouldReturnPortalBeUsable = true
 	#Use a valid advancement resource location as a string. For example, using the string "minecraft:story/mine_diamond" will lock the portal behind the "Diamonds!" advancement. Invalid/Empty Advancement resource IDs will leave the portal entirely unlocked.
-	portalUnlockedByAdvancement = "minecraft:nether/obtain_blaze_rod"
+	portalUnlockedByAdvancement = "progression:ages/age_5"
 	#The max amount of water spaces the mod will check for when creating a portal. Very high numbers may cause performance issues.
 	# Default: 64
 	# Range: > 4

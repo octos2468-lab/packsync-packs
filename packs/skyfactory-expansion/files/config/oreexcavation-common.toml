@@ -33,8 +33,8 @@
 	"Alt Tools" = false
 	#Limit excavation to standard tool types (Picks, Shovels, Axes & Shears) [default: false]
 	"Only Standard Types" = false
-	#Excavation mode (-1 Disabled, 0 = Keybind, 1 = Sneak, 2 = Always) [default: 0]
-	# Default: 0
+	#Excavation mode (-1 Disabled, 0 = Keybind, 1 = Sneak, 2 = Always, 3 = Always unless sneaking, like TreeChop) [default: 0, pack: 3]
+	# Default: 3
 	# Range: -1 ~ 3
 	Mode = 3
 	#Temporarily reduces excavation speed if TPS begins to slow down [default: true]

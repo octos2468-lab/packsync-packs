@@ -1,0 +1,23 @@
+{
+ "parent": "progression:ages/root",
+ "display": {
+  "icon": {
+   "id": "minecraft:iron_block"
+  },
+  "title": {
+   "text": "Age 3: Iron & Tinkering"
+  },
+  "description": {
+   "text": "Opened for everyone by defeating the Battle Tower Golem."
+  },
+  "frame": "goal",
+  "show_toast": true,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "opened": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

@@ -1,8 +1,8 @@
-// Leak audit: the Aether portal (glowstone frame + water bucket) stays closed until the player has reached Age 4
-// (advancement minecraft:nether/obtain_blaze_rod). Twilight Forest has its own config switch (portalUnlockedByAdvancement), see CHANGES.md.
+// Leak audit: the Aether portal (glowstone frame + water bucket) stays closed until Age 5 is open for the player
+// (advancement progression:ages/age_5, granted by progression_boss_gates.js when an Age 4 gate boss dies). Twilight Forest uses the same advancement (config portalUnlockedByAdvancement). Boss gates: progression/BOSS-GATES.md.
 // Fail-open: if the advancement API misbehaves, the portal works and the error is logged once.
 const LEAK_AUDIT_RL = Java.loadClass('net.minecraft.resources.ResourceLocation')
-const AETHER_GATE_ADV = 'minecraft:nether/obtain_blaze_rod'
+const AETHER_GATE_ADV = 'progression:ages/age_5'
 let aetherGateWarned = false
 
 function hasAdvancement(player, id) {
@@ -30,5 +30,5 @@ BlockEvents.rightClicked(event => {
   if (glowstoneAround(event.block) < 10) return
   if (hasAdvancement(event.player, AETHER_GATE_ADV)) return
   event.cancel()
-  event.player.tell(Text.gold('The glowstone frame will not hold the water yet. Come back once you have faced the Nether.'))
+  event.player.tell(Text.gold('The glowstone frame will not hold the water yet. The Aether opens with Age 5: someone must defeat the Frostmaw, Barako or the Abyss Walker King first (/sf3ages).'))
 })

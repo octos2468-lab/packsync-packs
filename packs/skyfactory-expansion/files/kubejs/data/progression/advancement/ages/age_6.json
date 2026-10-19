@@ -1,0 +1,23 @@
+{
+ "parent": "progression:ages/age_5",
+ "display": {
+  "icon": {
+   "id": "minecraft:dragon_egg"
+  },
+  "title": {
+   "text": "Age 6: Mastery"
+  },
+  "description": {
+   "text": "Opened for everyone by defeating the Ender Dragon (or the Twilight Lich)."
+  },
+  "frame": "challenge",
+  "show_toast": true,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "opened": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

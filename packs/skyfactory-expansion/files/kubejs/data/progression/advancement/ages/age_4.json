@@ -1,0 +1,23 @@
+{
+ "parent": "progression:ages/age_3",
+ "display": {
+  "icon": {
+   "id": "minecraft:wet_sponge"
+  },
+  "title": {
+   "text": "Age 4: Nether & Power"
+  },
+  "description": {
+   "text": "Opened for everyone by defeating an Elder Guardian (or the Ferrous Wroughtnaut or the Skeleton King)."
+  },
+  "frame": "goal",
+  "show_toast": true,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "opened": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

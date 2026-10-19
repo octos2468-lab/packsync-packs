@@ -195,7 +195,7 @@
   "offroad": "Create Offroad",
   "sable_player_ragdoll": "Sable Ragdolls",
   "exnihiloadscensio": "Ex Nihilo Adscensio",
-  "progression": "Age Capstones",
+  "progression": "Mastery Crown",
   "tacz": "Timeless and Classics Zero",
   "opencomputers": "OpenComputers",
   "hatchery": "Hatchery",
@@ -313,7 +313,6 @@
    ],
    "after": [
     "start.make_a_bucket_and_carry_water_and_lava",
-    "mastery.craft_the_settler_s_charter",
     "mining.explore_a_cave_and_return_with_coal_iron_and_copper",
     "building.craft_graphite_from_charcoal"
    ],
@@ -407,8 +406,7 @@
     "start.gather_wood_and_make_a_crafting_table"
    ],
    "after": [
-    "start.hang_a_hammock_to_rest_during_the_day",
-    "mastery.craft_the_settler_s_charter"
+    "start.hang_a_hammock_to_rest_during_the_day"
    ],
    "needs": [
     [
@@ -562,67 +560,30 @@
    ]
   },
   {
-   "id": "mastery.craft_the_settler_s_charter",
-   "text": "Craft the Settler's Charter",
-   "hint": "Stone pickaxe, bread and a bed make your first claim on the land.",
-   "mod": "progression",
-   "category": "mastery",
-   "icon": "kubejs:settlers_charter",
-   "step": 10,
-   "stage": 0,
-   "why": "One milestone from each strand (tech, magic, exploration): stone pickaxe + bread + bed. It opens the next age in this guide, pays an age reward once and crafts the age's bounty decree.",
-   "tip": "It locks no items. Crafting it opens the next age on the More tab; keep it, the bounty decree is crafted from it.",
-   "steps": [
-    "Craft a stone pickaxe, bake bread and craft a bed.",
-    "Shapeless craft: paper + stone pickaxe + bread + any bed.",
-    "Right-click the charter to claim its reward."
-   ],
-   "show": [
-    "kubejs:settlers_charter"
-   ],
-   "before": [
-    "start.make_a_stone_pickaxe_and_a_furnace",
-    "start.sleep_through_your_first_night_in_a_bed"
-   ],
-   "after": [
-    "mastery.craft_the_settler_decree_and_finish_three_bounties",
-    "mastery.craft_the_homestead_seal"
-   ],
-   "auto": [
-    [
-     "item:kubejs:settlers_charter"
-    ]
-   ]
-  },
-  {
    "id": "mastery.craft_the_settler_decree_and_finish_three_bounties",
-   "text": "Craft the Settler Decree and finish three bounties",
-   "hint": "Use the decree on a Bounty Board: the board then offers jobs of this age, asking for items and kills from every strand.",
+   "text": "Optional: finish three Settler bounties",
+   "hint": "Bounties are side jobs, never a gate. Use the Settler Decree on a Bounty Board and hand in three jobs.",
    "mod": "bountiful",
    "category": "mastery",
    "icon": "bountiful:decree_settler",
-   "step": 11,
+   "step": 10,
    "stage": 0,
-   "why": "The decree is crafted from the capstone, which is kept. Bounties pull you into mods you have not tried yet and pay one notch ahead (never a skip).",
+   "why": "Each player gets the Settler Decree from day one. A board with the decree offers jobs of Age 1 (items and kills from every strand) and pays one notch ahead, never a skip. Skip any job you do not like: the board offers new ones. Bounties count for this decree until the next decree arrives.",
    "steps": [
-    "Craft a Bounty Board (or find one in a village) and place it.",
-    "Craft the decree with the capstone, paper, an ink sac and a gold nugget.",
-    "Right-click the board with the decree, then hand in three bounties."
+    "Craft a Bounty Board (or use one in a village) and place it.",
+    "Right-click the board with the Settler Decree.",
+    "Hand in three bounties; this goal counts them for you."
    ],
    "show": [
     "bountiful:decree_settler"
-   ],
-   "before": [
-    "mastery.craft_the_settler_s_charter"
-   ],
-   "after": [
-    "mastery.craft_the_homestead_decree_and_finish_three_bounties"
    ],
    "auto": [
     [
      "item:bountiful:decree_settler"
     ]
-   ]
+   ],
+   "tip": "Lost your decree? Craft a copy: the decree and a paper (you keep the original). Old capstones still make their decree too.",
+   "optional": true
   },
   {
    "id": "explore.find_and_read_a_lost_book",
@@ -631,7 +592,7 @@
    "mod": "lostbooks",
    "category": "explore",
    "icon": "lostbooks:random_book",
-   "step": 12,
+   "step": 11,
    "stage": 0,
    "why": "Each age has a short lore page; reading them is the story thread of the pack.",
    "steps": [
@@ -642,7 +603,7 @@
     "lostbooks:random_book"
    ],
    "obtain": {
-    "lostbooks:random_book": "Lost Books appear in dungeon, ruin and village chests and in capstone reward bags."
+    "lostbooks:random_book": "Lost Books appear in dungeon, ruin and village chests and in the reward bag each player gets when an age opens."
    }
   },
   {
@@ -652,7 +613,7 @@
    "mod": "naturescompass",
    "category": "explore",
    "icon": "naturescompass:natures_compass",
-   "step": 13,
+   "step": 12,
    "stage": 0,
    "why": "Villages, Battle Towers and the first ring of ruins sit in certain biomes. The compass points at the nearest biome of any kind you choose.",
    "steps": [
@@ -676,7 +637,7 @@
    "mod": "mocreatures",
    "category": "explore",
    "icon": "minecraft:saddle",
-   "step": 14,
+   "step": 13,
    "stage": 0,
    "why": "Horses are the first step of the travel ladder: much faster than walking across the first ring, and they carry you away from trouble.",
    "steps": [
@@ -705,7 +666,7 @@
    "mod": "mocreatures",
    "category": "gear",
    "icon": "mocreatures:hidechest",
-   "step": 15,
+   "step": 14,
    "stage": 0,
    "why": "A leather-tier set from hunting, and hide or fur also works as the leather in the basic Iron Backpack.",
    "steps": [
@@ -742,7 +703,7 @@
    "mod": "skewers",
    "category": "farming",
    "icon": "skewers:skewer_beef_cooked",
-   "step": 16,
+   "step": 15,
    "stage": 0,
    "why": "A skewer cooks two pieces of meat at once and fills more hunger than one piece: a cheap travel meal.",
    "steps": [
@@ -773,7 +734,7 @@
    "mod": "tumbleweed",
    "category": "explore",
    "icon": "minecraft:dead_bush",
-   "step": 17,
+   "step": 16,
    "stage": 0,
    "why": "Tumbleweeds drop seeds, saplings, saddles, Lost Books, Hexxit trinkets and the odd diamond: a fun early loot source.",
    "steps": [
@@ -800,7 +761,7 @@
    "mod": "birdsnests",
    "category": "farming",
    "icon": "birdsnests:birdsnest",
-   "step": 18,
+   "step": 17,
    "stage": 0,
    "why": "Free early seeds and saplings while you clear trees, before you have a sieve.",
    "steps": [
@@ -826,7 +787,7 @@
    "mod": "betterbuilderswands",
    "category": "building",
    "icon": "betterbuilderswands:wandstone",
-   "step": 19,
+   "step": 18,
    "stage": 0,
    "why": "Walls, floors and bridges go up a whole row at a time.",
    "steps": [
@@ -854,7 +815,7 @@
    "mod": "elenaidodge",
    "category": "gear",
    "icon": "minecraft:feather",
-   "step": 20,
+   "step": 19,
    "stage": 0,
    "why": "A dodge gives a moment of invulnerability: great against creepers, skeleton volleys and boss slams.",
    "steps": [
@@ -870,7 +831,7 @@
    "mod": "secretroomsmod",
    "category": "building",
    "icon": "secretroomsmod:camouflage_paste",
-   "step": 21,
+   "step": 20,
    "stage": 0,
    "why": "A hidden entrance keeps early bases safe and lets you hide chests from other players.",
    "steps": [
@@ -893,7 +854,7 @@
    "mod": "wolfarmor",
    "category": "gear",
    "icon": "wolfarmor:leather_wolf_armor",
-   "step": 22,
+   "step": 21,
    "stage": 0,
    "why": "Dogs follow you through every age; armor keeps them alive in caves.",
    "steps": [
@@ -916,7 +877,7 @@
    "mod": "morebows",
    "category": "gear",
    "icon": "morebows:stone_bow",
-   "step": 23,
+   "step": 22,
    "stage": 0,
    "why": "A cheap early ranged weapon; better bows follow the same ages as armor.",
    "steps": [
@@ -941,7 +902,7 @@
    "mod": "minecraft",
    "category": "mining",
    "icon": "minecraft:coal",
-   "step": 24,
+   "step": 23,
    "stage": 1,
    "why": "Iron is the most important early metal: tools, buckets, armor, hoppers and most machines need it. Coal keeps your furnaces and torches going.",
    "tip": "Fortune pickaxes give extra raw ore. Mining iron at Y 16 to 64 works well; very deep caves also have diamonds.",
@@ -999,7 +960,7 @@
    "mod": "oreexcavation",
    "category": "mining",
    "icon": "minecraft:iron_ore",
-   "step": 25,
+   "step": 24,
    "stage": 1,
    "why": "Vein mining saves a lot of time and pickaxe swings on every ore vein and tree.",
    "steps": [
@@ -1018,7 +979,7 @@
    "mod": "minecraft",
    "category": "gear",
    "icon": "minecraft:iron_pickaxe",
-   "step": 26,
+   "step": 25,
    "stage": 1,
    "why": "An iron pickaxe is required to mine diamonds, gold, redstone and many modded ores. Iron tools are fast and durable.",
    "steps": [
@@ -1071,7 +1032,7 @@
    "mod": "minecraft",
    "category": "gear",
    "icon": "minecraft:iron_chestplate",
-   "step": 27,
+   "step": 26,
    "stage": 1,
    "why": "Armor cuts the damage you take by more than half, and a shield blocks arrows, creeper blasts and melee hits. You will need both for caves and the Nether.",
    "steps": [
@@ -1119,7 +1080,7 @@
    "mod": "minecraft",
    "category": "start",
    "icon": "minecraft:emerald",
-   "step": 28,
+   "step": 27,
    "stage": 1,
    "why": "Villages have free food, beds and loot chests, and villagers trade useful items (books, tools, food) for emeralds. Emeralds also buy seeds at the Market later.",
    "tip": "Zombies can kill villagers or convert them, depending on difficulty. Light and enclose the village before night.",
@@ -1161,7 +1122,7 @@
    "mod": "minecraft",
    "category": "start",
    "icon": "minecraft:wheat",
-   "step": 29,
+   "step": 28,
    "stage": 1,
    "why": "A farm means endless food, and breeding animals gives leather, wool and meat. Wheat, carrots and potatoes are also used by many mods.",
    "steps": [
@@ -1219,7 +1180,7 @@
    "mod": "shearmadness",
    "category": "building",
    "icon": "minecraft:white_wool",
-   "step": 30,
+   "step": 29,
    "stage": 1,
    "why": "Shear Madness lets adult sheep wear supported blocks; shearing returns the block.",
    "tip": "The sheep does not need to be sheared first. Some coverings have special behavior; TNT-covered sheep explode when killed.",
@@ -1249,7 +1210,7 @@
    "mod": "shearmadness",
    "category": "building",
    "icon": "minecraft:shears",
-   "step": 31,
+   "step": 30,
    "stage": 1,
    "why": "You get your block back, and the sheep regrows normal wool for your beds and banners.",
    "steps": [
@@ -1271,7 +1232,7 @@
    "mod": "woodenshears",
    "category": "gear",
    "icon": "woodenshears:wshears",
-   "step": 32,
+   "step": 31,
    "stage": 1,
    "why": "Wooden shears get wool, leaves and vines before you have iron to spare.",
    "steps": [
@@ -1297,7 +1258,7 @@
    "mod": "pamhc2foodcore",
    "category": "start",
    "icon": "harvestcraft:cuttingboarditem",
-   "step": 33,
+   "step": 32,
    "stage": 1,
    "why": "Pam's foods restore much more hunger and saturation than plain crops. The tools are never used up.",
    "steps": [
@@ -1331,7 +1292,7 @@
    "mod": "pamhc2foodcore",
    "category": "farming",
    "icon": "harvestcraft:applepieitem",
-   "step": 34,
+   "step": 33,
    "stage": 1,
    "why": "Big meals keep you full for a long time, so you spend less time eating and more time building.",
    "steps": [
@@ -1361,7 +1322,7 @@
    "mod": "minicoal",
    "category": "mining",
    "icon": "minicoal:minicoal",
-   "step": 35,
+   "step": 34,
    "stage": 1,
    "why": "A coal smelts 8 items. If you only need to smelt 2, mini coal saves the rest.",
    "steps": [
@@ -1389,7 +1350,7 @@
    "mod": "literalascension",
    "category": "building",
    "icon": "sf3extras:oak_stepladder",
-   "step": 36,
+   "step": 35,
    "stage": 1,
    "why": "A quick and cheap way up cliffs and into mines without building stairs.",
    "steps": [
@@ -1460,7 +1421,7 @@
    "mod": "snad",
    "category": "farming",
    "icon": "snad:snad",
-   "step": 37,
+   "step": 36,
    "stage": 1,
    "why": "Snad is a special growth-boosting block. Ordinary sand does not inherently grow sugar cane faster than dirt.",
    "steps": [
@@ -1487,7 +1448,7 @@
    "mod": "ts2k16",
    "category": "farming",
    "icon": "minecraft:oak_sapling",
-   "step": 38,
+   "step": 37,
    "stage": 1,
    "why": "Twerking (crouching repeatedly) is free bonemeal. It speeds up saplings and crops when you are waiting for wood or food.",
    "tip": "Growth attempts can take time. Give the sapling light and enough clear space; bone meal can help but does not guarantee a tree on every use.",
@@ -1507,7 +1468,7 @@
    "mod": "exnihiloadscensio",
    "category": "mining",
    "icon": "exnihiloadscensio:wooden_crook",
-   "step": 39,
+   "step": 38,
    "stage": 1,
    "why": "The SkyFactory sifting tools turn common blocks into ores, seeds and more. They are a renewable backup when caves run dry. The crook drops more saplings and finds Silkworms for string.",
    "steps": [
@@ -1538,7 +1499,7 @@
    "mod": "exnihiloadscensio",
    "category": "mining",
    "icon": "exnihiloadscensio:wooden_barrel",
-   "step": 40,
+   "step": 39,
    "stage": 1,
    "why": "Dirt from compost is renewable, which matters for farms and for sieving dirt into seeds and pebbles.",
    "steps": [
@@ -1568,7 +1529,7 @@
    "mod": "exnihiloadscensio",
    "category": "farming",
    "icon": "exnihiloadscensio:wooden_barrel",
-   "step": 41,
+   "step": 40,
    "stage": 1,
    "why": "An open barrel gathers water during Overworld rain, useful before you have a permanent water supply.",
    "steps": [
@@ -1593,7 +1554,7 @@
    "mod": "exnihiloadscensio",
    "category": "mining",
    "icon": "exnihiloadscensio:silkworm",
-   "step": 42,
+   "step": 41,
    "stage": 1,
    "why": "String makes the String Mesh for the sieve, plus wool, bows and fishing rods, without hunting spiders.",
    "steps": [
@@ -1642,7 +1603,7 @@
    "mod": "exnihiloadscensio",
    "category": "mining",
    "icon": "exnihiloadscensio:sieve",
-   "step": 43,
+   "step": 42,
    "stage": 1,
    "why": "A sieve turns gravel, sand, dust and dirt into ores, gems, seeds and pebbles. It is the heart of SkyFactory resource gathering.",
    "steps": [
@@ -1678,7 +1639,7 @@
    "mod": "exnihiloadscensio",
    "category": "mining",
    "icon": "exnihiloadscensio:wooden_hammer",
-   "step": 44,
+   "step": 43,
    "stage": 1,
    "why": "Gravel, sand and dust are what you put in the sieve. A hammer turns endless cobblestone into all three.",
    "steps": [
@@ -1713,7 +1674,7 @@
    "mod": "exnihiloadscensio",
    "category": "mining",
    "icon": "exnihiloadscensio:iron_ore_chunk",
-   "step": 45,
+   "step": 44,
    "stage": 1,
    "why": "A renewable source of iron, copper, gold, lead, silver, nickel and aluminum, plus coal, diamonds, emeralds and lapis from gravel.",
    "tip": "JEI shows every sieve drop and its chance: press U on gravel, sand or dust.",
@@ -1745,7 +1706,7 @@
    "mod": "exnihiloadscensio",
    "category": "mining",
    "icon": "exnihiloadscensio:iron_mesh",
-   "step": 46,
+   "step": 45,
    "stage": 1,
    "why": "Better meshes give more and rarer drops (more diamonds, golden items); Fortune adds rolls and Efficiency sifts faster.",
    "steps": [
@@ -1778,7 +1739,7 @@
    "mod": "exnihiloadscensio",
    "category": "mining",
    "icon": "minecraft:clay",
-   "step": 47,
+   "step": 46,
    "stage": 1,
    "why": "Clay makes bricks, Tinkers grout, porcelain and the crucible. This makes it without finding a river.",
    "steps": [
@@ -1809,7 +1770,7 @@
    "mod": "storagedrawers",
    "category": "storage",
    "icon": "storagedrawers:oak_full_drawers_1",
-   "step": 48,
+   "step": 47,
    "stage": 1,
    "why": "Chests fill up fast with cobblestone, dirt and ores. A drawer holds 32 stacks of one item and shows what is inside.",
    "steps": [
@@ -1872,7 +1833,7 @@
    "mod": "sophisticatedstorage",
    "category": "storage",
    "icon": "sophisticatedstorage:barrel",
-   "step": 49,
+   "step": 48,
    "stage": 1,
    "why": "Sophisticated Storage sits after Storage Drawers: its chest and barrel recipes use a drawer where the lever was.",
    "steps": [
@@ -1898,7 +1859,7 @@
    "mod": "charset",
    "category": "storage",
    "icon": "sf3extras:charset_barrel",
-   "step": 50,
+   "step": 49,
    "stage": 1,
    "why": "A cheap bulk barrel for one item type, great for cobblestone, seeds or wood.",
    "steps": [
@@ -1926,7 +1887,7 @@
    "mod": "ironbackpacks",
    "category": "gear",
    "icon": "ironbackpacks:basic_backpack",
-   "step": 51,
+   "step": 50,
    "stage": 1,
    "why": "More inventory for long trips. It is SkyFactory 3's backpack, and the Sophisticated Backpack is built on top of it.",
    "steps": [
@@ -1951,7 +1912,7 @@
    "mod": "sophisticatedbackpacks",
    "category": "gear",
    "icon": "sophisticatedbackpacks:backpack",
-   "step": 52,
+   "step": 51,
    "stage": 1,
    "why": "The Sophisticated Backpack is built on an Iron Backpack, so it comes after the SF3 backpacks.",
    "tip": "Try pickup and feeding upgrades as you expand. Test their filters with expendable items before relying on them.",
@@ -1979,7 +1940,7 @@
    "mod": "tinyprogressions",
    "category": "gear",
    "icon": "sf3extras:iron_scythe",
-   "step": 53,
+   "step": 52,
    "stage": 1,
    "why": "Harvesting big fields one block at a time is slow. A scythe cuts a large area of crops and grass per swing.",
    "steps": [
@@ -2009,7 +1970,7 @@
    "mod": "tinyprogressions",
    "category": "farming",
    "icon": "sf3extras:watering_can",
-   "step": 54,
+   "step": 53,
    "stage": 1,
    "why": "Watering cans speed up crops and saplings around you while you hold right-click.",
    "steps": [
@@ -2039,7 +2000,7 @@
    "mod": "farmingforblockheads",
    "category": "farming",
    "icon": "farmingforblockheads:market",
-   "step": 55,
+   "step": 54,
    "stage": 1,
    "why": "The Market sells seeds and saplings you cannot easily find, including Natura trees, Pam's crops and flowers.",
    "steps": [
@@ -2065,7 +2026,7 @@
    "mod": "natura",
    "category": "farming",
    "icon": "natura:maple_sapling",
-   "step": 56,
+   "step": 55,
    "stage": 1,
    "why": "Natura woods (maple, silverbell, amaranth, tiger) give unique planks and decorations.",
    "steps": [
@@ -2094,7 +2055,7 @@
    "mod": "natura",
    "category": "farming",
    "icon": "natura:maple_sapling",
-   "step": 57,
+   "step": 56,
    "stage": 1,
    "why": "Sifting supplies saplings when the pack disables their natural tree generation.",
    "steps": [
@@ -2120,7 +2081,7 @@
    "mod": "natura",
    "category": "farming",
    "icon": "natura:barley_seeds",
-   "step": 58,
+   "step": 57,
    "stage": 1,
    "why": "Barley makes flour and bread; cotton makes string and wool, another string source.",
    "steps": [
@@ -2155,7 +2116,7 @@
    "mod": "missingpieces",
    "category": "building",
    "icon": "sf3extras:mp_oak_chair",
-   "step": 59,
+   "step": 58,
    "stage": 1,
    "why": "Chairs, tables, wedges and corners give builds detail that plain blocks cannot. You can sit on the chairs.",
    "steps": [
@@ -2238,7 +2199,7 @@
    "mod": "charset",
    "category": "building",
    "icon": "sf3extras:charset_graphite",
-   "step": 60,
+   "step": 59,
    "stage": 1,
    "why": "Graphite is a cheap black dye made from charcoal, so you do not need to hunt squids for ink.",
    "steps": [
@@ -2268,7 +2229,7 @@
    "mod": "charset",
    "category": "building",
    "icon": "sf3extras:charset_graphite",
-   "step": 61,
+   "step": 60,
    "stage": 1,
    "why": "Black wool for builds and beds, using only charcoal.",
    "steps": [
@@ -2300,7 +2261,7 @@
    "mod": "packingtape",
    "category": "building",
    "icon": "packingtape:tape",
-   "step": 62,
+   "step": 61,
    "stage": 1,
    "why": "Moving a full chest normally means emptying it. Tape lets you pick it up with everything inside.",
    "steps": [
@@ -2324,7 +2285,7 @@
    "mod": "chesttransporter",
    "category": "building",
    "icon": "chesttransporter:chesttransporter",
-   "step": 63,
+   "step": 62,
    "stage": 1,
    "why": "Moving a full chest normally means emptying it. A transporter carries the chest and its contents in one go (wood and iron transporters are enough).",
    "tip": "Each move costs one use of durability; better materials last longer.",
@@ -2354,102 +2315,13 @@
    ]
   },
   {
-   "id": "mastery.craft_the_homestead_seal",
-   "text": "Craft the Homestead Seal",
-   "hint": "A storage drawer, a Natura sapling and a Trial Chamber key seal your homestead.",
-   "mod": "progression",
-   "category": "mastery",
-   "icon": "kubejs:homestead_seal",
-   "step": 64,
-   "stage": 1,
-   "why": "One milestone from each strand (tech, magic, exploration): oak full drawer + Natura sapling + trial key. It opens the next age in this guide, pays an age reward once and crafts the age's bounty decree.",
-   "tip": "It locks no items. Crafting it opens the next age on the More tab; keep it, the bounty decree is crafted from it.",
-   "steps": [
-    "Craft an oak full drawer, buy or find a Natura sapling and open a Trial Chamber for its key.",
-    "Shapeless craft with paper, then right-click for the reward."
-   ],
-   "show": [
-    "kubejs:homestead_seal"
-   ],
-   "before": [
-    "mastery.craft_the_settler_s_charter"
-   ],
-   "after": [
-    "mastery.craft_the_homestead_decree_and_finish_three_bounties",
-    "mastery.craft_the_engineer_s_compact"
-   ],
-   "auto": [
-    [
-     "item:kubejs:homestead_seal"
-    ]
-   ]
-  },
-  {
-   "id": "mastery.craft_the_homestead_decree_and_finish_three_bounties",
-   "text": "Craft the Homestead Decree and finish three bounties",
-   "hint": "Use the decree on a Bounty Board: the board then offers jobs of this age, asking for items and kills from every strand.",
-   "mod": "bountiful",
-   "category": "mastery",
-   "icon": "bountiful:decree_homestead",
-   "step": 65,
-   "stage": 1,
-   "why": "The decree is crafted from the capstone, which is kept. Bounties pull you into mods you have not tried yet and pay one notch ahead (never a skip).",
-   "steps": [
-    "Craft a Bounty Board (or find one in a village) and place it.",
-    "Craft the decree with the capstone, paper, an ink sac and a gold nugget.",
-    "Right-click the board with the decree, then hand in three bounties."
-   ],
-   "show": [
-    "bountiful:decree_homestead"
-   ],
-   "before": [
-    "mastery.craft_the_homestead_seal",
-    "mastery.craft_the_settler_decree_and_finish_three_bounties"
-   ],
-   "after": [
-    "mastery.craft_the_engineer_decree_and_finish_three_bounties"
-   ],
-   "auto": [
-    [
-     "item:bountiful:decree_homestead"
-    ]
-   ]
-  },
-  {
-   "id": "bosses.explore_a_battle_tower_and_defeat_its_golem",
-   "text": "Explore a Battle Tower and defeat its Golem",
-   "hint": "Battle Towers hold chests and spawners on every floor and a Golem on the roof.",
-   "mod": "battletowers",
-   "category": "bosses",
-   "icon": "minecraft:iron_block",
-   "step": 66,
-   "stage": 1,
-   "why": "Tower chests roll Age 2 loot; the Golem drop is a tier-1 dungeon reward.",
-   "steps": [
-    "Find a tower within about 1,500 blocks of spawn.",
-    "Clear each floor, stay out of the spawner light and fight the Golem on top."
-   ],
-   "mobs": [
-    {
-     "entity": "battletowers:golem",
-     "drops": [],
-     "where": "The Golem guards the top of every Battle Tower (stone towers in plains, deserts and snow). Climb the floors, each with chests and spawners, and fight it on the roof."
-    }
-   ],
-   "auto": [
-    [
-     "kill:battletowers:golem"
-    ]
-   ]
-  },
-  {
    "id": "explore.activate_a_waystone_in_a_village",
    "text": "Activate a Waystone in a village",
    "hint": "Every village has a Waystone. Right-click it to remember it; any Waystone can then send you there.",
    "mod": "waystones",
    "category": "explore",
    "icon": "waystones:waystone",
-   "step": 67,
+   "step": 63,
    "stage": 1,
    "why": "Waystones are the second step of the travel ladder: instant trips back to every village you have visited.",
    "steps": [
@@ -2471,7 +2343,7 @@
    "mod": "chococraftplus",
    "category": "farming",
    "icon": "chococraftplus:chocobo_saddle",
-   "step": 68,
+   "step": 64,
    "stage": 1,
    "why": "Chocobos are fast mounts that jump high; later colors swim, climb or fly. The Chocopedia explains breeding.",
    "steps": [
@@ -2497,7 +2369,7 @@
    "mod": "oreberries",
    "category": "farming",
    "icon": "oreberries:iron_oreberry",
-   "step": 69,
+   "step": 65,
    "stage": 1,
    "why": "A little extra iron, gold and copper on every cave trip, and essence berries give XP.",
    "steps": [
@@ -2529,7 +2401,7 @@
    "mod": "specialmobs",
    "category": "bosses",
    "icon": "minecraft:zombie_head",
-   "step": 70,
+   "step": 66,
    "stage": 1,
    "why": "Near spawn monsters are mostly vanilla; the farther out you go, the more variants and Infernal elites appear. Learn their tricks early.",
    "steps": [
@@ -2563,7 +2435,7 @@
    "mod": "lootbags",
    "category": "explore",
    "icon": "lootbags:itemlootbag",
-   "step": 71,
+   "step": 67,
    "stage": 1,
    "why": "A little extra loot from every fight; rarer bags hold better items.",
    "steps": [
@@ -2574,7 +2446,7 @@
     "lootbags:itemlootbag"
    ],
    "obtain": {
-    "lootbags:itemlootbag": "Monsters sometimes drop Loot Bags; capstone rewards and bounties pay them too."
+    "lootbags:itemlootbag": "Monsters sometimes drop Loot Bags; age rewards and bounties pay them too."
    },
    "auto": [
     [
@@ -2589,7 +2461,7 @@
    "mod": "hexxitworld",
    "category": "gear",
    "icon": "hexxitworld:heart_container",
-   "step": 72,
+   "step": 68,
    "stage": 1,
    "why": "Permanent extra hearts make every later dungeon safer.",
    "steps": [
@@ -2615,7 +2487,7 @@
    "mod": "hexxitworld",
    "category": "gear",
    "icon": "hexxitworld:aero_amulet",
-   "step": 73,
+   "step": 69,
    "stage": 1,
    "why": "Trinkets are worn in the accessory (Curios) slots: the Aero Amulet stops arrows, the Blast Charm explosions, the Convection Ring lets you hover over lava.",
    "steps": [
@@ -2648,7 +2520,7 @@
    "mod": "nyx",
    "category": "explore",
    "icon": "nyx:fallen_star",
-   "step": 74,
+   "step": 70,
    "stage": 1,
    "why": "Nyx night events start after the first week; fallen stars craft the Celestial gear.",
    "steps": [
@@ -2673,7 +2545,7 @@
    "mod": "hexxitgear",
    "category": "gear",
    "icon": "hexxitgear:tribal_helmet",
-   "step": 75,
+   "step": 71,
    "stage": 1,
    "why": "The first Hexxit Gear set sits between iron and diamond.",
    "steps": [
@@ -2690,13 +2562,64 @@
    ]
   },
   {
+   "id": "mastery.open_age_3",
+   "text": "Age 2 boss: defeat the Battle Tower Golem",
+   "hint": "The Battle Tower Golem opens Age 3 (Iron & Tinkering) for everyone on the server.",
+   "mod": "battletowers",
+   "category": "mastery",
+   "icon": "minecraft:iron_block",
+   "step": 72,
+   "stage": 1,
+   "why": "Every age after Age 2 opens with a boss, never with a random find. When someone on the server defeats the Battle Tower Golem, Age 3 opens for every player at once: its guide chapter, the reward bag and the Bounty decree of the age you finished. Unlocks: Age 3 (Iron & Tinkering): Tinkers' tools and smeltery alloys, Create's first machines, Botania's Pure Daisy, Roots, Hatchery and Mystical Agriculture seeds.",
+   "tip": "Friends count: the killer, or anyone within 64 blocks when it dies, opens the age for the whole server. Nothing to craft or hand in. Type /sf3ages to see every gate.",
+   "steps": [
+    "Where: Battle Tower Golem: the roof of any Battle Tower, the tall stone towers in the Overworld; there are several within 1,500 blocks of spawn.",
+    "Bring: Iron armor, an iron or Tinkers weapon, a bow with arrows, food and blocks. Every floor below the roof has spawners and chests.",
+    "Defeat it. Chat announces the new age and this goal ticks itself as soon as the age opens (ages open in order).",
+    "Drops: Diamonds and redstone from the Golem, and the tower chests."
+   ],
+   "show": [
+    "minecraft:diamond",
+    "minecraft:redstone"
+   ]
+  },
+  {
+   "id": "mastery.craft_the_homestead_decree_and_finish_three_bounties",
+   "text": "Optional: finish three Homestead bounties",
+   "hint": "Bounties are side jobs, never a gate. Use the Homestead Decree on a Bounty Board and hand in three jobs.",
+   "mod": "bountiful",
+   "category": "mastery",
+   "icon": "bountiful:decree_homestead",
+   "step": 73,
+   "stage": 2,
+   "why": "Each player gets the Homestead Decree when Age 3 opens. A board with the decree offers jobs of Age 2 (items and kills from every strand) and pays one notch ahead, never a skip. Skip any job you do not like: the board offers new ones. Bounties count for this decree until the next decree arrives.",
+   "steps": [
+    "Craft a Bounty Board (or use one in a village) and place it.",
+    "Right-click the board with the Homestead Decree.",
+    "Hand in three bounties; this goal counts them for you."
+   ],
+   "show": [
+    "bountiful:decree_homestead"
+   ],
+   "before": [
+    "mastery.open_age_3"
+   ],
+   "auto": [
+    [
+     "item:bountiful:decree_homestead"
+    ]
+   ],
+   "tip": "Lost your decree? Craft a copy: the decree and a paper (you keep the original). Old capstones still make their decree too.",
+   "optional": true
+  },
+  {
    "id": "mining.mine_diamonds_and_make_a_diamond_pickaxe",
    "text": "Mine diamonds and make a diamond pickaxe",
    "hint": "Diamonds are most common deep down near Y -58. You need an iron pickaxe to mine them.",
    "mod": "minecraft",
    "category": "mining",
    "icon": "minecraft:diamond_pickaxe",
-   "step": 76,
+   "step": 74,
    "stage": 2,
    "why": "A diamond pickaxe mines obsidian (for the Nether portal) and diamonds are needed for enchanting, the Twilight Forest portal and many machines.",
    "tip": "Sifting gravel with a better mesh also gives diamonds over time.",
@@ -2745,7 +2668,7 @@
    "mod": "minecraft",
    "category": "gear",
    "icon": "minecraft:enchanting_table",
-   "step": 77,
+   "step": 75,
    "stage": 2,
    "why": "Efficiency, Fortune, Unbreaking and Protection make everything faster and safer. Fortune multiplies ores; Looting multiplies mob drops.",
    "steps": [
@@ -2907,7 +2830,7 @@
    "mod": "minecraft",
    "category": "gear",
    "icon": "minecraft:anvil",
-   "step": 78,
+   "step": 76,
    "stage": 2,
    "why": "Anvils fix enchanted tools without losing their enchantments and let you add enchanted books from villagers or loot.",
    "steps": [
@@ -2940,7 +2863,7 @@
    "mod": "tconstruct",
    "category": "gear",
    "icon": "tconstruct:grout",
-   "step": 79,
+   "step": 77,
    "stage": 2,
    "why": "Seared bricks are the building material for Tinkers melting equipment and smelteries.",
    "steps": [
@@ -2986,7 +2909,7 @@
    "mod": "tconstruct",
    "category": "gear",
    "icon": "tconstruct:part_builder",
-   "step": 80,
+   "step": 78,
    "stage": 2,
    "why": "The Stencil Table cuts blank patterns into part stencils, the Part Builder turns a stencil plus material into a tool part, and the Tool Station assembles, repairs and upgrades tools.",
    "tip": "This is SkyFactory 3's Tinkers' Construct with Tool Leveling: tools gain XP as you use them and get a free modifier slot at each level.",
@@ -3021,7 +2944,7 @@
    "mod": "tconstruct",
    "category": "gear",
    "icon": "tconstruct:pickaxe",
-   "step": 81,
+   "step": 79,
    "stage": 2,
    "why": "Even a flint or copper Tinkers pickaxe can be repaired and leveled, and its parts can be swapped later.",
    "tip": "Hover a part to see its material stats and traits. Metal parts are cast in the smeltery later. Tools level up as you use them (Tool Leveling).",
@@ -3055,7 +2978,7 @@
    "mod": "tconstruct",
    "category": "mining",
    "icon": "tconstruct:smeltery_controller",
-   "step": 82,
+   "step": 80,
    "stage": 2,
    "why": "Melting raw ore gives more metal than smelting, and the smeltery casts tool parts and alloys bronze, rose gold and more.",
    "tip": "The controller screen shows what is melting and the molten metal. There is no Tinkers book in this pack: hover the parts, or check this guide.",
@@ -3242,7 +3165,7 @@
    "mod": "tconstruct",
    "category": "gear",
    "icon": "tconstruct:clay_cast",
-   "step": 83,
+   "step": 81,
    "stage": 2,
    "why": "Metal parts (iron, cobalt, manyullyn) give much better stats. Casts are reusable moulds.",
    "steps": [
@@ -3276,7 +3199,7 @@
    "mod": "tconstruct",
    "category": "gear",
    "icon": "tconstruct:mattock",
-   "step": 84,
+   "step": 82,
    "stage": 2,
    "why": "One tool digs dirt and chops wood at full speed, so clearing land for a base is much faster.",
    "steps": [
@@ -3309,7 +3232,7 @@
    "mod": "tconstruct",
    "category": "gear",
    "icon": "tconstruct:pickaxe",
-   "step": 85,
+   "step": 83,
    "stage": 2,
    "why": "Modifiers add mining speed, damage, Fortune and more. Every tool starts with free modifier slots, and Tool Leveling adds one per level.",
    "tip": "Use the tool a lot: each level gives another slot. Tick this goal after applying a modifier.",
@@ -3332,7 +3255,7 @@
    "mod": "tconstruct",
    "category": "gear",
    "icon": "tconstruct:hammer",
-   "step": 86,
+   "step": 84,
    "stage": 2,
    "why": "Mines a 3x3 area per swing: perfect for digging rooms, tunnels and quarries.",
    "steps": [
@@ -3365,7 +3288,7 @@
    "mod": "minecraft",
    "category": "building",
    "icon": "minecraft:stone_bricks",
-   "step": 87,
+   "step": 85,
    "stage": 2,
    "why": "The next ages add many machines. A lit, enclosed workshop keeps mobs and creepers away from them.",
    "tip": "Light the workshop and seal entrances. Lighting prevents ordinary darkness-based spawning; special spawners and some modded mobs follow other rules.",
@@ -3387,7 +3310,7 @@
    "mod": "elevatorid",
    "category": "building",
    "icon": "elevatorid:elevator_white",
-   "step": 88,
+   "step": 86,
    "stage": 2,
    "why": "Instant travel between floors of a tall base or down a deep mine shaft, without ladders or water.",
    "steps": [
@@ -3426,7 +3349,7 @@
    "mod": "create",
    "category": "automation",
    "icon": "create:andesite_alloy",
-   "step": 89,
+   "step": 87,
    "stage": 2,
    "why": "Create is the pack's mechanical tech. Andesite alloy makes shafts, cogwheels, casings, belts and most early machines.",
    "tip": "Hold W while hovering any Create item to watch a Ponder scene that shows how it works.",
@@ -3454,7 +3377,7 @@
    "mod": "create",
    "category": "automation",
    "icon": "create:shaft",
-   "step": 90,
+   "step": 88,
    "stage": 2,
    "why": "Create machines run on rotation. Shafts and cogwheels move rotation from a source to your machines.",
    "steps": [
@@ -3487,7 +3410,7 @@
    "mod": "create",
    "category": "automation",
    "icon": "create:water_wheel",
-   "step": 91,
+   "step": 89,
    "stage": 2,
    "why": "A water wheel is free, endless rotation to run your first Create machines.",
    "steps": [
@@ -3517,7 +3440,7 @@
    "mod": "create",
    "category": "automation",
    "icon": "create:mechanical_press",
-   "step": 92,
+   "step": 90,
    "stage": 2,
    "why": "Iron, copper and gold sheets are needed by many Create recipes. The press also compacts items when placed over a basin.",
    "steps": [
@@ -3547,7 +3470,7 @@
    "mod": "create",
    "category": "automation",
    "icon": "create:belt_connector",
-   "step": 93,
+   "step": 91,
    "stage": 2,
    "why": "Belts move items between machines and are the backbone of every Create production line.",
    "steps": [
@@ -3576,7 +3499,7 @@
    "mod": "create",
    "category": "automation",
    "icon": "create:encased_fan",
-   "step": 94,
+   "step": 92,
    "stage": 2,
    "why": "Washing turns crushed ores into extra nuggets and gravel into flint and iron nuggets, a cheap renewable iron source.",
    "steps": [
@@ -3606,7 +3529,7 @@
    "mod": "create",
    "category": "automation",
    "icon": "create:mechanical_mixer",
-   "step": 95,
+   "step": 93,
    "stage": 2,
    "why": "Mixing makes alloys, dough, chocolate and later brass. Many recipes need it.",
    "steps": [
@@ -3635,7 +3558,7 @@
    "mod": "create",
    "category": "automation",
    "icon": "create:mechanical_press",
-   "step": 96,
+   "step": 94,
    "stage": 2,
    "why": "Automating one material teaches you belts, funnels and machines, and saves hours later.",
    "steps": [
@@ -3661,7 +3584,7 @@
    "mod": "redstonepaste",
    "category": "redstone",
    "icon": "sf3extras:redstone_paste",
-   "step": 97,
+   "step": 95,
    "stage": 2,
    "why": "Redstone paste runs signals up walls and across ceilings, which plain dust cannot do. Circuits stay small and hidden.",
    "steps": [
@@ -3688,7 +3611,7 @@
    "mod": "redstonepaste",
    "category": "redstone",
    "icon": "sf3extras:redstone_paste",
-   "step": 98,
+   "step": 96,
    "stage": 2,
    "why": "Proves your wall wiring works: a lever at the floor controls a lamp near the ceiling.",
    "steps": [
@@ -3720,7 +3643,7 @@
    "mod": "charset",
    "category": "redstone",
    "icon": "sf3extras:charset_gate_nand",
-   "step": 99,
+   "step": 97,
    "stage": 2,
    "why": "Logic gates replace big redstone torch contraptions with one small block.",
    "steps": [
@@ -3749,7 +3672,7 @@
    "mod": "charset",
    "category": "redstone",
    "icon": "sf3extras:charset_gate_nand",
-   "step": 100,
+   "step": 98,
    "stage": 2,
    "why": "Shows how gate logic works: a NAND gate is ON unless both inputs are ON. Every other gate can be built from NANDs.",
    "steps": [
@@ -3776,7 +3699,7 @@
    "mod": "charset",
    "category": "redstone",
    "icon": "sf3extras:charset_wrench",
-   "step": 101,
+   "step": 99,
    "stage": 2,
    "why": "Fix a gate (or most machines) that was placed facing the wrong way without breaking it and losing its settings.",
    "steps": [
@@ -3805,7 +3728,7 @@
    "mod": "chisel",
    "category": "building",
    "icon": "chisel:chisel_iron",
-   "step": 102,
+   "step": 100,
    "stage": 2,
    "why": "Hundreds of decorative variants of stone, wood, glass and more for nicer builds.",
    "steps": [
@@ -3828,7 +3751,7 @@
    "mod": "chiselsandbits",
    "category": "building",
    "icon": "chiselsandbits:chisel_iron",
-   "step": 103,
+   "step": 101,
    "stage": 2,
    "why": "Build details at 1/16 block size: furniture, window frames, trims and statues.",
    "steps": [
@@ -3857,7 +3780,7 @@
    "mod": "decocraft",
    "category": "building",
    "icon": "props:decobench",
-   "step": 104,
+   "step": 102,
    "stage": 2,
    "why": "Decocraft adds thousands of furniture and decoration models for homes, shops and towns.",
    "steps": [
@@ -3881,7 +3804,7 @@
    "mod": "fairylights",
    "category": "building",
    "icon": "fairylights:fairy_light",
-   "step": 105,
+   "step": 103,
    "stage": 2,
    "why": "Pretty string lights for paths, trees, markets and parties.",
    "steps": [
@@ -3909,7 +3832,7 @@
    "mod": "flatcoloredblocks",
    "category": "building",
    "icon": "flatcoloredblocks:coloredcraftingitem",
-   "step": 106,
+   "step": 104,
    "stage": 2,
    "why": "Exact solid colors for pixel art, signs and modern builds.",
    "steps": [
@@ -3932,7 +3855,7 @@
    "mod": "platforms",
    "category": "building",
    "icon": "platforms:platformer",
-   "step": 107,
+   "step": 105,
    "stage": 2,
    "why": "Quick wooden ramps, floors and railings for bridges, docks and stairs.",
    "steps": [
@@ -3955,7 +3878,7 @@
    "mod": "reliquia",
    "category": "building",
    "icon": "sf3extras:white_iron_lantern",
-   "step": 108,
+   "step": 106,
    "stage": 2,
    "why": "Decorative lighting in many colors, and a plinth to show off your best sword.",
    "steps": [
@@ -4058,7 +3981,7 @@
    "mod": "ceramics",
    "category": "building",
    "icon": "sf3extras:porcelain",
-   "step": 109,
+   "step": 107,
    "stage": 2,
    "why": "Clean white (or dyed) bricks for builds; porcelain also makes buckets and faucets.",
    "steps": [
@@ -4086,7 +4009,7 @@
    "mod": "nice",
    "category": "building",
    "icon": "sf3extras:particle_block",
-   "step": 110,
+   "step": 108,
    "stage": 2,
    "why": "Fire, smoke, hearts, notes or sparkles for fountains, fireplaces, shops and parties.",
    "steps": [
@@ -4109,7 +4032,7 @@
    "mod": "clipboard",
    "category": "building",
    "icon": "sf3extras:clipboard",
-   "step": 111,
+   "step": 109,
    "stage": 2,
    "why": "Keep your plans and shopping lists in-game, next to this guide.",
    "steps": [
@@ -4133,7 +4056,7 @@
    "mod": "charset",
    "category": "building",
    "icon": "sf3extras:charset_glass_shard",
-   "step": 112,
+   "step": 110,
    "stage": 2,
    "why": "Broken glass is not wasted any more: the shards craft back into glass.",
    "steps": [
@@ -4165,7 +4088,7 @@
    "mod": "charset",
    "category": "building",
    "icon": "minecraft:glass",
-   "step": 113,
+   "step": 111,
    "stage": 2,
    "why": "Turns broken glass back into blocks, so you never lose glass when rebuilding windows.",
    "steps": [
@@ -4191,7 +4114,7 @@
    "mod": "charset",
    "category": "building",
    "icon": "sf3extras:charset_poster",
-   "step": 114,
+   "step": 112,
    "stage": 2,
    "why": "Hang maps, items and art flat on a wall, like a picture frame without the frame.",
    "steps": [
@@ -4220,7 +4143,7 @@
    "mod": "charset",
    "category": "building",
    "icon": "minecraft:minecart",
-   "step": 115,
+   "step": 113,
    "stage": 2,
    "why": "Color-code minecarts on your rail lines so you know which cart goes where.",
    "steps": [
@@ -4244,7 +4167,7 @@
    "mod": "charset",
    "category": "building",
    "icon": "minecraft:tnt",
-   "step": 116,
+   "step": 114,
    "stage": 2,
    "why": "A Charset tweak that can save your base: hit a lit TNT block away from your walls.",
    "steps": [
@@ -4268,7 +4191,7 @@
    "mod": "charset",
    "category": "explore",
    "icon": "minecraft:saddle",
-   "step": 117,
+   "step": 115,
    "stage": 2,
    "why": "A Charset stunt: land on your horse in style and it gets a speed boost.",
    "steps": [
@@ -4289,7 +4212,7 @@
    "mod": "simplebarrels",
    "category": "storage",
    "icon": "sf3extras:oak_simple_barrel",
-   "step": 118,
+   "step": 116,
    "stage": 2,
    "why": "Another cheap bulk storage block for one item type, handy for seeds, cobblestone or dirt.",
    "steps": [
@@ -4317,7 +4240,7 @@
    "mod": "storagedrawers",
    "category": "storage",
    "icon": "storagedrawers:iron_storage_upgrade",
-   "step": 119,
+   "step": 117,
    "stage": 2,
    "why": "One drawer can hold thousands of items with upgrades, so a small wall stores a whole mine.",
    "steps": [
@@ -4349,7 +4272,7 @@
    "mod": "charset",
    "category": "storage",
    "icon": "sf3extras:charset_key",
-   "step": 120,
+   "step": 118,
    "stage": 2,
    "why": "Keys and locks keep your storage private on a shared server.",
    "steps": [
@@ -4379,7 +4302,7 @@
    "mod": "charset",
    "category": "storage",
    "icon": "sf3extras:charset_lock",
-   "step": 121,
+   "step": 119,
    "stage": 2,
    "why": "A barrel lock controls ordinary access, while claimed chunks provide separate protection for your base.",
    "tip": "The Charset Master Key can unlock any Charset barrel. Do not treat this lock as owner-only multiplayer security.",
@@ -4405,7 +4328,7 @@
    "mod": "charset",
    "category": "storage",
    "icon": "sf3extras:charset_master_key",
-   "step": 122,
+   "step": 120,
    "stage": 2,
    "why": "A recovery tool for a lost paired key; it bypasses locks rather than checking ownership.",
    "tip": "Use claims and server permissions for base protection. Keep this bypass tool secure.",
@@ -4435,7 +4358,7 @@
    "mod": "charset",
    "category": "storage",
    "icon": "sf3extras:charset_shelf",
-   "step": 123,
+   "step": 121,
    "stage": 2,
    "why": "A display shelf: books, potions and trophies are visible and stored at the same time.",
    "steps": [
@@ -4464,7 +4387,7 @@
    "mod": "charset",
    "category": "storage",
    "icon": "sf3extras:charset_backpack",
-   "step": 124,
+   "step": 122,
    "stage": 2,
    "why": "27 extra slots that you wear on your back.",
    "steps": [
@@ -4494,7 +4417,7 @@
    "mod": "colossalchests",
    "category": "storage",
    "icon": "colossalchests:colossal_chest_wood",
-   "step": 125,
+   "step": 123,
    "stage": 2,
    "why": "One giant chest for everything: a 16x16x16 wooden one holds thousands of stacks.",
    "tip": "This is a large storage challenge. Build a smaller valid chest first to learn the structure.",
@@ -4516,7 +4439,7 @@
    "mod": "ironchest",
    "category": "storage",
    "icon": "ironchest:obsidian_chest",
-   "step": 126,
+   "step": 124,
    "stage": 2,
    "why": "Bigger chests (an obsidian chest holds 108 stacks and resists explosions). Four Obsidian Chests are part of the Quantum DSU recipe.",
    "steps": [
@@ -4546,7 +4469,7 @@
    "mod": "exnihiloadscensio",
    "category": "mining",
    "icon": "exnihiloadscensio:crucible",
-   "step": 127,
+   "step": 125,
    "stage": 2,
    "why": "Endless lava from cobblestone: fuel for furnaces and generators, and obsidian when mixed with water.",
    "steps": [
@@ -4577,7 +4500,7 @@
    "mod": "exnihiloadscensio",
    "category": "mining",
    "icon": "exnihiloadscensio:stone_barrel",
-   "step": 128,
+   "step": 126,
    "stage": 2,
    "why": "Renewable obsidian for portals, enchanting tables and obsidian chests.",
    "steps": [
@@ -4610,7 +4533,7 @@
    "mod": "tinyprogressions",
    "category": "mining",
    "icon": "sf3extras:cobblegen_block",
-   "step": 129,
+   "step": 127,
    "stage": 2,
    "why": "Endless cobblestone with no water or lava: feed it to hammers (gravel, sand, dust), crucibles (lava) and compressors.",
    "steps": [
@@ -4640,7 +4563,7 @@
    "mod": "tinyprogressions",
    "category": "mining",
    "icon": "sf3extras:iron_cobblegen_block",
-   "step": 130,
+   "step": 128,
    "stage": 2,
    "why": "More cobblestone per second for bigger sieving and crushing setups.",
    "steps": [
@@ -4666,7 +4589,7 @@
    "mod": "hatchery",
    "category": "farming",
    "icon": "hatchery:fertilized_dirt",
-   "step": 131,
+   "step": 129,
    "stage": 2,
    "why": "Fertilized dirt and farmland randomly bonemeal the crops and saplings on them, so fields and tree farms grow faster.",
    "steps": [
@@ -4693,7 +4616,7 @@
    "mod": "simplecorn",
    "category": "farming",
    "icon": "sf3extras:corn_cob",
-   "step": 132,
+   "step": 130,
    "stage": 2,
    "why": "Corn is another crop for food and recipes; popcorn and roasted corn are fun snacks.",
    "steps": [
@@ -4724,7 +4647,7 @@
    "mod": "minecraft",
    "category": "farming",
    "icon": "minecraft:grass_block",
-   "step": 133,
+   "step": 131,
    "stage": 2,
    "why": "A lit grass area in a suitable biome can support passive animals and gives you room to breed them.",
    "steps": [
@@ -4743,7 +4666,7 @@
    "mod": "minecraft",
    "category": "farming",
    "icon": "minecraft:wooden_hoe",
-   "step": 134,
+   "step": 132,
    "stage": 2,
    "why": "Many mods need different crops; a big farm keeps them all stocked.",
    "steps": [
@@ -4764,7 +4687,7 @@
    "mod": "hydrogel",
    "category": "farming",
    "icon": "sf3extras:hydrogel",
-   "step": 135,
+   "step": 133,
    "stage": 2,
    "why": "Hydrates farmland like water, without water holes in your field.",
    "steps": [
@@ -4787,7 +4710,7 @@
    "mod": "cookingforblockheads",
    "category": "farming",
    "icon": "cookingforblockheads:cooking_table",
-   "step": 136,
+   "step": 134,
    "stage": 2,
    "why": "Shows every food you can make from your stored ingredients and crafts it in one click.",
    "steps": [
@@ -4813,7 +4736,7 @@
    "mod": "cookingforblockheads",
    "category": "farming",
    "icon": "cookingforblockheads:cow_jar",
-   "step": 137,
+   "step": 135,
    "stage": 2,
    "why": "Endless milk for your kitchen, cakes and potion cures.",
    "steps": [
@@ -4853,7 +4776,7 @@
    "mod": "chickens",
    "category": "farming",
    "icon": "chickens:henhouse",
-   "step": 138,
+   "step": 136,
    "stage": 2,
    "why": "Resource chickens lay iron, gold, redstone, diamonds and more: renewable resources with no work.",
    "steps": [
@@ -4882,7 +4805,7 @@
    "mod": "hatchery",
    "category": "farming",
    "icon": "hatchery:chicken_machine",
-   "step": 139,
+   "step": 137,
    "stage": 2,
    "why": "Nesting Pens collect what a chicken lays plus feathers and manure, the Nest hatches the eggs, and Lucky Eggs are a fun prize roll.",
    "steps": [
@@ -4914,7 +4837,7 @@
    "mod": "botania",
    "category": "magic",
    "icon": "botania:lexicon",
-   "step": 140,
+   "step": 138,
    "stage": 2,
    "why": "Botania is flower magic: mana, automation, tools and the Gaia Guardian boss. The Lexica is its full in-game manual.",
    "steps": [
@@ -4940,7 +4863,7 @@
    "mod": "botania",
    "category": "magic",
    "icon": "botania:altar",
-   "step": 141,
+   "step": 139,
    "stage": 2,
    "why": "Every functional Botania flower (generating and functional) is made in the apothecary.",
    "steps": [
@@ -4970,7 +4893,7 @@
    "mod": "botania",
    "category": "magic",
    "icon": "botania:livingwood",
-   "step": 142,
+   "step": 140,
    "stage": 2,
    "why": "Livingwood and livingrock build mana spreaders, pools and the runic altar.",
    "steps": [
@@ -5077,7 +5000,7 @@
    "mod": "roots",
    "category": "magic",
    "icon": "roots:mortar",
-   "step": 143,
+   "step": 141,
    "stage": 2,
    "why": "The Mortar and Pestle grinds herbs and flowers into petal dust: the spells of Roots.",
    "tip": "Old Root, Verdant Sprig, Infernal Stem and Dragon's Eye drop from tall grass, crops, nether wart and chorus.",
@@ -5109,7 +5032,7 @@
    "mod": "roots",
    "category": "magic",
    "icon": "roots:brazier",
-   "step": 144,
+   "step": 142,
    "stage": 2,
    "why": "Rituals summon rain, speed up crops, heal, repel monsters and more, for a few minutes at a time.",
    "steps": [
@@ -5139,7 +5062,7 @@
    "mod": "roots",
    "category": "magic",
    "icon": "roots:altar",
-   "step": 145,
+   "step": 143,
    "stage": 2,
    "why": "Rituals change weather, heal, grow crops, summon creatures and make Roots items. The Runic Tablet (the Roots guide) shows each one.",
    "steps": [
@@ -5171,7 +5094,7 @@
    "mod": "roots",
    "category": "magic",
    "icon": "roots:staff",
-   "step": 146,
+   "step": 144,
    "stage": 2,
    "why": "Spells heal you, attack mobs, grow plants and more, from a distance. A staff has a limited number of casts; the Crystal Staff holds several spells.",
    "tip": "This is the SkyFactory 3 Roots: there is no spell library; each staff is imbued with one spell.",
@@ -5203,7 +5126,7 @@
    "mod": "mysticalagriculture",
    "category": "farming",
    "icon": "mysticalagriculture:inferium_essence",
-   "step": 147,
+   "step": 145,
    "stage": 2,
    "why": "Mystical Agriculture grows resources (iron, gold, diamonds ...) as crops. Inferium essence is its base currency.",
    "steps": [
@@ -5226,7 +5149,7 @@
    "mod": "mysticalagriculture",
    "category": "farming",
    "icon": "mysticalagriculture:tier1_inferium_seeds",
-   "step": 148,
+   "step": 146,
    "stage": 2,
    "why": "Inferium crops make more essence, which upgrades into better essences for resource seeds.",
    "tip": "Upgrade essence with an Infusion Crystal, not a prosperity shard. JEI shows the four-essence recipes and crystal durability.",
@@ -5257,7 +5180,7 @@
    "mod": "apple_shields",
    "category": "gear",
    "icon": "apple_shields:red_apple_shield",
-   "step": 149,
+   "step": 147,
    "stage": 2,
    "why": "A fun shield upgrade path: the golden and enchanted golden apple shields block more and last longer.",
    "steps": [
@@ -5288,7 +5211,7 @@
    "mod": "voidcup",
    "category": "gear",
    "icon": "sf3extras:void_cup",
-   "step": 150,
+   "step": 148,
    "stage": 2,
    "why": "Get rid of cobblestone, dirt and junk instantly instead of dropping it (dropped items lag the server).",
    "steps": [
@@ -5311,7 +5234,7 @@
    "mod": "minecraft",
    "category": "bosses",
    "icon": "minecraft:rotten_flesh",
-   "step": 151,
+   "step": 149,
    "stage": 2,
    "why": "Mob drops (bones, string, gunpowder, ender pearls) and XP are needed constantly. A farm brings them to you.",
    "steps": [
@@ -5330,7 +5253,7 @@
    "mod": "darkutils",
    "category": "bosses",
    "icon": "darkutils:vector_plate",
-   "step": 152,
+   "step": 150,
    "stage": 2,
    "why": "Plates move mobs without water and can kill them without you being there.",
    "steps": [
@@ -5354,7 +5277,7 @@
    "mod": "minecraft",
    "category": "explore",
    "icon": "minecraft:ominous_trial_key",
-   "step": 153,
+   "step": 151,
    "stage": 2,
    "why": "Trial chambers hold vaults with enchanted books, diamonds and the Heavy Core used for the Mace.",
    "steps": [
@@ -5384,7 +5307,7 @@
    "mod": "minecraft",
    "category": "gear",
    "icon": "minecraft:heavy_core",
-   "step": 154,
+   "step": 152,
    "stage": 2,
    "why": "The mace hits harder the further you fall before striking: huge damage against bosses.",
    "steps": [
@@ -5411,7 +5334,7 @@
    "mod": "waystones",
    "category": "explore",
    "icon": "waystones:waystone",
-   "step": 155,
+   "step": 153,
    "stage": 2,
    "why": "Your own waystones link your base, mines and outposts to every village waystone.",
    "steps": [
@@ -5437,7 +5360,7 @@
    "mod": "mowziesmobs",
    "category": "bosses",
    "icon": "mowziesmobs:wrought_axe",
-   "step": 156,
+   "step": 154,
    "stage": 2,
    "why": "It drops the Wrought Axe (a huge sweeping axe) and the Wrought Helm, strong Age 3 gear.",
    "steps": [
@@ -5477,7 +5400,7 @@
    "mod": "mowziesmobs",
    "category": "bosses",
    "icon": "mowziesmobs:foliaath_seed",
-   "step": 157,
+   "step": 155,
    "stage": 2,
    "why": "Its seed grows a baby Foliaath that you can plant as a living guard for your base.",
    "steps": [
@@ -5517,7 +5440,7 @@
    "mod": "mod_lavacow",
    "category": "bosses",
    "icon": "minecraft:skeleton_skull",
-   "step": 158,
+   "step": 156,
    "stage": 2,
    "why": "A ring-1 boss and a good test of your Age 3 gear before the Nether.",
    "steps": [
@@ -5544,7 +5467,7 @@
    "mod": "cqrepoured",
    "category": "bosses",
    "icon": "cqrepoured:captain_revolver",
-   "step": 159,
+   "step": 157,
    "stage": 2,
    "why": "CQR dungeons are tiered by distance: the middle ring gives Age 3-4 loot. The Pirate Captain drops his revolver, the Necromancer cursed bones.",
    "steps": [
@@ -5582,7 +5505,7 @@
    "mod": "ancientbeasts",
    "category": "bosses",
    "icon": "ancientbeasts:tough_glove",
-   "step": 160,
+   "step": 158,
    "stage": 2,
    "why": "A big damage check for Age 3 gear; it drops the Tough Glove.",
    "steps": [
@@ -5618,7 +5541,7 @@
    "mod": "morebows",
    "category": "gear",
    "icon": "morebows:iron_bow",
-   "step": 161,
+   "step": 159,
    "stage": 2,
    "why": "A step up in damage over the stone bow, using plain iron.",
    "steps": [
@@ -5646,7 +5569,7 @@
    "mod": "asr",
    "category": "gear",
    "icon": "asr:iron_shield",
-   "step": 162,
+   "step": 160,
    "stage": 2,
    "why": "Asgard shields follow on from the vanilla shield: sturdier, and Parry lets a well-timed block knock attackers back.",
    "steps": [
@@ -5669,7 +5592,7 @@
    "mod": "capsule",
    "category": "automation",
    "icon": "capsule:capsule",
-   "step": 163,
+   "step": 161,
    "stage": 2,
    "why": "Move a base or an outpost in one go; higher tiers need steel and vibrant alloy.",
    "steps": [
@@ -5686,66 +5609,56 @@
    ]
   },
   {
-   "id": "mastery.craft_the_engineer_s_compact",
-   "text": "Craft the Engineer's Compact",
-   "hint": "Seared brick, Botania livingrock and an Elder Guardian sponge: Tinkers, magic and the ocean monument.",
-   "mod": "progression",
+   "id": "mastery.open_age_4",
+   "text": "Age 3 boss: defeat an Elder Guardian (or the Ferrous Wroughtnaut or the Skeleton King)",
+   "hint": "An Elder Guardian opens Age 4 (Nether & Power) for everyone on the server.",
+   "mod": "minecraft",
    "category": "mastery",
-   "icon": "kubejs:engineers_compact",
-   "step": 164,
+   "icon": "minecraft:wet_sponge",
+   "step": 162,
    "stage": 2,
-   "why": "One milestone from each strand (tech, magic, exploration): seared brick + livingrock + wet sponge. It opens the next age in this guide, pays an age reward once and crafts the age's bounty decree.",
-   "tip": "It locks no items. Crafting it opens the next age on the More tab; keep it, the bounty decree is crafted from it.",
+   "why": "Every age after Age 2 opens with a boss, never with a random find. When someone on the server defeats an Elder Guardian (or the Ferrous Wroughtnaut or the Skeleton King), Age 4 opens for every player at once: its guide chapter, the reward bag and the Bounty decree of the age you finished. Any one of them counts: an Elder Guardian, the Ferrous Wroughtnaut or the Skeleton King. Unlocks: Age 4 (Nether & Power): the Nether, Immersive Engineering steel, Ender IO, Actually Additions, Extra Utilities generators, Refined Storage, RFTools, Steve's Carts, Blood Magic, Industrial Foregoing and the first TaCZ guns.",
+   "tip": "Friends count: the killer, or anyone within 64 blocks when it dies, opens the age for the whole server. Nothing to craft or hand in. Type /sf3ages to see every gate.",
    "steps": [
-    "Build a smeltery for seared brick, make livingrock with a Pure Daisy and loot a Guardian monument for a wet sponge.",
-    "Shapeless craft with paper; right-click to claim."
+    "Where: Elder Guardian: inside an ocean monument. A cartographer villager sells an Ocean Explorer Map that leads to one.",
+    "Where: Ferrous Wroughtnaut: an underground hall closed with iron bars, found while caving.",
+    "Where: Skeleton King: Fish's Undead Rising crypts and desert tombs, 1,500 to 4,000 blocks from spawn.",
+    "Bring: A Tinkers or diamond weapon, good armor and food. Elder Guardian: milk buckets against Mining Fatigue, a Water Breathing potion. Wroughtnaut: hit it from behind after it swings.",
+    "Defeat it. Chat announces the new age and this goal ticks itself as soon as the age opens (ages open in order).",
+    "Drops: Elder Guardian: wet sponges. Wroughtnaut: its axe and helmet. Skeleton King: its crown."
    ],
    "show": [
-    "kubejs:engineers_compact"
-   ],
-   "before": [
-    "mastery.craft_the_homestead_seal"
-   ],
-   "after": [
-    "mastery.craft_the_engineer_decree_and_finish_three_bounties",
-    "mastery.craft_the_nether_accord"
-   ],
-   "auto": [
-    [
-     "item:kubejs:engineers_compact"
-    ]
+    "minecraft:wet_sponge"
    ]
   },
   {
    "id": "mastery.craft_the_engineer_decree_and_finish_three_bounties",
-   "text": "Craft the Engineer Decree and finish three bounties",
-   "hint": "Use the decree on a Bounty Board: the board then offers jobs of this age, asking for items and kills from every strand.",
+   "text": "Optional: finish three Engineer bounties",
+   "hint": "Bounties are side jobs, never a gate. Use the Engineer Decree on a Bounty Board and hand in three jobs.",
    "mod": "bountiful",
    "category": "mastery",
    "icon": "bountiful:decree_engineer",
-   "step": 165,
-   "stage": 2,
-   "why": "The decree is crafted from the capstone, which is kept. Bounties pull you into mods you have not tried yet and pay one notch ahead (never a skip).",
+   "step": 163,
+   "stage": 3,
+   "why": "Each player gets the Engineer Decree when Age 4 opens. A board with the decree offers jobs of Age 3 (items and kills from every strand) and pays one notch ahead, never a skip. Skip any job you do not like: the board offers new ones. Bounties count for this decree until the next decree arrives.",
    "steps": [
-    "Craft a Bounty Board (or find one in a village) and place it.",
-    "Craft the decree with the capstone, paper, an ink sac and a gold nugget.",
-    "Right-click the board with the decree, then hand in three bounties."
+    "Craft a Bounty Board (or use one in a village) and place it.",
+    "Right-click the board with the Engineer Decree.",
+    "Hand in three bounties; this goal counts them for you."
    ],
    "show": [
     "bountiful:decree_engineer"
    ],
    "before": [
-    "mastery.craft_the_engineer_s_compact",
-    "mastery.craft_the_homestead_decree_and_finish_three_bounties"
-   ],
-   "after": [
-    "mastery.craft_the_nether_decree_and_finish_three_bounties"
+    "mastery.open_age_4"
    ],
    "auto": [
     [
      "item:bountiful:decree_engineer"
     ]
-   ]
+   ],
+   "tip": "Lost your decree? Craft a copy: the decree and a paper (you keep the original). Old capstones still make their decree too.",
+   "optional": true
   },
   {
    "id": "explore.travel_to_the_nether",
@@ -5754,7 +5667,7 @@
    "mod": "minecraft",
    "category": "explore",
    "icon": "minecraft:obsidian",
-   "step": 166,
+   "step": 164,
    "stage": 3,
    "why": "The Nether has blaze rods, quartz, glowstone, nether wart, wither skeletons and ancient debris. Many mods need its materials.",
    "tip": "Beds explode in the Nether; use your Overworld bed for respawning.",
@@ -5887,7 +5800,7 @@
    "mod": "minecraft",
    "category": "explore",
    "icon": "minecraft:blaze_rod",
-   "step": 167,
+   "step": 165,
    "stage": 3,
    "why": "Blaze rods make brewing stands, blaze powder, eyes of ender and many machines. Wither skeletons (for the Wither boss) live in fortresses too.",
    "steps": [
@@ -5933,7 +5846,7 @@
    "mod": "minecraft",
    "category": "gear",
    "icon": "minecraft:brewing_stand",
-   "step": 168,
+   "step": 166,
    "stage": 3,
    "why": "Fire resistance makes you immune to fire and lava: essential for the Nether, blaze farms and the Twilight Fire Swamp and Hydra.",
    "steps": [
@@ -5990,7 +5903,7 @@
    "mod": "minecraft",
    "category": "explore",
    "icon": "minecraft:gold_ingot",
-   "step": 169,
+   "step": 167,
    "stage": 3,
    "why": "Piglins trade ender pearls, obsidian, fire resistance potions, quartz and more for gold. Bastions hold netherite and gold loot.",
    "steps": [
@@ -6026,7 +5939,7 @@
    "mod": "minecraft",
    "category": "explore",
    "icon": "minecraft:oak_boat",
-   "step": 170,
+   "step": 168,
    "stage": 3,
    "why": "A challenge: striders (saddle + warped fungus on a stick) carry you across lava safely.",
    "tip": "Ordinary boats do not cross lava safely. Keep a marked return route.",
@@ -6049,7 +5962,7 @@
    "mod": "chesttransporter",
    "category": "explore",
    "icon": "chesttransporter:chesttransporter_diamond",
-   "step": 171,
+   "step": 169,
    "stage": 3,
    "why": "A blaze spawner at home is an endless blaze rod farm: rods are needed for brewing, eyes of ender and Create brass.",
    "steps": [
@@ -6077,7 +5990,7 @@
    "mod": "natura",
    "category": "farming",
    "icon": "natura:ghostwood_sapling",
-   "step": 172,
+   "step": 170,
    "stage": 3,
    "why": "The pack disables natural Natura tree generation; its recipe and sieve routes keep these materials obtainable.",
    "steps": [
@@ -6108,7 +6021,7 @@
    "mod": "simplegen",
    "category": "power",
    "icon": "sf3extras:furnace_generator",
-   "step": 173,
+   "step": 171,
    "stage": 3,
    "why": "Most tech machines run on Forge Energy (FE/RF). A generator is the start of every tech path.",
    "steps": [
@@ -6132,7 +6045,7 @@
    "mod": "euru",
    "category": "power",
    "icon": "euru:survival_generator",
-   "step": 174,
+   "step": 172,
    "stage": 3,
    "why": "Extra Utilities generators produce machine energy. Grid Power (GP), used by mills and some utility blocks, is a separate system.",
    "steps": [
@@ -6161,7 +6074,7 @@
    "mod": "xu2gear",
    "category": "power",
    "icon": "xu2gear:magmatic_generator",
-   "step": 175,
+   "step": 173,
    "stage": 3,
    "why": "The second SF3 generator: lava from a crucible or a pump makes steady power.",
    "steps": [
@@ -6184,7 +6097,7 @@
    "mod": "extrautils2",
    "category": "storage",
    "icon": "extrautils2:transfer_node_items",
-   "step": 176,
+   "step": 174,
    "stage": 3,
    "why": "Cheap SF3 item transport: one node per source, pipes to any inventory, and it works with upgrades for speed and stacks.",
    "steps": [
@@ -6209,7 +6122,7 @@
    "mod": "solarflux",
    "category": "power",
    "icon": "solarfluxreborn:solar0",
-   "step": 177,
+   "step": 175,
    "stage": 3,
    "why": "Free power during the day with no fuel. Higher tiers produce much more, and neighboring panels share power.",
    "steps": [
@@ -6233,7 +6146,7 @@
    "mod": "rftoolspower",
    "category": "power",
    "icon": "rftools:powercell",
-   "step": 178,
+   "step": 176,
    "stage": 3,
    "why": "A battery stores generator overflow and keeps machines running at night or while generators refuel.",
    "tip": "If a new cell stays empty, check its sides with a wrench first.",
@@ -6259,7 +6172,7 @@
    "mod": "enderio",
    "category": "automation",
    "icon": "enderio:basic_capacitor",
-   "step": 179,
+   "step": 177,
    "stage": 3,
    "why": "Capacitors and chassis are core ingredients for the Ender IO machine path.",
    "steps": [
@@ -6294,7 +6207,7 @@
    "mod": "enderio",
    "category": "automation",
    "icon": "enderio:alloy_smelter",
-   "step": 180,
+   "step": 178,
    "stage": 3,
    "why": "Ender IO machines, capacitors and conduits all need its alloys (electrical steel, energetic alloy, conductive iron ...).",
    "steps": [
@@ -6324,7 +6237,7 @@
    "mod": "enderio",
    "category": "automation",
    "icon": "enderio:sag_mill",
-   "step": 181,
+   "step": 179,
    "stage": 3,
    "why": "Crushing ore into two dusts doubles your metal, and gravel feeds the sieves.",
    "steps": [
@@ -6355,7 +6268,7 @@
    "mod": "enderio",
    "category": "automation",
    "icon": "enderio:item_conduit",
-   "step": 182,
+   "step": 180,
    "stage": 3,
    "why": "One conduit line can carry power, items, fluids and redstone together, keeping your workshop tidy.",
    "steps": [
@@ -6386,7 +6299,7 @@
    "mod": "actuallyadditions",
    "category": "automation",
    "icon": "actuallyadditions:crusher",
-   "step": 183,
+   "step": 181,
    "stage": 3,
    "why": "Ore doubling: each raw ore becomes two dusts, which smelt into two ingots.",
    "tip": "Yields vary by recipe; do not assume every input always doubles.",
@@ -6414,7 +6327,7 @@
    "mod": "tacz",
    "category": "gear",
    "icon": "tacz:workbench_c",
-   "step": 184,
+   "step": 182,
    "stage": 3,
    "why": "Scopes, grips and muzzles are an Age 4 upgrade: the bench needs electrical steel from the Ender IO alloy smelter.",
    "steps": [
@@ -6443,7 +6356,7 @@
    "mod": "actuallyadditions",
    "category": "automation",
    "icon": "actuallyadditions:atomic_reconstructor",
-   "step": 185,
+   "step": 183,
    "stage": 3,
    "why": "Makes Actually Additions crystals (needed for its machines) and converts many items with lenses.",
    "steps": [
@@ -6470,7 +6383,7 @@
    "mod": "immersiveengineering",
    "category": "automation",
    "icon": "immersiveengineering:cokebrick",
-   "step": 186,
+   "step": 184,
    "stage": 3,
    "why": "Steel is used by Immersive Engineering and many other machines; coal coke is a strong fuel.",
    "steps": [
@@ -6687,7 +6600,7 @@
    "mod": "tacz",
    "category": "gear",
    "icon": "tacz:gun_smith_table",
-   "step": 187,
+   "step": 185,
    "stage": 3,
    "why": "Guns are a supply chain: the bench needs IE steel (pistols and SMGs), rifles, shotguns and snipers need Ender IO electrical steel, and heavy weapons need Twilight and Aether materials (Age 5). Ammo needs pressed copper plates and the ammo workbench.",
    "steps": [
@@ -6714,7 +6627,7 @@
    "mod": "immersiveengineering",
    "category": "automation",
    "icon": "immersiveengineering:crusher",
-   "step": 188,
+   "step": 186,
    "stage": 3,
    "why": "The Crusher processes supported ores and other materials. Metal-equipment recycling belongs to the Arc Furnace.",
    "steps": [
@@ -6740,7 +6653,7 @@
    "mod": "create",
    "category": "automation",
    "icon": "create:blaze_burner",
-   "step": 189,
+   "step": 187,
    "stage": 3,
    "why": "Brass unlocks Create's advanced parts: brass funnels, mechanical arms, precision mechanisms and trains.",
    "steps": [
@@ -6776,7 +6689,7 @@
    "mod": "simulated",
    "category": "automation",
    "icon": "simulated:physics_assembler",
-   "step": 190,
+   "step": 188,
    "stage": 3,
    "why": "Create Aeronautics builds real moving vehicles. The Physics Assembler turns blocks into a contraption with weight and momentum that you can stand on, and chests and machines on it keep working.",
    "tip": "Every block has a mass. Turn on advanced tooltips with F3+H and each block shows its Sable Mass: wood is light, iron and stone are heavy. A slime ball merges two contraptions.",
@@ -6902,7 +6815,7 @@
    "mod": "aeronautics",
    "category": "explore",
    "icon": "aeronautics:adjustable_burner",
-   "step": 191,
+   "step": 189,
    "stage": 3,
    "why": "Your first flying machine. A balloon carries you, your friends and cargo over mountains and oceans.",
    "tip": "Hold W over the burner or an envelope to Ponder how balloons work. Right-click envelopes with dye to color them. Torches and glowstone on board light up the ground below while you fly.",
@@ -7535,7 +7448,7 @@
    "mod": "offroad",
    "category": "explore",
    "icon": "offroad:wheel_mount",
-   "step": 192,
+   "step": 190,
    "stage": 3,
    "why": "Cars carry you and cargo across land much faster than walking, and later Rock Cutting Wheels on a Borehead Bearing turn them into tunnel-boring machines.",
    "tip": "Hold W over a Wheel Mount to Ponder it. Heavy cars need more rotation; check stress with Engineer's Goggles.",
@@ -7579,7 +7492,7 @@
    "mod": "botania",
    "category": "magic",
    "icon": "botania:pool",
-   "step": 193,
+   "step": 191,
    "stage": 3,
    "why": "Mana powers all of Botania: infusing manasteel and mana diamonds, crafting runes, Terrasteel and the Gaia ritual.",
    "steps": [
@@ -7654,7 +7567,7 @@
    "mod": "botania",
    "category": "magic",
    "icon": "botania:pool",
-   "step": 194,
+   "step": 192,
    "stage": 3,
    "why": "Manasteel makes Botania tools and armor; manasteel, mana diamonds and mana pearls are the three Terrasteel ingredients.",
    "tip": "The pool does not need to be completely full. Each conversion consumes only its recipe cost.",
@@ -7688,7 +7601,7 @@
    "mod": "botania",
    "category": "magic",
    "icon": "botania:twig_wand",
-   "step": 195,
+   "step": 193,
    "stage": 3,
    "why": "Needed to link flowers, spreaders and pools and to activate many Botania blocks.",
    "steps": [
@@ -7719,7 +7632,7 @@
    "mod": "bloodmagic",
    "category": "magic",
    "icon": "bloodmagic:blood_altar",
-   "step": 196,
+   "step": 194,
    "stage": 3,
    "why": "Blood Magic turns your health (Life Points) into powerful sigils, rituals and armor.",
    "steps": [
@@ -7749,7 +7662,7 @@
    "mod": "bloodmagic",
    "category": "magic",
    "icon": "bloodmagic:blood_orb_weak",
-   "step": 197,
+   "step": 195,
    "stage": 3,
    "why": "The orb stores your LP network. Sigils and rituals draw on it, and every altar tier needs a better orb.",
    "steps": [
@@ -7779,7 +7692,7 @@
    "mod": "bloodmagic",
    "category": "magic",
    "icon": "bloodmagic:slate_blank",
-   "step": 198,
+   "step": 196,
    "stage": 3,
    "why": "Blank slates craft blood runes, and runes raise the altar to higher tiers for better orbs, sigils and armor.",
    "steps": [
@@ -7883,7 +7796,7 @@
    "mod": "bloodmagic",
    "category": "magic",
    "icon": "bloodmagic:sigil_divination",
-   "step": 199,
+   "step": 197,
    "stage": 3,
    "why": "Sigils are reusable magic tools powered by your LP: the Divination Sigil shows your LP, others give water, lava, air jumps, an item magnet and more.",
    "tip": "The Air Sigil needs a ghast-tear reagent made with 128 will and a Reinforced Slate, so it comes after the first Tartaric Gems.",
@@ -7919,7 +7832,7 @@
    "mod": "bloodmagic",
    "category": "magic",
    "icon": "bloodmagic:soul_gem_petty",
-   "step": 200,
+   "step": 198,
    "stage": 3,
    "why": "Demonic Will powers the Hellfire Forge and Will-based tools, armor and rituals.",
    "tip": "Without a snare or a sentient weapon, monsters drop no will.",
@@ -7954,7 +7867,7 @@
    "mod": "psi",
    "category": "magic",
    "icon": "psi:cad_assembler",
-   "step": 201,
+   "step": 199,
    "stage": 3,
    "why": "Psi lets you program your own spells: mining lasers, flying, building platforms, healing.",
    "steps": [
@@ -7982,7 +7895,7 @@
    "mod": "integrateddynamics",
    "category": "automation",
    "icon": "integrateddynamics:squeezer",
-   "step": 202,
+   "step": 200,
    "stage": 3,
    "why": "Menril resin is the base material for Integrated Dynamics cables, readers and logic cards.",
    "steps": [
@@ -8009,7 +7922,7 @@
    "mod": "integrateddynamics",
    "category": "redstone",
    "icon": "integrateddynamics:logic_programmer",
-   "step": 203,
+   "step": 201,
    "stage": 3,
    "why": "Read machines, inventories and blocks and act on them with logic, without any redstone.",
    "steps": [
@@ -8041,7 +7954,7 @@
    "mod": "integratedtunnels",
    "category": "storage",
    "icon": "integratedtunnels:part_importer_item",
-   "step": 204,
+   "step": 202,
    "stage": 3,
    "why": "Move items and fluids along the same cables as your logic network, with filters and rates.",
    "tip": "Blank Variable Cards do nothing. The Item Interface exposes inventory to the network; an importer/exporter needs a valid aspect card.",
@@ -8072,7 +7985,7 @@
    "mod": "workshop",
    "category": "automation",
    "icon": "sf3extras:workshop_table",
-   "step": 205,
+   "step": 203,
    "stage": 3,
    "why": "Engineer's Workshop runs several crafting and smelting modules in one table, all from one fuel slot.",
    "steps": [
@@ -8098,7 +8011,7 @@
    "mod": "workshop",
    "category": "automation",
    "icon": "sf3extras:workshop_table",
-   "step": 206,
+   "step": 204,
    "stage": 3,
    "why": "Each module slot works like its own machine, so one table smelts and crafts at once.",
    "steps": [
@@ -8119,7 +8032,7 @@
    "mod": "workshop",
    "category": "automation",
    "icon": "sf3extras:ew_upgrade_auto_crafter",
-   "step": 207,
+   "step": 205,
    "stage": 3,
    "why": "With the Auto Crafter upgrade the crafting module crafts on its own whenever ingredients are there.",
    "steps": [
@@ -8149,7 +8062,7 @@
    "mod": "workshop",
    "category": "automation",
    "icon": "sf3extras:ew_upgrade_storage",
-   "step": 208,
+   "step": 206,
    "stage": 3,
    "why": "More room for inputs and outputs, so automation runs longer between emptying.",
    "steps": [
@@ -8174,7 +8087,7 @@
    "mod": "autopackager",
    "category": "automation",
    "icon": "sf3extras:auto_packager",
-   "step": 209,
+   "step": 207,
    "stage": 3,
    "why": "Compacts ingots, nuggets and gems into blocks automatically to save storage space.",
    "steps": [
@@ -8199,7 +8112,7 @@
    "mod": "hopperducts",
    "category": "storage",
    "icon": "sf3extras:hopper_duct",
-   "step": 210,
+   "step": 208,
    "stage": 3,
    "why": "Cheap item transport: unlike a hopper, a duct does not suck items from the container above it.",
    "tip": "Ducts transport items fed into them; a duct alone does not pull items from a chest.",
@@ -8224,7 +8137,7 @@
    "mod": "funnels",
    "category": "storage",
    "icon": "sf3extras:funnel",
-   "step": 211,
+   "step": 209,
    "stage": 3,
    "why": "Collect drops from mob farms and breaking blocks straight into a chest.",
    "steps": [
@@ -8247,7 +8160,7 @@
    "mod": "charset",
    "category": "storage",
    "icon": "sf3extras:charset_pipe",
-   "step": 212,
+   "step": 210,
    "stage": 3,
    "why": "Simple, cheap item and fluid transport before you have power-hungry networks.",
    "steps": [
@@ -8279,7 +8192,7 @@
    "mod": "charset",
    "category": "storage",
    "icon": "sf3extras:charset_shifter",
-   "step": 213,
+   "step": 211,
    "stage": 3,
    "why": "Your first automated item line: items move from one chest to another by themselves.",
    "steps": [
@@ -8306,7 +8219,7 @@
    "mod": "charset",
    "category": "storage",
    "icon": "sf3extras:charset_pipe",
-   "step": 214,
+   "step": 212,
    "stage": 3,
    "why": "Move water or lava between tanks without buckets.",
    "steps": [
@@ -8331,7 +8244,7 @@
    "mod": "charset",
    "category": "storage",
    "icon": "sf3extras:charset_shifter",
-   "step": 215,
+   "step": 213,
    "stage": 3,
    "why": "Only move the items you want, so one pipe line can sort.",
    "steps": [
@@ -8357,7 +8270,7 @@
    "mod": "charset",
    "category": "redstone",
    "icon": "sf3extras:charset_audio_drive",
-   "step": 216,
+   "step": 214,
    "stage": 3,
    "why": "Charset audio records and plays back note-block music.",
    "steps": [
@@ -8393,7 +8306,7 @@
    "mod": "charset",
    "category": "redstone",
    "icon": "sf3extras:charset_audio_tape",
-   "step": 217,
+   "step": 215,
    "stage": 3,
    "why": "Save your music to play again anywhere.",
    "steps": [
@@ -8421,7 +8334,7 @@
    "mod": "charset",
    "category": "redstone",
    "icon": "sf3extras:charset_audio_drive",
-   "step": 218,
+   "step": 216,
    "stage": 3,
    "why": "Hear what you recorded.",
    "steps": [
@@ -8439,7 +8352,7 @@
    "mod": "scm",
    "category": "redstone",
    "icon": "sf3extras:scm_circuit",
-   "step": 219,
+   "step": 217,
    "stage": 3,
    "why": "Build complex redstone circuits inside a single block, on a 7x7 board with four layers.",
    "tip": "There is no component-picker GUI in this port; build on the board itself.",
@@ -8468,7 +8381,7 @@
    "mod": "scm",
    "category": "redstone",
    "icon": "sf3extras:scm_circuit",
-   "step": 220,
+   "step": 218,
    "stage": 3,
    "why": "Your tiny circuit drives real redstone outside the board.",
    "steps": [
@@ -8493,7 +8406,7 @@
    "mod": "scm",
    "category": "redstone",
    "icon": "sf3extras:scm_circuit",
-   "step": 221,
+   "step": 219,
    "stage": 3,
    "why": "Timers, counters and repeaters need settings.",
    "steps": [
@@ -8519,7 +8432,7 @@
    "mod": "scm",
    "category": "redstone",
    "icon": "sf3extras:scm_circuit",
-   "step": 222,
+   "step": 220,
    "stage": 3,
    "why": "Copy a working design to new boards instead of rebuilding it.",
    "tip": "Copying consumes components. An incomplete bill of materials does not build a partial circuit.",
@@ -8543,7 +8456,7 @@
    "mod": "refinedstorage",
    "category": "storage",
    "icon": "refinedstorage:controller",
-   "step": 223,
+   "step": 221,
    "stage": 3,
    "why": "All your items in one searchable terminal. It also feeds autocrafting later.",
    "steps": [
@@ -8580,7 +8493,7 @@
    "mod": "refinedstorage",
    "category": "storage",
    "icon": "refinedstorage:crafter",
-   "step": 224,
+   "step": 222,
    "stage": 3,
    "why": "Ask for 64 of anything and the network crafts it from stored ingredients.",
    "tip": "Ordinary crafting patterns are handled by the Crafter itself. Only processing patterns need an external machine.",
@@ -8613,7 +8526,7 @@
    "mod": "translocators",
    "category": "storage",
    "icon": "translocators:item_translocator",
-   "step": 225,
+   "step": 223,
    "stage": 3,
    "why": "Very fast item transfer between two inventories that touch.",
    "tip": "Basic transfer does not require a redstone signal; redstone control is an upgrade behavior.",
@@ -8639,7 +8552,7 @@
    "mod": "enderstorage",
    "category": "storage",
    "icon": "enderstorage:ender_pouch",
-   "step": 226,
+   "step": 224,
    "stage": 3,
    "why": "Reach the same inventory from anywhere in the world, even other dimensions.",
    "tip": "Public matching frequencies share contents. Check the chest's ownership controls before storing valuables.",
@@ -8671,7 +8584,7 @@
    "mod": "quantumstorage",
    "category": "storage",
    "icon": "quantumstorage:quantumdsu",
-   "step": 227,
+   "step": 225,
    "stage": 3,
    "why": "One block holds billions of a single item: perfect for cobblestone, dirt or ores from automation.",
    "steps": [
@@ -8702,7 +8615,7 @@
    "mod": "simplelabels",
    "category": "storage",
    "icon": "simplelabels:blockvsu",
-   "step": 228,
+   "step": 226,
    "stage": 3,
    "why": "The VSU works with Simple Labels to show its contents on a label.",
    "steps": [
@@ -8725,7 +8638,7 @@
    "mod": "quantumstorage",
    "category": "storage",
    "icon": "quantumstorage:quantumdsu",
-   "step": 229,
+   "step": 227,
    "stage": 3,
    "why": "An optional long-term stockpiling challenge for a renewable-material factory.",
    "tip": "This is a very large endgame quantity challenge, not a prerequisite for ordinary storage.",
@@ -8750,7 +8663,7 @@
    "mod": "exnihiloadscensio",
    "category": "mining",
    "icon": "excompressum:auto_sieve",
-   "step": 230,
+   "step": 228,
    "stage": 3,
    "why": "Sifting without clicking: a hopper feeds gravel in and the drops come out.",
    "steps": [
@@ -8777,7 +8690,7 @@
    "mod": "excompressum",
    "category": "mining",
    "icon": "excompressum:auto_heavy_sieve",
-   "step": 231,
+   "step": 229,
    "stage": 3,
    "why": "Heavy sieves sift compressed blocks: nine times the drops per sift.",
    "steps": [
@@ -8803,7 +8716,7 @@
    "mod": "excompressum",
    "category": "mining",
    "icon": "excompressum:auto_compressor",
-   "step": 232,
+   "step": 230,
    "stage": 3,
    "why": "Packs nine items into one compressed block: feeds heavy sieves and saves storage.",
    "steps": [
@@ -8829,7 +8742,7 @@
    "mod": "mysticalagriculture",
    "category": "farming",
    "icon": "mysticalagriculture:iron_seeds",
-   "step": 233,
+   "step": 231,
    "stage": 3,
    "why": "Iron as a crop: an endless iron farm that needs no mining.",
    "steps": [
@@ -8862,7 +8775,7 @@
    "mod": "mysticalagriculture",
    "category": "farming",
    "icon": "sf3extras:growth_crystal",
-   "step": 234,
+   "step": 232,
    "stage": 3,
    "why": "Resource crops grow slowly; accelerators make them grow much faster.",
    "steps": [
@@ -8893,7 +8806,7 @@
    "mod": "mysticalagriculture",
    "category": "farming",
    "icon": "mysticalagriculture:soulium_dagger",
-   "step": 235,
+   "step": 233,
    "stage": 3,
    "why": "Mob seeds grow bones, string, gunpowder, ender pearls and blaze rods without a mob farm.",
    "steps": [
@@ -8923,7 +8836,7 @@
    "mod": "industrialforegoing",
    "category": "automation",
    "icon": "industrialforegoing:plastic",
-   "step": 236,
+   "step": 234,
    "stage": 3,
    "why": "Plastic builds Industrial Foregoing machines (plant gatherer, mob crusher ...).",
    "steps": [
@@ -8953,7 +8866,7 @@
    "mod": "industrialforegoing",
    "category": "automation",
    "icon": "industrialforegoing:machine_frame_simple",
-   "step": 237,
+   "step": 235,
    "stage": 3,
    "why": "Industrial Foregoing starts with IE steel: its frames now follow the SF3 tiers (steel, dark steel, draconium plus a Twilight trophy).",
    "steps": [
@@ -8982,7 +8895,7 @@
    "mod": "mob_grinding_utils",
    "category": "bosses",
    "icon": "mob_grinding_utils:spikes",
-   "step": 238,
+   "step": 236,
    "stage": 3,
    "why": "An automatic farm keeps giving drops and XP while you do other things.",
    "steps": [
@@ -9011,7 +8924,7 @@
    "mod": "torchmaster",
    "category": "building",
    "icon": "torchmaster:mega_torch",
-   "step": 239,
+   "step": 237,
    "stage": 3,
    "why": "Reduces darkness-based hostile spawns around your builds.",
    "tip": "It does not remove existing monsters or guarantee protection from spawners, raids or special modded spawning.",
@@ -9036,7 +8949,7 @@
    "mod": "stevescarts",
    "category": "automation",
    "icon": "stevescarts:blockcartassembler",
-   "step": 240,
+   "step": 238,
    "stage": 3,
    "why": "Steve's Carts are modular minecarts that mine tunnels, build rails, farm and chop trees.",
    "steps": [
@@ -9060,7 +8973,7 @@
    "mod": "rftoolsutility",
    "category": "automation",
    "icon": "rftools:crafter1",
-   "step": 241,
+   "step": 239,
    "stage": 3,
    "why": "Crafts components by itself from ingredients fed in by pipes.",
    "steps": [
@@ -9087,7 +9000,7 @@
    "mod": "rftoolsutility",
    "category": "redstone",
    "icon": "rftools:screen",
-   "step": 242,
+   "step": 240,
    "stage": 3,
    "why": "See your power, storage and machine status at a glance.",
    "steps": [
@@ -9116,7 +9029,7 @@
    "mod": "rftoolsstorage",
    "category": "storage",
    "icon": "rftools:modular_storage",
-   "step": 243,
+   "step": 241,
    "stage": 3,
    "why": "Storage modules you can carry, plus a searchable interface.",
    "steps": [
@@ -9139,7 +9052,7 @@
    "mod": "simplyjetpacks",
    "category": "gear",
    "icon": "simplyjetpacks:jetpack_eio_1",
-   "step": 244,
+   "step": 242,
    "stage": 3,
    "why": "Your first flight: short hops and climbs on RF. Higher tiers fly longer and faster.",
    "steps": [
@@ -9163,7 +9076,7 @@
    "mod": "exchangers",
    "category": "gear",
    "icon": "exchangers:wooden_exchanger",
-   "step": 245,
+   "step": 243,
    "stage": 3,
    "why": "Change a wall from cobblestone to bricks in seconds, instead of breaking and placing every block.",
    "steps": [
@@ -9191,7 +9104,7 @@
    "mod": "rftoolsbuilder",
    "category": "automation",
    "icon": "rftools:builder",
-   "step": 246,
+   "step": 244,
    "stage": 3,
    "why": "Quarry huge areas or copy builds automatically.",
    "steps": [
@@ -9216,7 +9129,7 @@
    "mod": "computercraft",
    "category": "redstone",
    "icon": "computercraft:computer_normal",
-   "step": 247,
+   "step": 245,
    "stage": 3,
    "why": "CC: Tweaked follows OpenComputers: the computer needs an OpenComputers microchip (tier 1; tier 2 for the advanced computer).",
    "steps": [
@@ -9244,7 +9157,7 @@
    "mod": "computercraft",
    "category": "redstone",
    "icon": "computercraft:turtle_normal",
-   "step": 248,
+   "step": 246,
    "stage": 3,
    "why": "A little robot that digs a whole quarry while you do other things.",
    "steps": [
@@ -9272,7 +9185,7 @@
    "mod": "opencomputers",
    "category": "redstone",
    "icon": "opencomputers:case1",
-   "step": 249,
+   "step": 247,
    "stage": 3,
    "why": "A full Linux computer in Minecraft for advanced automation.",
    "tip": "The manual (right-click it) explains every part.",
@@ -9316,7 +9229,7 @@
    "mod": "rftoolscontrol",
    "category": "redstone",
    "icon": "rftoolscontrol:processor",
-   "step": 250,
+   "step": 248,
    "stage": 3,
    "why": "Program machines and item movement with a visual editor, no code needed.",
    "steps": [
@@ -9346,7 +9259,7 @@
    "mod": "rftoolsbase",
    "category": "mastery",
    "icon": "rftools:machine_infuser",
-   "step": 251,
+   "step": 249,
    "stage": 3,
    "why": "Infused RFTools machines use less power and work better.",
    "steps": [
@@ -9364,7 +9277,7 @@
    "mod": "longfall",
    "category": "gear",
    "icon": "sf3extras:long_fall_boots",
-   "step": 252,
+   "step": 250,
    "stage": 3,
    "why": "Long Fall Boots protect against ordinary fall damage while equipped.",
    "tip": "They do not protect you from lava, the void or every modded damage source.",
@@ -9388,7 +9301,7 @@
    "mod": "xprings",
    "category": "gear",
    "icon": "sf3extras:lesser_xp_ring",
-   "step": 253,
+   "step": 251,
    "stage": 3,
    "why": "Store your XP safely and take it back when you need to enchant or repair.",
    "tip": "The ring stores points from nearby orbs, not levels withdrawn from your current XP bar.",
@@ -9415,7 +9328,7 @@
    "mod": "sophisticatedbackpacks",
    "category": "gear",
    "icon": "sophisticatedbackpacks:diamond_backpack",
-   "step": 254,
+   "step": 252,
    "stage": 3,
    "why": "Far more space, and dropped items fly to you.",
    "steps": [
@@ -9445,7 +9358,7 @@
    "mod": "ebm",
    "category": "gear",
    "icon": "sf3extras:sculpting_loop",
-   "step": 255,
+   "step": 253,
    "stage": 3,
    "why": "Sculpt big curved shapes out of Chisels & Bits blocks quickly.",
    "steps": [
@@ -9469,7 +9382,7 @@
    "mod": "drawersbits",
    "category": "storage",
    "icon": "sf3extras:bit_drawer",
-   "step": 256,
+   "step": 254,
    "stage": 3,
    "why": "Keeps your bit collection organized by block type.",
    "steps": [
@@ -9492,7 +9405,7 @@
    "mod": "wands",
    "category": "automation",
    "icon": "sf3extras:capturing_wand",
-   "step": 257,
+   "step": 255,
    "stage": 3,
    "why": "Move animals and mobs to your farms without leads.",
    "steps": [
@@ -9519,7 +9432,7 @@
    "mod": "randomthings",
    "category": "storage",
    "icon": "randomthings:item_collector",
-   "step": 258,
+   "step": 256,
    "stage": 3,
    "why": "Gathers drops around farms automatically.",
    "steps": [
@@ -9546,7 +9459,7 @@
    "mod": "randomthings",
    "category": "storage",
    "icon": "sf3extras:rt_item_redirector",
-   "step": 259,
+   "step": 257,
    "stage": 3,
    "why": "Steer item streams into the right chest.",
    "tip": "The Redirector steers item entities; it is not an item pipe that inserts directly into a chest.",
@@ -9578,7 +9491,7 @@
    "mod": "randomthings",
    "category": "building",
    "icon": "sf3extras:rt_voxel_projector",
-   "step": 260,
+   "step": 258,
    "stage": 3,
    "why": "Big holograms for decoration and shops.",
    "steps": [
@@ -9609,7 +9522,7 @@
    "mod": "randomthings",
    "category": "building",
    "icon": "sf3extras:rt_voxel_projector",
-   "step": 261,
+   "step": 259,
    "stage": 3,
    "why": "Show your own 3D models as holograms.",
    "tip": "This goal requires a prepared server-side file and command access. The ordinary item-projection goal needs neither.",
@@ -9629,7 +9542,7 @@
    "mod": "chancecubes",
    "category": "explore",
    "icon": "chancecubes:chance_cube",
-   "step": 262,
+   "step": 260,
    "stage": 3,
    "why": "A gamble: diamonds, mobs, explosions or something silly.",
    "steps": [
@@ -9652,7 +9565,7 @@
    "mod": "create",
    "category": "automation",
    "icon": "create:precision_mechanism",
-   "step": 263,
+   "step": 261,
    "stage": 3,
    "why": "Precision mechanisms are needed for Create's advanced machines, arms and train parts.",
    "tip": "This recipe is a deployer sequence. A press is used to make the starting gold sheet, not as a step in the sequence.",
@@ -9685,7 +9598,7 @@
    "mod": "create",
    "category": "automation",
    "icon": "create:brass_funnel",
-   "step": 264,
+   "step": 262,
    "stage": 3,
    "why": "A hands-off production line keeps making what you need.",
    "steps": [
@@ -9709,7 +9622,7 @@
    "mod": "aeronautics",
    "category": "explore",
    "icon": "aeronautics:propeller_bearing",
-   "step": 265,
+   "step": 263,
    "stage": 3,
    "why": "Propeller bearings now need Ender IO electrical steel (Age 4) and smart propellers need vibrant alloy (Age 5).",
    "tip": "Aviator's Goggles (leather and Engineer's Goggles) show thrust and stress. Gyroscopic Propeller Bearings stay level and suit helicopters. Thrust weakens high up; an Altitude Sensor reads air pressure.",
@@ -9760,7 +9673,7 @@
    "mod": "minecraft",
    "category": "storage",
    "icon": "minecraft:hopper",
-   "step": 266,
+   "step": 264,
    "stage": 3,
    "why": "True automation: a material made, processed and stored without you.",
    "steps": [
@@ -9780,7 +9693,7 @@
    "mod": "minecraft",
    "category": "storage",
    "icon": "sf3extras:void_cup",
-   "step": 267,
+   "step": 265,
    "stage": 3,
    "why": "When storage is full a factory can stall or flood the ground with items.",
    "tip": "Do not attach an unfiltered void to valuable mixed storage.",
@@ -9802,7 +9715,7 @@
    "mod": "rangedpumps",
    "category": "storage",
    "icon": "rangedpumps:pump",
-   "step": 268,
+   "step": 266,
    "stage": 3,
    "why": "Clears water for underwater builds, or collects lava as fuel.",
    "tip": "Move the collected fluid out as the internal tank fills.",
@@ -9827,7 +9740,7 @@
    "mod": "chickenchunks",
    "category": "storage",
    "icon": "chickenchunks:chunk_loader",
-   "step": 269,
+   "step": 267,
    "stage": 3,
    "why": "Machines only run in loaded chunks; a loader keeps them running while you are away.",
    "steps": [
@@ -9846,7 +9759,7 @@
    "mod": "fluxnetworks",
    "category": "power",
    "icon": "fluxnetworks:flux_controller",
-   "step": 270,
+   "step": 268,
    "stage": 3,
    "why": "Send power across your whole base, or across dimensions, with no cables.",
    "steps": [
@@ -9866,75 +9779,13 @@
    ]
   },
   {
-   "id": "mastery.craft_the_nether_accord",
-   "text": "Craft the Nether Accord",
-   "hint": "Ender IO dark steel, a reinforced slate and a Nether Fortress blaze rod.",
-   "mod": "progression",
-   "category": "mastery",
-   "icon": "kubejs:nether_accord",
-   "step": 271,
-   "stage": 3,
-   "why": "One milestone from each strand (tech, magic, exploration): dark steel + reinforced slate + blaze rod. It opens the next age in this guide, pays an age reward once and crafts the age's bounty decree.",
-   "tip": "It locks no items. Crafting it opens the next age on the More tab; keep it, the bounty decree is crafted from it.",
-   "steps": [
-    "Alloy dark steel, tier-2 blood altar slate and a blaze rod from the fortress.",
-    "Shapeless craft with paper; right-click to claim."
-   ],
-   "show": [
-    "kubejs:nether_accord"
-   ],
-   "before": [
-    "mastery.craft_the_engineer_s_compact"
-   ],
-   "after": [
-    "mastery.craft_the_nether_decree_and_finish_three_bounties",
-    "mastery.craft_the_realm_key"
-   ],
-   "auto": [
-    [
-     "item:kubejs:nether_accord"
-    ]
-   ]
-  },
-  {
-   "id": "mastery.craft_the_nether_decree_and_finish_three_bounties",
-   "text": "Craft the Nether Decree and finish three bounties",
-   "hint": "Use the decree on a Bounty Board: the board then offers jobs of this age, asking for items and kills from every strand.",
-   "mod": "bountiful",
-   "category": "mastery",
-   "icon": "bountiful:decree_nether",
-   "step": 272,
-   "stage": 3,
-   "why": "The decree is crafted from the capstone, which is kept. Bounties pull you into mods you have not tried yet and pay one notch ahead (never a skip).",
-   "steps": [
-    "Craft a Bounty Board (or find one in a village) and place it.",
-    "Craft the decree with the capstone, paper, an ink sac and a gold nugget.",
-    "Right-click the board with the decree, then hand in three bounties."
-   ],
-   "show": [
-    "bountiful:decree_nether"
-   ],
-   "before": [
-    "mastery.craft_the_nether_accord",
-    "mastery.craft_the_engineer_decree_and_finish_three_bounties"
-   ],
-   "after": [
-    "mastery.craft_the_realm_decree_and_finish_three_bounties"
-   ],
-   "auto": [
-    [
-     "item:bountiful:decree_nether"
-    ]
-   ]
-  },
-  {
    "id": "gear.craft_an_elementary_staff",
    "text": "Craft an Elementary Staff",
    "hint": "Elementary staves cast fire, ice, wind and more from elemental essences.",
    "mod": "element",
    "category": "gear",
    "icon": "element:staff",
-   "step": 273,
+   "step": 269,
    "stage": 3,
    "why": "A magic strand for combat in Age 4.",
    "steps": [
@@ -9957,7 +9808,7 @@
    "mod": "soulshardsrespawn",
    "category": "bosses",
    "icon": "soulshardsrespawn:soul_cage",
-   "step": 274,
+   "step": 270,
    "stage": 3,
    "why": "Soul shards and Ender IO soul vials are one system: both feed the powered spawner.",
    "steps": [
@@ -9983,7 +9834,7 @@
    "mod": "mimicfish",
    "category": "explore",
    "icon": "mimicfish:esca",
-   "step": 275,
+   "step": 271,
    "stage": 3,
    "why": "Lunkertooth ruins hold a loot chest, and one chest in three hides a Lunkertooth egg. Its Esca, if it drops one, gives Greedy Eye (chest outlines) for the next ruins.",
    "steps": [
@@ -10016,7 +9867,7 @@
    "mod": "mocreatures",
    "category": "explore",
    "icon": "mocreatures:staffportal",
-   "step": 276,
+   "step": 272,
    "stage": 3,
    "why": "A whole dimension of wyverns, ores and floating islands; wyvern eggs hatch into mounts that fly.",
    "steps": [
@@ -10045,7 +9896,7 @@
    "mod": "mowziesmobs",
    "category": "bosses",
    "icon": "mowziesmobs:barako_mask",
-   "step": 277,
+   "step": 273,
    "stage": 3,
    "why": "He drops the Sol Visage, a mask that calls down sun strikes.",
    "steps": [
@@ -10084,7 +9935,7 @@
    "mod": "mowziesmobs",
    "category": "bosses",
    "icon": "mowziesmobs:ice_crystal",
-   "step": 278,
+   "step": 274,
    "stage": 3,
    "why": "It drops the Ice Crystal, which breathes frost on your enemies.",
    "steps": [
@@ -10120,7 +9971,7 @@
    "mod": "cqrepoured",
    "category": "bosses",
    "icon": "cqrepoured:sword_walker",
-   "step": 279,
+   "step": 275,
    "stage": 3,
    "why": "A CQR tier 2 boss with Age 4 loot: the Walker sword and shield.",
    "steps": [
@@ -10159,7 +10010,7 @@
    "mod": "ancientbeasts",
    "category": "bosses",
    "icon": "ancientbeasts:ectoplasm",
-   "step": 280,
+   "step": 276,
    "stage": 3,
    "why": "It drops ectoplasm and its own vessel; a tricky fight against many copies.",
    "steps": [
@@ -10195,7 +10046,7 @@
    "mod": "harkenscythe",
    "category": "bosses",
    "icon": "harkenscythe:reaper_scythe",
-   "step": 281,
+   "step": 277,
    "stage": 3,
    "why": "The Reaper Scythe and Necronomicon pages open Harken Scythe soul crafting: essence keepers and the soul tools.",
    "steps": [
@@ -10224,13 +10075,66 @@
    ]
   },
   {
+   "id": "mastery.open_age_5",
+   "text": "Age 4 boss: defeat the Frostmaw (or Barako or the Abyss Walker King)",
+   "hint": "The Frostmaw opens Age 5 (New Worlds) for everyone on the server. The Twilight Forest and Aether portals open with it.",
+   "mod": "mowziesmobs",
+   "category": "mastery",
+   "icon": "minecraft:glowstone",
+   "step": 278,
+   "stage": 3,
+   "why": "Every age after Age 2 opens with a boss, never with a random find. When someone on the server defeats the Frostmaw (or Barako or the Abyss Walker King), Age 5 opens for every player at once: its guide chapter, the reward bag and the Bounty decree of the age you finished. Any one of them counts: the Frostmaw, Barako the Sun Chief or the Abyss Walker King. Unlocks: Age 5 (New Worlds) and the world gate: Twilight Forest and Aether portals work for everyone from now on. Also terrasteel, Extreme Reactors, Draconic Evolution, the End and the Wither.",
+   "tip": "Friends count: the killer, or anyone within 64 blocks when it dies, opens the age for the whole server. Nothing to craft or hand in. Type /sf3ages to see every gate.",
+   "steps": [
+    "Where: Frostmaw: snowy biomes, asleep in the open; it wakes when you hit it.",
+    "Where: Barako the Sun Chief: the chief of a Barakoa village in a savanna.",
+    "Where: Abyss Walker King: the top of an Abyss Walker castle, 1,500 to 4,000 blocks from spawn.",
+    "Bring: Your best Age 4 gear: dark steel or Tinkers weapons, a bow or gun, healing and fire resistance. Fight Barako and the Frostmaw with ranged damage.",
+    "Defeat it. Chat announces the new age and this goal ticks itself as soon as the age opens (ages open in order).",
+    "Drops: Frostmaw: an Ice Crystal. Barako: his Sol Visage mask. Walker King: diamonds, emeralds and his sword and shield."
+   ],
+   "show": [
+    "mowziesmobs:ice_crystal",
+    "mowziesmobs:barako_mask"
+   ]
+  },
+  {
+   "id": "mastery.craft_the_nether_decree_and_finish_three_bounties",
+   "text": "Optional: finish three Nether bounties",
+   "hint": "Bounties are side jobs, never a gate. Use the Nether Decree on a Bounty Board and hand in three jobs.",
+   "mod": "bountiful",
+   "category": "mastery",
+   "icon": "bountiful:decree_nether",
+   "step": 279,
+   "stage": 4,
+   "why": "Each player gets the Nether Decree when Age 5 opens. A board with the decree offers jobs of Age 4 (items and kills from every strand) and pays one notch ahead, never a skip. Skip any job you do not like: the board offers new ones. Bounties count for this decree until the next decree arrives.",
+   "steps": [
+    "Craft a Bounty Board (or use one in a village) and place it.",
+    "Right-click the board with the Nether Decree.",
+    "Hand in three bounties; this goal counts them for you."
+   ],
+   "show": [
+    "bountiful:decree_nether"
+   ],
+   "before": [
+    "mastery.open_age_5"
+   ],
+   "auto": [
+    [
+     "item:bountiful:decree_nether"
+    ]
+   ],
+   "tip": "Lost your decree? Craft a copy: the decree and a paper (you keep the original). Old capstones still make their decree too.",
+   "optional": true
+  },
+  {
    "id": "explore.enter_the_twilight_forest_and_secure_a_safe_arrival_point",
    "text": "Enter the Twilight Forest and secure a safe arrival point",
    "hint": "Ring a 2x2 water pool with flowers and throw in a diamond to open the portal.",
    "mod": "twilightforest",
    "category": "explore",
    "icon": "twilightforest:twilight_oak_sapling",
-   "step": 282,
+   "step": 280,
    "stage": 4,
    "why": "The Twilight Forest is a whole dimension of bosses that unlock each other in order, with unique loot (Naga scales, Lich scepters, fiery tools).",
    "tip": "Use the Magic Map (twilight) to find the boss structures; each boss unlocks the next area.",
@@ -10421,7 +10325,7 @@
    "mod": "wands",
    "category": "gear",
    "icon": "sf3extras:building_wand",
-   "step": 283,
+   "step": 281,
    "stage": 4,
    "why": "Extend walls and floors by many blocks in one click: big builds go fast.",
    "steps": [
@@ -10447,7 +10351,7 @@
    "mod": "twilightforest",
    "category": "mining",
    "icon": "twilightforest:ironwood_ingot",
-   "step": 284,
+   "step": 282,
    "stage": 4,
    "why": "Twilight materials provide another equipment path and ingredients for the dimension's crafting recipes.",
    "steps": [
@@ -10481,7 +10385,7 @@
    "mod": "twilightforest",
    "category": "bosses",
    "icon": "twilightforest:naga_scale",
-   "step": 285,
+   "step": 283,
    "stage": 4,
    "why": "Defeating the Naga and collecting its scales advances Twilight progression toward the Lich.",
    "tip": "Pick up the boss drops yourself so the advancement can trigger. Check the Twilight advancement tree if an area remains protected.",
@@ -10537,7 +10441,7 @@
    "mod": "twilightforest",
    "category": "bosses",
    "icon": "twilightforest:lich_trophy",
-   "step": 286,
+   "step": 284,
    "stage": 4,
    "why": "The Lich unlocks the Labyrinth, the Dark Forest and the Snowy Forest, and drops the Zombie/Lifedrain/Twilight scepters.",
    "steps": [
@@ -10583,7 +10487,7 @@
    "mod": "twilightforest",
    "category": "bosses",
    "icon": "twilightforest:naga_trophy",
-   "step": 287,
+   "step": 285,
    "stage": 4,
    "why": "A memento of the fight and a decoration that animates when powered.",
    "steps": [
@@ -10618,7 +10522,7 @@
    "mod": "twilightforest",
    "category": "explore",
    "icon": "twilightforest:meef_stroganoff",
-   "step": 288,
+   "step": 286,
    "stage": 4,
    "why": "Without eating Meef Stroganoff the Fire Swamp burns you. It opens the way to the Hydra.",
    "steps": [
@@ -10667,7 +10571,7 @@
    "mod": "aether",
    "category": "explore",
    "icon": "minecraft:glowstone",
-   "step": 289,
+   "step": 287,
    "stage": 4,
    "why": "The Aether is a sky dimension with Zanite, Gravitite and three dungeon bosses that drop powerful accessories.",
    "steps": [
@@ -10781,7 +10685,7 @@
    "mod": "aether",
    "category": "explore",
    "icon": "aether:skyroot_pickaxe",
-   "step": 290,
+   "step": 288,
    "stage": 4,
    "why": "Skyroot tools mine Holystone, the first Aether stone, and double drops of Aether logs.",
    "steps": [
@@ -10811,7 +10715,7 @@
    "mod": "aether",
    "category": "explore",
    "icon": "aether:book_of_lore",
-   "step": 291,
+   "step": 289,
    "stage": 4,
    "why": "Explains every Aether item and block you put into it.",
    "steps": [
@@ -10840,7 +10744,7 @@
    "mod": "aether",
    "category": "explore",
    "icon": "aether:zanite_gemstone",
-   "step": 292,
+   "step": 290,
    "stage": 4,
    "why": "Zanite is the Aether iron: tools that get stronger as they wear down, and needed for gravitite.",
    "steps": [
@@ -10873,7 +10777,7 @@
    "mod": "aether",
    "category": "explore",
    "icon": "aether:altar",
-   "step": 293,
+   "step": 291,
    "stage": 4,
    "why": "The altar enchants gravitite and repairs Aether tools, fuelled by ambrosium shards.",
    "steps": [
@@ -10902,7 +10806,7 @@
    "mod": "aether",
    "category": "explore",
    "icon": "aether:enchanted_gravitite",
-   "step": 294,
+   "step": 292,
    "stage": 4,
    "why": "Enchanted gravitite makes the strongest Aether tools and armor.",
    "tip": "Gravitite ore blocks rise when disturbed; keep track of them while mining.",
@@ -10933,7 +10837,7 @@
    "mod": "aether",
    "category": "explore",
    "icon": "aether:zanite_sword",
-   "step": 295,
+   "step": 293,
    "stage": 4,
    "why": "Dungeons hold the bosses and keys to treasure chests.",
    "steps": [
@@ -10958,7 +10862,7 @@
    "mod": "aether",
    "category": "bosses",
    "icon": "aether:bronze_dungeon_key",
-   "step": 296,
+   "step": 294,
    "stage": 4,
    "why": "Drops the bronze key for the treasure room (gloves, the Hammer of Notch).",
    "steps": [
@@ -10994,7 +10898,7 @@
    "mod": "aether",
    "category": "bosses",
    "icon": "aether:silver_dungeon_key",
-   "step": 297,
+   "step": 295,
    "stage": 4,
    "why": "Drops the silver key: valkyrie lance, armor and more.",
    "steps": [
@@ -11030,7 +10934,7 @@
    "mod": "aether",
    "category": "bosses",
    "icon": "aether:gold_dungeon_key",
-   "step": 298,
+   "step": 296,
    "stage": 4,
    "why": "The final Aether boss; its treasure includes phoenix armor and the vampire blade.",
    "steps": [
@@ -11065,7 +10969,7 @@
    "mod": "minecraft",
    "category": "explore",
    "icon": "minecraft:echo_shard",
-   "step": 299,
+   "step": 297,
    "stage": 4,
    "why": "Ancient cities hold enchanted books, echo shards (recovery compasses) and rare loot.",
    "tip": "Sneaking helps but does not silence every action. Fighting the Warden is not required for this goal.",
@@ -11099,7 +11003,7 @@
    "mod": "minecraft",
    "category": "explore",
    "icon": "minecraft:ender_eye",
-   "step": 300,
+   "step": 298,
    "stage": 4,
    "why": "The End holds the Ender Dragon, End cities, shulkers and elytra. Draconic Evolution starts here.",
    "steps": [
@@ -11229,7 +11133,7 @@
    "mod": "minecraft",
    "category": "bosses",
    "icon": "minecraft:dragon_head",
-   "step": 301,
+   "step": 299,
    "stage": 4,
    "why": "Unlocks the End gateways (End cities), the dragon egg and dragon breath.",
    "steps": [
@@ -11284,7 +11188,7 @@
    "mod": "minecraft",
    "category": "bosses",
    "icon": "minecraft:dragon_breath",
-   "step": 302,
+   "step": 300,
    "stage": 4,
    "why": "Needed for lingering potions and some mod recipes.",
    "steps": [
@@ -11318,7 +11222,7 @@
    "mod": "minecraft",
    "category": "bosses",
    "icon": "minecraft:end_crystal",
-   "step": 303,
+   "step": 301,
    "stage": 4,
    "why": "Fight it again for more experience; the egg only drops once.",
    "steps": [
@@ -11336,7 +11240,7 @@
    "mod": "minecraft",
    "category": "explore",
    "icon": "minecraft:elytra",
-   "step": 304,
+   "step": 302,
    "stage": 4,
    "why": "Elytra let you glide; with fireworks you fly fast across the world.",
    "steps": [
@@ -11366,7 +11270,7 @@
    "mod": "minecraft",
    "category": "storage",
    "icon": "minecraft:shulker_box",
-   "step": 305,
+   "step": 303,
    "stage": 4,
    "why": "Portable chests that keep items when picked up.",
    "steps": [
@@ -11390,7 +11294,7 @@
    "mod": "endcake",
    "category": "explore",
    "icon": "sf3extras:end_cake",
-   "step": 306,
+   "step": 304,
    "stage": 4,
    "why": "A quick trip to the End once you have been there.",
    "steps": [
@@ -11416,7 +11320,7 @@
    "mod": "dmr",
    "category": "explore",
    "icon": "dragonmounts:dragon_egg",
-   "step": 307,
+   "step": 305,
    "stage": 4,
    "why": "Your own rideable dragon. The biome it hatches in decides its type.",
    "steps": [
@@ -11450,7 +11354,7 @@
    "mod": "minecraft",
    "category": "bosses",
    "icon": "minecraft:nether_star",
-   "step": 308,
+   "step": 306,
    "stage": 4,
    "why": "The nether star is needed for a beacon, the Nether Star Generator and many endgame recipes.",
    "steps": [
@@ -11569,7 +11473,7 @@
    "mod": "cqrepoured",
    "category": "bosses",
    "icon": "minecraft:dragon_egg",
-   "step": 309,
+   "step": 307,
    "stage": 4,
    "why": "The hardest Chocolate Quest boss in the pack: a test for your Age 5 gear.",
    "steps": [
@@ -11599,7 +11503,7 @@
    "mod": "xreliquary",
    "category": "gear",
    "icon": "xreliquary:fortune_coin",
-   "step": 310,
+   "step": 308,
    "stage": 4,
    "why": "Relics are utility magic: magnets, mob charms that keep a mob type friendly, a handgun with special bullets.",
    "steps": [
@@ -11628,7 +11532,7 @@
    "mod": "infernalmobs",
    "category": "bosses",
    "icon": "minecraft:blaze_powder",
-   "step": 311,
+   "step": 309,
    "stage": 4,
    "why": "Elites drop enchanted gear. Near spawn they are rare; past 4,000 blocks and in the Twilight Forest they have 3 or 4 modifiers.",
    "steps": [
@@ -11643,7 +11547,7 @@
    "mod": "industrialforegoing",
    "category": "automation",
    "icon": "industrialforegoing:machine_frame_advanced",
-   "step": 312,
+   "step": 310,
    "stage": 4,
    "why": "Mid-tier Industrial Foregoing machines (laser drill, enchantment machines) follow Ender IO Dark Steel.",
    "steps": [
@@ -11672,7 +11576,7 @@
    "mod": "minecraft",
    "category": "building",
    "icon": "minecraft:beacon",
-   "step": 313,
+   "step": 311,
    "stage": 4,
    "why": "Speed and haste for your base. The Gaia Guardian ritual is started at a beacon.",
    "steps": [
@@ -11782,7 +11686,7 @@
    "mod": "minecraft",
    "category": "bosses",
    "icon": "minecraft:nether_star",
-   "step": 314,
+   "step": 312,
    "stage": 4,
    "why": "Endless nether stars for beacons, generators and endgame recipes.",
    "steps": [
@@ -11801,7 +11705,7 @@
    "mod": "minecraft",
    "category": "gear",
    "icon": "minecraft:netherite_ingot",
-   "step": 315,
+   "step": 313,
    "stage": 4,
    "why": "Netherite gear is the strongest vanilla gear and does not burn.",
    "tip": "Templates are consumed. Beds explode in the Nether, so ordinary tunnel mining is the safer starting method.",
@@ -11830,7 +11734,7 @@
    "mod": "beneath",
    "category": "explore",
    "icon": "sf3extras:beneath_teleporter",
-   "step": 316,
+   "step": 314,
    "stage": 4,
    "why": "A dark SkyFactory underworld with its own resources.",
    "steps": [
@@ -11853,7 +11757,7 @@
    "mod": "mysticalagriculture",
    "category": "farming",
    "icon": "mysticalagriculture:diamond_seeds",
-   "step": 317,
+   "step": 315,
    "stage": 4,
    "why": "A renewable diamond supply once you can afford the seed and support its farm.",
    "tip": "Check farmland and growth-device tooltips for their actual bonuses; higher-tier farmland is not a universal speed multiplier.",
@@ -11886,7 +11790,7 @@
    "mod": "enderio",
    "category": "automation",
    "icon": "enderio:farming_station",
-   "step": 318,
+   "step": 316,
    "stage": 4,
    "why": "Plants and harvests your farms with no clicking.",
    "steps": [
@@ -11919,7 +11823,7 @@
    "mod": "botania",
    "category": "magic",
    "icon": "botania:terra_plate",
-   "step": 319,
+   "step": 317,
    "stage": 4,
    "why": "Terrasteel makes the Terra Blade, Terra Shatterer and starts the Gaia ritual.",
    "tip": "The craft needs a large mana supply. Picking up ingredients early interrupts the process.",
@@ -11954,7 +11858,7 @@
    "mod": "botania",
    "category": "magic",
    "icon": "botania:alfheim_portal",
-   "step": 320,
+   "step": 318,
    "stage": 4,
    "why": "Trading with elves gives Elementium, Pixie Dust and Dragonstone.",
    "steps": [
@@ -11980,7 +11884,7 @@
    "mod": "bigreactors",
    "category": "power",
    "icon": "bigreactors:yellorium_ingot",
-   "step": 321,
+   "step": 319,
    "stage": 4,
    "why": "Yellorium is the fuel for Extreme Reactors.",
    "steps": [
@@ -12009,7 +11913,7 @@
    "mod": "bigreactors",
    "category": "power",
    "icon": "bigreactors:reactorcontroller",
-   "step": 322,
+   "step": 320,
    "stage": 4,
    "why": "A reactor makes huge power from a little fuel.",
    "steps": [
@@ -12223,7 +12127,7 @@
    "mod": "advgen",
    "category": "power",
    "icon": "sf3extras:turbine_controller",
-   "step": 323,
+   "step": 321,
    "stage": 4,
    "why": "Advanced Generators turn fuels and steam into large amounts of power.",
    "steps": [
@@ -12246,7 +12150,7 @@
    "mod": "advgen",
    "category": "power",
    "icon": "sf3extras:rf_output",
-   "step": 324,
+   "step": 322,
    "stage": 4,
    "why": "Burns fuels (fire water, rocket fuel ...) for power.",
    "steps": [
@@ -12272,7 +12176,7 @@
    "mod": "advgen",
    "category": "power",
    "icon": "sf3extras:steam_turbine_controller",
-   "step": 325,
+   "step": 323,
    "stage": 4,
    "why": "Uses steam from heat exchangers or boilers for power.",
    "steps": [
@@ -12297,7 +12201,7 @@
    "mod": "advgen",
    "category": "power",
    "icon": "sf3extras:exchanger_controller",
-   "step": 326,
+   "step": 324,
    "stage": 4,
    "why": "Makes steam (heat exchanger) or fuel gas (syngas) for your turbines.",
    "steps": [
@@ -12327,7 +12231,7 @@
    "mod": "envtech",
    "category": "power",
    "icon": "sf3extras:et_controller_solar_1",
-   "step": 327,
+   "step": 325,
    "stage": 4,
    "why": "Environmental Tech solar arrays make lots of power during the day from one controller.",
    "steps": [
@@ -12549,7 +12453,7 @@
    "mod": "envtech",
    "category": "power",
    "icon": "sf3extras:et_lightning_rod",
-   "step": 328,
+   "step": 326,
    "stage": 4,
    "why": "Turns thunderstorms into large bursts of power.",
    "steps": [
@@ -12671,7 +12575,7 @@
    "mod": "minecraft",
    "category": "gear",
    "icon": "flyringbaublemod:angelring",
-   "step": 329,
+   "step": 327,
    "stage": 4,
    "why": "Building and exploring get much easier when you can fly.",
    "steps": [
@@ -12701,7 +12605,7 @@
    "mod": "angel_utilities",
    "category": "building",
    "icon": "euru:angel_block",
-   "step": 330,
+   "step": 328,
    "stage": 4,
    "why": "Angel blocks can be placed in mid-air: start a sky build anywhere.",
    "steps": [
@@ -12727,7 +12631,7 @@
    "mod": "create",
    "category": "automation",
    "icon": "create:track",
-   "step": 331,
+   "step": 329,
    "stage": 4,
    "why": "Trains carry you and your cargo quickly between bases, farms and mines.",
    "steps": [
@@ -12752,7 +12656,7 @@
    "mod": "aeronautics",
    "category": "explore",
    "icon": "aeronautics:levitite_blend_bucket",
-   "step": 332,
+   "step": 330,
    "stage": 4,
    "why": "Levitite blend needs two Aether ambrosium shards per batch, so lift arrives with the Aether (Age 5).",
    "tip": "Levitite cannot be scooped back up once it has crystallized, and blocks used as a mould inside the pool are destroyed. Pearlescent Levitite is a decorative variant.",
@@ -12802,7 +12706,7 @@
    "mod": "draconicevolution",
    "category": "power",
    "icon": "draconicevolution:draconium_ingot",
-   "step": 333,
+   "step": 331,
    "stage": 4,
    "why": "Draconic Evolution starts with Draconium: cores, fusion crafting, energy storage.",
    "steps": [
@@ -12829,7 +12733,7 @@
    "mod": "draconicevolution",
    "category": "mastery",
    "icon": "draconicevolution:fusion_crafting_core",
-   "step": 334,
+   "step": 332,
    "stage": 4,
    "why": "All Draconic tools, armor and upgrades are fusion-crafted.",
    "steps": [
@@ -12856,7 +12760,7 @@
    "mod": "draconicevolution",
    "category": "mastery",
    "icon": "draconicevolution:dislocator",
-   "step": 335,
+   "step": 333,
    "stage": 4,
    "why": "Teleport back to a saved location (home, a farm, a portal) from anywhere.",
    "steps": [
@@ -12885,7 +12789,7 @@
    "mod": "mysticalagradditions",
    "category": "farming",
    "icon": "mysticalagriculture:supremium_apple",
-   "step": 336,
+   "step": 334,
    "stage": 4,
    "why": "A food with strong positive effects (regeneration, resistance and more) for boss fights.",
    "steps": [
@@ -12901,75 +12805,13 @@
    ]
   },
   {
-   "id": "mastery.craft_the_realm_key",
-   "text": "Craft the Realm Key",
-   "hint": "Draconium, terrasteel, a Twilight Lich trophy and an Aether victory medal.",
-   "mod": "progression",
-   "category": "mastery",
-   "icon": "kubejs:realm_key",
-   "step": 337,
-   "stage": 4,
-   "why": "One milestone from each strand (tech, magic, exploration): draconium + terrasteel + Lich trophy + victory medal. It opens the next age in this guide, pays an age reward once and crafts the age's bounty decree.",
-   "tip": "It locks no items. Crafting it opens the next age on the More tab; keep it, the bounty decree is crafted from it.",
-   "steps": [
-    "Defeat the Twilight Lich and an Aether dungeon boss, forge terrasteel and smelt draconium.",
-    "Shapeless craft with paper; right-click to claim."
-   ],
-   "show": [
-    "kubejs:realm_key"
-   ],
-   "before": [
-    "mastery.craft_the_nether_accord"
-   ],
-   "after": [
-    "mastery.craft_the_realm_decree_and_finish_three_bounties",
-    "mastery.craft_the_mastery_crown"
-   ],
-   "auto": [
-    [
-     "item:kubejs:realm_key"
-    ]
-   ]
-  },
-  {
-   "id": "mastery.craft_the_realm_decree_and_finish_three_bounties",
-   "text": "Craft the Realm Decree and finish three bounties",
-   "hint": "Use the decree on a Bounty Board: the board then offers jobs of this age, asking for items and kills from every strand.",
-   "mod": "bountiful",
-   "category": "mastery",
-   "icon": "bountiful:decree_realm",
-   "step": 338,
-   "stage": 4,
-   "why": "The decree is crafted from the capstone, which is kept. Bounties pull you into mods you have not tried yet and pay one notch ahead (never a skip).",
-   "steps": [
-    "Craft a Bounty Board (or find one in a village) and place it.",
-    "Craft the decree with the capstone, paper, an ink sac and a gold nugget.",
-    "Right-click the board with the decree, then hand in three bounties."
-   ],
-   "show": [
-    "bountiful:decree_realm"
-   ],
-   "before": [
-    "mastery.craft_the_realm_key",
-    "mastery.craft_the_nether_decree_and_finish_three_bounties"
-   ],
-   "after": [
-    "mastery.craft_the_mastery_decree_and_finish_three_bounties"
-   ],
-   "auto": [
-    [
-     "item:bountiful:decree_realm"
-    ]
-   ]
-  },
-  {
    "id": "gear.craft_an_ender_bow",
    "text": "Craft an Ender Bow",
    "hint": "The elemental and ender bows need Age 4-5 materials.",
    "mod": "morebows",
    "category": "gear",
    "icon": "morebows:ender_bow",
-   "step": 339,
+   "step": 335,
    "stage": 4,
    "why": "Top of the More Bows line.",
    "steps": [
@@ -12988,13 +12830,65 @@
    ]
   },
   {
+   "id": "mastery.open_age_6",
+   "text": "Age 5 boss: defeat the Ender Dragon (or the Twilight Lich)",
+   "hint": "The Ender Dragon opens Age 6 (Mastery) for everyone on the server.",
+   "mod": "minecraft",
+   "category": "mastery",
+   "icon": "minecraft:dragon_egg",
+   "step": 336,
+   "stage": 4,
+   "why": "Every age after Age 2 opens with a boss, never with a random find. When someone on the server defeats the Ender Dragon (or the Twilight Lich), Age 6 opens for every player at once: its guide chapter, the reward bag and the Bounty decree of the age you finished. Any one of them counts: the Ender Dragon or the Twilight Lich. Unlocks: Age 6 (Mastery): the Gaia Guardian, the Chaos Guardian, Draconic awakened gear, the late Twilight bosses, big reactors and RFTools dimensions.",
+   "tip": "Friends count: the killer, or anyone within 64 blocks when it dies, opens the age for the whole server. Nothing to craft or hand in. Type /sf3ages to see every gate.",
+   "steps": [
+    "Where: Ender Dragon: the End. Find a stronghold with Eyes of Ender and fill its portal.",
+    "Where: Twilight Lich: the Lich Tower in the Twilight Forest, open once the Naga is beaten.",
+    "Bring: Age 5 gear, a bow or gun for the crystals and the Lich's clones, a water bucket and slow-falling or a pearl stack for the End.",
+    "Defeat it. Chat announces the new age and this goal ticks itself as soon as the age opens (ages open in order).",
+    "Drops: Ender Dragon: the egg and lots of XP (dragon's breath with bottles). Lich: its trophy and a scepter."
+   ],
+   "show": [
+    "minecraft:dragon_egg",
+    "twilightforest:lich_trophy"
+   ]
+  },
+  {
+   "id": "mastery.craft_the_realm_decree_and_finish_three_bounties",
+   "text": "Optional: finish three Realm bounties",
+   "hint": "Bounties are side jobs, never a gate. Use the Realm Decree on a Bounty Board and hand in three jobs.",
+   "mod": "bountiful",
+   "category": "mastery",
+   "icon": "bountiful:decree_realm",
+   "step": 337,
+   "stage": 5,
+   "why": "Each player gets the Realm Decree when Age 6 opens. A board with the decree offers jobs of Age 5 (items and kills from every strand) and pays one notch ahead, never a skip. Skip any job you do not like: the board offers new ones. Bounties count for this decree until the next decree arrives.",
+   "steps": [
+    "Craft a Bounty Board (or use one in a village) and place it.",
+    "Right-click the board with the Realm Decree.",
+    "Hand in three bounties; this goal counts them for you."
+   ],
+   "show": [
+    "bountiful:decree_realm"
+   ],
+   "before": [
+    "mastery.open_age_6"
+   ],
+   "auto": [
+    [
+     "item:bountiful:decree_realm"
+    ]
+   ],
+   "tip": "Lost your decree? Craft a copy: the decree and a paper (you keep the original). Old capstones still make their decree too.",
+   "optional": true
+  },
+  {
    "id": "bosses.defeat_the_hydra_after_completing_the_fire_swamp_prerequisit",
    "text": "Defeat the Hydra after completing the Fire Swamp prerequisite",
    "hint": "Eat Meef Stroganoff first. Bring fire resistance.",
    "mod": "twilightforest",
    "category": "bosses",
    "icon": "twilightforest:hydra_trophy",
-   "step": 340,
+   "step": 338,
    "stage": 5,
    "why": "The Hydra drops Fiery Blood for Fiery Ingots and is one of the three branches to the Highlands.",
    "steps": [
@@ -13039,7 +12933,7 @@
    "mod": "twilightforest",
    "category": "gear",
    "icon": "twilightforest:fiery_ingot",
-   "step": 341,
+   "step": 339,
    "stage": 5,
    "why": "Fiery Ingots make Twilight equipment with special burning and smelting effects.",
    "tip": "Fiery equipment is not a substitute for a Fire Resistance potion.",
@@ -13070,7 +12964,7 @@
    "mod": "twilightforest",
    "category": "bosses",
    "icon": "twilightforest:knight_phantom_trophy",
-   "step": 342,
+   "step": 340,
    "stage": 5,
    "why": "The Knight Phantoms guard the Goblin Stronghold; beating them opens the Dark Tower.",
    "steps": [
@@ -13114,7 +13008,7 @@
    "mod": "industrialforegoing",
    "category": "automation",
    "icon": "industrialforegoing:machine_frame_supreme",
-   "step": 343,
+   "step": 341,
    "stage": 5,
    "why": "The top tier is a reward for the SF3 path: Draconic Evolution plus a Twilight Forest boss.",
    "steps": [
@@ -13143,7 +13037,7 @@
    "mod": "twilightforest",
    "category": "bosses",
    "icon": "twilightforest:ur_ghast_trophy",
-   "step": 344,
+   "step": 342,
    "stage": 5,
    "why": "One of the three branches to the Highlands; drops carminite.",
    "steps": [
@@ -13185,7 +13079,7 @@
    "mod": "twilightforest",
    "category": "bosses",
    "icon": "twilightforest:alpha_yeti_fur",
-   "step": 345,
+   "step": 343,
    "stage": 5,
    "why": "Unlocks the Glacier and the Aurora Palace.",
    "steps": [
@@ -13227,7 +13121,7 @@
    "mod": "twilightforest",
    "category": "bosses",
    "icon": "twilightforest:snow_queen_trophy",
-   "step": 346,
+   "step": 344,
    "stage": 5,
    "why": "One of the three branches to the Highlands.",
    "steps": [
@@ -13268,7 +13162,7 @@
    "mod": "twilightforest",
    "category": "explore",
    "icon": "twilightforest:ur_ghast_trophy",
-   "step": 347,
+   "step": 345,
    "stage": 5,
    "why": "The Highlands are the last area of the Twilight Forest, with the Troll Caves and the Final Castle.",
    "steps": [
@@ -13291,7 +13185,7 @@
    "mod": "twilightforest",
    "category": "explore",
    "icon": "twilightforest:lamp_of_cinders",
-   "step": 348,
+   "step": 346,
    "stage": 5,
    "why": "The lamp burns away the thorns that block the way to the Final Castle.",
    "steps": [
@@ -13322,10 +13216,10 @@
    "mod": "botania",
    "category": "bosses",
    "icon": "botania:gaia_head",
-   "step": 349,
+   "step": 347,
    "stage": 5,
    "why": "The Gaia Guardian drops Gaia Spirits, which make Botania's best items: the Gaia ingot, the Ring of the Aesir and endgame flowers.",
-   "tip": "Finish it with an Elementium Axe: that is the only way the Guardian drops its head, which the Mastery Crown needs.",
+   "tip": "Its Gaia Spirits are a guaranteed drop and go into the Mastery Crown. An Elementium Axe kill can also drop its head (1 in 13), a trophy only.",
    "steps": [
     "Build the Beacon base and Gaia Pylon arrangement shown below; compare it with the Lexica Botania ritual preview.",
     "Clear and flatten the surrounding arena so the ritual can validate its fighting space.",
@@ -13484,7 +13378,7 @@
    "mod": "botania",
    "category": "bosses",
    "icon": "botania:gaia_head",
-   "step": 350,
+   "step": 348,
    "stage": 5,
    "why": "The harder Gaia fight drops more Gaia spirits and rare loot like the Dice of Fate.",
    "steps": [
@@ -13502,7 +13396,7 @@
    "mod": "bloodmagic",
    "category": "magic",
    "icon": "bloodmagic:blood_orb_master",
-   "step": 351,
+   "step": 349,
    "stage": 5,
    "why": "The Master Blood Orb is the tier 4 orb: tier 4 sigils, rituals and a much larger LP network.",
    "steps": [
@@ -13538,7 +13432,7 @@
    "mod": "bloodmagic",
    "category": "magic",
    "icon": "bloodmagic:blood_altar",
-   "step": 352,
+   "step": 350,
    "stage": 5,
    "why": "Self-sacrifice gets slow. A ritual next to a mob farm fills the altar on its own.",
    "tip": "Runes of Sacrifice on the altar raise the LP per hit. Keep players out of the ritual area.",
@@ -13562,7 +13456,7 @@
    "mod": "bloodmagic",
    "category": "magic",
    "icon": "bloodmagic:living_armour_helmet",
-   "step": 353,
+   "step": 351,
    "stage": 5,
    "why": "Living Armor levels up as you use it, gaining upgrades like speed and protection.",
    "steps": [
@@ -13610,7 +13504,7 @@
    "mod": "bloodmagic",
    "category": "magic",
    "icon": "botania:pool",
-   "step": 354,
+   "step": 352,
    "stage": 5,
    "why": "Each piece levels upgrades (speed, step assist, arrow protection ...) from your actions, within an upgrade-point budget.",
    "tip": "There is no Living Station in this version; upgrades come from use.",
@@ -13637,7 +13531,7 @@
    "mod": "bloodmagic",
    "category": "magic",
    "icon": "bloodmagic:slate_demonic",
-   "step": 355,
+   "step": 353,
    "stage": 5,
    "why": "Demonic slates are needed in bulk for tier 5.",
    "steps": [
@@ -13668,7 +13562,7 @@
    "mod": "bloodmagic",
    "category": "magic",
    "icon": "bloodmagic:blood_altar",
-   "step": 356,
+   "step": 354,
    "stage": 5,
    "why": "Tier 5 unlocks the Archmage Blood Orb and Ethereal Slate recipes available in this port.",
    "steps": [
@@ -13692,7 +13586,7 @@
    "mod": "draconicevolution",
    "category": "gear",
    "icon": "draconicevolution:draconic_chest",
-   "step": 357,
+   "step": 355,
    "stage": 5,
    "why": "Draconic armor carries a large shield that absorbs damage while it has energy; tool upgrades raise its shield and energy.",
    "steps": [
@@ -13724,7 +13618,7 @@
    "mod": "draconicevolution",
    "category": "gear",
    "icon": "draconicevolution:draconic_pick",
-   "step": 358,
+   "step": 356,
    "stage": 5,
    "why": "Draconic tools dig huge areas fast while charged; dig-speed and dig-area upgrades make them stronger.",
    "steps": [
@@ -13767,7 +13661,7 @@
    "mod": "draconicevolution",
    "category": "power",
    "icon": "draconicevolution:energy_storage_core",
-   "step": 359,
+   "step": 357,
    "stage": 5,
    "why": "A huge multiblock battery: millions to billions of FE.",
    "steps": [
@@ -13792,7 +13686,7 @@
    "mod": "draconicevolution",
    "category": "power",
    "icon": "draconicevolution:energy_storage_core",
-   "step": 360,
+   "step": 358,
    "stage": 5,
    "why": "The ultimate battery: enough stored power to run a huge base through any shortage.",
    "tip": "Total stored FE and production in FE/t are different measurements.",
@@ -13819,9 +13713,9 @@
    "mod": "draconicevolution",
    "category": "bosses",
    "icon": "draconicevolution:chaos_shard",
-   "step": 361,
+   "step": 359,
    "stage": 5,
-   "why": "Chaos shards make chaotic cores (the highest Draconic upgrades, reactor parts, the chaotic fusion injector), the reactor core and the Mastery Crown.",
+   "why": "Chaos shards make chaotic cores (the highest Draconic upgrades, reactor parts, the chaotic fusion injector), the reactor core and the Mastery Crown (one shard).",
    "tip": "This is a late-game encounter. A Wyvern chestpiece by itself does not establish that your equipment is ready.",
    "steps": [
     "Prepare charged Draconic armor and weapons with shield, energy and speed upgrades applied (JEI shows the Draconic tool upgrades), plus a way home.",
@@ -13841,7 +13735,7 @@
    ],
    "mobs": [
     {
-     "entity": "draconicevolution:draconic_guardian",
+     "entity": "draconicevolution:chaos_guardian",
      "drops": [
       "draconicevolution:chaos_shard"
      ],
@@ -13861,7 +13755,7 @@
    "mod": "draconicevolution",
    "category": "bosses",
    "icon": "draconicevolution:chaos_shard",
-   "step": 362,
+   "step": 360,
    "stage": 5,
    "why": "Repeated Chaos Island victories supply materials for additional chaotic equipment.",
    "steps": [
@@ -13883,7 +13777,7 @@
    "mod": "draconicevolution",
    "category": "gear",
    "icon": "draconicevolution:draconic_staff_of_power",
-   "step": 363,
+   "step": 361,
    "stage": 5,
    "why": "A mining tool and a weapon in one, with huge area mining.",
    "steps": [
@@ -13912,7 +13806,7 @@
    "mod": "draconicevolution",
    "category": "mastery",
    "icon": "draconicevolution:crafting_pedestal_draconic",
-   "step": 364,
+   "step": 362,
    "stage": 5,
    "why": "Higher-tier fusion recipes require a matching injector tier. Awakened is an advanced tier, with Chaotic above it.",
    "steps": [
@@ -13939,7 +13833,7 @@
    "mod": "bigreactors",
    "category": "power",
    "icon": "bigreactors:reactorcontroller",
-   "step": 365,
+   "step": 363,
    "stage": 5,
    "why": "Active cooling exports reactor heat as steam, allowing a turbine-based power system. Efficiency depends on the complete design.",
    "steps": [
@@ -13965,7 +13859,7 @@
    "mod": "bigreactors",
    "category": "power",
    "icon": "bigreactors:turbinecontroller",
-   "step": 366,
+   "step": 364,
    "stage": 5,
    "why": "Turbines turn steam into a lot of power.",
    "steps": [
@@ -13991,7 +13885,7 @@
    "mod": "bigreactors",
    "category": "power",
    "icon": "bigreactors:reactorcontroller",
-   "step": 367,
+   "step": 365,
    "stage": 5,
    "why": "An optional engineering challenge in material supply, assembly and cooling.",
    "tip": "Basic and reinforced reactors have different limits. Do not assume an old SkyFactory size applies to this version.",
@@ -14020,7 +13914,7 @@
    "mod": "bigreactors",
    "category": "power",
    "icon": "minecraft:diamond_block",
-   "step": 368,
+   "step": 366,
    "stage": 5,
    "why": "Diamond blocks are a moderator option for comparing reactor heat transfer and fuel efficiency.",
    "tip": "More diamond blocks do not automatically mean the best design; rod spacing and cooling matter.",
@@ -14043,7 +13937,7 @@
    "mod": "euru",
    "category": "power",
    "icon": "euru:netherstar_generator",
-   "step": 369,
+   "step": 367,
    "stage": 5,
    "why": "Turns costly Nether Stars into machine energy. Its output is FE, not Grid Power.",
    "steps": [
@@ -14074,7 +13968,7 @@
    "mod": "euru",
    "category": "power",
    "icon": "euru:dragon_egg_mill",
-   "step": 370,
+   "step": 368,
    "stage": 5,
    "why": "The mill supports GP-consuming utility devices. GP is separate from FE and its output is finite.",
    "tip": "The pinned mod advertises 9,999 GP for this mill. That is not 9,999 FE/t and does not power FE machines.",
@@ -14103,7 +13997,7 @@
    "mod": "envtech",
    "category": "power",
    "icon": "sf3extras:et_controller_solar_4",
-   "step": 371,
+   "step": 369,
    "stage": 5,
    "why": "A large solar generation milestone using the pack's Environmental Tech recreation.",
    "steps": [
@@ -14928,7 +14822,7 @@
    "mod": "minecraft",
    "category": "power",
    "icon": "sf3extras:furnace_generator",
-   "step": 372,
+   "step": 370,
    "stage": 5,
    "why": "A power milestone that runs a full early workshop.",
    "tip": "This is a production milestone, not stored energy or nameplate capacity. The largest tiers are optional long-term stretch challenges.",
@@ -14949,7 +14843,7 @@
    "mod": "minecraft",
    "category": "power",
    "icon": "bigreactors:reactorcontroller",
-   "step": 373,
+   "step": 371,
    "stage": 5,
    "why": "A power milestone for big machine lines.",
    "tip": "This is a production milestone, not stored energy or nameplate capacity. The largest tiers are optional long-term stretch challenges.",
@@ -14970,7 +14864,7 @@
    "mod": "minecraft",
    "category": "power",
    "icon": "bigreactors:turbinecontroller",
-   "step": 374,
+   "step": 372,
    "stage": 5,
    "why": "A big power milestone: enough for large automation and RFTools dimensions.",
    "tip": "This is a production milestone, not stored energy or nameplate capacity. The largest tiers are optional long-term stretch challenges.",
@@ -14991,7 +14885,7 @@
    "mod": "minecraft",
    "category": "power",
    "icon": "draconicevolution:energy_storage_core",
-   "step": 375,
+   "step": 373,
    "stage": 5,
    "why": "Endgame power for Draconic crafting and big dimensions.",
    "tip": "This is a production milestone, not stored energy or nameplate capacity. The largest tiers are optional long-term stretch challenges.",
@@ -15012,7 +14906,7 @@
    "mod": "minecraft",
    "category": "power",
    "icon": "draconicevolution:energy_storage_core",
-   "step": 376,
+   "step": 374,
    "stage": 5,
    "why": "The ultimate power challenge, for the bragging rights.",
    "tip": "This is a production milestone, not stored energy or nameplate capacity. The largest tiers are optional long-term stretch challenges.",
@@ -15033,7 +14927,7 @@
    "mod": "rftoolsdim",
    "category": "mastery",
    "icon": "rftoolsdim:dimlet_base",
-   "step": 377,
+   "step": 375,
    "stage": 5,
    "why": "Dimlets describe what a custom dimension contains: terrain, biomes, blocks, sky, mobs.",
    "steps": [
@@ -15065,7 +14959,7 @@
    "mod": "rftoolsdim",
    "category": "mastery",
    "icon": "rftoolsdim:dimension_builder",
-   "step": 378,
+   "step": 376,
    "stage": 5,
    "why": "Your own custom world: pick terrain, biomes, ores and sky with dimlets.",
    "steps": [
@@ -15093,7 +14987,7 @@
    "mod": "rftoolsdim",
    "category": "mastery",
    "icon": "rftoolsdim:terrain_absorber",
-   "step": 379,
+   "step": 377,
    "stage": 5,
    "why": "A Block Absorber supplies a component for supported block dimlets; the allowed blocks and costs depend on the dimension system.",
    "steps": [
@@ -15119,7 +15013,7 @@
    "mod": "rftoolsdim",
    "category": "mastery",
    "icon": "rftoolsdim:dimension_builder",
-   "step": 380,
+   "step": 378,
    "stage": 5,
    "why": "A challenge in obtaining rare dimension components and supporting their power costs.",
    "tip": "Rarity is a property of dimlets; do not look for a single combined rarity score on a world.",
@@ -15144,7 +15038,7 @@
    "mod": "rftoolsutility",
    "category": "mastery",
    "icon": "rftools:syringe",
-   "step": 381,
+   "step": 379,
    "stage": 5,
    "why": "RFTools Dimensions in this version has no mob dimlets, so the original dragon-dimension challenge became spawning a dragon with RFTools.",
    "tip": "A spawned Ender Dragon breaks blocks it flies through and attacks players. Spawn it far from any base, ideally in the End.",
@@ -15169,7 +15063,7 @@
    "mod": "envtech",
    "category": "mastery",
    "icon": "sf3extras:et_controller_void_ore_miner_1",
-   "step": 382,
+   "step": 380,
    "stage": 5,
    "why": "An endless supply of ores from a laser that drills into the void.",
    "steps": [
@@ -15503,7 +15397,7 @@
    "mod": "angel_utilities",
    "category": "mastery",
    "icon": "euru:octuple_compressed_cobblestone",
-   "step": 383,
+   "step": 381,
    "stage": 5,
    "why": "Over 43 million cobblestone in one block: a test of your automation.",
    "steps": [
@@ -15525,7 +15419,7 @@
    "mod": "xu2blocks",
    "category": "mastery",
    "icon": "xu2blocks:quantum_quarry",
-   "step": 384,
+   "step": 382,
    "stage": 5,
    "why": "SkyFactory 3's endgame ore source: it mines a fresh world in its own dimension, and every stone block can also yield zinc, Yellorite, draconium and Aether and Twilight ores.",
    "steps": [
@@ -15555,7 +15449,7 @@
    "mod": "chickens",
    "category": "mastery",
    "icon": "chickens:henhouse",
-   "step": 385,
+   "step": 383,
    "stage": 5,
    "why": "A collection challenge for chicken breeders.",
    "steps": [
@@ -15577,7 +15471,7 @@
    "mod": "mysticalagriculture",
    "category": "farming",
    "icon": "mysticalagriculture:master_infusion_crystal",
-   "step": 386,
+   "step": 384,
    "stage": 5,
    "why": "An infusion crystal that never breaks, so you never need to craft another for Mystical Agriculture.",
    "steps": [
@@ -15605,7 +15499,7 @@
    "mod": "mysticalagriculture",
    "category": "gear",
    "icon": "mysticalagriculture:supremium_helmet",
-   "step": 387,
+   "step": 385,
    "stage": 5,
    "why": "Supremium is a high-tier Mystical Agriculture armor set that supports further augment choices.",
    "steps": [
@@ -15644,7 +15538,7 @@
    "mod": "enderio",
    "category": "mastery",
    "icon": "enderio:farming_station",
-   "step": 388,
+   "step": 386,
    "stage": 5,
    "why": "A mastery build for farm automation.",
    "steps": [
@@ -15668,7 +15562,7 @@
    "mod": "tconstruct",
    "category": "gear",
    "icon": "tconstruct:cleaver",
-   "step": 389,
+   "step": 387,
    "stage": 5,
    "why": "A strong weapon for the Twilight and Aether bosses.",
    "steps": [
@@ -15697,7 +15591,7 @@
    "mod": "tconstruct",
    "category": "gear",
    "icon": "tconstruct:pickaxe",
-   "step": 390,
+   "step": 388,
    "stage": 5,
    "why": "A tool you never have to repair again.",
    "tip": "Plan the slots: five Reinforced use most of a fresh tool's slots, so level the tool first.",
@@ -15723,7 +15617,7 @@
    "mod": "tconstruct",
    "category": "gear",
    "icon": "tconstruct:cleaver",
-   "step": 391,
+   "step": 389,
    "stage": 5,
    "why": "The ultimate weapon challenge.",
    "tip": "This is a stretch challenge. Do not assume ordinary Tinkers upgrade slots can reach the target.",
@@ -15744,7 +15638,7 @@
    "mod": "dmr",
    "category": "mastery",
    "icon": "dragonmounts:dragon_egg",
-   "step": 392,
+   "step": 390,
    "stage": 5,
    "why": "A stunt for brave pilots (and friends).",
    "tip": "This optional cooperative stunt needs two riders; it is not required to unlock equipment or dimensions.",
@@ -15761,24 +15655,25 @@
   {
    "id": "mastery.craft_the_mastery_crown",
    "text": "Craft the Mastery Crown",
-   "hint": "An awakened core, a Gaia head and a Chaos Guardian shard. The last trophy.",
+   "hint": "An awakened core, a Gaia Spirit and a Chaos Guardian shard: the guide's final trophy.",
    "mod": "progression",
    "category": "mastery",
    "icon": "kubejs:mastery_crown",
-   "step": 393,
+   "step": 391,
    "stage": 5,
-   "why": "One milestone from each strand (tech, magic, exploration): awakened core + Gaia head + Chaos shard. It opens the next age in this guide, pays an age reward once and crafts the age's bounty decree.",
-   "tip": "It locks no items. Crafting it opens the next age on the More tab; keep it, the bounty decree is crafted from it.",
+   "why": "The last goal of the guide. Every ingredient is guaranteed: the awakened core is crafted, every Gaia Guardian kill drops Gaia Spirits and the Chaos Guardian drops chaos shards. It pays the Mastery reward once.",
+   "tip": "Nothing opens after it; it is a trophy. It still crafts the Mastery Decree for optional bounties.",
    "steps": [
-    "Craft an awakened core and defeat the Chaos Guardian for a chaos shard.",
-    "Kill a Gaia Guardian with an Elementium Axe (Alfheim elementium): 1 in 13 drops the Gaia Head, more with Looting. Gaia spirits from the fights help you retry.",
-    "Shapeless craft with paper. The crown stays in your inventory as a trophy; right-click it once for the reward."
+    "Craft a Draconic awakened core.",
+    "Defeat a Gaia Guardian for Gaia Spirits.",
+    "Defeat the Chaos Guardian for a chaos shard.",
+    "Shapeless craft: awakened core + Gaia Spirit + chaos shard + paper. Right-click it for the reward."
    ],
    "show": [
     "kubejs:mastery_crown"
    ],
    "before": [
-    "mastery.craft_the_realm_key"
+    "mastery.open_age_6"
    ],
    "after": [
     "mastery.craft_the_mastery_decree_and_finish_three_bounties"
@@ -15791,31 +15686,32 @@
   },
   {
    "id": "mastery.craft_the_mastery_decree_and_finish_three_bounties",
-   "text": "Craft the Mastery Decree and finish three bounties",
-   "hint": "Use the decree on a Bounty Board: the board then offers jobs of this age, asking for items and kills from every strand.",
+   "text": "Optional: finish three Mastery bounties",
+   "hint": "Bounties are side jobs, never a gate. Use the Mastery Decree on a Bounty Board and hand in three jobs.",
    "mod": "bountiful",
    "category": "mastery",
    "icon": "bountiful:decree_mastery",
-   "step": 394,
+   "step": 392,
    "stage": 5,
-   "why": "The decree is crafted from the capstone, which is kept. Bounties pull you into mods you have not tried yet and pay one notch ahead (never a skip).",
+   "why": "Each player gets the Mastery Decree by crafting it from the Mastery Crown (crown, paper, ink sac, gold nugget; the crown is kept). A board with the decree offers jobs of Age 6 (items and kills from every strand) and pays one notch ahead, never a skip. Skip any job you do not like: the board offers new ones. Bounties count for this decree until the next decree arrives.",
    "steps": [
-    "Craft a Bounty Board (or find one in a village) and place it.",
-    "Craft the decree with the capstone, paper, an ink sac and a gold nugget.",
-    "Right-click the board with the decree, then hand in three bounties."
+    "Craft a Bounty Board (or use one in a village) and place it.",
+    "Right-click the board with the Mastery Decree.",
+    "Hand in three bounties; this goal counts them for you."
    ],
    "show": [
     "bountiful:decree_mastery"
    ],
    "before": [
-    "mastery.craft_the_mastery_crown",
-    "mastery.craft_the_realm_decree_and_finish_three_bounties"
+    "mastery.craft_the_mastery_crown"
    ],
    "auto": [
     [
      "item:bountiful:decree_mastery"
     ]
-   ]
+   ],
+   "tip": "Lost your decree? Craft a copy: the decree and a paper (you keep the original). Old capstones still make their decree too.",
+   "optional": true
   },
   {
    "id": "mastery.complete_every_challenge_in_this_book",
@@ -15824,7 +15720,7 @@
    "mod": "minecraft",
    "category": "mastery",
    "icon": "minecraft:nether_star",
-   "step": 395,
+   "step": 393,
    "stage": 5,
    "why": "A record of completing the book's practical goals and optional mastery challenges.",
    "tip": "Completion marks are shared on the server. Only tick activities that your group has actually completed.",
@@ -16074,9 +15970,33 @@
   "storage.make_a_basic_ender_io_capacitor_and_a_machine_chassis": "automation.make_a_basic_ender_io_capacitor_and_a_machine_chassis",
   "storage.fill_a_quantum_storage_unit_with_anything": "storage.fill_a_quantum_dsu_with_a_renewable_resource",
   "redstone.build_an_opencomputers_ii_computer": "redstone.build_an_opencomputers_computer",
-  "magic.craft_a_soulium_dagger_and_collect_souls_from_mobs": "farming.craft_a_soulium_dagger_and_collect_souls_from_mobs"
+  "magic.craft_a_soulium_dagger_and_collect_souls_from_mobs": "farming.craft_a_soulium_dagger_and_collect_souls_from_mobs",
+  "mastery.craft_the_homestead_seal": "mastery.open_age_3",
+  "mastery.craft_the_engineer_s_compact": "mastery.open_age_4",
+  "mastery.craft_the_nether_accord": "mastery.open_age_5",
+  "mastery.craft_the_realm_key": "mastery.open_age_6",
+  "bosses.explore_a_battle_tower_and_defeat_its_golem": "mastery.open_age_3",
+  "mastery.craft_the_settler_s_charter": "start.make_a_stone_pickaxe_and_a_furnace"
  },
  "pages": [
+  {
+   "id": "ages",
+   "title": "How Ages Open",
+   "icon": "minecraft:written_book",
+   "description": "Each age opens for everyone when someone defeats its boss.",
+   "lines": [
+    "Age 1 is open from day one and Age 2 opens with your first stone pickaxe and furnace. Every later age opens with a boss: when anyone on the server defeats it (the killer, or anyone within 64 blocks), the age opens for every player at once. Nothing to craft, hand in or find by luck.",
+    "Age 3 Iron & Tinkering: defeat the Battle Tower Golem. Battle Tower Golem: the roof of any Battle Tower, the tall stone towers in the Overworld; there are several within 1,500 blocks of spawn.",
+    "Age 4 Nether & Power: defeat an Elder Guardian (or the Ferrous Wroughtnaut or the Skeleton King). Elder Guardian: inside an ocean monument. A cartographer villager sells an Ocean Explorer Map that leads to one. Ferrous Wroughtnaut: an underground hall closed with iron bars, found while caving. Skeleton King: Fish's Undead Rising crypts and desert tombs, 1,500 to 4,000 blocks from spawn.",
+    "Age 5 New Worlds: defeat the Frostmaw (or Barako or the Abyss Walker King). Frostmaw: snowy biomes, asleep in the open; it wakes when you hit it. Barako the Sun Chief: the chief of a Barakoa village in a savanna. Abyss Walker King: the top of an Abyss Walker castle, 1,500 to 4,000 blocks from spawn.",
+    "Age 6 Mastery: defeat the Ender Dragon (or the Twilight Lich). Ender Dragon: the End. Find a stronghold with Eyes of Ender and fill its portal. Twilight Lich: the Lich Tower in the Twilight Forest, open once the Naga is beaten.",
+    "Opening an age gives every player the reward bag and the Bounty decree of the age just finished, ticks the age's boss goal and shows an advancement (press L, tab The Ages).",
+    "The only world lock is Age 5: the Twilight Forest and Aether portals stay shut until an Age 4 gate boss falls. Everything else (recipes, the Nether, the End) never waits on a gate.",
+    "Bounty boards are optional side jobs. Rare loot (dungeon chests, fallen stars, lucky drops) is a bonus, never a requirement.",
+    "Ages open in order: beat a later gate boss early and its age opens as soon as the age before it does. Type /sf3ages to see where your server stands."
+   ],
+   "unlockGoal": ""
+  },
   {
    "id": "rings",
    "title": "Ring Map",
@@ -16089,7 +16009,7 @@
     "Ring 2 (4,000+ blocks): Ages 5 and 6. Tier 3 castles and bosses, the deepest Roguelike levels, ancient beast lairs. Loot is Age 5-6.",
     "Other places have a fixed level: the Nether and End follow the vanilla order, the Twilight Forest and the Aether are Age 5, and ocean-floor Lunkertooth ruins are an Age 4 side trip.",
     "Mobs follow the rings too: infernal elites with more modifiers appear far from spawn and in the Twilight Forest, and the Nyx blood moons only start once you have been to the Nether.",
-    "The ring dungeons are optional: loot and gear, not a gate. From Age 2 on, each capstone needs one trip: a trial key, an Elder Guardian sponge, a Nether blaze rod, then the Lich trophy and an Aether victory medal."
+    "The ring dungeons are optional: loot and gear, never a gate. The age gates are bosses (see How Ages Open)."
    ],
    "unlockGoal": ""
   },
@@ -16100,7 +16020,7 @@
    "description": "Every boss: where, how ready you should be, and what it unlocks.",
    "lines": [
     "Battle Tower Golem (Age 2): top of a stone tower within 1,500 blocks. Bring iron gear and a bow. Drops 6 to 12 diamonds and redstone.",
-    "Elder Guardian (Age 3): ocean monuments. Mining fatigue: bring milk. Drops wet sponges, the sponge in the Engineer's Compact.",
+    "Elder Guardian (Age 3): ocean monuments; a cartographer sells the map. Mining fatigue: bring milk. Defeating it opens Age 4 for everyone; drops wet sponges.",
     "Lunkertooth (Age 4): ambushes divers in ocean-floor ruins. Drops eggs and Esca.",
     "Ferrous Wroughtnaut and Foliaath (Age 3, Mowzie's): the armored knight sleeps behind iron bars underground (hit its back after a swing); the Foliaath hides in jungle undergrowth.",
     "Skeleton King, CQR Pirate Captain and Necromancer, Ancient Beasts Giant (Age 3): the middle ring, 1,500 to 4,000 blocks out. Bring Age 3 gear and healing food.",
@@ -16108,10 +16028,10 @@
     "Ender Calamity (Age 5, CQR): its own arena in the End, after the Dragon. Infernal elites with 3-4 modifiers roam the far ring and the Twilight Forest.",
     "Wither (Age 5): built from soul sand and three skulls from Nether fortresses. Bring ranged damage and strong armor. Drops the Nether Star: beacons, Draconic fusion and more.",
     "Ender Dragon (Age 5): the End. Crystals first, then the dragon. Drops dragon breath and the egg that Dragon Mounts can hatch.",
-    "Twilight Forest bosses: Naga, Lich and Minoshroom (Age 5), then Hydra, Knight Phantoms, Ur-Ghast, Alpha Yeti and Snow Queen (Age 6); each opens the next. Trophies feed the Realm Key and Industrial Foregoing supreme frames.",
-    "Aether bosses (Age 5): Slider (bronze dungeon, pickaxe), Valkyrie Queen (silver), Sun Spirit (gold). They drop dungeon keys; the silver dungeon's Valkyries drop the victory medals in the Realm Key.",
-    "Gaia Guardian I and II (Age 6): the Botania ritual. Drops Gaia spirits; the Gaia Head (a Mastery Crown ingredient) drops only when you kill it with an Elementium Axe, 1 in 13, more with Looting.",
-    "Chaos Guardian (Age 6): Draconic Evolution's island. Drops chaos shards, the last Mastery Crown ingredient.",
+    "Twilight Forest bosses: Naga, Lich and Minoshroom (Age 5), then Hydra, Knight Phantoms, Ur-Ghast, Alpha Yeti and Snow Queen (Age 6); each opens the next. The Lich opens Age 6 (as does the Ender Dragon); trophies feed Industrial Foregoing supreme frames.",
+    "Aether bosses (Age 5): Slider (bronze dungeon, pickaxe), Valkyrie Queen (silver), Sun Spirit (gold). They drop dungeon keys; the silver dungeon's Valkyries drop the victory medals the Queen asks for.",
+    "Gaia Guardian I and II (Age 6): the Botania ritual. Drops Gaia Spirits every time (one goes into the Mastery Crown); an Elementium Axe kill can also drop its head, a trophy only.",
+    "Chaos Guardian (Age 6): Draconic Evolution's island. Drops chaos shards; one goes into the Mastery Crown.",
     "Gear by age: Age 2 iron or Tribal Hexxit gear; Age 3 Tinkers, Hexxit sets and Mowzie's gear; Age 4 steel, dark steel, Psi, pistols and rifles; Age 5 Wyvern gear and heavy weapons from Twilight and Aether materials; Age 6 Draconic."
    ],
    "unlockGoal": ""
@@ -16132,8 +16052,8 @@
     "Each automation method has its niche: sieves and the IE excavator are the early bulk ores, the Industrial Foregoing laser drill (lenses need Ender IO steel) is the focused rare-ore machine, the XU2 Quantum Quarry is the late random-world ore (now with modded and dimension finds), and the Botania Orechid is the mana-only route (slow, but no power).",
     "Steve Carts is for tunnelling and rail farms, Mystical Agriculture is the passive essence chain, the Blood Magic alchemy table is the cheap early doubling, and the Arc Furnace is for alloys, not for multiplying ore.",
     "Raw ore doubles like the old ore blocks in the IE crusher, the Ender IO SAG mill and the Actually Additions crusher; Create gives 1.75.",
-    "Capstones open the next guide age and lock no recipes. Each one is kept when you craft its bounty decree, so you can claim the reward bag and unlock a bounty board tier from the same item.",
-    "Bounty boards ask for items and kills from every strand of an age, so a board pulls you into mods you have not tried yet and pays one notch ahead, never a skip."
+    "Ages open with bosses, not with crafted items: see How Ages Open. Old capstones are keepsakes that still make their Bounty decree.",
+    "Bounty boards are optional side jobs: they ask for items and kills from every strand of an age and pay one notch ahead, never a skip."
    ],
    "unlockGoal": ""
   },
@@ -16155,7 +16075,7 @@
    "lines": [
     "Smoke rises over your fields. Towers of old stone watch the plains, and a golem sleeps on top of each. The village board asks for bread, bricks and bravery."
    ],
-   "unlockGoal": "mastery.craft_the_settler_s_charter"
+   "unlockGoal": "start.make_a_stone_pickaxe_and_a_furnace"
   },
   {
    "id": "story3",
@@ -16165,7 +16085,7 @@
    "lines": [
     "Iron and gears change everything. Smelteries roar, water wheels turn and the first machines start to hum. Far out, past the old roads, castles of bandits and ruins of something older wait."
    ],
-   "unlockGoal": "mastery.craft_the_homestead_seal"
+   "unlockGoal": "mastery.open_age_3"
   },
   {
    "id": "story4",
@@ -16175,7 +16095,7 @@
    "lines": [
     "The Nether answers your fire with fire. Steel, alloys, conduits and generators power a base that never sleeps, while in the dark water something with a lantern for a lure waits for divers."
    ],
-   "unlockGoal": "mastery.craft_the_engineer_s_compact"
+   "unlockGoal": "mastery.open_age_4"
   },
   {
    "id": "story5",
@@ -16185,7 +16105,7 @@
    "lines": [
     "Doors open to places that have no right to exist: a forest that never sees day and islands in the sky. Reactors hum at home while the old lords out there will not yield to anything you have built so far."
    ],
-   "unlockGoal": "mastery.craft_the_nether_accord"
+   "unlockGoal": "mastery.open_age_5"
   },
   {
    "id": "story6",
@@ -16195,7 +16115,7 @@
    "lines": [
     "The deepest Twilight lords still wait in the swamp, the dark tower and the glacier. Beyond them only two guardians remain, one of mana and one of chaos. When both bow, the crown is yours and the world, at last, is yours to shape."
    ],
-   "unlockGoal": "mastery.craft_the_realm_key"
+   "unlockGoal": "mastery.open_age_6"
   }
  ]
 }
