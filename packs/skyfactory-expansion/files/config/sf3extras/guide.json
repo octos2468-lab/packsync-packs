@@ -1113,7 +1113,17 @@
     [
      "item:minecraft:emerald"
     ]
-   ]
+   ],
+   "locate": {
+    "structure": [
+     "minecraft:village_plains",
+     "minecraft:village_desert",
+     "minecraft:village_savanna",
+     "minecraft:village_snowy",
+     "minecraft:village_taiga"
+    ],
+    "label": "Village"
+   }
   },
   {
    "id": "start.set_up_a_crop_plot_and_bring_animals_back_to_your_base",
@@ -2581,7 +2591,11 @@
    "show": [
     "minecraft:diamond",
     "minecraft:redstone"
-   ]
+   ],
+   "locate": {
+    "structure": "battletowers:tower",
+    "label": "Battle Tower"
+   }
   },
   {
    "id": "mastery.craft_the_homestead_decree_and_finish_three_bounties",
@@ -5298,7 +5312,11 @@
     [
      "item:minecraft:ominous_trial_key"
     ]
-   ]
+   ],
+   "locate": {
+    "structure": "minecraft:trial_chambers",
+    "label": "Trial Chamber"
+   }
   },
   {
    "id": "gear.craft_a_mace_and_learn_its_falling_attack",
@@ -5458,7 +5476,11 @@
     [
      "kill:mod_lavacow:skeletonking"
     ]
-   ]
+   ],
+   "locate": {
+    "biome": "minecraft:desert",
+    "label": "Desert (Skeleton King tombs)"
+   }
   },
   {
    "id": "bosses.defeat_a_chocolate_quest_boss_in_the_middle_ring",
@@ -5496,7 +5518,11 @@
      "kill:cqrepoured:pirate_captain",
      "kill:cqrepoured:necromancer"
     ]
-   ]
+   ],
+   "locate": {
+    "structure": "cqrepoured:dungeon_default_overworld",
+    "label": "CQR dungeon"
+   }
   },
   {
    "id": "bosses.defeat_a_giant_from_ancient_beasts",
@@ -5629,7 +5655,11 @@
    ],
    "show": [
     "minecraft:wet_sponge"
-   ]
+   ],
+   "locate": {
+    "structure": "minecraft:monument",
+    "label": "Ocean monument"
+   }
   },
   {
    "id": "mastery.craft_the_engineer_decree_and_finish_three_bounties",
@@ -5837,7 +5867,12 @@
     [
      "item:minecraft:blaze_rod"
     ]
-   ]
+   ],
+   "locate": {
+    "structure": "minecraft:fortress",
+    "dim": "minecraft:the_nether",
+    "label": "Nether Fortress"
+   }
   },
   {
    "id": "gear.brew_a_potion_of_fire_resistance",
@@ -5930,7 +5965,12 @@
     [
      "near:minecraft:piglin"
     ]
-   ]
+   ],
+   "locate": {
+    "structure": "minecraft:bastion_remnant",
+    "dim": "minecraft:the_nether",
+    "label": "Bastion"
+   }
   },
   {
    "id": "explore.travel_across_the_nether_s_lava_ocean_in_a_boat",
@@ -9858,7 +9898,11 @@
     [
      "near:mimicfish:lunkertooth"
     ]
-   ]
+   ],
+   "locate": {
+    "structure": "mimicfish:lunkertooth_ruin",
+    "label": "Lunkertooth ruin"
+   }
   },
   {
    "id": "explore.open_a_portal_to_the_wyvern_lair",
@@ -9926,7 +9970,11 @@
     [
      "kill:mowziesmobs:barako"
     ]
-   ]
+   ],
+   "locate": {
+    "biome": "minecraft:savanna",
+    "label": "Savanna (Barakoa village)"
+   }
   },
   {
    "id": "bosses.defeat_the_frostmaw",
@@ -9962,7 +10010,11 @@
     [
      "kill:mowziesmobs:frostmaw"
     ]
-   ]
+   ],
+   "locate": {
+    "biome": "minecraft:snowy_plains",
+    "label": "Snowy plains (Frostmaw)"
+   }
   },
   {
    "id": "bosses.defeat_the_abyss_walker_king",
@@ -10001,7 +10053,11 @@
     [
      "kill:cqrepoured:walker_king"
     ]
-   ]
+   ],
+   "locate": {
+    "structure": "cqrepoured:dungeon_default_overworld",
+    "label": "CQR dungeon"
+   }
   },
   {
    "id": "bosses.defeat_the_vessel",
@@ -10096,7 +10152,11 @@
    "show": [
     "mowziesmobs:ice_crystal",
     "mowziesmobs:barako_mask"
-   ]
+   ],
+   "locate": {
+    "biome": "minecraft:snowy_plains",
+    "label": "Snowy plains (Frostmaw)"
+   }
   },
   {
    "id": "mastery.craft_the_nether_decree_and_finish_three_bounties",
@@ -10432,7 +10492,12 @@
     [
      "item:twilightforest:naga_scale"
     ]
-   ]
+   ],
+   "locate": {
+    "structure": "twilightforest:naga_courtyard",
+    "dim": "twilightforest:twilight_forest",
+    "label": "Naga Courtyard"
+   }
   },
   {
    "id": "bosses.defeat_the_twilight_lich_after_completing_naga_progression",
@@ -10478,7 +10543,12 @@
     [
      "item:twilightforest:lich_trophy"
     ]
-   ]
+   ],
+   "locate": {
+    "structure": "twilightforest:lich_tower",
+    "dim": "twilightforest:twilight_forest",
+    "label": "Lich Tower"
+   }
   },
   {
    "id": "bosses.bring_a_trophy_from_a_defeated_twilight_forest_boss_back_to_",
@@ -10562,7 +10632,12 @@
     [
      "item:twilightforest:minoshroom_trophy"
     ]
-   ]
+   ],
+   "locate": {
+    "structure": "twilightforest:labyrinth",
+    "dim": "twilightforest:twilight_forest",
+    "label": "Labyrinth"
+   }
   },
   {
    "id": "explore.enter_the_aether_and_secure_your_return_route",
@@ -10853,7 +10928,12 @@
     [
      "structure:aether:bronze_dungeon"
     ]
-   ]
+   ],
+   "locate": {
+    "structure": "aether:bronze_dungeon",
+    "dim": "aether:the_aether",
+    "label": "Bronze Dungeon"
+   }
   },
   {
    "id": "bosses.defeat_the_slider_in_the_bronze_dungeon",
@@ -10889,7 +10969,12 @@
     [
      "kill:aether:slider"
     ]
-   ]
+   ],
+   "locate": {
+    "structure": "aether:bronze_dungeon",
+    "dim": "aether:the_aether",
+    "label": "Bronze Dungeon"
+   }
   },
   {
    "id": "bosses.defeat_the_valkyrie_queen_in_a_silver_dungeon",
@@ -10925,7 +11010,12 @@
     [
      "kill:aether:valkyrie_queen"
     ]
-   ]
+   ],
+   "locate": {
+    "structure": "aether:silver_dungeon",
+    "dim": "aether:the_aether",
+    "label": "Silver Dungeon"
+   }
   },
   {
    "id": "bosses.defeat_the_sun_spirit_in_a_gold_dungeon",
@@ -10960,7 +11050,12 @@
     [
      "kill:aether:sun_spirit"
     ]
-   ]
+   ],
+   "locate": {
+    "structure": "aether:gold_dungeon",
+    "dim": "aether:the_aether",
+    "label": "Gold Dungeon"
+   }
   },
   {
    "id": "explore.visit_an_ancient_city_and_escape_the_warden",
@@ -10994,7 +11089,11 @@
     [
      "item:minecraft:echo_shard"
     ]
-   ]
+   ],
+   "locate": {
+    "structure": "minecraft:ancient_city",
+    "label": "Ancient City"
+   }
   },
   {
    "id": "explore.locate_a_stronghold_and_travel_to_the_end",
@@ -11124,7 +11223,11 @@
     [
      "dim:minecraft:the_end"
     ]
-   ]
+   ],
+   "locate": {
+    "structure": "bt:stronghold",
+    "label": "Stronghold (End portal)"
+   }
   },
   {
    "id": "bosses.kill_the_ender_dragon",
@@ -11179,7 +11282,11 @@
     [
      "kill:minecraft:ender_dragon"
     ]
-   ]
+   ],
+   "locate": {
+    "structure": "bt:stronghold",
+    "label": "Stronghold (End portal)"
+   }
   },
   {
    "id": "bosses.collect_dragon_s_breath",
@@ -12850,7 +12957,11 @@
    "show": [
     "minecraft:dragon_egg",
     "twilightforest:lich_trophy"
-   ]
+   ],
+   "locate": {
+    "structure": "bt:stronghold",
+    "label": "Stronghold (End portal)"
+   }
   },
   {
    "id": "mastery.craft_the_realm_decree_and_finish_three_bounties",
@@ -12924,7 +13035,12 @@
     [
      "item:twilightforest:hydra_trophy"
     ]
-   ]
+   ],
+   "locate": {
+    "structure": "twilightforest:hydra_lair",
+    "dim": "twilightforest:twilight_forest",
+    "label": "Hydra Lair"
+   }
   },
   {
    "id": "gear.forge_a_fiery_ingot",
@@ -13153,7 +13269,12 @@
     [
      "item:twilightforest:snow_queen_trophy"
     ]
-   ]
+   ],
+   "locate": {
+    "structure": "twilightforest:aurora_palace",
+    "dim": "twilightforest:twilight_forest",
+    "label": "Aurora Palace"
+   }
   },
   {
    "id": "explore.complete_all_three_major_branches_and_enter_the_highlands",
@@ -15990,6 +16111,7 @@
     "Age 4 Nether & Power: defeat an Elder Guardian (or the Ferrous Wroughtnaut or the Skeleton King). Elder Guardian: inside an ocean monument. A cartographer villager sells an Ocean Explorer Map that leads to one. Ferrous Wroughtnaut: an underground hall closed with iron bars, found while caving. Skeleton King: Fish's Undead Rising crypts and desert tombs, 1,500 to 4,000 blocks from spawn.",
     "Age 5 New Worlds: defeat the Frostmaw (or Barako or the Abyss Walker King). Frostmaw: snowy biomes, asleep in the open; it wakes when you hit it. Barako the Sun Chief: the chief of a Barakoa village in a savanna. Abyss Walker King: the top of an Abyss Walker castle, 1,500 to 4,000 blocks from spawn.",
     "Age 6 Mastery: defeat the Ender Dragon (or the Twilight Lich). Ender Dragon: the End. Find a stronghold with Eyes of Ender and fill its portal. Twilight Lich: the Lich Tower in the Twilight Forest, open once the Naga is beaten.",
+    "Finding the bosses: goals that mean finding something have a small Locate button at the right of their row (here: the age gate goals and every boss goal). Click it and Locate searches from where you stand, then an arrow and the distance at the top of your screen lead the way (also a waypoint on the FTB Chunks map). Battle Towers, ocean monuments, CQR dungeons (the Walker King's castle is a far one; Locate again from there for the next), the Lich Tower and the stronghold are found exactly; for the Frostmaw, Barako and the Skeleton King it finds the nearest snowy plains, savanna or desert. The Wroughtnaut's hall cannot be located: you find it while caving. Reference > Locate lists every other structure.",
     "Opening an age gives every player the reward bag and the Bounty decree of the age just finished, ticks the age's boss goal and shows an advancement (press L, tab The Ages).",
     "The only world lock is Age 5: the Twilight Forest and Aether portals stay shut until an Age 4 gate boss falls. Everything else (recipes, the Nether, the End) never waits on a gate.",
     "Bounty boards are optional side jobs. Rare loot (dungeon chests, fallen stars, lucky drops) is a bonus, never a requirement.",
