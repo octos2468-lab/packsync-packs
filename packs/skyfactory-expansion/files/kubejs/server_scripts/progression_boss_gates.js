@@ -143,7 +143,7 @@ function gateSyncPlayer(server, player) {
   for (let age = 3; age <= open; age++) {
     if (!gatePlayerHas(player, GATE_ADV + age)) server.runCommandSilent('advancement grant ' + name + ' only ' + GATE_ADV + age)
   }
-  for (let age = 2; age <= open; age++) {
+  for (let age = 3; age <= open; age++) {   // no payout on day one: Ages 1-2 open by default, nobody finished Age 1 yet
     let done = age - 1   // opening age N pays the reward of the age you just finished (same flag the old capstones used)
     if (!pd.getBoolean('progression_reward_' + done)) {
       pd.putBoolean('progression_reward_' + done, true)
@@ -152,7 +152,7 @@ function gateSyncPlayer(server, player) {
       if (age >= 3) player.tell(Text.gold('Age ' + age + ' reward: the bag for finishing Age ' + done + ' is in your inventory.'))
     }
   }
-  for (let age = 1; age < open; age++) {   // decree N is handed out when Age N+1 opens (Settler: day one); Mastery: from the crown
+  for (let age = 2; age < open; age++) {   // Settler decree is crafted (needs a Bounty Board), not handed out;   // decree N is handed out when Age N+1 opens (Settler: day one); Mastery: from the crown
     let decree = AGE_DECREES[String(age)]
     if (pd.getBoolean('progression_decree_' + age) || !Item.exists(decree)) continue
     pd.putBoolean('progression_decree_' + age, true)
