@@ -1,3 +1,4 @@
+;(function () {   // own scope: KubeJS client scripts share one global scope, top-level names collided across files
 // Ottocraft: tooltips for the magic mods (Botania, Blood Magic, Psi, Reliquary, Harken Scythe, Roots, Elementary Staffs,
 // Mystical Agriculture, Soul Shards, Angel Ring).
 // 1) Repairs text the 1.12 ports print wrong (item names printed as "translation{key=...}", garbled symbols, raw decimals).
@@ -2301,3 +2302,4 @@ ItemEvents.dynamicTooltips('ottocraft_magic', e => {
     for (const l of lines) e.lines.add(l)
   }
 })
+})();

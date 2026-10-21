@@ -1,3 +1,4 @@
+;(function () {   // own scope: KubeJS client scripts share one global scope, top-level names collided across files
 // Ottocraft tooltip polish: adventure, Hexxit, Tinkers, food, Chickens, Ex Nihilo, Chance Cubes, Bountiful, Capsule,
 // sf3extras/kubejs items and the vanilla-adjacent mods (tooltips-misc, Update 7). Client only; F3+T reloads it.
 //
@@ -1641,3 +1642,4 @@ ItemEvents.dynamicTooltips('tooltips_misc', event => {
   lines.clear()
   arr.forEach(c => lines.add(c))
 })
+})();

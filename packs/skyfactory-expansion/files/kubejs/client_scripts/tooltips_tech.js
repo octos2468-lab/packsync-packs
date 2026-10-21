@@ -1,3 +1,4 @@
+;(function () {   // own scope: KubeJS client scripts share one global scope, top-level names collided across files
 // Ottocraft tech tooltips (tooltips-tech, Update 7).
 // 1) "Hold Shift for details" sections for tech machines whose 1.21 port lost its
 //    description (Ender IO dropped all of them) or never had one.
@@ -1003,3 +1004,4 @@
     }
   })
 })()
+})();
