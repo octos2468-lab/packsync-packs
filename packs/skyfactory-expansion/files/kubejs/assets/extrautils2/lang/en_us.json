@@ -1,0 +1,10 @@
+{
+ "extrautils2.text.sending.s.rf.energy.per.tick": "Sending %s FE/t",
+ "extrautils2.text.stores.rf.energy.for.wireless": "Stores energy for wireless transmission",
+ "extrautils2.text.requires.rf.transmitters": "Needs Wireless RF Transmitters to send energy",
+ "extrautils2.text.max.storage.s.rf": "Max Storage: %s FE",
+ "extrautils2.text.transmits.rf.energy.from.batteries": "Sends energy from batteries to nearby blocks",
+ "extrautils2.text.max.transfer.s.rft": "Max Transfer: %s FE/t",
+ "extrautils2.text.stored.energy.battery": "Stored Energy (Battery): %s / %s FE",
+ "extrautils2.text.stored.energy.total": "Stored Energy (Total): %s / %s FE"
+}

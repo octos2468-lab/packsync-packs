@@ -1,0 +1,7 @@
+{
+ "tooltip.positionFilter.x": "Position-X: %s",
+ "tooltip.positionFilter.y": "Position-Y: %s",
+ "tooltip.positionFilter.z": "Position-Z: %s",
+ "tooltip.summoningPendulum.entityCount.singular": "Holding %s Entity",
+ "tooltip.summoningPendulum.entityCount.plural": "Holding %s Entities"
+}

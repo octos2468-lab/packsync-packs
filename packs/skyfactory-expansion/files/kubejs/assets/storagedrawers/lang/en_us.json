@@ -1,0 +1,4 @@
+{
+ "storageDrawers.drawers.description": "Holds %s stacks per drawer",
+ "storageDrawers.upgrade.description": "Increases storage to %s times base value"
+}

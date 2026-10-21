@@ -51,5 +51,9 @@
  "item.industrialforegoing.speed_addon_tier_1": "Speed Addon Tier 1",
  "item.industrialforegoing.speed_addon_tier_2": "Speed Addon Tier 2",
  "item.industrialforegoing.white_laser_lens": "White Laser Lens",
- "item.industrialforegoing.yellow_laser_lens": "Yellow Laser Lens"
+ "item.industrialforegoing.yellow_laser_lens": "Yellow Laser Lens",
+ "text.industrialforegoing.book.biofuel_generator": "Produces power when provided with Biofuel. A {bucket} of biofuel will produce 160RF/t, a total {640,000}FE. About {28} generators can be run from 1 {Bioreactor}.",
+ "text.industrialforegoing.book.petrified_fuel_generator": "When provided with any {solid fuel} will produce power. The {FE}/tick is decided from its burn time, the more {burn time} the fuel has the more {FE}/tick it will produce.@L@@L@NOTE: All fuels burn the same time.",
+ "text.industrialforegoing.book.protein_generator": "\"Produces power when provided with Protein. A {bucket} of protein will produce 320RF/t, a total {1,280,000}FE.",
+ "text.industrialforegoing.book.welcome_manual": "Welcome to Industrial Foregoing's Manual!@L@@L@To get started you need to place a Tree Fluid Extractor in front of a log to collect Latex and pump into Latex Processing Unit with some water to get Tiny Rubber. @L@@L@{NOTE: Machines don't auto eject, neither they pull! Machines accept FE, FE, Tesla and Mek power.}"
 }

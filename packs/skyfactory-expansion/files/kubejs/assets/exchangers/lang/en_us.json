@@ -1,0 +1,5 @@
+{
+ "exchangers.tooltip.tier": "Tier %s",
+ "exchangers.tooltip.hold_shift": "§8Hold §7Shift§8 for details",
+ "exchangers.tooltip.hold_ctrl": "§8Hold §7Ctrl§8 for controls"
+}

@@ -1,0 +1,5 @@
+{
+ "block.rangedpumps.pump.state": "%s mB of %s - %s / %s RF",
+ "block.rangedpumps.pump.state_empty": "Empty - %s / %s RF",
+ "block.rangedpumps.pump.state.working": "Draining at %s, %s, %s."
+}

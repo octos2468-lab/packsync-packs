@@ -1,0 +1,18 @@
+{
+ "enderio.power.rf": "FE",
+ "enderio.stirlingGenerator.remaining": "Remaining %1$s|%2$sm }%3$ss|%4$s FE",
+ "enderio.top.rf.value": "%s FE/t",
+ "enderio.top.suffix.rf": " FE",
+ "legacy.enderio.power.rf": "FE",
+ "legacy.enderio.stirlingGenerator.remaining": "Remaining %1$s|%2$sm }%3$ss|%4$s FE",
+ "legacy.enderio.top.rf.value": "%s FE/t",
+ "legacy.enderio.top.suffix.rf": " FE",
+ "legacy.item.itemPowerItemFilter.tooltip.detailed.line2": "how much FE they have stored",
+ "legacy.item.itemRemoteInvAccessadvanced.tooltip.detailed.line3": "Uses {FLUIDNAME} to open a connection and FE to keep it open.",
+ "legacy.item.itemRemoteInvAccessbasic.tooltip.detailed.line3": "Uses {FLUIDNAME} to open a connection and FE to keep it open.",
+ "legacy.item.itemRemoteInvAccessender.tooltip.detailed.line3": "Uses {FLUIDNAME} to open a connection and FE to keep it open.",
+ "legacy.item.itemRodOfReturn.tooltip.detailed.line3": "Requires FE and %s",
+ "legacy.tile.blockCapBank.tooltip.detailed.line2": "Can charge FE powered items.",
+ "legacy.tile.blockGauge.tooltip.detailed.line1": "Displays FE levels of adjacent",
+ "item.enderio.soul_vial_filled": "Soul Vial (Filled)"
+}

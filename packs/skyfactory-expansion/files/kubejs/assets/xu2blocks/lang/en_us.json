@@ -1,0 +1,3 @@
+{
+ "xu2blocks.jei.quantum_quarry": "Place a Quantum Quarry Actuator against each of the six faces of the quarry. Feed FE into any actuator (20,000 FE per block mined) and put inventories next to the actuators to collect the output. An enchanted book adds its pickaxe enchantments; Efficiency mines extra blocks per tick. Speeding it up with time accelerators makes it explode."
+}

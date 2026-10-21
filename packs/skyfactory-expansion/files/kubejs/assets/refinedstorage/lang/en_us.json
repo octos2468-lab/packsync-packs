@@ -1,0 +1,15 @@
+{
+ "gui.refinedstorage.wireless_transmitter.distance": "%s blocks",
+ "gui.refinedstorage.network_transmitter.distance": "%s blocks",
+ "gui.refinedstorage.network_transmitter.dimension": "Dimension %s",
+ "gui.refinedstorage.crafting_preview.to_craft": "To craft: %s",
+ "gui.refinedstorage.crafting_preview.available": "Available: %s",
+ "gui.refinedstorage.crafting_preview.missing": "Missing: %s",
+ "misc.refinedstorage.energy_stored": "%s / %s FE",
+ "misc.refinedstorage.energy_usage": "Usage: %s RS/t",
+ "misc.refinedstorage.energy_usage_minimal": "%s RS/t",
+ "misc.refinedstorage.storage.full": "%s%% full",
+ "misc.refinedstorage.network_item.tooltip": "Linked to %s, %s, %s.",
+ "misc.refinedstorage.network_card.tooltip": "Linked to %s, %s, %s.",
+ "misc.refinedstorage.pattern.oredict": "Matches by item tag"
+}

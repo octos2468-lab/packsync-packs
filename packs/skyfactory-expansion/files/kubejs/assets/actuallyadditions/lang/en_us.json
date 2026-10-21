@@ -1,0 +1,7 @@
+{
+ "tooltip.actuallyadditions.coal_generator_stats": "Generates %s CF (%s CF/t for %s ticks)",
+ "tooltip.actuallyadditions.placer_augment": "Placing blocks from hotbar slot %s",
+ "info.actuallyadditions.gui.coffee_amount": "%s/%s Coffee",
+ "info.actuallyadditions.farmer.area": "Area: %sx%s",
+ "booklet.actuallyadditions.unavailable": "Parts of this feature are disabled or incomplete. You may find something missing or not fully working. Please use this item with caution!"
+}
