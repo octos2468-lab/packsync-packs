@@ -4,6 +4,74 @@
   {
    "id": "actuallyadditions:wood_casing",
    "required": false
+  },
+  {
+   "id": "ancientbeasts:cursed_door",
+   "required": false
+  },
+  {
+   "id": "ancientbeasts:cursed_fence",
+   "required": false
+  },
+  {
+   "id": "ancientbeasts:cursed_gate",
+   "required": false
+  },
+  {
+   "id": "ancientbeasts:cursed_log",
+   "required": false
+  },
+  {
+   "id": "ancientbeasts:cursed_plank",
+   "required": false
+  },
+  {
+   "id": "ancientbeasts:cursed_slab",
+   "required": false
+  },
+  {
+   "id": "ancientbeasts:cursed_stairs",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:table_acacia",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:table_birch",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:table_dark",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:table_jungle",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:table_oak",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:table_spruce",
+   "required": false
+  },
+  {
+   "id": "mowziesmobs:painted_acacia",
+   "required": false
+  },
+  {
+   "id": "mowziesmobs:painted_acacia_slab",
+   "required": false
+  },
+  {
+   "id": "randomthings:bean_pod",
+   "required": false
+  },
+  {
+   "id": "sf3extras:charset_shelf",
+   "required": false
   }
  ]
 }

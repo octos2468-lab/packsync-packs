@@ -352,6 +352,286 @@
   {
    "id": "nyx:lunar_water_cauldron",
    "required": false
+  },
+  {
+   "id": "aether:trapped_carved_stone",
+   "required": false
+  },
+  {
+   "id": "aether:trapped_sentry_stone",
+   "required": false
+  },
+  {
+   "id": "aether:unstable_obsidian",
+   "required": false
+  },
+  {
+   "id": "ancientbeasts:pokey",
+   "required": false
+  },
+  {
+   "id": "bt:stone_brick_wall",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:andesite_carved",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:andesite_cube",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:andesite_large",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:andesite_pillar",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:andesite_scale",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:andesite_small",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:andesite_square",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:diorite_carved",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:diorite_cube",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:diorite_large",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:diorite_pillar",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:diorite_scale",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:diorite_small",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:diorite_square",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:endstone_carved",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:endstone_cube",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:endstone_pillar",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:endstone_scale",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:endstone_small",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:endstone_square",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:granite_carved",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:granite_cube",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:granite_large",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:granite_pillar",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:granite_scale",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:granite_small",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:granite_square",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:prismarine_carved",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:prismarine_cube",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:prismarine_large",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:prismarine_pillar",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:prismarine_small",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:prismarine_square",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:purpur_carved",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:purpur_cube",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:purpur_large",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:purpur_scale",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:purpur_small",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:red_netherbrick_carved",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:red_netherbrick_cube",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:red_netherbrick_large",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:red_netherbrick_pillar",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:red_netherbrick_scale",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:red_netherbrick_square",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:stone_cube",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:stone_pillar",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:stone_scale",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:stone_small",
+   "required": false
+  },
+  {
+   "id": "cqrepoured:stone_square",
+   "required": false
+  },
+  {
+   "id": "create:minecart_anchor",
+   "required": false
+  },
+  {
+   "id": "create:pulley_magnet",
+   "required": false
+  },
+  {
+   "id": "immersiveengineering:radio_tower",
+   "required": false
+  },
+  {
+   "id": "roots:spirit_brick",
+   "required": false
+  },
+  {
+   "id": "roots:spirit_brick_slab",
+   "required": false
+  },
+  {
+   "id": "scanner:biomescanneradv",
+   "required": false
+  },
+  {
+   "id": "scanner:biomescannerbasic",
+   "required": false
+  },
+  {
+   "id": "scanner:biomescannerelite",
+   "required": false
+  },
+  {
+   "id": "scanner:biomescannerultimate",
+   "required": false
+  },
+  {
+   "id": "scanner:dimensionalcore_end",
+   "required": false
+  },
+  {
+   "id": "scanner:dimensionalcore_nether",
+   "required": false
+  },
+  {
+   "id": "scanner:dimensionalcore_none",
+   "required": false
+  },
+  {
+   "id": "scanner:dimensionalcore_overworld",
+   "required": false
+  },
+  {
+   "id": "scanner:scannerqueue",
+   "required": false
+  },
+  {
+   "id": "scanner:terrainscanner",
+   "required": false
+  },
+  {
+   "id": "twilightforest:aurora_block",
+   "required": false
   }
  ]
 }
