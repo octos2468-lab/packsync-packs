@@ -844,7 +844,7 @@
   // Storage Drawers
   for (const w of ['oak', 'spruce', 'birch', 'jungle', 'acacia', 'dark_oak', 'framed'])
     for (const t of ['full_drawers_1', 'full_drawers_2', 'full_drawers_4', 'half_drawers_2', 'half_drawers_4']) {
-      const id = 'storagedrawers:' + w + '_' + t
+      let id = 'storagedrawers:' + w + '_' + t
       if (!INFO[id]) info(id, ['Use to insert; double-use inserts', 'all matching items. Hit to take a', 'stack (sneak: one).'])
     }
   for (const w of ['oak', 'spruce', 'birch', 'jungle', 'acacia', 'dark_oak', 'framed'])

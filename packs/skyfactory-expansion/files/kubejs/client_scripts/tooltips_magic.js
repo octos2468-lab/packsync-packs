@@ -2058,8 +2058,8 @@ const BM = {
 function bloodmagicFix(e, id, lines) {
   let changed = false
   for (let i = 0; i < lines.length; i++) {
-    const s = String(lines[i].getString())
-    const m = /^Will: (-?\d+\.\d{3,})$/.exec(s)
+    let s = String(lines[i].getString())
+    let m = /^Will: (-?\d+\.\d{3,})$/.exec(s)
     if (m) { lines[i] = Text.literal('§7Will: §b' + Number(m[1]).toFixed(2)); changed = true }
   }
   return changed
@@ -2070,7 +2070,7 @@ function bloodmagicFix(e, id, lines) {
 function psiFix(e, id, lines) {
   let changed = false
   for (let i = 0; i < lines.length; i++) {
-    const s = String(lines[i].getString())
+    let s = String(lines[i].getString())
     if (s.indexOf('âˆž') < 0) continue // "∞" mis-decoded in the port's class file
     lines[i] = Text.literal(s.split('âˆž').join('∞'))
     changed = true
@@ -2240,7 +2240,7 @@ const MODS = {
 
 function findInfo(mod, e, id, lines) {
   for (const f of mod.info) {
-    const r = f(e, id, lines)
+    let r = f(e, id, lines)
     if (r) return r
   }
   return EXTRA_DESC[id] || null
@@ -2255,7 +2255,7 @@ ItemEvents.modifyTooltips(event => {
 const JsonObject = Java.loadClass('com.google.gson.JsonObject')
 ClientEvents.generateAssets('last', event => {
   for (const ns of Object.keys(LANG_LAST)) {
-    const o = new JsonObject()
+    let o = new JsonObject()
     for (const k of Object.keys(LANG_LAST[ns])) o.addProperty(k, String(LANG_LAST[ns][k]))
     event.json(ns + ':lang/en_us', o)
   }
@@ -2275,18 +2275,18 @@ ItemEvents.dynamicTooltips('ottocraft_magic', e => {
     // insert below the mod's own lines: above attribute modifiers ("When in Main Hand:") and the F3+H block
     let at = lines.length
     for (let i = 1; i < lines.length; i++) {
-      const s = String(lines[i].getString())
+      let s = String(lines[i].getString())
       if (s == id || s.indexOf('Durability: ') == 0) { at = i; break }
       if (/^When (in|on) .*:$/.test(s)) { at = (i > 1 && String(lines[i - 1].getString()) == '') ? i - 1 : i; break }
     }
-    const add = []
+    let add = []
     if (e.shift) {
       add.push(Text.literal(''))
       for (const l of info) add.push(Text.literal(l.indexOf('§') == 0 ? l : '§7' + l))
     } else {
       let hinted = false
       for (const l of lines) {
-        const s = String(l.getString()).toLowerCase()
+        let s = String(l.getString()).toLowerCase()
         if (s.indexOf('shift') >= 0 && s.indexOf('more info') >= 0) { hinted = true; break }
       }
       if (!hinted) add.push(Text.literal(SHIFT_HINT))
