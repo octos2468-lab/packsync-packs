@@ -1,20 +1,20 @@
 {
   "format": 1,
   "name": "Ottof",
-  "updatedAt": "2026-10-21T04:30:45.751Z",
+  "updatedAt": "2026-10-21T05:36:19.037Z",
   "packs": [
     {
       "id": "skyfactory-expansion",
       "name": "SkyFactory Expansion",
-      "manifestUrl": "https://raw.githubusercontent.com/octos2468-lab/packsync-packs/a7e89a48a7fc8a24c286014dc7a481c7ee8d7e9a/packs/skyfactory-expansion/manifest.json",
-      "version": "1.0.26",
+      "manifestUrl": "https://raw.githubusercontent.com/octos2468-lab/packsync-packs/0f435f57bfaed99c366f404b1cb8d20acbeeb8b9/packs/skyfactory-expansion/manifest.json",
+      "version": "1.0.27",
       "game": "minecraft",
       "minecraft": {
         "version": "1.21.1",
         "loader": "neoforge"
       },
-      "updatedAt": "2026-10-21T04:29:12.767Z"
+      "updatedAt": "2026-10-21T05:36:09.640Z"
     }
   ],
-  "signature": "E3Qg2T0EGGZMK1wWXEehaWN0QTfvSoeNFSGWE5Sl63kwzgNdriTD0QreOl-m7SkzWHePaaktcKqvKm0aqxLyDQ"
+  "signature": "IsWH5yLKzce0IqOjz5dkf2t9nTj33ebONfYE2k3PErTG4v3w5WSXZbT1E3HDDkqLxZVvLnsZGMmVqD0FNnwvDA"
 }
