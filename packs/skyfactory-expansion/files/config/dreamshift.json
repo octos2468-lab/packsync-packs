@@ -4,7 +4,7 @@
   "enableDebugCommands": true,
   "enableDebugLogging": false,
   "enableMainMenuTheme": false,
-  "slipChanceMultiplier": 1.0,
+  "slipChanceMultiplier": 0.3,
   "minimumDaysBeforeSlip": 1,
   "allowedSlipDimensions": [
     "minecraft:overworld"
@@ -55,7 +55,7 @@
   "useLegacyTransitionMask": "auto",
   "familiaritySampleIntervalTicks": 100,
   "familiarityThreshold": 12,
-  "slippageSpawnChance": 0.25,
+  "slippageSpawnChance": 0.08,
   "slippageSpawnCheckIntervalTicks": 400,
   "slippageSpawnMinimumEligibleTicks": 2400,
   "slippageSpawnMaximumEligibleTicks": 6000,
