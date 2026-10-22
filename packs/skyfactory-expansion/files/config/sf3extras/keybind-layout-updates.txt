@@ -1,0 +1,6 @@
+# Keybind layout updates for players who already have the pack's layout (config/sf3extras/keybind-layout.txt).
+# version|key name|old key[:MODIFIER]: the key moves to its keybindings.txt value once, only if the player still has the old key.
+3|enderio.keybind.soundlocator|key.keyboard.l
+3|enderio.keybind.yetawrenchmode|key.keyboard.y
+3|key.porterNextDestination|key.keyboard.right.bracket
+3|key.porterPrevDestination|key.keyboard.left.bracket

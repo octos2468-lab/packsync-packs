@@ -5,6 +5,8 @@ key_bbw.key.fluidmode:key.keyboard.f:ALT
 key_bbw.key.mode:key.keyboard.m
 key_enderio.keybind.glider:key.keyboard.semicolon
 key_enderio.keybind.nightvision:key.keyboard.period
+key_enderio.keybind.soundlocator:key.keyboard.period:ALT
+key_enderio.keybind.yetawrenchmode:key.keyboard.w:ALT
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.shaderPackSelection:key.keyboard.o
 key_iris.keybind.toggleShaders:key.keyboard.k
@@ -23,6 +25,7 @@ key_key.ironbackpacks.equip:key.keyboard.q:ALT
 key_key.ironbackpacks.open:key.keyboard.k:ALT
 key_key.journeymap.create_waypoint:key.keyboard.b:ALT
 key_key.journeymap.minimap_preset:key.keyboard.backslash
+key_key.journeymap.minimap_type:key.keyboard.left.bracket
 key_key.journeymap.toggle_entity_names:key.keyboard.unknown
 key_key.kubejs.kubedex:key.keyboard.unknown
 key_key.loadToolbarActivator:key.keyboard.unknown
@@ -32,6 +35,8 @@ key_key.mod_lavacow.special:key.keyboard.home
 key_key.open_menu:key.keyboard.right.bracket
 key_key.placeItem:key.keyboard.d:ALT
 key_key.ponder.ponder:key.keyboard.unknown
+key_key.porterNextDestination:key.keyboard.right.bracket:ALT
+key_key.porterPrevDestination:key.keyboard.left.bracket:ALT
 key_key.punchy.inspect:key.keyboard.unknown
 key_key.punchy.tuning.axis_x:key.keyboard.unknown
 key_key.punchy.tuning.axis_y:key.keyboard.unknown
