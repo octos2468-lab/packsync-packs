@@ -785,7 +785,7 @@ S('excompressum:uncompressed_coal', 'One eighth of a coal: smelts one item.')
 
 // --- small leftovers ---
 S('capsule:capsulemarker', 'Capture Base: an empty capsule thrown next to it captures the cube of blocks on top of it.')
-S('ceramics:clay_bucket', 'A bucket made of fired clay. Carries water; it breaks when used for lava.')
+S('ceramics:clay_bucket', 'A bucket made of fired clay. Scoops and pours any bucket fluid, milks cows and picks up sand, red sand and gravel; lava and other hot fluids break it.')
 S('chancecubes:cube_dispenser', 'Shows a Chance Cube: left-click takes 64 (sneak: 1), sneak with an empty hand cycles the cube type.')
 S(['chipped:botanist_workbench', 'chipped:loom_table', 'chipped:alchemy_bench', 'chipped:carpenters_table', 'chipped:glassblower', 'chipped:mason_table', 'chipped:tinkering_table'],
   'Put blocks in to turn them into one of their decorative variants.')

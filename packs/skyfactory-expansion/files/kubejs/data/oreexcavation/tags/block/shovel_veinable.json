@@ -1,0 +1,18 @@
+{
+ "replace": false,
+ "values": [
+  {"id": "gravelores:coal_gravel_ore", "required": false},
+  {"id": "gravelores:iron_gravel_ore", "required": false},
+  {"id": "gravelores:lapis_gravel_ore", "required": false},
+  {"id": "gravelores:gold_gravel_ore", "required": false},
+  {"id": "gravelores:redstone_gravel_ore", "required": false},
+  {"id": "gravelores:diamond_gravel_ore", "required": false},
+  {"id": "gravelores:emerald_gravel_ore", "required": false},
+  {"id": "gravelores:tin_gravel_ore", "required": false},
+  {"id": "gravelores:nickel_gravel_ore", "required": false},
+  {"id": "gravelores:silver_gravel_ore", "required": false},
+  {"id": "gravelores:lead_gravel_ore", "required": false},
+  {"id": "gravelores:copper_gravel_ore", "required": false},
+  {"id": "gravelores:aluminum_gravel_ore", "required": false}
+ ]
+}

@@ -1,0 +1,55 @@
+#Whether this mod is enabled or not
+enabled = true
+
+[tree-detection]
+	# Default: 512
+	# Range: 1 ~ 100000
+	maxNumTreeBlocks = 2048
+	# Default: 1024
+	# Range: 1 ~ 100000
+	maxNumLeavesBlocks = 4096
+	#Whether to destroy leaves when a tree is felled
+	breakLeaves = true
+	#Ignore leaves placed by players (persistent leaves)
+	ignorePersistentLeaves = true
+	# Default: 4
+	# Range: 1 ~ 64
+	maxBreakLeavesDistance = 8
+	#Block ids or #tags treated as logs (the old ore dictionary logWood)
+	logBlocks = ["#minecraft:logs", "ancientbeasts:cursed_log"]
+	#Block ids or #tags treated as leaves (the old ore dictionary treeLeaves)
+	leavesBlocks = ["#minecraft:leaves", "#minecraft:wart_blocks", "minecraft:shroomlight", "minecraft:red_mushroom_block", "minecraft:brown_mushroom_block", "ancientbeasts:cursed_leaves"]
+
+[chop-counting]
+	#Allowed Values: LINEAR, LOGARITHMIC
+	algorithm = "LOGARITHMIC"
+	#Allowed Values: DOWN, NEAREST, UP
+	rounding = "DOWN"
+	canRequireMoreChopsThanBlocks = false
+	# Default: 2.0
+	# Range: 0.001 ~ 1000.0
+	logarithmicA = 2.0
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	linearChopsPerBlock = 1.0
+	# Default: 0.0
+	# Range: -1000.0 ~ 1000.0
+	linearBaseNumChops = 0.0
+
+[compatibility]
+	#true = choppingToolsBlacklist is a whitelist
+	whitelist = false
+	choppingToolsBlacklist = ["mekanism:atomic_disassembler"]
+
+	[compatibility.fake-player-chop-settings]
+		choppingEnabled = false
+		fellingEnabled = true
+		treesMustHaveLeaves = true
+
+[default-player-settings]
+	choppingEnabled = true
+	fellingEnabled = true
+	#Allowed Values: NONE, INVERT_CHOPPING, INVERT_FELLING
+	sneakBehavior = "INVERT_CHOPPING"
+	treesMustHaveLeaves = true
+	chopInCreativeMode = true

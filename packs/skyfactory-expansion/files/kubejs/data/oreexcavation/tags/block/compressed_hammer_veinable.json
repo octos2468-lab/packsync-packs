@@ -1,0 +1,11 @@
+{
+ "replace": false,
+ "values": [
+  {"id": "excompressum:compressed_cobblestone", "required": false},
+  {"id": "excompressum:compressed_gravel", "required": false},
+  {"id": "excompressum:compressed_sand", "required": false},
+  {"id": "excompressum:compressed_netherrack", "required": false},
+  {"id": "excompressum:compressed_end_stone", "required": false},
+  {"id": "euru:compressed_cobblestone", "required": false}
+ ]
+}

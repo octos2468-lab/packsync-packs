@@ -6,46 +6,6 @@
   },
   {
    "type": "minecraft:single",
-   "resource": "integrateddynamics:aspect/read/boolean/refinedstorage/network/applicable"
-  },
-  {
-   "type": "minecraft:single",
-   "resource": "integrateddynamics:aspect/read/list/refinedstorage/fluid/fluidstacks"
-  },
-  {
-   "type": "minecraft:single",
-   "resource": "integrateddynamics:aspect/read/list/refinedstorage/inventory/craftableitems"
-  },
-  {
-   "type": "minecraft:single",
-   "resource": "integrateddynamics:aspect/read/list/refinedstorage/inventory/craftingitems"
-  },
-  {
-   "type": "minecraft:single",
-   "resource": "integrateddynamics:aspect/read/list/refinedstorage/inventory/itemstacks"
-  },
-  {
-   "type": "minecraft:single",
-   "resource": "integrateddynamics:aspect/write/boolean/refinedstorage/cancelcraft"
-  },
-  {
-   "type": "minecraft:single",
-   "resource": "integrateddynamics:aspect/write/itemstack/refinedstorage/cancelcraft"
-  },
-  {
-   "type": "minecraft:single",
-   "resource": "integrateddynamics:aspect/write/itemstack/refinedstorage/craft"
-  },
-  {
-   "type": "minecraft:single",
-   "resource": "integrateddynamics:aspect/write/list/refinedstorage/cancelcraft"
-  },
-  {
-   "type": "minecraft:single",
-   "resource": "integrateddynamics:aspect/write/list/refinedstorage/craft"
-  },
-  {
-   "type": "minecraft:single",
    "resource": "ironchest:model/ironchest"
   },
   {

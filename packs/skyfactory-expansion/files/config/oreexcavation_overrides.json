@@ -1,0 +1,9 @@
+{
+  "overrides": [
+    {"itemID": "excompressum:compressed_wooden_hammer", "limit": 128, "range": 12},
+    {"itemID": "excompressum:compressed_stone_hammer", "limit": 128, "range": 12},
+    {"itemID": "excompressum:compressed_iron_hammer", "limit": 128, "range": 12},
+    {"itemID": "excompressum:compressed_golden_hammer", "limit": 128, "range": 12},
+    {"itemID": "excompressum:compressed_diamond_hammer", "limit": 128, "range": 12}
+  ]
+}
