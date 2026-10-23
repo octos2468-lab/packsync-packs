@@ -1,0 +1,8 @@
+{
+  "type": "randomthings:add_item",
+  "conditions": [
+    { "condition": "neoforge:loot_table_id", "loot_table_id": "minecraft:chests/nether_bridge" }
+  ],
+  "item": { "id": "randomthings:bottle_of_air", "count": 1 },
+  "chance": 0.05
+}

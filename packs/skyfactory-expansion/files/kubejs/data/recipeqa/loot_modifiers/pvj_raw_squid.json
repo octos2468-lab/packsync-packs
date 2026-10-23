@@ -1,0 +1,14 @@
+{
+  "type": "randomthings:add_item",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:entities/squid"
+    }
+  ],
+  "item": {
+    "id": "pvj:raw_squid",
+    "count": 1
+  },
+  "chance": 1.0
+}
