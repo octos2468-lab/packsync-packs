@@ -848,4 +848,4 @@
 	#Stats will be always shown (Jade) without the need to analyze chickens first when enabled. SkyFactory 3 had this on.
 	alwaysShowStats = true
 	#Nether chicken spawn chance multiplier, e.g. 0=no initial spawn, 2=two times more spawn rate
-	netherSpawnChanceMultiplier = 1.0
+	netherSpawnChanceMultiplier = 3.5
