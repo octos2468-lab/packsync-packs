@@ -1,9 +1,7 @@
 {
- "multipart": [
-  {
-   "apply": {
-    "model": "randomthings:block/platform_jungle"
-   }
+  "variants": {
+    "": {
+      "model": "randomthings:block/platform/jungle"
+    }
   }
- ]
 }

@@ -1,9 +1,7 @@
 {
- "multipart": [
-  {
-   "apply": {
-    "model": "randomthings:block/platform_spruce"
-   }
+  "variants": {
+    "": {
+      "model": "randomthings:block/platform/spruce"
+    }
   }
- ]
 }

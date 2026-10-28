@@ -1,9 +1,7 @@
 {
- "multipart": [
-  {
-   "apply": {
-    "model": "randomthings:block/block_of_sticks_returning"
-   }
+  "variants": {
+    "": {
+      "model": "randomthings:block/returning_block_of_sticks"
+    }
   }
- ]
 }

@@ -1,9 +1,7 @@
 {
- "multipart": [
-  {
-   "apply": {
-    "model": "randomthings:block/platform_acacia"
-   }
+  "variants": {
+    "": {
+      "model": "randomthings:block/platform/acacia"
+    }
   }
- ]
 }

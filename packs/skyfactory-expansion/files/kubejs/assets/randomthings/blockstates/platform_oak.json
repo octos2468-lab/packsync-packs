@@ -1,9 +1,7 @@
 {
- "multipart": [
-  {
-   "apply": {
-    "model": "randomthings:block/platform_oak"
-   }
+  "variants": {
+    "": {
+      "model": "randomthings:block/platform/oak"
+    }
   }
- ]
 }
