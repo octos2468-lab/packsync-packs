@@ -171,43 +171,8 @@
     },
     {
      "type": "minecraft:item",
-     "name": "immersiveengineering:ingot_aluminum",
-     "weight": 40,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
-        "type": "minecraft:uniform",
-        "min": 1,
-        "max": 3
-       }
-      }
-     ]
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cqrepoured:shield_pigman",
-     "weight": 2
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cqrepoured:shield_mummy",
-     "weight": 2
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cqrepoured:shield_goblin",
-     "weight": 2
-    },
-    {
-     "type": "minecraft:item",
      "name": "comforts:rope",
      "weight": 30
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cqrepoured:shield_zombie",
-     "weight": 2
     },
     {
      "type": "minecraft:item",
@@ -223,11 +188,6 @@
        }
       }
      ]
-    },
-    {
-     "type": "minecraft:item",
-     "name": "skewers:skewer_caramel_apple",
-     "weight": 40
     },
     {
      "type": "minecraft:item",
@@ -434,11 +394,6 @@
     },
     {
      "type": "minecraft:item",
-     "name": "morebows:iron_bow",
-     "weight": 20
-    },
-    {
-     "type": "minecraft:item",
      "name": "mod_lavacow:cactus_thorn",
      "weight": 50,
      "functions": [
@@ -471,21 +426,6 @@
      "type": "minecraft:item",
      "name": "harkenscythe:soul_essence",
      "weight": 20
-    },
-    {
-     "type": "minecraft:item",
-     "name": "mod_lavacow:basicbomb",
-     "weight": 60,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
-        "type": "minecraft:uniform",
-        "min": 1,
-        "max": 4
-       }
-      }
-     ]
     },
     {
      "type": "minecraft:item",
@@ -1017,21 +957,6 @@
     {
      "type": "minecraft:item",
      "name": "fairylights:pennant_bunting",
-     "weight": 40,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
-        "type": "minecraft:uniform",
-        "min": 2,
-        "max": 3
-       }
-      }
-     ]
-    },
-    {
-     "type": "minecraft:item",
-     "name": "fairylights:hanging_lights",
      "weight": 40,
      "functions": [
       {
@@ -1808,36 +1733,6 @@
    "entries": [
     {
      "type": "minecraft:item",
-     "name": "xreliquary:attraction_potion",
-     "weight": 40,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
-        "type": "minecraft:uniform",
-        "min": 2,
-        "max": 3
-       }
-      }
-     ]
-    },
-    {
-     "type": "minecraft:item",
-     "name": "xreliquary:fertile_potion",
-     "weight": 40,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
-        "type": "minecraft:uniform",
-        "min": 2,
-        "max": 3
-       }
-      }
-     ]
-    },
-    {
-     "type": "minecraft:item",
      "name": "minecraft:ender_pearl",
      "weight": 40,
      "functions": [
@@ -1853,73 +1748,13 @@
     },
     {
      "type": "minecraft:item",
-     "name": "mocreatures:whip",
-     "weight": 30
-    },
-    {
-     "type": "minecraft:item",
      "name": "mocreatures:fishnet",
      "weight": 40
     },
     {
      "type": "minecraft:item",
-     "name": "cqrepoured:shield_pirate",
-     "weight": 2
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cqrepoured:shield_pirate2",
-     "weight": 2
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cqrepoured:shield_rusted",
-     "weight": 2
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cqrepoured:shield_skeleton_friends",
-     "weight": 4
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cqrepoured:shield_specter",
-     "weight": 2
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cqrepoured:shield_spider",
-     "weight": 2
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cqrepoured:shield_sun",
-     "weight": 2
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cqrepoured:shield_tomb",
-     "weight": 2
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cqrepoured:shield_triton",
-     "weight": 2
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cqrepoured:shield_turtle",
-     "weight": 2
-    },
-    {
-     "type": "minecraft:item",
      "name": "lostbooks:random_book",
      "weight": 160
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cqrepoured:musket_dagger_iron",
-     "weight": 20
     },
     {
      "type": "minecraft:item",
@@ -1954,11 +1789,6 @@
     {
      "type": "minecraft:item",
      "name": "mocreatures:mammothplatform",
-     "weight": 40
-    },
-    {
-     "type": "minecraft:item",
-     "name": "mocreatures:elephantharness",
      "weight": 40
     },
     {
@@ -2008,21 +1838,6 @@
     },
     {
      "type": "minecraft:item",
-     "name": "asr:gilded_stone_shield",
-     "weight": 30
-    },
-    {
-     "type": "minecraft:item",
-     "name": "asr:gilded_iron_shield",
-     "weight": 30
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cqrepoured:dagger_diamond",
-     "weight": 30
-    },
-    {
-     "type": "minecraft:item",
      "name": "mocreatures:kittylitter",
      "weight": 40
     },
@@ -2030,26 +1845,6 @@
      "type": "minecraft:item",
      "name": "exchangers:exchanger_core_tier1",
      "weight": 10
-    },
-    {
-     "type": "minecraft:item",
-     "name": "exchangers:wooden_exchanger",
-     "weight": 40
-    },
-    {
-     "type": "minecraft:item",
-     "name": "mocreatures:ratburger",
-     "weight": 40,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
-        "type": "minecraft:uniform",
-        "min": 1,
-        "max": 2
-       }
-      }
-     ]
     },
     {
      "type": "minecraft:item",
@@ -2083,43 +1878,8 @@
     },
     {
      "type": "minecraft:item",
-     "name": "cqrepoured:helmet_heavy_iron",
-     "weight": 10
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cqrepoured:chestplate_heavy_iron",
-     "weight": 10
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cqrepoured:leggings_heavy_iron",
-     "weight": 10
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cqrepoured:boots_heavy_iron",
-     "weight": 10
-    },
-    {
-     "type": "minecraft:item",
      "name": "cqrepoured:helmet_iron_dyable",
      "weight": 10
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cqrepoured:bullet_diamond",
-     "weight": 30,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
-        "type": "minecraft:uniform",
-        "min": 3,
-        "max": 10
-       }
-      }
-     ]
     },
     {
      "type": "minecraft:item",
@@ -2588,16 +2348,6 @@
     },
     {
      "type": "minecraft:item",
-     "name": "harkenscythe:diamond_scythe",
-     "weight": 10
-    },
-    {
-     "type": "minecraft:item",
-     "name": "harkenscythe:diamond_glaive",
-     "weight": 10
-    },
-    {
-     "type": "minecraft:item",
      "name": "harkenscythe:iron_glaive",
      "weight": 10
     },
@@ -2630,31 +2380,6 @@
        }
       }
      ]
-    },
-    {
-     "type": "minecraft:item",
-     "name": "xreliquary:magicbane",
-     "weight": 30
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cqrepoured:helmet_diamond_dyable",
-     "weight": 10
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cqrepoured:chestplate_diamond_dyable",
-     "weight": 10
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cqrepoured:leggings_diamond_dyable",
-     "weight": 10
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cqrepoured:boots_diamond_dyable",
-     "weight": 10
     },
     {
      "type": "minecraft:item",
@@ -2919,21 +2644,6 @@
     },
     {
      "type": "minecraft:item",
-     "name": "xreliquary:potion",
-     "weight": 30,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
-        "type": "minecraft:uniform",
-        "min": 1,
-        "max": 3
-       }
-      }
-     ]
-    },
-    {
-     "type": "minecraft:item",
      "name": "minecraft:gold_ingot",
      "weight": 40,
      "functions": [
@@ -2955,11 +2665,6 @@
     {
      "type": "minecraft:item",
      "name": "minecraft:compass",
-     "weight": 10
-    },
-    {
-     "type": "minecraft:item",
-     "name": "mocreatures:medallion",
      "weight": 10
     },
     {

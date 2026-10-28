@@ -5,6 +5,7 @@
 const BR_RL = Java.loadClass('net.minecraft.resources.ResourceLocation')
 const BR_AABB = Java.loadClass('net.minecraft.world.phys.AABB')
 const BR_ENTITY = Java.loadClass('net.minecraft.world.entity.Entity')
+const BR_FLUIDS = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries').FLUID
 const BR_RANGE = 64
 
 const BR_SUMMONS = {
@@ -47,31 +48,50 @@ function brAlreadyUp(level, x, y, z, type) {
 
 function brId(level, x, y, z) { return String(level.getBlock(x, y, z).id) }
 
+// Walk-through blocks (air, cave air, grass, flowers, snow layers, torches, water) count as open space, not just air.
+function brOpen(level, x, y, z) {
+  let b = level.getBlock(x, y, z)
+  return b.blockState.getCollisionShape(level, b.pos).isEmpty() && brFluid(b).indexOf('lava') < 0
+}
+function brFloor(level, x, y, z) {
+  let b = level.getBlock(x, y, z)
+  return !b.blockState.getCollisionShape(level, b.pos).isEmpty()
+}
+function brFluid(block) { return String(BR_FLUIDS.getKey(block.blockState.getFluidState().getType())) }
+function brWater(level, x, y, z) { let f = brFluid(level.getBlock(x, y, z)); return f == 'minecraft:water' || f == 'minecraft:flowing_water' }
+
+// Room for the Golem (1.6 wide, 3.4 high) standing on a floor block at x, y - 1, z.
+function brGolemFits(level, x, y, z) {
+  if (!brFloor(level, x, y - 1, z)) return false
+  for (let k = 0; k < 4; k++) for (let ox = -1; ox <= 1; ox++) for (let oz = -1; oz <= 1; oz++)
+    if (!brOpen(level, x + ox, y + k, z + oz)) return false
+  return true
+}
+
 // Returns [x, y, z] for the boss, or a string saying why not.
 function brSpot(level, player, s) {
   let px = Math.floor(player.x), py = Math.floor(player.y), pz = Math.floor(player.z)
   let dim = String(level.dimension)
   if (s.place == 'ground') {
     if (dim != 'minecraft:overworld') return 'The effigy only works in the Overworld.'
+    // first straight ahead (4 to 8 blocks), then anywhere 3 to 8 blocks around, at most 3 blocks up or down
     let look = player.getLookAngle()
     let len = Math.sqrt(look.x() * look.x() + look.z() * look.z()) || 1
-    let x = Math.floor(player.x + look.x() / len * 6), z = Math.floor(player.z + look.z() / len * 6)
-    for (let dy = 2; dy >= -2; dy--) {
-      let y = py + dy
-      if (brId(level, x, y - 1, z) == 'minecraft:air') continue
-      let clear = true
-      for (let k = 0; k < 4 && clear; k++) for (let ox = -1; ox <= 1 && clear; ox++) for (let oz = -1; oz <= 1 && clear; oz++)
-        if (brId(level, x + ox, y + k, z + oz) != 'minecraft:air') clear = false
-      if (clear) return [x + 0.5, y, z + 0.5]
+    let tries = []
+    for (let d = 4; d <= 8; d++) tries.push([Math.floor(player.x + look.x() / len * d), Math.floor(player.z + look.z() / len * d)])
+    for (let r = 3; r <= 8; r++) for (let ox = -r; ox <= r; ox++) for (let oz = -r; oz <= r; oz++)
+      if (Math.max(Math.abs(ox), Math.abs(oz)) == r) tries.push([px + ox, pz + oz])
+    for (let i = 0; i < tries.length; i++) for (let j = 0; j <= 6; j++) {
+      let y = py + (j % 2 == 0 ? j / 2 : -(j + 1) / 2)   // 0, -1, +1, -2, +2, -3, +3
+      if (brGolemFits(level, tries[i][0], y, tries[i][1])) return [tries[i][0] + 0.5, y, tries[i][1] + 0.5]
     }
-    return 'Needs open ground 6 blocks ahead of you: 3x3 wide and 4 high.'
+    return 'Needs open ground within 8 blocks of you: a 3x3 spot, 4 blocks high.'
   }
   if (s.place == 'water') {
     for (let r = 2; r <= 8; r++) for (let dy = -4; dy <= 2; dy++) for (let ox = -r; ox <= r; ox++) for (let oz = -r; oz <= r; oz++) {
       if (Math.max(Math.abs(ox), Math.abs(oz)) != r) continue
       let x = px + ox, y = py + dy, z = pz + oz
-      if (brId(level, x, y, z) == 'minecraft:water' && brId(level, x, y + 1, z) == 'minecraft:water' &&
-          brId(level, x + 1, y, z) == 'minecraft:water' && brId(level, x, y, z + 1) == 'minecraft:water') return [x + 0.5, y, z + 0.5]
+      if (brWater(level, x, y, z) && brWater(level, x, y + 1, z) && brWater(level, x + 1, y, z) && brWater(level, x, y, z + 1)) return [x + 0.5, y, z + 0.5]
     }
     return 'Needs deep water (2 blocks deep) within 8 blocks of you.'
   }

@@ -3,7 +3,7 @@
 var Y = '§e', W = '§f', G = '§7', O = '§6'
 var BR_TIPS = {
   'kubejs:tower_golem_effigy': [O + 'Summons a Battle Tower Golem', [
-    Y + 'Right-click' + G + ' in the Overworld: the Golem rises on open ground 6 blocks ahead, asleep until you come close.',
+    Y + 'Right-click' + G + ' in the Overworld: the Golem rises on open ground up to 8 blocks away (ahead of you first), asleep until you come close.',
     'Works once ' + W + 'Age 3' + G + ' is open. For Golem bounties and practice; no tower collapses.',
     'A summoned Golem drops 1 diamond, clay and paper. The big diamond haul stays in real Battle Towers.'
   ]],
