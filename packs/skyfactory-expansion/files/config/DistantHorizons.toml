@@ -1,0 +1,4 @@
+_version = 5
+
+[client.advanced.autoUpdater]
+	enableAutoUpdater = false
