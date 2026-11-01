@@ -1,7 +1,7 @@
 {
   "format": 1,
   "name": "Ottof",
-  "updatedAt": "2026-11-01T17:41:47.204Z",
+  "updatedAt": "2026-11-01T18:03:31.396Z",
   "packs": [
     {
       "id": "skyfactory-expansion",
@@ -20,15 +20,15 @@
     {
       "id": "terraria-3d",
       "name": "Terraria 3D",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "description": "A walk-anywhere 3D recreation of Terraria. Requires your own Terraria copy (Steam). Multiplayer with friends.",
-      "notes": "Play with me:\n1. Install Tailscale (free): https://tailscale.com/download and sign in. Accept the share link I send you.\n2. In Terraria 3D: Multiplayer > type my 100.x.x.x Tailscale address in \"Server address\" > Join.\nNo Tailscale? I can forward UDP port 7777 instead; then join my public address.\nWe need the same version: update here when PackSync says there's a new one. Full steps: README.txt in the game folder, under \"Play with a friend\".",
-      "url": "https://github.com/octos2468-lab/packsync-packs/releases/download/game-terraria-3d-1.0.1/terraria-3d-1.0.1.zip",
-      "sha512": "cc6ff9e19b798ab0d5d2640d9192edd59cd9154268fc16a2915442fa38b8f179ad572c4e2dd6261f9987432f43085d202ca02c458ca57b29629b39205927eefd",
-      "size": 36164453,
+      "notes": "Play with me:\n- Easiest: Multiplayer > \"Join Ottof's server\", pick a character (when my server is on).\n- Or with Tailscale (https://tailscale.com/download): accept my share link, then Multiplayer > Join via IP > my 100.x.x.x address.\nWe need the same version: update here when PackSync says there's a new one. Full steps: README.txt in the game folder, under \"Play with a friend\".",
+      "url": "https://github.com/octos2468-lab/packsync-packs/releases/download/game-terraria-3d-1.0.2/terraria-3d-1.0.2.zip",
+      "sha512": "cdc8a81bbde9e4e5ae127b6787b494c61ec68eb6418e76f0d893b5b19af68732c2b02060530050733463c8c2701b1ceb345ad0e80ee8d39f4e9c983744df14c4",
+      "size": 36170100,
       "launch": "Terraria3D.exe",
-      "updatedAt": "2026-11-01T17:41:35.160Z"
+      "updatedAt": "2026-11-01T18:03:12.088Z"
     }
   ],
-  "signature": "EPMDONpJK7VxLG2xht3HBSvtqUQ5sT_78RCRcgI_K-qt1CXh5HOLR9d3O_Q55aQ91nGRpfqAylQkGeRepzRGCA"
+  "signature": "qmrDOz0cNUNroaUOqS-3_3feOj69JUt1u6CtX_UXaDvVUQIXhdRMWrEyA8CFfwB9iXL3iE3w0rwIjuzm8U22Dg"
 }
