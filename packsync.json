@@ -1,7 +1,7 @@
 {
   "format": 1,
   "name": "Ottof",
-  "updatedAt": "2026-10-31T16:40:43.545Z",
+  "updatedAt": "2026-11-01T17:41:47.204Z",
   "packs": [
     {
       "id": "skyfactory-expansion",
@@ -16,5 +16,19 @@
       "updatedAt": "2026-10-31T16:40:26.566Z"
     }
   ],
-  "signature": "GlOenUJ6Zm41MmWMxW_xSKXohNYqJ-MOVhJrSqmaw7yK0so6LdPEnyOm_hMbaTF_vrARKzKCvBdNfO5oVAGZCg"
+  "games": [
+    {
+      "id": "terraria-3d",
+      "name": "Terraria 3D",
+      "version": "1.0.1",
+      "description": "A walk-anywhere 3D recreation of Terraria. Requires your own Terraria copy (Steam). Multiplayer with friends.",
+      "notes": "Play with me:\n1. Install Tailscale (free): https://tailscale.com/download and sign in. Accept the share link I send you.\n2. In Terraria 3D: Multiplayer > type my 100.x.x.x Tailscale address in \"Server address\" > Join.\nNo Tailscale? I can forward UDP port 7777 instead; then join my public address.\nWe need the same version: update here when PackSync says there's a new one. Full steps: README.txt in the game folder, under \"Play with a friend\".",
+      "url": "https://github.com/octos2468-lab/packsync-packs/releases/download/game-terraria-3d-1.0.1/terraria-3d-1.0.1.zip",
+      "sha512": "cc6ff9e19b798ab0d5d2640d9192edd59cd9154268fc16a2915442fa38b8f179ad572c4e2dd6261f9987432f43085d202ca02c458ca57b29629b39205927eefd",
+      "size": 36164453,
+      "launch": "Terraria3D.exe",
+      "updatedAt": "2026-11-01T17:41:35.160Z"
+    }
+  ],
+  "signature": "EPMDONpJK7VxLG2xht3HBSvtqUQ5sT_78RCRcgI_K-qt1CXh5HOLR9d3O_Q55aQ91nGRpfqAylQkGeRepzRGCA"
 }
