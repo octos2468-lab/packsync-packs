@@ -1,7 +1,7 @@
 {
   "format": 1,
   "name": "Ottof",
-  "updatedAt": "2026-11-03T21:00:16.319Z",
+  "updatedAt": "2026-11-05T23:28:48.606Z",
   "packs": [
     {
       "id": "skyfactory-expansion",
@@ -20,15 +20,15 @@
     {
       "id": "terraria-3d",
       "name": "Terraria 3D",
-      "version": "1.1.31",
+      "version": "1.1.32",
       "description": "A walk-anywhere 3D recreation of Terraria. Requires your own Terraria copy (Steam). Multiplayer with friends.",
       "notes": "Play with me:\n- Easiest: Multiplayer > \"Join Ottof's server\", pick a character (when my server is on).\n- Or with Tailscale (https://tailscale.com/download): accept my share link, then Multiplayer > Join via IP > my 100.x.x.x address.\nWe need the same version: update here when PackSync says there's a new one. Full steps: README.txt in the game folder, under \"Play with a friend\".",
-      "url": "https://github.com/octos2468-lab/packsync-packs/releases/download/game-terraria-3d-1.1.31/terraria-3d-1.1.31.zip",
+      "url": "https://github.com/octos2468-lab/packsync-packs/releases/download/game-terraria-3d-1.1.32/terraria-3d-1.1.32.zip",
       "sha512": "5ad3b68c4f8ce842f3e86e22d6174125a7e7df309623602616b7dd79d1af599518dc44f40cdcc821017a8649a642223373b6f91ca9d916c84ac1aa9d9e1af90f",
       "size": 36239491,
       "launch": "Terraria3D.exe",
-      "updatedAt": "2026-11-03T21:00:03.577Z"
+      "updatedAt": "2026-11-05T23:28:36.432Z"
     }
   ],
-  "signature": "peyoYZMBNu83_hZ1453vNO2h4-lgI5X3K47xep0ob3RJYsrs_lIP3ZbjkUtfLuUf2YflqAi2rUi-0H6xNbu9Cg"
+  "signature": "87M5kabJThEaTgF0I3AxDGHrtH3ZDpmM8hpX8Tn2lzldN8eZQdP6hAkWVlSezJdODfsR1rdAZ6auXo8d6uF5Dg"
 }
