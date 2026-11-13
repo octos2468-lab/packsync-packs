@@ -1,7 +1,7 @@
 {
   "format": 1,
   "name": "Ottof",
-  "updatedAt": "2026-11-13T22:53:09.990Z",
+  "updatedAt": "2026-11-13T23:29:57.878Z",
   "packs": [
     {
       "id": "skyfactory-expansion",
@@ -32,15 +32,15 @@
     {
       "id": "last-load",
       "name": "Last Load",
-      "version": "0.2.0",
-      "description": "Co-op horror for 1-4. Clear a dead stranger's house and fill the van before sunrise.",
+      "version": "0.3.0",
+      "description": "Co-op horror for 1-4. Three nights, three houses, one rent check. Fill the van before sunrise.",
       "notes": "One person clicks Host game and shares the lobby code (Copy button). Everyone else pastes it and clicks Join. Use voice chat, but don't trust every voice you hear.",
-      "url": "https://github.com/octos2468-lab/packsync-packs/releases/download/game-last-load-0.2.0/last-load-0.2.0.zip",
-      "sha512": "31583e7729550882ced087d8de410056c642a046e69bfae349b2b767dcd1ead93630b0355186c3ab77ad5a071f89dd6ea49ee652e2999e73ca713f9f2ba1b9f5",
-      "size": 39594738,
+      "url": "https://github.com/octos2468-lab/packsync-packs/releases/download/game-last-load-0.3.0/last-load-0.3.0.zip",
+      "sha512": "7f346aab02474e16fbcd75e921f04bffaac2a910bc4a260880b0e88064a99cff1a8e9fcf144e8c2cc9f82b1e838aad0184920c120c76e4c90bbdfc96daa935b4",
+      "size": 39629574,
       "launch": "LastLoad.exe",
-      "updatedAt": "2026-11-13T22:52:51.353Z"
+      "updatedAt": "2026-11-13T23:29:45.144Z"
     }
   ],
-  "signature": "5l1l6y5axMNwRBzBHpuMxiHuRC8rwUXIXuA_kwowE4iUE_3_I73cW4VENUmlDKhCDOe-XFw9By09xOb5c9y5AA"
+  "signature": "bYX7ZnsRNuL8sNgY5rk4JBgVuxbehHO2XfW6dqB60qPdsKynuVKpksyeNbZ9bXo6l660GKoYH_zQKDBj3pwbDg"
 }
