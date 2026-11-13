@@ -1,7 +1,7 @@
 {
   "format": 1,
   "name": "Ottof",
-  "updatedAt": "2026-11-05T23:28:48.606Z",
+  "updatedAt": "2026-11-13T22:16:20.679Z",
   "packs": [
     {
       "id": "skyfactory-expansion",
@@ -28,7 +28,19 @@
       "size": 36239491,
       "launch": "Terraria3D.exe",
       "updatedAt": "2026-11-05T23:28:36.432Z"
+    },
+    {
+      "id": "last-load",
+      "name": "Last Load",
+      "version": "0.1.0",
+      "description": "Co-op horror for 1-4. Clear a dead stranger's house and fill the van before sunrise.",
+      "notes": "One person clicks Host game and shares the lobby code (Copy button). Everyone else pastes it and clicks Join. Use voice chat, but don't trust every voice you hear.",
+      "url": "https://github.com/octos2468-lab/packsync-packs/releases/download/game-last-load-0.1.0/last-load-0.1.0.zip",
+      "sha512": "ec1ec7647db1d9aa57c31a99e205ce1264dcd10cbd8d98a1c048019a3b5efe7c571ff485f8e7201588df02d00bf5c00ca473eea3bf93a5b77288eff2d1f0be47",
+      "size": 39537385,
+      "launch": "LastLoad.exe",
+      "updatedAt": "2026-11-13T22:16:07.808Z"
     }
   ],
-  "signature": "87M5kabJThEaTgF0I3AxDGHrtH3ZDpmM8hpX8Tn2lzldN8eZQdP6hAkWVlSezJdODfsR1rdAZ6auXo8d6uF5Dg"
+  "signature": "VsltO_vejFWZ8uWg2SWs3TOKPnLEo_VaUP4_L9SRjeJY0auuUBpgZkU9yUwkFUqdrM4JWaK2RyDlb2QryGP1BA"
 }
