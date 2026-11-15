@@ -1,7 +1,7 @@
 {
   "format": 1,
   "name": "Ottof",
-  "updatedAt": "2026-11-15T03:42:13.792Z",
+  "updatedAt": "2026-11-15T04:10:18.136Z",
   "packs": [
     {
       "id": "skyfactory-expansion",
@@ -32,15 +32,15 @@
     {
       "id": "last-load",
       "name": "Last Load",
-      "version": "0.6.4",
+      "version": "0.6.5",
       "description": "Co-op horror for 1-4. Haul a dead stranger's things, sell them at the pawn shop, make rent in 3 nights.",
       "notes": "One person clicks Host game and shares the lobby code (Copy button). Everyone else pastes it and clicks Join. Use voice chat, but don't trust every voice you hear.",
-      "url": "https://github.com/octos2468-lab/packsync-packs/releases/download/game-last-load-0.6.4/last-load-0.6.4.zip",
-      "sha512": "2ef7030e4364bfeedb52f731d058cc8d96371fe87e12cc1d5f88be4b27a75480ced3d7bbe51a8bd09896492051d587df3bb0ced8935a858faace6b81ecbbea90",
-      "size": 66608915,
+      "url": "https://github.com/octos2468-lab/packsync-packs/releases/download/game-last-load-0.6.5/last-load-0.6.5.zip",
+      "sha512": "3cd6c982a2278bf6eda8948fde55d461bbbf19fd4f6408fa41da6540ab8b15e0f8f8196e620434549cb45df236fabaf0c950d4118abbaa013a602afef0c9c3b6",
+      "size": 66627247,
       "launch": "LastLoad.exe",
-      "updatedAt": "2026-11-15T03:41:54.913Z"
+      "updatedAt": "2026-11-15T04:09:58.830Z"
     }
   ],
-  "signature": "dL2BpYsSCR2UBH0xsF6VDbTU8BzSAeZcHqabKQR_MUtLbq64b6a8OK4TSCohMqfFohquAWzrVuQxLnRSLz_TAw"
+  "signature": "xFwxNBjEdp4Z8MIj96qJttkSQPFmny6h98PLLdOoE4fBIYf2936YBZ0qKCGGHCxsaCb8ONrax75PFnS9CcJvAQ"
 }
