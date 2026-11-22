@@ -1,7 +1,7 @@
 {
   "format": 1,
   "name": "Ottof",
-  "updatedAt": "2026-11-21T22:42:52.364Z",
+  "updatedAt": "2026-11-22T21:11:52.083Z",
   "packs": [
     {
       "id": "skyfactory-expansion",
@@ -32,15 +32,16 @@
     {
       "id": "last-load",
       "name": "Last Load",
-      "version": "1.0.6",
+      "version": "1.0.7",
       "description": "Co-op horror for 1-4. Haul a dead stranger's things, sell them at the pawn shop, make rent in 3 nights.",
       "notes": "One person clicks Host game and shares the lobby code (Copy button). Everyone else pastes it and clicks Join. Use voice chat, but don't trust every voice you hear.",
-      "url": "https://github.com/octos2468-lab/packsync-packs/releases/download/game-last-load-1.0.6/last-load-1.0.6.zip",
-      "sha512": "3807147c1167435f71b38d30c069bf9370af47d785bb48409ebd5653fba4da92943acdc492e7e1fb6bdb5821570518421d0dcc21a102d81e5b073393509200e8",
-      "size": 163609440,
+      "changelog": "1.0.7: every shop item polished (new models, animations, sounds); loading screens no longer stutter; teleport pads send items to the van; rocket skates recharge; goggles see Tenants through walls; infinite hallway always ends in a legendary with a warning shake; shop info cards on Shift; Q inventory; auto-sell crew; polished menus, lobby, handbook, trippy rooms, house mechanics and special Tenants; the Embalmer is live at Pruitt's; many clipping fixes.",
+      "url": "https://github.com/octos2468-lab/packsync-packs/releases/download/game-last-load-1.0.7/last-load-1.0.7.zip",
+      "sha512": "1fa40102d19531147537d94626ddd7dadb31089f48609b79d83a4de8aa52f05687b4527bedb0580c1c9dc8777f116d057de8318bea2b2d12199b5ea1615bc3c6",
+      "size": 177691127,
       "launch": "LastLoad.exe",
-      "updatedAt": "2026-11-21T22:42:09.212Z"
+      "updatedAt": "2026-11-22T21:11:07.298Z"
     }
   ],
-  "signature": "3KaMB5fFNnnoaOGzTD8Y96bzZ8vbMkxfp040n3azMp7yrRe7Conl6SDmicRF5BYQ8areIOwYNcrAAdKoHzFqDw"
+  "signature": "2z7dcLFtM4TUzud9Wn2WJX_P2HKbDQtjxkgrfXY_lK4ooK_uESHmR6_9G2US3idN_WaB511we34Sv4Q_i7d0AQ"
 }
