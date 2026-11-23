@@ -1,7 +1,7 @@
 {
   "format": 1,
   "name": "Ottof",
-  "updatedAt": "2026-11-22T21:11:52.083Z",
+  "updatedAt": "2026-11-23T01:12:21.508Z",
   "packs": [
     {
       "id": "skyfactory-expansion",
@@ -32,16 +32,16 @@
     {
       "id": "last-load",
       "name": "Last Load",
-      "version": "1.0.7",
+      "version": "1.0.8",
       "description": "Co-op horror for 1-4. Haul a dead stranger's things, sell them at the pawn shop, make rent in 3 nights.",
       "notes": "One person clicks Host game and shares the lobby code (Copy button). Everyone else pastes it and clicks Join. Use voice chat, but don't trust every voice you hear.",
-      "changelog": "1.0.7: every shop item polished (new models, animations, sounds); loading screens no longer stutter; teleport pads send items to the van; rocket skates recharge; goggles see Tenants through walls; infinite hallway always ends in a legendary with a warning shake; shop info cards on Shift; Q inventory; auto-sell crew; polished menus, lobby, handbook, trippy rooms, house mechanics and special Tenants; the Embalmer is live at Pruitt's; many clipping fixes.",
-      "url": "https://github.com/octos2468-lab/packsync-packs/releases/download/game-last-load-1.0.7/last-load-1.0.7.zip",
-      "sha512": "1fa40102d19531147537d94626ddd7dadb31089f48609b79d83a4de8aa52f05687b4527bedb0580c1c9dc8777f116d057de8318bea2b2d12199b5ea1615bc3c6",
-      "size": 177691127,
+      "changelog": "1.0.8 hotfix: 1.0.7's exported build was missing one script, which broke gadgets, carrying, gear, house rooms and the loading drive. Fixed.",
+      "url": "https://github.com/octos2468-lab/packsync-packs/releases/download/game-last-load-1.0.8/last-load-1.0.8.zip",
+      "sha512": "9ad96bc67d1a0beb107a853ccf67dbe39fa99e9c140adbce954806d315707510f335e3979bd7dda7520f612d151ed48c078cb60e794214082fefcd175cef506f",
+      "size": 175386668,
       "launch": "LastLoad.exe",
-      "updatedAt": "2026-11-22T21:11:07.298Z"
+      "updatedAt": "2026-11-23T01:11:38.301Z"
     }
   ],
-  "signature": "2z7dcLFtM4TUzud9Wn2WJX_P2HKbDQtjxkgrfXY_lK4ooK_uESHmR6_9G2US3idN_WaB511we34Sv4Q_i7d0AQ"
+  "signature": "eUH2XbvD8Kg_T73pfVfYGR0J7I1LcrtO3ZKW2dEW-OeeCdmoEhhkIYEU5rpRqTn3l57ng5R7RhzVS9qfGfckDg"
 }
