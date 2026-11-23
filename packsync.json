@@ -1,7 +1,7 @@
 {
   "format": 1,
   "name": "Ottof",
-  "updatedAt": "2026-11-23T01:12:21.508Z",
+  "updatedAt": "2026-11-23T04:39:10.281Z",
   "packs": [
     {
       "id": "skyfactory-expansion",
@@ -32,16 +32,16 @@
     {
       "id": "last-load",
       "name": "Last Load",
-      "version": "1.0.8",
+      "version": "1.0.9",
       "description": "Co-op horror for 1-4. Haul a dead stranger's things, sell them at the pawn shop, make rent in 3 nights.",
       "notes": "One person clicks Host game and shares the lobby code (Copy button). Everyone else pastes it and clicks Join. Use voice chat, but don't trust every voice you hear.",
-      "changelog": "1.0.8 hotfix: 1.0.7's exported build was missing one script, which broke gadgets, carrying, gear, house rooms and the loading drive. Fixed.",
-      "url": "https://github.com/octos2468-lab/packsync-packs/releases/download/game-last-load-1.0.8/last-load-1.0.8.zip",
-      "sha512": "9ad96bc67d1a0beb107a853ccf67dbe39fa99e9c140adbce954806d315707510f335e3979bd7dda7520f612d151ed48c078cb60e794214082fefcd175cef506f",
-      "size": 175386668,
+      "changelog": "Casino overhaul: bigger Bayou Belle floor and new exterior, real-casino slot cabinets with video screens and the Last Load theme, over-the-top win celebrations, chip roll-ups and casino hooks; free bar drinks with a Seeing Double drunk effect; riverboat scratch-off kiosk with $1-$50 tickets; card and roulette cameras (V); slots pay out only after the reels stop. Fixes: charge prompt only when an item is dead, attic ladder needs a click, spiral stairs widened, room under stairs, outhouse rope while carrying, phone grip, SitePad charge pose, floating props, lag on item pickup, smoother loading drive, flashlight wording.",
+      "url": "https://github.com/octos2468-lab/packsync-packs/releases/download/game-last-load-1.0.9/last-load-1.0.9.zip",
+      "sha512": "8907f89c3f9414c006cbf6dceaaa3715458d8bc9f534c77113251512da9c37f26918463a63394fbdc223797b2be70ac3e141e24b9cd3fb0a5581b48649a2ab67",
+      "size": 230667111,
       "launch": "LastLoad.exe",
-      "updatedAt": "2026-11-23T01:11:38.301Z"
+      "updatedAt": "2026-11-23T04:38:01.031Z"
     }
   ],
-  "signature": "eUH2XbvD8Kg_T73pfVfYGR0J7I1LcrtO3ZKW2dEW-OeeCdmoEhhkIYEU5rpRqTn3l57ng5R7RhzVS9qfGfckDg"
+  "signature": "RkA9QBK5MavOgmwKqAGz_HWr_DuE0j6S6-ZFg7Upycx7FO72LTz0-dkyq33FfW9b-T0YCkloVg2dg8xIz8OODw"
 }
