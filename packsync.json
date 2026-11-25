@@ -1,7 +1,7 @@
 {
   "format": 1,
   "name": "Ottof",
-  "updatedAt": "2026-11-25T01:07:22.905Z",
+  "updatedAt": "2026-11-25T01:20:08.429Z",
   "packs": [
     {
       "id": "skyfactory-expansion",
@@ -32,16 +32,16 @@
     {
       "id": "last-load",
       "name": "Last Load",
-      "version": "1.0.10",
+      "version": "1.0.11",
       "description": "Co-op horror for 1-4. Haul a dead stranger's things, sell them at the pawn shop, make rent in 3 nights.",
       "notes": "One person clicks Host game and shares the lobby code (Copy button). Everyone else pastes it and clicks Join. Use voice chat, but don't trust every voice you hear.",
-      "changelog": "Casino: three rooms (table games, bar hall, slot hall) with 41 slot machines, cigarettes from the machine behind the bar, two scratchers kiosks, money+rent HUD, chips held palms-up. Everyone starts with flashlight, phone and a walkie (on/off, batteries, open channel); 6 hotbar slots. Short prompts above the hotbar. Shotgun: RMB aim, LMB fire, new stock. Grav beam fixed and fires freely. Rocket skates: build-up speed, wipe-outs, speed lines. Chainsaw: ragged holes and physics debris. Goggles: Tenants icy blue, teammates warm. Panic fob 10 s + 3 min recharge. Click to buy. New prices; bungee and overtime cut. Testing room uses the real items. Fixes: shop lights, hand truck loads, placed pads, tar on every teleport door, quieter phantom footsteps, no item reminder toasts.",
-      "url": "https://github.com/octos2468-lab/packsync-packs/releases/download/game-last-load-1.0.10/last-load-1.0.10.zip",
-      "sha512": "b2705f2621f26311c958544e0ccf7682c94056876b4644e3fe67d7fb637cf25a0f5d0fec9f61fb8dedd6ba36584af82d7fc2ce4d4914f1ee77e8093e4e516909",
-      "size": 232655590,
+      "changelog": "Casino: no hotbar on the boat, prompts sit lower. G tosses a cigarette pack (counter or floor); dropped packs and butts land on the carpet.",
+      "url": "https://github.com/octos2468-lab/packsync-packs/releases/download/game-last-load-1.0.11/last-load-1.0.11.zip",
+      "sha512": "6fb6ab2785417e012b73408c2fd45ffdd9d386f0bfaab5be09e7276c35936d9fc06d77d3e3656b5bdc04f68cad96a2622b09b30f576b6247ad8fc2d8bb7d8a21",
+      "size": 232619479,
       "launch": "LastLoad.exe",
-      "updatedAt": "2026-11-25T01:06:22.539Z"
+      "updatedAt": "2026-11-25T01:19:10.020Z"
     }
   ],
-  "signature": "IwDXiCkRI1dG4uxldgyNtrRQzOf2yy5wsl5OBGhyBhLHnDyBPs0MvcZIQjkYIC2VROjSB8SFQLlniNz4_rEmCg"
+  "signature": "Tq2t8-m9SddZFqq6tSvfMAAG-OdcAiuupxdQIiPZHcJb_6NtQJ6gVh4HnKsAgq3Ge1P27No0Oq2L4CMElt-IDg"
 }
