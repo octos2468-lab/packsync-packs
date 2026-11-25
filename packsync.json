@@ -1,7 +1,7 @@
 {
   "format": 1,
   "name": "Ottof",
-  "updatedAt": "2026-11-25T01:42:15.273Z",
+  "updatedAt": "2026-11-25T01:58:25.014Z",
   "packs": [
     {
       "id": "skyfactory-expansion",
@@ -32,16 +32,16 @@
     {
       "id": "last-load",
       "name": "Last Load",
-      "version": "1.0.12",
+      "version": "1.0.13",
       "description": "Co-op horror for 1-4. Haul a dead stranger's things, sell them at the pawn shop, make rent in 3 nights.",
       "notes": "One person clicks Host game and shares the lobby code (Copy button). Everyone else pastes it and clicks Join. Use voice chat, but don't trust every voice you hear.",
-      "changelog": "Hotfix: removes a per-frame error from the rocket skates code that caused lag in houses, the shop, the testing room and the casino.",
-      "url": "https://github.com/octos2468-lab/packsync-packs/releases/download/game-last-load-1.0.12/last-load-1.0.12.zip",
-      "sha512": "70f038ceb80860a9d6b358f4f522706f006f93a331c0ddb057d269598da48414131c75d572d7ecfe8c2ca118ee2363a7a019752f04edf1626144c56181bce2fb",
-      "size": 232619317,
+      "changelog": "Casino update: table room laid out against the walls with the round under/over table in the middle; feet and dropped items no longer sink into the casino carpet; slot machines fade small details at distance and drop unseen shadows (smoother casino).",
+      "url": "https://github.com/octos2468-lab/packsync-packs/releases/download/game-last-load-1.0.13/last-load-1.0.13.zip",
+      "sha512": "9bbc3192e889ca0d3bc21b67ebf03069d1d122900d767d2fb307dd74bf82f2e0a8cf5cc1f07781f1e9b7cb3f19f46caf9a10afbcfd05ac72306263c90ff02474",
+      "size": 232620682,
       "launch": "LastLoad.exe",
-      "updatedAt": "2026-11-25T01:41:18.092Z"
+      "updatedAt": "2026-11-25T01:57:16.319Z"
     }
   ],
-  "signature": "oPiz-VB9TxLahpLd4pxExVDeP-1IgAEvSyEtr5Bj73h7sLKb7ktcUbhvhxjiRiVN5qgyEhNwDzpifK6GPi0ZBA"
+  "signature": "iSSTX1YDU0rCpvO0K_FGTVIUeT85RmOglleNGzWSBpxyF56Noek6mH8qm5nUCnGcwX6_szMgirCyz3dMHijYCQ"
 }
