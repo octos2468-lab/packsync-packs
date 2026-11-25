@@ -1,7 +1,7 @@
 {
   "format": 1,
   "name": "Ottof",
-  "updatedAt": "2026-11-23T04:39:10.281Z",
+  "updatedAt": "2026-11-25T01:07:22.905Z",
   "packs": [
     {
       "id": "skyfactory-expansion",
@@ -32,16 +32,16 @@
     {
       "id": "last-load",
       "name": "Last Load",
-      "version": "1.0.9",
+      "version": "1.0.10",
       "description": "Co-op horror for 1-4. Haul a dead stranger's things, sell them at the pawn shop, make rent in 3 nights.",
       "notes": "One person clicks Host game and shares the lobby code (Copy button). Everyone else pastes it and clicks Join. Use voice chat, but don't trust every voice you hear.",
-      "changelog": "Casino overhaul: bigger Bayou Belle floor and new exterior, real-casino slot cabinets with video screens and the Last Load theme, over-the-top win celebrations, chip roll-ups and casino hooks; free bar drinks with a Seeing Double drunk effect; riverboat scratch-off kiosk with $1-$50 tickets; card and roulette cameras (V); slots pay out only after the reels stop. Fixes: charge prompt only when an item is dead, attic ladder needs a click, spiral stairs widened, room under stairs, outhouse rope while carrying, phone grip, SitePad charge pose, floating props, lag on item pickup, smoother loading drive, flashlight wording.",
-      "url": "https://github.com/octos2468-lab/packsync-packs/releases/download/game-last-load-1.0.9/last-load-1.0.9.zip",
-      "sha512": "8907f89c3f9414c006cbf6dceaaa3715458d8bc9f534c77113251512da9c37f26918463a63394fbdc223797b2be70ac3e141e24b9cd3fb0a5581b48649a2ab67",
-      "size": 230667111,
+      "changelog": "Casino: three rooms (table games, bar hall, slot hall) with 41 slot machines, cigarettes from the machine behind the bar, two scratchers kiosks, money+rent HUD, chips held palms-up. Everyone starts with flashlight, phone and a walkie (on/off, batteries, open channel); 6 hotbar slots. Short prompts above the hotbar. Shotgun: RMB aim, LMB fire, new stock. Grav beam fixed and fires freely. Rocket skates: build-up speed, wipe-outs, speed lines. Chainsaw: ragged holes and physics debris. Goggles: Tenants icy blue, teammates warm. Panic fob 10 s + 3 min recharge. Click to buy. New prices; bungee and overtime cut. Testing room uses the real items. Fixes: shop lights, hand truck loads, placed pads, tar on every teleport door, quieter phantom footsteps, no item reminder toasts.",
+      "url": "https://github.com/octos2468-lab/packsync-packs/releases/download/game-last-load-1.0.10/last-load-1.0.10.zip",
+      "sha512": "b2705f2621f26311c958544e0ccf7682c94056876b4644e3fe67d7fb637cf25a0f5d0fec9f61fb8dedd6ba36584af82d7fc2ce4d4914f1ee77e8093e4e516909",
+      "size": 232655590,
       "launch": "LastLoad.exe",
-      "updatedAt": "2026-11-23T04:38:01.031Z"
+      "updatedAt": "2026-11-25T01:06:22.539Z"
     }
   ],
-  "signature": "RkA9QBK5MavOgmwKqAGz_HWr_DuE0j6S6-ZFg7Upycx7FO72LTz0-dkyq33FfW9b-T0YCkloVg2dg8xIz8OODw"
+  "signature": "IwDXiCkRI1dG4uxldgyNtrRQzOf2yy5wsl5OBGhyBhLHnDyBPs0MvcZIQjkYIC2VROjSB8SFQLlniNz4_rEmCg"
 }
